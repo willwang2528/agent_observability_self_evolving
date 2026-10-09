@@ -1,0 +1,36 @@
+{
+  "included_steps": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "omitted_steps": [],
+  "trace_stats": {
+    "total_steps": 6,
+    "included_step_count": 6,
+    "omitted_step_count": 0,
+    "full_chars": 4449,
+    "rendered_chars": 4449,
+    "char_budget": null,
+    "truncated": false,
+    "strategy": "full"
+  },
+  "known_agent_names": [
+    "DataAnalysis_Expert",
+    "Verification_Expert",
+    "Computer_terminal",
+    "RealEstate_Expert"
+  ],
+  "prompt_chars": 13677,
+  "prompt_sha256": "900b701ab1b6fa4913b30bc5bd98cce9a2db146e81fde118d5f994c09ab192d9",
+  "total_steps": 6,
+  "job_id": "algorithm_106__full",
+  "case_id": "algorithm_106",
+  "condition": "full",
+  "stratum": "Algorithm-Generated",
+  "length_tertile": "short",
+  "source_sha256": "6ee195b9ce76f789e0b36fad153a353ff8fd28641bd79e6c9bbe2a8fd3444e20"
+}

@@ -1,0 +1,49 @@
+{
+  "completed": true,
+  "usage": {
+    "input_tokens": 10119,
+    "cached_input_tokens": 0,
+    "output_tokens": 2175
+  },
+  "tool_item_types": [],
+  "failures": [],
+  "warnings": [
+    "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml.",
+    "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+  ],
+  "started_utc": "2026-10-09T07:21:13.461345+00:00",
+  "elapsed_seconds": 84.925,
+  "exit_code": 0,
+  "timeout": false,
+  "malformed_event_lines": 0,
+  "prediction": {
+    "agent": "PythonDebugging_Expert",
+    "step": 2,
+    "evidence_steps": [
+      1,
+      2,
+      3,
+      7,
+      9
+    ],
+    "reason": "With no failing code available, the agent substituted an empty debugging template and asked the execution-only terminal to modify it. This led to testing invented examples and diagnosing a manufactured error, rather than recovering the beluga GFF3 lookup.",
+    "repair_hint": "Recover the actual failed command and original species/date objective. Supply complete lookup code, and validate the file’s release date and URL rather than placeholder execution."
+  },
+  "prediction_error": null,
+  "abstained": false,
+  "transport_ok": true,
+  "usable": true,
+  "attempt": 1,
+  "directory": "results/runs/algorithm_104__full/attempt_1",
+  "job_id": "algorithm_104__full",
+  "case_id": "algorithm_104",
+  "condition": "full",
+  "prompt_sha256": "a99877aac5d97aa8d13a56aad34ef40691f0f264faa13db40f7d4cb8fc98c299",
+  "attempt_count": 1,
+  "all_attempt_elapsed_seconds": 84.925,
+  "all_attempt_usage": {
+    "input_tokens": 10119,
+    "cached_input_tokens": 0,
+    "output_tokens": 2175
+  }
+}

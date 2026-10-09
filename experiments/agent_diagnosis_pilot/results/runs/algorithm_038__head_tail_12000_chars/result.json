@@ -1,0 +1,47 @@
+{
+  "completed": true,
+  "usage": {
+    "input_tokens": 6748,
+    "cached_input_tokens": 0,
+    "output_tokens": 1106
+  },
+  "tool_item_types": [],
+  "failures": [],
+  "warnings": [
+    "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml.",
+    "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+  ],
+  "started_utc": "2026-10-09T07:21:15.429225+00:00",
+  "elapsed_seconds": 49.847,
+  "exit_code": 0,
+  "timeout": false,
+  "malformed_event_lines": 0,
+  "prediction": {
+    "agent": null,
+    "step": null,
+    "evidence_steps": [
+      2,
+      3,
+      4
+    ],
+    "reason": "The actor identification and Magda M. role are both asserted without supporting evidence. The verification only endorses them, so the trace cannot establish which claim caused the failure.",
+    "repair_hint": "Verify both actor-to-role links using reliable cast credits, then return only the character’s first name."
+  },
+  "prediction_error": null,
+  "abstained": true,
+  "transport_ok": true,
+  "usable": true,
+  "attempt": 1,
+  "directory": "results/runs/algorithm_038__head_tail_12000_chars/attempt_1",
+  "job_id": "algorithm_038__head_tail_12000_chars",
+  "case_id": "algorithm_038",
+  "condition": "head_tail_12000_chars",
+  "prompt_sha256": "7f31c507972f5d7a13103f0e34af70daa11b1a5392c3129836c6920c318f51e5",
+  "attempt_count": 1,
+  "all_attempt_elapsed_seconds": 49.847,
+  "all_attempt_usage": {
+    "input_tokens": 6748,
+    "cached_input_tokens": 0,
+    "output_tokens": 1106
+  }
+}

@@ -1,0 +1,6 @@
+# Preserve the frozen experiment bytes on every checkout platform.
+experiments/agent_diagnosis_pilot/** -text
+# Upstream records and model inputs retain their original whitespace.
+experiments/agent_diagnosis_pilot/data/upstream/** whitespace=-blank-at-eol,-blank-at-eof
+experiments/agent_diagnosis_pilot/results/runs/**/prompt.txt whitespace=-blank-at-eol,-blank-at-eof
+experiments/agent_diagnosis_pilot/results/raw_rows.csv whitespace=cr-at-eol

@@ -1,0 +1,35 @@
+{
+  "completed": true,
+  "usage": {
+    "input_tokens": 13268,
+    "cached_input_tokens": 0,
+    "output_tokens": 828
+  },
+  "tool_item_types": [],
+  "failures": [],
+  "warnings": [
+    "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml.",
+    "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+  ],
+  "started_utc": "2026-10-09T07:20:31.631039+00:00",
+  "elapsed_seconds": 41.826,
+  "exit_code": 0,
+  "timeout": false,
+  "malformed_event_lines": 0,
+  "prediction": {
+    "agent": null,
+    "step": null,
+    "evidence_steps": [
+      20,
+      24
+    ],
+    "reason": "Scrolling was still advancing when an Azure content-filter error interrupted the Orchestrator’s ledger update. The trace does not establish an agent mistake causing that rejection, and the final award number lacks visible supporting evidence.",
+    "repair_hint": "Recover from the failed API call, open the article’s linked paper, and verify Arendt’s NASA award number in its acknowledgments before answering."
+  },
+  "prediction_error": null,
+  "abstained": true,
+  "transport_ok": true,
+  "usable": true,
+  "attempt": 1,
+  "directory": "results/runs/handcrafted_021__full/attempt_1"
+}

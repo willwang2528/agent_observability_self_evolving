@@ -1,0 +1,49 @@
+{
+  "included_steps": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "omitted_steps": [],
+  "trace_stats": {
+    "total_steps": 20,
+    "included_step_count": 20,
+    "omitted_step_count": 0,
+    "full_chars": 27108,
+    "rendered_chars": 27108,
+    "char_budget": null,
+    "truncated": false,
+    "strategy": "full"
+  },
+  "known_agent_names": [
+    "human",
+    "Orchestrator",
+    "WebSurfer"
+  ],
+  "prompt_chars": 28152,
+  "prompt_sha256": "b37d6ab788a6835a40461225c90dfe4e148ae67efebf7db87fe69f44b5ffc6c6",
+  "total_steps": 20,
+  "job_id": "handcrafted_025__full",
+  "case_id": "handcrafted_025",
+  "condition": "full",
+  "stratum": "Hand-Crafted",
+  "length_tertile": "short",
+  "source_sha256": "6552252eb5b7eb38a25cf01f7a4501d3f961b7ae64a6ce084b278c0453ba2309"
+}

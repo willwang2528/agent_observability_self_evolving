@@ -1,0 +1,37 @@
+{
+  "completed": true,
+  "usage": {
+    "input_tokens": 7900,
+    "cached_input_tokens": 0,
+    "output_tokens": 480
+  },
+  "tool_item_types": [],
+  "failures": [],
+  "warnings": [
+    "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml.",
+    "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+  ],
+  "started_utc": "2026-10-09T07:23:45.293267+00:00",
+  "elapsed_seconds": 24.777,
+  "exit_code": 0,
+  "timeout": false,
+  "malformed_event_lines": 0,
+  "prediction": {
+    "agent": "Tickets_Pricing_Expert",
+    "step": 2,
+    "evidence_steps": [
+      2,
+      3,
+      5,
+      6
+    ],
+    "reason": "The expert presented unsupported daily prices and an under-3-free rule as current facts, followed by similarly unsupported annual-pass prices. Later agents calculated correctly from those inputs; the decisive error was unverified pricing, not arithmetic.",
+    "repair_hint": "Verify official admission prices, age cutoffs, and applicable family-membership options before recomputing the four-visit savings."
+  },
+  "prediction_error": null,
+  "abstained": false,
+  "transport_ok": true,
+  "usable": true,
+  "attempt": 1,
+  "directory": "results/runs/algorithm_101__head_tail_12000_chars/attempt_1"
+}

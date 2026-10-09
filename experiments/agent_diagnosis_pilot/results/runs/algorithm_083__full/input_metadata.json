@@ -1,0 +1,40 @@
+{
+  "included_steps": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "omitted_steps": [],
+  "trace_stats": {
+    "total_steps": 10,
+    "included_step_count": 10,
+    "omitted_step_count": 0,
+    "full_chars": 9131,
+    "rendered_chars": 9131,
+    "char_budget": null,
+    "truncated": false,
+    "strategy": "full"
+  },
+  "known_agent_names": [
+    "StatisticalAnalysis_Expert",
+    "DataAnalysis_Expert",
+    "Computer_terminal",
+    "DataVerification_Expert"
+  ],
+  "prompt_chars": 20996,
+  "prompt_sha256": "1cf4df9440b6de09b6fa6d64e38a760dfda6fda410991a66a4561dd71d67296a",
+  "total_steps": 10,
+  "job_id": "algorithm_083__full",
+  "case_id": "algorithm_083",
+  "condition": "full",
+  "stratum": "Algorithm-Generated",
+  "length_tertile": "medium",
+  "source_sha256": "ace8b5e91381796754b23f26c73153d68fed5f3f6634bb853ba2b3da53fb7afc"
+}

@@ -1,0 +1,39 @@
+{
+  "included_steps": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "omitted_steps": [],
+  "trace_stats": {
+    "total_steps": 10,
+    "included_step_count": 10,
+    "omitted_step_count": 0,
+    "full_chars": 23897,
+    "rendered_chars": 23897,
+    "char_budget": null,
+    "truncated": false,
+    "strategy": "full"
+  },
+  "known_agent_names": [
+    "Ali_Khan_Shows_and_New_Mexican_Cuisine_Expert",
+    "Culinary_Awards_Expert",
+    "Computer_terminal"
+  ],
+  "prompt_chars": 26926,
+  "prompt_sha256": "48b46964254e0b5fbb539881e1f5ac2824c9806929df428ba44803f2f0be82a4",
+  "total_steps": 10,
+  "job_id": "algorithm_014__full",
+  "case_id": "algorithm_014",
+  "condition": "full",
+  "stratum": "Algorithm-Generated",
+  "length_tertile": "long",
+  "source_sha256": "00b9b8a77401fe31b57e8810bb9d24cf8e499ead43ce4d8301ee2ad19407e6f6"
+}

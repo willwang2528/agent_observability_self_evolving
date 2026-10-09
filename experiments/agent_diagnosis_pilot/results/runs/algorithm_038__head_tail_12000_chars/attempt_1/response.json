@@ -1,0 +1,1 @@
+{"agent":null,"step":null,"evidence_steps":[2,3,4],"reason":"The actor identification and Magda M. role are both asserted without supporting evidence. The verification only endorses them, so the trace cannot establish which claim caused the failure.","repair_hint":"Verify both actor-to-role links using reliable cast credits, then return only the character’s first name."}

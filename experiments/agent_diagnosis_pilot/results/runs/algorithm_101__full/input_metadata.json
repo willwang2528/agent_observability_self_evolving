@@ -1,0 +1,38 @@
+{
+  "included_steps": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "omitted_steps": [],
+  "trace_stats": {
+    "total_steps": 8,
+    "included_step_count": 8,
+    "omitted_step_count": 0,
+    "full_chars": 6971,
+    "rendered_chars": 6971,
+    "char_budget": null,
+    "truncated": false,
+    "strategy": "full"
+  },
+  "known_agent_names": [
+    "Tickets_Pricing_Expert",
+    "Computer_terminal",
+    "Budgeting_Expert",
+    "Verification_Expert"
+  ],
+  "prompt_chars": 13443,
+  "prompt_sha256": "7407a8cffe36862915cb1d9a2337ed7e5d18fca45cb3d8a4e52966d6e8af6565",
+  "total_steps": 8,
+  "job_id": "algorithm_101__full",
+  "case_id": "algorithm_101",
+  "condition": "full",
+  "stratum": "Algorithm-Generated",
+  "length_tertile": "medium",
+  "source_sha256": "765a5c7040a7007afd6d9c8faf83c23bab300243d531d3e53b135baa7e9186cc"
+}

@@ -1,0 +1,35 @@
+{
+  "included_steps": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "omitted_steps": [],
+  "trace_stats": {
+    "total_steps": 6,
+    "included_step_count": 6,
+    "omitted_step_count": 0,
+    "full_chars": 3186,
+    "rendered_chars": 3186,
+    "char_budget": 12000,
+    "truncated": false,
+    "strategy": "full"
+  },
+  "known_agent_names": [
+    "Polish_TV_Series_Expert",
+    "PolishLanguage_Expert",
+    "Verification_Expert"
+  ],
+  "prompt_chars": 9587,
+  "prompt_sha256": "7f31c507972f5d7a13103f0e34af70daa11b1a5392c3129836c6920c318f51e5",
+  "total_steps": 6,
+  "job_id": "algorithm_038__head_tail_12000_chars",
+  "case_id": "algorithm_038",
+  "condition": "head_tail_12000_chars",
+  "stratum": "Algorithm-Generated",
+  "length_tertile": "short",
+  "source_sha256": "8b0365ea05b42004a34c3c3027a3c3900fae5b91ae0d5d8e6b5dcdce69463f2c"
+}

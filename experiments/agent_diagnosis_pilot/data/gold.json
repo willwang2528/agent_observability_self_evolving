@@ -1,0 +1,98 @@
+{
+  "algorithm_101": {
+    "agent": "Tickets_Pricing_Expert",
+    "step": 2,
+    "reason": "The Tickets_Pricing_Expert provides incorrect ticket prices. The expert should take the necessary steps to obtain accurate information. These inaccuracies result in the failure of subsequent processes.",
+    "raw_step": "2",
+    "normalized_agent": "Tickets_Pricing_Expert",
+    "history_agent_at_gold_step": "Tickets_Pricing_Expert"
+  },
+  "algorithm_104": {
+    "agent": "PythonDebugging_Expert",
+    "step": 0,
+    "reason": "The assistant provides an incorrect plan in response to an inaccurate question.",
+    "raw_step": "0",
+    "normalized_agent": "PythonDebugging_Expert",
+    "history_agent_at_gold_step": "PythonDebugging_Expert"
+  },
+  "algorithm_106": {
+    "agent": "DataAnalysis_Expert",
+    "step": 0,
+    "reason": "The information provided initially is incorrect, leading to an incorrect conclusion.",
+    "raw_step": "0",
+    "normalized_agent": "DataAnalysis_Expert",
+    "history_agent_at_gold_step": "DataAnalysis_Expert"
+  },
+  "algorithm_014": {
+    "agent": "Culinary_Awards_Expert",
+    "step": 2,
+    "reason": "The agent is approaching the task in the wrong direction. It failed to locate the restaurant's name.",
+    "raw_step": "2",
+    "normalized_agent": "Culinary_Awards_Expert",
+    "history_agent_at_gold_step": "Computer_terminal"
+  },
+  "algorithm_038": {
+    "agent": "Polish_TV_Series_Expert",
+    "step": 2,
+    "reason": "The agent provide the wrong name of the actor",
+    "raw_step": "2",
+    "normalized_agent": "Polish_TV_Series_Expert",
+    "history_agent_at_gold_step": "Polish_TV_Series_Expert"
+  },
+  "algorithm_083": {
+    "agent": "DataAnalysis_Expert",
+    "step": 8,
+    "reason": "The agent failed to locate the correct URL for the dataset from the USGS Nonindigenous Aquatic Species database.",
+    "raw_step": "8",
+    "normalized_agent": "DataAnalysis_Expert",
+    "history_agent_at_gold_step": "DataAnalysis_Expert"
+  },
+  "handcrafted_012": {
+    "agent": "Assistant",
+    "step": 16,
+    "reason": "When listing the top 10 domestic movies, the assistant omitted 'Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train' and included 'Wonder Woman 1984' instead. This led to an incorrect count of common movies between the two lists.",
+    "raw_step": "16",
+    "normalized_agent": "Assistant",
+    "history_agent_at_gold_step": "Assistant"
+  },
+  "handcrafted_021": {
+    "agent": "WebSurfer",
+    "step": 4,
+    "reason": "WebSurfer encountered difficulties in locating and accessing the acknowledgment section of the paper, causing a delay in identifying the NASA award number associated with R.G. Arendt.",
+    "raw_step": "4",
+    "normalized_agent": "WebSurfer",
+    "history_agent_at_gold_step": "WebSurfer"
+  },
+  "handcrafted_025": {
+    "agent": "Orchestrator",
+    "step": 18,
+    "reason": "The Orchestrator should count the total number of revisions. The task has not yet been fully completed.",
+    "raw_step": "18",
+    "normalized_agent": "Orchestrator",
+    "history_agent_at_gold_step": "Orchestrator (thought)"
+  },
+  "handcrafted_031": {
+    "agent": "Orchestrator",
+    "step": 9,
+    "reason": "The list of gyms within 5 miles of 400 Main Street, Point Pleasant, WV 25550 is actually not shown in full at step 8. The Orchestrator then decides to search them one by one but does not confirm whether the list is complete.",
+    "raw_step": "9",
+    "normalized_agent": "Orchestrator",
+    "history_agent_at_gold_step": "Orchestrator (thought)"
+  },
+  "handcrafted_050": {
+    "agent": "WebSurfer",
+    "step": 5,
+    "reason": "The information it obtains is incorrect.",
+    "raw_step": "5",
+    "normalized_agent": "WebSurfer",
+    "history_agent_at_gold_step": "WebSurfer"
+  },
+  "handcrafted_056": {
+    "agent": "WebSurfer",
+    "step": 4,
+    "reason": "The page retrieved by WebSurfer does not provide relevant information to address the question, causing the Orchestrator to rely on its own assumptions and make a guess.",
+    "raw_step": "4",
+    "normalized_agent": "WebSurfer",
+    "history_agent_at_gold_step": "WebSurfer"
+  }
+}

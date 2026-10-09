@@ -1,0 +1,35 @@
+{
+  "completed": true,
+  "usage": {
+    "input_tokens": 7624,
+    "cached_input_tokens": 3456,
+    "output_tokens": 440
+  },
+  "tool_item_types": [],
+  "failures": [],
+  "warnings": [
+    "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml.",
+    "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+  ],
+  "started_utc": "2026-10-09T07:25:34.612376+00:00",
+  "elapsed_seconds": 26.274,
+  "exit_code": 0,
+  "timeout": false,
+  "malformed_event_lines": 0,
+  "prediction": {
+    "agent": null,
+    "step": null,
+    "evidence_steps": [
+      111,
+      112
+    ],
+    "reason": "Step 112 shows an API content-filter rejection, not an identifiable agent error. With steps 5–110 and the triggering prompt missing, the decisive cause cannot be attributed reliably.",
+    "repair_hint": "Inspect the omitted context and rejected prompt before assigning blame; resume verification of distance, dine-in availability, vegan mains, and prices before answering."
+  },
+  "prediction_error": null,
+  "abstained": true,
+  "transport_ok": true,
+  "usable": true,
+  "attempt": 1,
+  "directory": "results/runs/handcrafted_050__head_tail_12000_chars/attempt_1"
+}

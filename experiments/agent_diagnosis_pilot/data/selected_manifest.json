@@ -1,0 +1,279 @@
+{
+  "dataset": "Who&When",
+  "source_commit": "f4d2b6da464a826580e59b3a0eae15ea2d642d7c",
+  "seed": 20261009,
+  "selection_policy": "For Algorithm-Generated then Hand-Crafted, sort by sum of history content character lengths (tie: source filename); split rank-based tertiles at floor(N*i/3); shuffle each bucket with shared random.Random(seed); take first two with globally unique question_ID. No label fields used.",
+  "n_total": 184,
+  "n_selected": 12,
+  "exclusions": "No label-quality exclusion. Duplicate question_ID skipped only to prevent same task appearing twice in pilot.",
+  "buckets": {
+    "Algorithm-Generated/short": {
+      "n": 42,
+      "history_chars_min": 2851,
+      "history_chars_max": 6508
+    },
+    "Algorithm-Generated/medium": {
+      "n": 42,
+      "history_chars_min": 6520,
+      "history_chars_max": 10183
+    },
+    "Algorithm-Generated/long": {
+      "n": 42,
+      "history_chars_min": 10342,
+      "history_chars_max": 112210
+    },
+    "Hand-Crafted/short": {
+      "n": 19,
+      "history_chars_min": 6221,
+      "history_chars_max": 27520
+    },
+    "Hand-Crafted/medium": {
+      "n": 19,
+      "history_chars_min": 28022,
+      "history_chars_max": 60959
+    },
+    "Hand-Crafted/long": {
+      "n": 20,
+      "history_chars_min": 61074,
+      "history_chars_max": 305187
+    }
+  },
+  "cases": [
+    {
+      "case_id": "algorithm_106",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/106.json",
+      "source_file": "106.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "e6bc98089608217e45b6956a46518fe3cce64a799b3ac43c6974c449ae14c408",
+      "question_chars": 99,
+      "history_chars": 4153,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "RealEstate_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "6ee195b9ce76f789e0b36fad153a353ff8fd28641bd79e6c9bbe2a8fd3444e20",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_038",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/38.json",
+      "source_file": "38.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "305ac316-eef6-4446-960a-92d80d542f82",
+      "question_chars": 134,
+      "history_chars": 2851,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "PolishLanguage_Expert",
+        "Polish_TV_Series_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "8b0365ea05b42004a34c3c3027a3c3900fae5b91ae0d5d8e6b5dcdce69463f2c",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_083",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/83.json",
+      "source_file": "83.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "48eb8242-1099-4c26-95d4-ef22b002457a",
+      "question_chars": 163,
+      "history_chars": 8638,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "DataVerification_Expert",
+        "StatisticalAnalysis_Expert"
+      ],
+      "sha256": "ace8b5e91381796754b23f26c73153d68fed5f3f6634bb853ba2b3da53fb7afc",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_101",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/101.json",
+      "source_file": "101.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "57d9dc6935e8a40b02e7f8ec81768fe70e68a0c05f6866927c9fda38db38a486",
+      "question_chars": 194,
+      "history_chars": 6557,
+      "steps": 8,
+      "agent_key": "name",
+      "agents": [
+        "Budgeting_Expert",
+        "Computer_terminal",
+        "Tickets_Pricing_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "765a5c7040a7007afd6d9c8faf83c23bab300243d531d3e53b135baa7e9186cc",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_104",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/104.json",
+      "source_file": "104.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "291b53e665b4dd4365cde995042db4a6f6fecef3fe3a6f4482f23d61bd673918",
+      "question_chars": 95,
+      "history_chars": 12537,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DebuggingOptimization_Expert",
+        "PythonDebugging_Expert",
+        "Validation_Expert"
+      ],
+      "sha256": "af8a08cdf6d265bc060ecae77ed99caa5b5733f7aa663f4d8bc766cf650a7b20",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_014",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/14.json",
+      "source_file": "14.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "dc22a632-937f-4e6a-b72f-ba0ff3f5ff97",
+      "question_chars": 265,
+      "history_chars": 23326,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Ali_Khan_Shows_and_New_Mexican_Cuisine_Expert",
+        "Computer_terminal",
+        "Culinary_Awards_Expert"
+      ],
+      "sha256": "00b9b8a77401fe31b57e8810bb9d24cf8e499ead43ce4d8301ee2ad19407e6f6",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_012",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/12.json",
+      "source_file": "12.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "2dfc4c37-fec1-4518-84a7-10095d30ad75",
+      "question_chars": 225,
+      "history_chars": 18887,
+      "steps": 20,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "7f0d07c119a130dbf2205511c3a9d8dd21ce5bf116d3141c0fb114adb46e587e",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_025",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/25.json",
+      "source_file": "25.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "42d4198c-5895-4f0a-b0c0-424a66465d83",
+      "question_chars": 335,
+      "history_chars": 25821,
+      "steps": 20,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "6552252eb5b7eb38a25cf01f7a4501d3f961b7ae64a6ce084b278c0453ba2309",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_021",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/21.json",
+      "source_file": "21.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "840bfca7-4f7b-481a-8794-c560c340185d",
+      "question_chars": 301,
+      "history_chars": 31296,
+      "steps": 25,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "0215ea92ce246cd4cbb214ada17a460b75f50ad62aaae4cb0248f4298f831b4a",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_031",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/31.json",
+      "source_file": "31.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "0ec4371851b96837b0a81b3dd3df401415061bb532fbafeb4609f3337c358508",
+      "question_chars": 113,
+      "history_chars": 29580,
+      "steps": 32,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "0141a9984487dd1e4f06d5a55161011355b3582e3a7c82c4d7e224be9ca06894",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_050",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/50.json",
+      "source_file": "50.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "797f7a5b65ca28b7e7156e7db1e9f117bd4a021de0cd512bfdbb0be897d89eab",
+      "question_chars": 111,
+      "history_chars": 124621,
+      "steps": 113,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "e7c89181a522039458217e67598de413e1d197ea166170756ee52ac85d79e993",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_056",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/56.json",
+      "source_file": "56.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "08cae58d-4084-4616-b6dd-dd6534e4825b",
+      "question_chars": 120,
+      "history_chars": 168851,
+      "steps": 129,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "4049172b51110740daafedf27bda50b536115ad419e5431cd59a3c4b6e58e33b",
+      "length_tertile": "long"
+    }
+  ]
+}

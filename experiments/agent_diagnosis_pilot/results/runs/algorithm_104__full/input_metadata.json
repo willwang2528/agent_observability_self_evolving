@@ -1,0 +1,40 @@
+{
+  "included_steps": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "omitted_steps": [],
+  "trace_stats": {
+    "total_steps": 10,
+    "included_step_count": 10,
+    "omitted_step_count": 0,
+    "full_chars": 13045,
+    "rendered_chars": 13045,
+    "char_budget": null,
+    "truncated": false,
+    "strategy": "full"
+  },
+  "known_agent_names": [
+    "PythonDebugging_Expert",
+    "Computer_terminal",
+    "Validation_Expert",
+    "DebuggingOptimization_Expert"
+  ],
+  "prompt_chars": 26606,
+  "prompt_sha256": "a99877aac5d97aa8d13a56aad34ef40691f0f264faa13db40f7d4cb8fc98c299",
+  "total_steps": 10,
+  "job_id": "algorithm_104__full",
+  "case_id": "algorithm_104",
+  "condition": "full",
+  "stratum": "Algorithm-Generated",
+  "length_tertile": "long",
+  "source_sha256": "af8a08cdf6d265bc060ecae77ed99caa5b5733f7aa663f4d8bc766cf650a7b20"
+}

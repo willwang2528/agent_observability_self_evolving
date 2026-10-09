@@ -1,0 +1,362 @@
+{
+  "n_records": 184,
+  "strata": {
+    "Algorithm-Generated": 126,
+    "Hand-Crafted": 58
+  },
+  "n_unique_question_ids": 139,
+  "duplicate_question_id_groups": 45,
+  "selected_unique_question_ids": 12,
+  "raw_schema_variants": [
+    {
+      "keys": [
+        "ground_truth",
+        "history",
+        "is_correct",
+        "level",
+        "mistake_agent",
+        "mistake_reason",
+        "mistake_step",
+        "question",
+        "question_ID",
+        "system_prompt"
+      ],
+      "n": 125
+    },
+    {
+      "keys": [
+        "ground_truth",
+        "history",
+        "is_correct",
+        "labels",
+        "level",
+        "mistake_agent",
+        "mistake_reason",
+        "mistake_step",
+        "question",
+        "question_ID",
+        "system_prompt"
+      ],
+      "n": 1
+    },
+    {
+      "keys": [
+        "ground_truth",
+        "history",
+        "is_corrected",
+        "mistake_agent",
+        "mistake_reason",
+        "mistake_step",
+        "question",
+        "question_ID"
+      ],
+      "n": 27
+    },
+    {
+      "keys": [
+        "ground_truth",
+        "history",
+        "is_corrected",
+        "level",
+        "mistake_agent",
+        "mistake_reason",
+        "mistake_step",
+        "question",
+        "question_ID"
+      ],
+      "n": 27
+    },
+    {
+      "keys": [
+        "ground_truth",
+        "history",
+        "is_corrected",
+        "level",
+        "mistake_agent",
+        "mistake_reason",
+        "mistake_step",
+        "mistake_type",
+        "question",
+        "question_ID"
+      ],
+      "n": 3
+    },
+    {
+      "keys": [
+        "ground_truth",
+        "history",
+        "is_corrected",
+        "mistake_agent",
+        "mistake_reason",
+        "mistake_step",
+        "mistake_type",
+        "question",
+        "question_ID"
+      ],
+      "n": 1
+    }
+  ],
+  "history_schema_variants": [
+    {
+      "keys": [
+        "content",
+        "name",
+        "role"
+      ],
+      "n": 1099
+    },
+    {
+      "keys": [
+        "content",
+        "role"
+      ],
+      "n": 2993
+    }
+  ],
+  "mistake_step_raw_types": {
+    "str": 184
+  },
+  "step_indexing": "zero-based as official utils enumerate(history)",
+  "missing_content_or_agent": [],
+  "label_issues": [
+    {
+      "case_id": "algorithm_014",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Culinary_Awards_Expert",
+      "step": 2,
+      "history_agent": "Computer_terminal",
+      "normalization_resolves": false
+    },
+    {
+      "case_id": "algorithm_015",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Boggle_Board_Expert",
+      "step": 6,
+      "history_agent": "Verification_Expert",
+      "normalization_resolves": false
+    },
+    {
+      "case_id": "algorithm_059",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "DataExtraction_Expert",
+      "step": 1,
+      "history_agent": "Computer_terminal",
+      "normalization_resolves": false
+    },
+    {
+      "case_id": "handcrafted_010",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 9,
+      "history_agent": "Orchestrator (thought)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_014",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 14,
+      "history_agent": "Orchestrator (-> ComputerTerminal)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_016",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 15,
+      "history_agent": "Orchestrator (thought)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_019",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 50,
+      "history_agent": "Orchestrator (thought)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_020",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "WebSurfer",
+      "step": 3,
+      "history_agent": "Orchestrator (-> WebSurfer)",
+      "normalization_resolves": false
+    },
+    {
+      "case_id": "handcrafted_022",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "FileSurfer",
+      "step": 4,
+      "history_agent": "WebSurfer",
+      "normalization_resolves": false
+    },
+    {
+      "case_id": "handcrafted_024",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 1,
+      "history_agent": "Orchestrator (thought)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_025",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 18,
+      "history_agent": "Orchestrator (thought)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_031",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 9,
+      "history_agent": "Orchestrator (thought)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_032",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 6,
+      "history_agent": "Orchestrator (-> WebSurfer)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_036",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 9,
+      "history_agent": "Orchestrator (thought)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_038",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 3,
+      "history_agent": "Orchestrator (-> WebSurfer)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_039",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 30,
+      "history_agent": "Orchestrator (-> WebSurfer)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_042",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 29,
+      "history_agent": "Orchestrator (thought)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_045",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 20,
+      "history_agent": "Orchestrator (thought)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_047",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 51,
+      "history_agent": "Orchestrator (thought)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_049",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "WebSurfer",
+      "step": 12,
+      "history_agent": "Assistant",
+      "normalization_resolves": false
+    },
+    {
+      "case_id": "handcrafted_055",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 18,
+      "history_agent": "Orchestrator (-> WebSurfer)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_058",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 22,
+      "history_agent": "Orchestrator (thought)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_006",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 5,
+      "history_agent": "Orchestrator (thought)",
+      "normalization_resolves": true
+    },
+    {
+      "case_id": "handcrafted_009",
+      "issue": "identity_mismatch_requiring_semantic_interpretation",
+      "label_agent": "Orchestrator",
+      "step": 25,
+      "history_agent": "Orchestrator (thought)",
+      "normalization_resolves": true
+    }
+  ],
+  "annotation_key_literal_hits_in_history": [],
+  "task_answer_literal_substring_in_history": {
+    "n": 36,
+    "case_ids": [
+      "algorithm_001",
+      "algorithm_011",
+      "algorithm_012",
+      "algorithm_013",
+      "algorithm_018",
+      "algorithm_026",
+      "algorithm_031",
+      "algorithm_033",
+      "algorithm_040",
+      "algorithm_046",
+      "algorithm_049",
+      "algorithm_052",
+      "algorithm_053",
+      "algorithm_057",
+      "algorithm_059",
+      "algorithm_062",
+      "algorithm_077",
+      "algorithm_079",
+      "algorithm_082",
+      "algorithm_083",
+      "algorithm_091",
+      "algorithm_098",
+      "handcrafted_012",
+      "handcrafted_016",
+      "handcrafted_018",
+      "handcrafted_002",
+      "handcrafted_025",
+      "handcrafted_026",
+      "handcrafted_034",
+      "handcrafted_043",
+      "handcrafted_045",
+      "handcrafted_049",
+      "handcrafted_053",
+      "handcrafted_057",
+      "handcrafted_007",
+      "handcrafted_009"
+    ],
+    "caveat": "Only an audit heuristic. Short numeric answers can occur coincidentally; not proof of annotation leakage. Original trajectory may legitimately contain the correct answer before failure."
+  },
+  "model_input_policy": "Input is question plus optional system_prompt plus sanitized history content and agent identifiers. Top-level ground_truth, mistake_agent, mistake_step, mistake_reason, labels, is_correct and is_corrected are not sent. Sanitization is performed by the pilot harness and must be label independent.",
+  "selection_uses_labels": false,
+  "official_baseline_caveat": "Official inference/utils.py supplies task ground_truth answer in diagnostic prompts. Pilot omits it; answer-free diagnostic adaptation, not strict replication. Official evaluate.py uses substring matching; pilot should use strict equality after documented agent normalization.",
+  "label_issue_interpretation": "Agent identity differing from the actor at the labeled step is an audit flag requiring semantic interpretation, not proof of an invalid annotation. For example, an agent can be responsible for faulty code whose failure appears in a terminal response. Preserve original labels; do not automatically exclude or replace them."
+}

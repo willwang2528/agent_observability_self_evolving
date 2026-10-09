@@ -1,0 +1,25 @@
+{"planned_calls": 24, "model": "gpt-6-astra", "reasoning_effort": "xhigh", "source_commit": "f4d2b6da464a826580e59b3a0eae15ea2d642d7c"}
+{"finished": "algorithm_106__full", "usable": true, "elapsed_seconds": 32.538, "usage": {"input_tokens": 7604, "cached_input_tokens": 0, "output_tokens": 489}, "error": null}
+{"finished": "handcrafted_021__full", "usable": true, "elapsed_seconds": 41.826, "usage": {"input_tokens": 13268, "cached_input_tokens": 0, "output_tokens": 828}, "error": null}
+{"finished": "handcrafted_031__full", "usable": true, "elapsed_seconds": 43.795, "usage": {"input_tokens": 13916, "cached_input_tokens": 0, "output_tokens": 812}, "error": null}
+{"finished": "handcrafted_021__head_tail_12000_chars", "usable": true, "elapsed_seconds": 44.098, "usage": {"input_tokens": 7858, "cached_input_tokens": 0, "output_tokens": 926}, "error": null}
+{"finished": "algorithm_038__head_tail_12000_chars", "usable": true, "elapsed_seconds": 49.847, "usage": {"input_tokens": 6748, "cached_input_tokens": 0, "output_tokens": 1106}, "error": null}
+{"finished": "handcrafted_012__head_tail_12000_chars", "usable": true, "elapsed_seconds": 30.873, "usage": {"input_tokens": 8060, "cached_input_tokens": 0, "output_tokens": 550}, "error": null}
+{"finished": "algorithm_104__full", "usable": true, "elapsed_seconds": 84.925, "usage": {"input_tokens": 10119, "cached_input_tokens": 0, "output_tokens": 2175}, "error": null}
+{"finished": "algorithm_083__head_tail_12000_chars", "usable": true, "elapsed_seconds": 22.753, "usage": {"input_tokens": 9287, "cached_input_tokens": 0, "output_tokens": 335}, "error": null}
+{"finished": "algorithm_014__head_tail_12000_chars", "usable": true, "elapsed_seconds": 29.37, "usage": {"input_tokens": 7369, "cached_input_tokens": 0, "output_tokens": 491}, "error": null}
+{"finished": "algorithm_104__head_tail_12000_chars", "usable": true, "elapsed_seconds": 63.887, "usage": {"input_tokens": 9671, "cached_input_tokens": 3456, "output_tokens": 1674}, "error": null}
+{"finished": "handcrafted_012__full", "usable": true, "elapsed_seconds": 20.366, "usage": {"input_tokens": 11056, "cached_input_tokens": 0, "output_tokens": 216}, "error": null}
+{"finished": "handcrafted_050__full", "usable": true, "elapsed_seconds": 60.451, "usage": {"input_tokens": 40373, "cached_input_tokens": 3456, "output_tokens": 1422}, "error": null}
+{"finished": "handcrafted_031__head_tail_12000_chars", "usable": true, "elapsed_seconds": 36.001, "usage": {"input_tokens": 7986, "cached_input_tokens": 0, "output_tokens": 722}, "error": null}
+{"finished": "algorithm_106__head_tail_12000_chars", "usable": true, "elapsed_seconds": 27.581, "usage": {"input_tokens": 7604, "cached_input_tokens": 3456, "output_tokens": 464}, "error": null}
+{"finished": "algorithm_101__head_tail_12000_chars", "usable": true, "elapsed_seconds": 24.777, "usage": {"input_tokens": 7900, "cached_input_tokens": 0, "output_tokens": 480}, "error": null}
+{"finished": "handcrafted_025__head_tail_12000_chars", "usable": true, "elapsed_seconds": 48.38, "usage": {"input_tokens": 8030, "cached_input_tokens": 7808, "output_tokens": 520}, "error": null}
+{"finished": "algorithm_038__full", "usable": true, "elapsed_seconds": 38.586, "usage": {"input_tokens": 6752, "cached_input_tokens": 0, "output_tokens": 785}, "error": null}
+{"finished": "handcrafted_056__head_tail_12000_chars", "usable": true, "elapsed_seconds": 49.881, "usage": {"input_tokens": 8335, "cached_input_tokens": 0, "output_tokens": 1032}, "error": null}
+{"finished": "handcrafted_056__full", "usable": true, "elapsed_seconds": 54.905, "usage": {"input_tokens": 54467, "cached_input_tokens": 0, "output_tokens": 1154}, "error": null}
+{"finished": "algorithm_083__full", "usable": true, "elapsed_seconds": 29.45, "usage": {"input_tokens": 9285, "cached_input_tokens": 0, "output_tokens": 381}, "error": null}
+{"finished": "algorithm_014__full", "usable": true, "elapsed_seconds": 39.381, "usage": {"input_tokens": 10855, "cached_input_tokens": 0, "output_tokens": 850}, "error": null}
+{"finished": "algorithm_101__full", "usable": true, "elapsed_seconds": 27.021, "usage": {"input_tokens": 7900, "cached_input_tokens": 0, "output_tokens": 403}, "error": null}
+{"finished": "handcrafted_050__head_tail_12000_chars", "usable": true, "elapsed_seconds": 26.274, "usage": {"input_tokens": 7624, "cached_input_tokens": 3456, "output_tokens": 440}, "error": null}
+{"finished": "handcrafted_025__full", "usable": true, "elapsed_seconds": 64.281, "usage": {"input_tokens": 12195, "cached_input_tokens": 0, "output_tokens": 1482}, "error": null}

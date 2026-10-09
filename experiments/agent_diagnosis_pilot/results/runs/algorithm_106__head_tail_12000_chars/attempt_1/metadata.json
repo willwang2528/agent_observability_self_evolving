@@ -1,0 +1,36 @@
+{
+  "completed": true,
+  "usage": {
+    "input_tokens": 7604,
+    "cached_input_tokens": 3456,
+    "output_tokens": 464
+  },
+  "tool_item_types": [],
+  "failures": [],
+  "warnings": [
+    "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml.",
+    "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+  ],
+  "started_utc": "2026-10-09T07:23:42.480630+00:00",
+  "elapsed_seconds": 27.581,
+  "exit_code": 0,
+  "timeout": false,
+  "malformed_event_lines": 0,
+  "prediction": {
+    "agent": "Verification_Expert",
+    "step": 1,
+    "evidence_steps": [
+      0,
+      1,
+      3
+    ],
+    "reason": "The agent converted supplied price summaries into a 'verified' $5,200,000 answer without checking transaction evidence for the sale date, location, high-rise status, or maximum price. Step 3 merely repeated this unsupported confirmation.",
+    "repair_hint": "Inspect underlying sales records and compare qualifying 2021 transactions before confirming the maximum; otherwise report that the supplied summaries are unverified."
+  },
+  "prediction_error": null,
+  "abstained": false,
+  "transport_ok": true,
+  "usable": true,
+  "attempt": 1,
+  "directory": "results/runs/algorithm_106__head_tail_12000_chars/attempt_1"
+}

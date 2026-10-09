@@ -1,0 +1,6 @@
+{"type":"thread.started","thread_id":"01a11f8d-9457-72f2-8a65-e1efafebc1e0"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"agent_message","text":"{\"agent\":null,\"step\":null,\"evidence_steps\":[111,112],\"reason\":\"Step 112 shows an API content-filter rejection, not an identifiable agent error. With steps 5–110 and the triggering prompt missing, the decisive cause cannot be attributed reliably.\",\"repair_hint\":\"Inspect the omitted context and rejected prompt before assigning blame; resume verification of distance, dine-in availability, vegan mains, and prices before answering.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":7624,"cached_input_tokens":3456,"cache_write_input_tokens":0,"output_tokens":440,"reasoning_output_tokens":341}}

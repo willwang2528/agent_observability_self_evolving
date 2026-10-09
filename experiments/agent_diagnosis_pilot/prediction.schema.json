@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "agent": {"type": ["string", "null"]},
+    "step": {"type": ["integer", "null"]},
+    "evidence_steps": {"type": "array", "items": {"type": "integer"}},
+    "reason": {"type": "string"},
+    "repair_hint": {"type": "string"}
+  },
+  "required": ["agent", "step", "evidence_steps", "reason", "repair_hint"]
+}

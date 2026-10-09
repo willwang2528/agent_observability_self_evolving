@@ -1,0 +1,15 @@
+{
+  "planned": 24,
+  "completed": 24,
+  "usable": 24,
+  "wall_seconds": 337.517,
+  "workers": 3,
+  "timeout_seconds": 600,
+  "attempts": 24,
+  "tool_contaminated": 0,
+  "tokens": {
+    "input_tokens": 294262,
+    "cached_input_tokens": 21632,
+    "output_tokens": 19737
+  }
+}

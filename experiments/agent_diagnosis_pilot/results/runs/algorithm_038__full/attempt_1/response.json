@@ -1,0 +1,1 @@
+{"agent":null,"step":null,"evidence_steps":[2,3,4],"reason":"The actor identification and character attribution are both unsupported assertions. The claimed verification adds no evidence, so the trace cannot establish which factual link caused the failure.","repair_hint":"Independently verify both cast relationships, then return only the character’s first name."}

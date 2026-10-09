@@ -1,0 +1,23 @@
+{
+  "frozen_hashes_match": {
+    "protocol.json": true,
+    "instructions.md": true,
+    "prediction.schema.json": true,
+    "pilot_core.py": true,
+    "runtime.py": true,
+    "run_pilot.py": true
+  },
+  "all_input_hashes_match": true,
+  "actual_event_item_types": {
+    "error": 48,
+    "agent_message": 24
+  },
+  "warning_messages": {
+    "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml.": 24,
+    "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.": 24
+  },
+  "unexpected_error_items": [],
+  "tool_item_types": [],
+  "scorer_sha256": "dceca0bcf72b38ce8a2e46d5480c45caa9e4baa27a7cff6b3887d15c5d93eb93",
+  "tests_passed": 36
+}

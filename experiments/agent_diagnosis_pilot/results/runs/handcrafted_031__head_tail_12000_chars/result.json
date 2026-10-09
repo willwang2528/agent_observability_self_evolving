@@ -1,0 +1,47 @@
+{
+  "completed": true,
+  "usage": {
+    "input_tokens": 7986,
+    "cached_input_tokens": 0,
+    "output_tokens": 722
+  },
+  "tool_item_types": [],
+  "failures": [],
+  "warnings": [
+    "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml.",
+    "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+  ],
+  "started_utc": "2026-10-09T07:23:09.289233+00:00",
+  "elapsed_seconds": 36.001,
+  "exit_code": 0,
+  "timeout": false,
+  "malformed_event_lines": 0,
+  "prediction": {
+    "agent": "Orchestrator",
+    "step": 29,
+    "evidence_steps": [
+      0,
+      28,
+      29
+    ],
+    "reason": "The Orchestrator prematurely declared all five candidates verified within five driving miles, despite the visible result explicitly locating Cage Fitness in South Carolina. It accepted search matches without correctly enforcing the geographic constraints.",
+    "repair_hint": "Discard out-of-state results and verify each remaining gym’s driving distance from the museum before declaring the search complete."
+  },
+  "prediction_error": null,
+  "abstained": false,
+  "transport_ok": true,
+  "usable": true,
+  "attempt": 1,
+  "directory": "results/runs/handcrafted_031__head_tail_12000_chars/attempt_1",
+  "job_id": "handcrafted_031__head_tail_12000_chars",
+  "case_id": "handcrafted_031",
+  "condition": "head_tail_12000_chars",
+  "prompt_sha256": "e660f202bb417aeff097115220d6142063f299be0f61094129e2b1e547958c27",
+  "attempt_count": 1,
+  "all_attempt_elapsed_seconds": 36.001,
+  "all_attempt_usage": {
+    "input_tokens": 7986,
+    "cached_input_tokens": 0,
+    "output_tokens": 722
+  }
+}

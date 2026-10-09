@@ -1,0 +1,3552 @@
+{
+  "cases": [
+    {
+      "case_id": "algorithm_001",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/1.json",
+      "source_file": "1.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "4d51c4bf-4b0e-4f3d-897b-3f6687a7d9f2",
+      "question_chars": 470,
+      "history_chars": 4764,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "BusinessLogic_Expert",
+        "Computer_terminal",
+        "DataVerification_Expert",
+        "Excel_Expert"
+      ],
+      "sha256": "9a3295bd60713bf8603ad91b2ef3e563cefca448195cf7a19a046fa0b6ba3408",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_010",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/10.json",
+      "source_file": "10.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "d1af70ea-a9a4-421a-b9cc-94b5e02f1788",
+      "question_chars": 282,
+      "history_chars": 5721,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Validation_Expert"
+      ],
+      "sha256": "eeac359270ccc332502e89fc0ca5c038611173eeea7284fad127b655ad36ede0",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_100",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/100.json",
+      "source_file": "100.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "c7afe00869f98cf363fd83677ac41757ed5e57f03eacc3d1304feb0a92084bd1",
+      "question_chars": 128,
+      "history_chars": 16834,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Movie_Expert",
+        "StreamingService_Expert"
+      ],
+      "sha256": "2fffcaae6cac96e4a9ae7595a28063b590888baa73d08cdf9c0054adac4c9aa6",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_101",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/101.json",
+      "source_file": "101.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "57d9dc6935e8a40b02e7f8ec81768fe70e68a0c05f6866927c9fda38db38a486",
+      "question_chars": 194,
+      "history_chars": 6557,
+      "steps": 8,
+      "agent_key": "name",
+      "agents": [
+        "Budgeting_Expert",
+        "Computer_terminal",
+        "Tickets_Pricing_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "765a5c7040a7007afd6d9c8faf83c23bab300243d531d3e53b135baa7e9186cc",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_102",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/102.json",
+      "source_file": "102.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "52f7224e9c79431e7926afe317782711a0028750693e7456cde22ef6f4bd8bd5",
+      "question_chars": 171,
+      "history_chars": 5056,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Filmography_Expert",
+        "IMDB_Ratings_Expert",
+        "StreamingAvailability_Expert"
+      ],
+      "sha256": "935774d2cb98bf7e6453a7a6aff94fe2bd98267274728a0417f1c441e7b312e8",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_103",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/103.json",
+      "source_file": "103.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "ccec2229ced20a4b0cb4897e3a99120a3017ea030903e01c9bda6b13d40b0b14",
+      "question_chars": 100,
+      "history_chars": 24922,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataVerification_Expert",
+        "Eateries_Expert",
+        "Location-Based_Services_Expert"
+      ],
+      "sha256": "f0f8d82f14a673ae00c24aca1e771827049844f6cfa15d61d4b72c74affe98c4",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_104",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/104.json",
+      "source_file": "104.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "291b53e665b4dd4365cde995042db4a6f6fecef3fe3a6f4482f23d61bd673918",
+      "question_chars": 95,
+      "history_chars": 12537,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DebuggingOptimization_Expert",
+        "PythonDebugging_Expert",
+        "Validation_Expert"
+      ],
+      "sha256": "af8a08cdf6d265bc060ecae77ed99caa5b5733f7aa663f4d8bc766cf650a7b20",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_105",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/105.json",
+      "source_file": "105.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "b36ef2d8f2643b80e74a44ce3403f674ecb2aed7fd36afeaa289061a59feef92",
+      "question_chars": 77,
+      "history_chars": 7214,
+      "steps": 8,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Fitness_Expert",
+        "Local_Knowledge_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "8a91aa3665b1591c5398dc9fcdedb00fba2606a7b1bb61e373302461c92cdb00",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_106",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/106.json",
+      "source_file": "106.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "e6bc98089608217e45b6956a46518fe3cce64a799b3ac43c6974c449ae14c408",
+      "question_chars": 99,
+      "history_chars": 4153,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "RealEstate_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "6ee195b9ce76f789e0b36fad153a353ff8fd28641bd79e6c9bbe2a8fd3444e20",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_107",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/107.json",
+      "source_file": "107.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "929b45f34805280d77c61d1e093e3d4e551d77ddb6ecd73552b12b1af286388d",
+      "question_chars": 148,
+      "history_chars": 12221,
+      "steps": 8,
+      "agent_key": "name",
+      "agents": [
+        "Bioinformatics_Expert",
+        "Computer_terminal",
+        "Genomics_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "6fe95191a37d81f0432c0c362358d6cc01612c10f1ef5dd3af8dcc40e83dcdd6",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_108",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/108.json",
+      "source_file": "108.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "cca4776df3c73e7f9430a2e624aafad056b14322a0b7ca6c0c22b7e7f3f0890a",
+      "question_chars": 120,
+      "history_chars": 64949,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Corporate_Governance_Expert",
+        "DataVerification_Expert",
+        "WebServing_Expert"
+      ],
+      "sha256": "bea42c85187bd977d955eceb4115755c459c772b671e4e9733ec608a733dbfef",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_109",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/109.json",
+      "source_file": "109.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "8ad84bd6fe38481ba49e7ad1f6fbd43219a999074e5c6fc940003281f55ec65b",
+      "question_chars": 100,
+      "history_chars": 24956,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Geography_Expert",
+        "Grocery_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "66dfd5cdafa2dc50f1283b55f9e935f617b9d80a69b4bbf474de604c1ff8b1c3",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_011",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/11.json",
+      "source_file": "11.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "8e867cd7-cff9-4e6c-867a-ff5ddc2550be",
+      "question_chars": 146,
+      "history_chars": 11182,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "InformationVerification_Expert",
+        "Latin_American_Music_Expert"
+      ],
+      "sha256": "332bd4e883e8c1ce2b7b6d97552fd9a5481de9e9cd9ae468be9540e673ff7068",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_110",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/110.json",
+      "source_file": "110.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "a9074997e698f912b9e751779ea19c1e92fa148404e90e0ae997acea3f9559b0",
+      "question_chars": 187,
+      "history_chars": 49214,
+      "steps": 9,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "DataCollection_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "9d0c62059ce461390fe0bea7d6bd78fb6c2e1e01946e541c950d56897383f340",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_111",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/111.json",
+      "source_file": "111.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "2aa5dd83fbcd0dce9a3dd4592106e5b5edf738008d932e357d477bba80e59ccf",
+      "question_chars": 197,
+      "history_chars": 11309,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "ProbabilityTheory_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "facf13a0720f86bd6bfc0007a9212b1421532713443a359ca7f11f7109c4ff81",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_112",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/112.json",
+      "source_file": "112.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "e2dc3a6b10b762e8aba7fa4d4e70f757f6d04dcbc8b56c48fc53fd9928d31d07",
+      "question_chars": 144,
+      "history_chars": 10342,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "HistoricalWeatherData_Expert",
+        "Statistics_Expert",
+        "Validation_Expert"
+      ],
+      "sha256": "48e2eb4577bf8e09f2d6618561bd5977d535fabfb9ef5c9deb89ad5f1a04c1d1",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_113",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/113.json",
+      "source_file": "113.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "f88066d274e265edd6cd9d61cd80a41accb3a14baf2297652fdd05cdf716d455",
+      "question_chars": 251,
+      "history_chars": 17480,
+      "steps": 9,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Hiking_Expert",
+        "Reviews_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "a9957b1fb43af7e76f59013a66024da0ef3a281a4843343f45d7d1cc8a6b651e",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_114",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/114.json",
+      "source_file": "114.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "6b06d186921b8b390c65aebd0d16f09f60a47d2f1288ebe36953f734e84c0a3c",
+      "question_chars": 183,
+      "history_chars": 12050,
+      "steps": 7,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "RealEstateMarket_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "24948fd74affe6245b8ade2d5aef16717b30aaf6892ff786cbc847fe82d293a6",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_115",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/115.json",
+      "source_file": "115.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "4dbedc5e1a0205e14b7ff3ba89bce3060dab15d0ada3b7e1351a6f2aa8287aec",
+      "question_chars": 215,
+      "history_chars": 4806,
+      "steps": 7,
+      "agent_key": "name",
+      "agents": [
+        "ArithmeticProgressions_Expert",
+        "Computer_terminal",
+        "ProblemSolving_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "7c733ad545d325537e73fa8ededb05db9ebe238128c3ec64d7b29f4763f4bb1a",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_116",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/116.json",
+      "source_file": "116.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "2ddae3b7a208e3c25f14d82d7a1faaaa1832fbf950b4dac345e755c4c361f294",
+      "question_chars": 85,
+      "history_chars": 9740,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "DataManipulation_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "f2256cbc9c5789a0f02af1b60b697064d4785092d5b2c867c5477ed94e7f7dcb",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_117",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/117.json",
+      "source_file": "117.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "748899d9d70c09beb3bd48ac8a3658bdcfd2f9114fe6dc4c4b8d2f9541ef4607",
+      "question_chars": 222,
+      "history_chars": 6507,
+      "steps": 7,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Debugging_Expert",
+        "JSON_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "b5d1c09a002433e5659f3ac661e8b216a5a3b57dfc13c9bd0e856b224d323854",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_118",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/118.json",
+      "source_file": "118.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "9baaa267c95f9d8b75741ee9169c50563d297cfa592c20deaffd30dbc5984c74",
+      "question_chars": 188,
+      "history_chars": 9034,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Statistics_Expert",
+        "Verification_Expert",
+        "WeatherData_Expert"
+      ],
+      "sha256": "638fc3382279bd5ee7bf32e763192ca2621845b2a9eb874751648decfe4a3ffa",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_119",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/119.json",
+      "source_file": "119.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "0ec4371851b96837b0a81b3dd3df401415061bb532fbafeb4609f3337c358508",
+      "question_chars": 113,
+      "history_chars": 8982,
+      "steps": 8,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Geometry_Expert",
+        "LocalHistorian_Expert",
+        "VerificationExpert"
+      ],
+      "sha256": "ea5043b639c87444994e59a256f7048613e6c86f36c84431c6d12852c0b3b8a6",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_012",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/12.json",
+      "source_file": "12.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "db4fd70a-2d37-40ea-873f-9433dc5e301f",
+      "question_chars": 124,
+      "history_chars": 3545,
+      "steps": 5,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "MBTA_FranciscoFoxboroLine_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "07f00447c7acf77e93450172a2440332d3a60694196b4abdcbdc9d2558af4e92",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_120",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/120.json",
+      "source_file": "120.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "797f7a5b65ca28b7e7156e7db1e9f117bd4a021de0cd512bfdbb0be897d89eab",
+      "question_chars": 111,
+      "history_chars": 17215,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Food_Expert",
+        "Vegan_Food_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "d184a3fb08d6746c471464f03f3bb6a3cbb46b58ebb80e8bfbd5f94b000c0108",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_121",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/121.json",
+      "source_file": "121.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "9bdca8677af1e25cb7b0c7992dc62670c3e58e4afcd5ae60bcaa2483556bba00",
+      "question_chars": 185,
+      "history_chars": 6507,
+      "steps": 7,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Debugging_Expert",
+        "JSON_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "4de401eab6dbacc2cdec156461216c1d4f2985c7e904b45c1975e5267115d606",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_122",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/122.json",
+      "source_file": "122.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "557e78eceec08ca8b0da5f9fdaca6e1c7ec6140a8ce600983ee716327dab005e",
+      "question_chars": 85,
+      "history_chars": 23735,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Accessibility_Expert",
+        "BingAPI_Expert",
+        "Computer_terminal",
+        "Verification_Expert"
+      ],
+      "sha256": "624e1d0fd0d1816d7c0f1eea19965b4b59e1e18480c0f005a57e6660a0713801",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_123",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/123.json",
+      "source_file": "123.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "4e615af6f0348597b4133cc1ec5418bb3f35328e3d95e23a275027cee97b5e09",
+      "question_chars": 92,
+      "history_chars": 10116,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Geospatial_Expert",
+        "Karting_Expert",
+        "Paintball_Expert"
+      ],
+      "sha256": "62b99f81a05eb3c3fe53d19b81c233a510380158941696e3c1ced98fc350dbaa",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_124",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/124.json",
+      "source_file": "124.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "6f224e7730ed027cbac73aebb1aea7f954053082041b02b19f4ff126a0a8a208",
+      "question_chars": 100,
+      "history_chars": 8524,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Research_Expert",
+        "Validation_Expert"
+      ],
+      "sha256": "8fe2c5197951120518f150b7be1bbcf92ea1d89bc1c90e048ad8e31bf7ae172d",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_125",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/125.json",
+      "source_file": "125.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "6e3be83d1949fa52cba03fb1ce4b5b3bf7e37a83fd7d67694b10b2e439d90cf8",
+      "question_chars": 117,
+      "history_chars": 6480,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "MartialArts_Expert",
+        "NYC_Local_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "633757f1828f3e5bed9b5588a9de064a8f7be3970fb784a713dd59dc995ef3c8",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_126",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/126.json",
+      "source_file": "126.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "9e31099fffa6a3891c94934fd4fc2f3f522d51c1904ff3561f3a10e4bf245821",
+      "question_chars": 103,
+      "history_chars": 10614,
+      "steps": 8,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "CorporateHistory_IPOs_MondayCom_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "0f498748c12decb5ecdc07ceedc37c3f54d989a4181c913bb6faf756f33d00c6",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_013",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/13.json",
+      "source_file": "13.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "853c8244-429e-46ca-89f2-addf40dfb2bd",
+      "question_chars": 173,
+      "history_chars": 15988,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "ArtHistory_Expert",
+        "Chinese_Zodiac_Expert",
+        "Computer_terminal",
+        "Verification_Expert"
+      ],
+      "sha256": "49aa6026f0ef77649add87dbf99262d0b9f93f4e2d5c016fa365ee5a14c24512",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_014",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/14.json",
+      "source_file": "14.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "dc22a632-937f-4e6a-b72f-ba0ff3f5ff97",
+      "question_chars": 265,
+      "history_chars": 23326,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Ali_Khan_Shows_and_New_Mexican_Cuisine_Expert",
+        "Computer_terminal",
+        "Culinary_Awards_Expert"
+      ],
+      "sha256": "00b9b8a77401fe31b57e8810bb9d24cf8e499ead43ce4d8301ee2ad19407e6f6",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_015",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/15.json",
+      "source_file": "15.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "851e570a-e3de-4d84-bcfa-cc85578baa59",
+      "question_chars": 611,
+      "history_chars": 11375,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Boggle_Board_Expert",
+        "Computer_terminal",
+        "Dictionary_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "2ebcea095ae31c7926ecbe8b6cec44653b9a55da3181e055ea2667002719ba5d",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_016",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/16.json",
+      "source_file": "16.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "0512426f-4d28-49f0-be77-06d05daec096",
+      "question_chars": 199,
+      "history_chars": 10183,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Narration_Expert",
+        "Verification_Expert",
+        "Video_Analyst_Expert"
+      ],
+      "sha256": "a50d0a5df5bdb893283418d0d3cb74f4db0075b8264167746f165893e845a379",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_017",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/17.json",
+      "source_file": "17.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "3ff6b7a9-a5bd-4412-ad92-0cd0d45c0fee",
+      "question_chars": 180,
+      "history_chars": 8823,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "MarineBiology_Expert",
+        "Statistics_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "cab5487ff9f5cd060a8891b339214536b2695258845dea7bdf971ebb4618f1e7",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_018",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/18.json",
+      "source_file": "18.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "23dd907f-1261-4488-b21c-e9185af91d5e",
+      "question_chars": 117,
+      "history_chars": 12255,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Literature_Expert",
+        "Poetry_Expert",
+        "Python_Expert"
+      ],
+      "sha256": "280fe3958c119ffaffa1c4e9bf0fc77b4f4a9c6944b0247d9e62c864913e5708",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_019",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/19.json",
+      "source_file": "19.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "3cef3a44-215e-4aed-8e3b-b1e3f08063b7",
+      "question_chars": 998,
+      "history_chars": 3252,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DebuggingTesting_Expert",
+        "Debugging_Problem_Solving_Expert",
+        "Validation_Expert"
+      ],
+      "sha256": "1f0a735cc1c0b5fd9e15cdf9db5669c46364cd3fec8cc75039e679b844547ace",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_002",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/2.json",
+      "source_file": "2.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "cf106601-ab4f-4af9-b045-5295fe67b37d",
+      "question_chars": 199,
+      "history_chars": 5437,
+      "steps": 7,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "Statistics_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "42a02f83aeca6467e0217125f61942f2b9be05a49aaadde2af6b31966d8a6b91",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_020",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/20.json",
+      "source_file": "20.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "f3917a3d-1d17-4ee2-90c5-683b072218fe",
+      "question_chars": 117,
+      "history_chars": 30878,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Verification_Expert",
+        "WebServing_Expert"
+      ],
+      "sha256": "bd545e32690e852d1af4e23fd542ab7ae6862c5d54d854fbe3bafb8adc7be22a",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_021",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/21.json",
+      "source_file": "21.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "ed58682d-bc52-4baa-9eb0-4eb81e1edacc",
+      "question_chars": 109,
+      "history_chars": 4902,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "Linguistics_Expert",
+        "Lyrics_Expert",
+        "MusicHistorian_Expert"
+      ],
+      "sha256": "6240a992b2ae60b8d48193fd8ee871d5f1401eccae81eb973775aa54ad7c40fc",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_022",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/22.json",
+      "source_file": "22.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "1f975693-876d-457b-a649-393859e79bf3",
+      "question_chars": 564,
+      "history_chars": 4848,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "PythonDebugging_Expert",
+        "Python_Expert",
+        "UnitTesting_Expert"
+      ],
+      "sha256": "006ce93bfc74314ca01d9c6fdfcd6f76deff0ed2db63610f47b89cab6e4dd73e",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_023",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/23.json",
+      "source_file": "23.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "6b078778-0b90-464d-83f6-59511c811b01",
+      "question_chars": 232,
+      "history_chars": 8165,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Art_Historian_Expert",
+        "Church_Historian_Expert",
+        "Computer_terminal",
+        "DataVerification_Expert"
+      ],
+      "sha256": "068d4f4f66ca0bf92763789712f2120baed834df33ceb27398bbefd76c70a817",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_024",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/24.json",
+      "source_file": "24.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "65da0822-a48a-4a68-bbad-8ed1b835a834",
+      "question_chars": 501,
+      "history_chars": 5872,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "PythonDebugging_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "7bcd94281e7816bf7ba087aaa16cd6595b9d7a965c7f815e0e0c22f1f5884518",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_025",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/25.json",
+      "source_file": "25.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "c61d22de-5f6c-4958-a7f6-5e9707bd3466",
+      "question_chars": 297,
+      "history_chars": 20955,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "ModelEvaluation_Interpretation_Expert",
+        "Physics_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "ce68263c4909552c380b568fe7ae2fddfce33ce8b4ae9c31afab118fe3a9a908",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_026",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/26.json",
+      "source_file": "26.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "7d4a7d1d-cac6-44a8-96e8-ea9584a70825",
+      "question_chars": 163,
+      "history_chars": 13570,
+      "steps": 9,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataVerification_Expert",
+        "Statistics_Expert",
+        "WomenInComputerScienceHistory_Expert"
+      ],
+      "sha256": "3032ea6b981d011ebf31eaa67271e75ffbc440cfecf8d1643bb537d04340a054",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_027",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/27.json",
+      "source_file": "27.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "7a4a336d-dcfa-45a0-b014-824c7619e8de",
+      "question_chars": 419,
+      "history_chars": 9230,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataVerification_Expert",
+        "MarioKart8Deluxe_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "e10e7755bd342505b2a164d820182356a5d969bfcf1391a2c38d3d70bdb089f9",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_028",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/28.json",
+      "source_file": "28.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "0e9e85b8-52b9-4de4-b402-5f635ab9631f",
+      "question_chars": 205,
+      "history_chars": 35447,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataVerification_Expert",
+        "Historian_Expert",
+        "WebServing_Expert"
+      ],
+      "sha256": "b844862b1cc0e13d2fb0ed48dddfe4e05f1a9b8d53e06a673d3087ecd10e32d7",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_029",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/29.json",
+      "source_file": "29.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "d5141ca5-e7a0-469f-bf3e-e773507c86e2",
+      "question_chars": 145,
+      "history_chars": 19213,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Validation_Expert",
+        "WebServing_Expert"
+      ],
+      "sha256": "368ee1db49c0fbf1a9810d87c30544635afd5a6a923a633adfef9a3f1aa47053",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_003",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/3.json",
+      "source_file": "3.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "df6561b2-7ee5-4540-baab-5095f742716a",
+      "question_chars": 258,
+      "history_chars": 9161,
+      "steps": 8,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Python_Expert",
+        "Statistics_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "d38b1283f55122b4fcaa4bed66ee383d1ff3bdb20a20a39825ab5f432fad21b1",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_030",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/30.json",
+      "source_file": "30.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "99c9cc74-fdc8-46c6-8f8d-3ce2d3bfeea3",
+      "question_chars": 885,
+      "history_chars": 3786,
+      "steps": 7,
+      "agent_key": "name",
+      "agents": [
+        "AudioProcessing_Expert",
+        "Computer_terminal",
+        "Culinary_Expert",
+        "TranscriptionVerification_Expert"
+      ],
+      "sha256": "5525422bbab4da0109e3b78bcadd183d2a1743192928bcb2feb43abe5705514b",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_031",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/31.json",
+      "source_file": "31.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "56137764-b4e0-45b8-9c52-1866420c3df5",
+      "question_chars": 204,
+      "history_chars": 11283,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Chinese_Political_History_Expert",
+        "Computer_terminal",
+        "OpenCV_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "0a258cf70f820a884b81345cbe56dc037911d81edcefb43b7a8171bb620965fc",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_032",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/32.json",
+      "source_file": "32.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "73c1b9fe-ee1d-4cf4-96ca-35c08f97b054",
+      "question_chars": 111,
+      "history_chars": 14614,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "AlligatorBiology_Expert",
+        "Computer_terminal",
+        "DataVerification_Expert",
+        "SpeciesSightingsData_Expert"
+      ],
+      "sha256": "3834117c0ffa9c684756cfcaaeeb4ca94663bcf54ea9cd71760b05f07b167bfa",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_033",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/33.json",
+      "source_file": "33.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "114d5fd0-e2ae-4b6d-a65a-870da2d19c08",
+      "question_chars": 199,
+      "history_chars": 11386,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DOI_Expert",
+        "InformationExtraction_Expert"
+      ],
+      "sha256": "e21526680d276a4a0ef015f1f521c361c783fa972a029f47a3e4e0a865cf199d",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_034",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/34.json",
+      "source_file": "34.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "54612da3-fd56-4941-80f4-5eb82330de25",
+      "question_chars": 157,
+      "history_chars": 4529,
+      "steps": 8,
+      "agent_key": "name",
+      "agents": [
+        "CSVProcessing_Expert",
+        "Computer_terminal",
+        "Locomotive_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "9b7e4634b347787f6a8c46d55a9cfde504c5a542010ee32ee087848f3498857c",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_035",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/35.json",
+      "source_file": "35.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "71345b0a-9c7d-4b50-b2bf-937ec5879845",
+      "question_chars": 199,
+      "history_chars": 54062,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "WebServing_Expert"
+      ],
+      "sha256": "394f0e6da99317e403ba6638757eaecee2cfc2f9fd75c5592e4a8a810182bcd5",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_036",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/36.json",
+      "source_file": "36.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "9318445f-fe6a-4e1b-acbf-c68228c9906a",
+      "question_chars": 227,
+      "history_chars": 7559,
+      "steps": 9,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "ImageProcessing_Expert",
+        "ProblemSolving_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "5682a2cfbf8d8b17db655ea702ae9357f83df934e20c37af36e764984893b2a1",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_037",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/37.json",
+      "source_file": "37.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "50ec8903-b81f-4257-9450-1085afd2c319",
+      "question_chars": 677,
+      "history_chars": 6809,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Cubing_Expert",
+        "Geometry_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "fdaab874179cddfba3679a5c5764fb11068a01abecbaa68d2ab97b2db839d8b8",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_038",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/38.json",
+      "source_file": "38.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "305ac316-eef6-4446-960a-92d80d542f82",
+      "question_chars": 134,
+      "history_chars": 2851,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "PolishLanguage_Expert",
+        "Polish_TV_Series_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "8b0365ea05b42004a34c3c3027a3c3900fae5b91ae0d5d8e6b5dcdce69463f2c",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_039",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/39.json",
+      "source_file": "39.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "17b5a6a3-bc87-42e8-b0fb-6ab0781ef2cc",
+      "question_chars": 454,
+      "history_chars": 10433,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "AquaticEcosystems_InvasiveSpecies_Expert",
+        "Computer_terminal",
+        "GIS_DataAnalysis_Expert",
+        "Scientific_Verification_Expert"
+      ],
+      "sha256": "c9d60d1ffa7db47a40df62b3d57191cfc71505d37f9170515608db25f7b1a06e",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_004",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/4.json",
+      "source_file": "4.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "f2feb6a4-363c-4c09-a804-0db564eafd68",
+      "question_chars": 388,
+      "history_chars": 4830,
+      "steps": 8,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Data_Analysis_Expert",
+        "HawaiiRealEstate_Expert",
+        "Validation_Expert"
+      ],
+      "sha256": "9cab137dff33575bcb566132f86a47ccaa687b176823298e7f31ab1fbe4c8a8e",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_040",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/40.json",
+      "source_file": "40.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "08f3a05f-5947-4089-a4c4-d4bcfaa6b7a0",
+      "question_chars": 152,
+      "history_chars": 7621,
+      "steps": 9,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "NumericalAlgorithms_Expert",
+        "NumericalMethods_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "d72d11c044822986d75fddb98c28d23eb0ff2ebacb6c98bad338f8f3353592e2",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_041",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/41.json",
+      "source_file": "41.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "42576abe-0deb-4869-8c63-225c2d75a95a",
+      "question_chars": 994,
+      "history_chars": 3961,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "TizinGrammar_Expert",
+        "Tizin_Translation_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "cf8dd50e58df85f150de3cbc774461b09d829ab22a8dac29e8de8e02753abaf0",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_042",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/42.json",
+      "source_file": "42.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "e0c10771-d627-4fd7-9694-05348e54ee36",
+      "question_chars": 264,
+      "history_chars": 4198,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DemographicData_Expert",
+        "ProblemSolving_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "ee569e85d2bc780c1f87e47890ff00f09e8c93bb378d87eabfadfb7cfe940921",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_043",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/43.json",
+      "source_file": "43.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "16d825ff-1623-4176-a5b5-42e0f5c2b0ac",
+      "question_chars": 240,
+      "history_chars": 5070,
+      "steps": 9,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "Database_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "4cae5e3ef07176f3055d1ee962eca2bc739290f32b0518a4a379ce6ba304b441",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_044",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/44.json",
+      "source_file": "44.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "ad2b4d70-9314-4fe6-bfbe-894a45f6055f",
+      "question_chars": 237,
+      "history_chars": 9507,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "GraphicDesign_Expert",
+        "WebDevelopment_Expert",
+        "Web_Design_Expert"
+      ],
+      "sha256": "ab93ed30311b2cc183ad9521742cffc257fe28f26d071c721654590f1954a176",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_045",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/45.json",
+      "source_file": "45.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "04a04a9b-226c-43fd-b319-d5e89743676f",
+      "question_chars": 332,
+      "history_chars": 4589,
+      "steps": 5,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "PublicationData_Expert",
+        "VerificationExpert"
+      ],
+      "sha256": "a02b57c912a47377ce49515faf7128e200c597d26b567f9abf2b462b44803d27",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_046",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/46.json",
+      "source_file": "46.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "c714ab3a-da30-4603-bacd-d008800188b9",
+      "question_chars": 1331,
+      "history_chars": 7769,
+      "steps": 7,
+      "agent_key": "name",
+      "agents": [
+        "Behavioral_Expert",
+        "Computer_terminal",
+        "LogicExpert",
+        "Validation_Expert"
+      ],
+      "sha256": "ef1a3e5d20a4057dda88f79427bd2503d288853f4d1efb9f4e60bd614ba74d55",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_047",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/47.json",
+      "source_file": "47.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "0bb3b44a-ede5-4db5-a520-4e844b0079c5",
+      "question_chars": 214,
+      "history_chars": 3489,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "Mesopotamian_Number_Systems_Expert"
+      ],
+      "sha256": "8639b02b16799098d04545c49b9dea0ed8efbdcf536cec062ec304480508f9ea",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_048",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/48.json",
+      "source_file": "48.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "6359a0b1-8f7b-499b-9336-840f9ab90688",
+      "question_chars": 133,
+      "history_chars": 8006,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Geometry_Expert",
+        "MathAnalysis_Expert",
+        "Validation_Expert"
+      ],
+      "sha256": "41d6d80e239bd8609c46a13a52c19e94a419379b39520695d45643f59d70b98e",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_049",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/49.json",
+      "source_file": "49.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+      "question_chars": 401,
+      "history_chars": 13165,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataExtraction_Expert",
+        "Validation_Expert"
+      ],
+      "sha256": "931e9658f6f29a386d676b6f10cfc38eaac3dd3253670f1cd0ace5d2023ad5b6",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_005",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/5.json",
+      "source_file": "5.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "42d4198c-5895-4f0a-b0c0-424a66465d83",
+      "question_chars": 335,
+      "history_chars": 7444,
+      "steps": 9,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataVerification_Expert",
+        "Gaming_Awards_Expert",
+        "WebServing_Expert"
+      ],
+      "sha256": "fb68b8b6ab7713be52a498f32ecbe3bbbabe19750ffd43a9647ce50f7b612340",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_050",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/50.json",
+      "source_file": "50.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "076c8171-9b3b-49b9-a477-244d2a532826",
+      "question_chars": 301,
+      "history_chars": 7924,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "Financial_Expert"
+      ],
+      "sha256": "f82c10e1a7ca0c591e868539900781a73913c2dd56d0466b6f756df6bdfcaaae",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_051",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/51.json",
+      "source_file": "51.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "2a649bb1-795f-4a01-b3be-9a01868dae73",
+      "question_chars": 244,
+      "history_chars": 4848,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "PythonDebugging_Expert",
+        "Python_Expert",
+        "UnitTesting_Expert"
+      ],
+      "sha256": "db517c0278a5bfc2ecea32e581d8e9889f81c66aaf9afd572dc6e2ff33e1e271",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_052",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/52.json",
+      "source_file": "52.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "b9763138-c053-4832-9f55-86200cb1f99c",
+      "question_chars": 105,
+      "history_chars": 7584,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "ISBNCheckDigit_Expert",
+        "Python_Programmer_Expert",
+        "VerificationExpert"
+      ],
+      "sha256": "74b138973eacb2c87eb4a3bc99b9578e2ef270ba64582d95e1dae7843ddbd6cd",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_053",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/53.json",
+      "source_file": "53.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "a7feb290-76bb-4cb7-8800-7edaf7954f2f",
+      "question_chars": 106,
+      "history_chars": 4142,
+      "steps": 5,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Data_Extraction_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "b1b7fbc428abec1fbe0c9c21e6192b97bb0c3d7f0fc3ee8fba29d5f105fefdd4",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_054",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/54.json",
+      "source_file": "54.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "a0068077-79f4-461a-adfe-75c1a4148545",
+      "question_chars": 145,
+      "history_chars": 8001,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "ClinicalTrials_Expert",
+        "Clinical_Trial_Data_Analysis_Expert",
+        "Computer_terminal",
+        "Validation_Expert"
+      ],
+      "sha256": "a75019f0f93a0b978c00a415dcd23f3bfe566e3b05fd4e143f5aa0b1efc80900",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_055",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/55.json",
+      "source_file": "55.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "840bfca7-4f7b-481a-8794-c560c340185d",
+      "question_chars": 301,
+      "history_chars": 19277,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "ResearchFunding_Expert",
+        "WebServing_Expert"
+      ],
+      "sha256": "ca1a77cb15568c3d25b2c71b4e43bcaa2ea3b56e47f3325b4a9be58bde27a025",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_056",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/56.json",
+      "source_file": "56.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "023e9d44-96ae-4eed-b912-244ee8c3b994",
+      "question_chars": 385,
+      "history_chars": 6164,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "AlgorithmDesign_Expert",
+        "Computer_terminal",
+        "RecyclingRate_Expert",
+        "Validation_Expert"
+      ],
+      "sha256": "865e4dbd5f34abb52531832b9d75a7c078dffb21839225936466b4e9c922a796",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_057",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/57.json",
+      "source_file": "57.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "bfcd99e1-0690-4b53-a85c-0174a8629083",
+      "question_chars": 83,
+      "history_chars": 8099,
+      "steps": 5,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataManipulation_Expert",
+        "TextExtraction_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "b4f86329a7c89da9fc3f8c0ed46a493692e01d72f1f9622575dec8457f3b0fbb",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_058",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/58.json",
+      "source_file": "58.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "d0633230-7067-47a9-9dbf-ee11e0a2cdd6",
+      "question_chars": 126,
+      "history_chars": 3665,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Python_ScikitLearn_StatisticalAnalysis_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "29a7163a1861cb6b12986182a6060253f27b99741f2b6dc66efce7e121ed48a7",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_059",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/59.json",
+      "source_file": "59.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "1dcc160f-c187-48c2-b68e-319bd4354f3d",
+      "question_chars": 147,
+      "history_chars": 15462,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "DataExtraction_Expert",
+        "DataVerification_Expert"
+      ],
+      "sha256": "2f11c40e32933cc111581fbff586c72a264cdaee2652438f2c88be267953b8ca",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_006",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/6.json",
+      "source_file": "6.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "b816bfce-3d80-4913-a07d-69b752ce6377",
+      "question_chars": 207,
+      "history_chars": 13870,
+      "steps": 8,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Literary_Analysis_Expert",
+        "NorseMythology_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "e5052ce70b0f52653218d055bb239227fb3ab79b00b43b5db17574ce2c9b035a",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_060",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/60.json",
+      "source_file": "60.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "e29834fd-413a-455c-a33e-c3915b07401c",
+      "question_chars": 246,
+      "history_chars": 8527,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "RealityTV_Historian_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "8ac044b16d58e883de5c0147ebe9bdcdbbf046b14124e473d491b770bae3efcf",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_061",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/61.json",
+      "source_file": "61.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "b7f857e4-d8aa-4387-af2a-0e844df5b9d8",
+      "question_chars": 564,
+      "history_chars": 6508,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "PythonProgramming_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "ab3f72821e10045d4b93511bca7804fa6dcabde0084ebc1eb2f4aa5aa553155c",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_062",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/62.json",
+      "source_file": "62.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "e4e91f1c-1dcd-439e-9fdd-cb976f5293fd",
+      "question_chars": 665,
+      "history_chars": 4546,
+      "steps": 7,
+      "agent_key": "name",
+      "agents": [
+        "Literature_Expert",
+        "Research_Expert",
+        "VerificationExpert"
+      ],
+      "sha256": "7321ecb270d21b21d7f291513160fb11843361786c2c2e55952cb639d1337a23",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_063",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/63.json",
+      "source_file": "63.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "8f80e01c-1296-4371-9486-bb3d68651a60",
+      "question_chars": 214,
+      "history_chars": 7480,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "MathAnalysis_Expert",
+        "MusicTheory_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "93b9cc4352db7fc7b3c805878082c73fab216b63b2f3ec391fe4392af1535e43",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_064",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/64.json",
+      "source_file": "64.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "b4cc024b-3f5e-480e-b96a-6656493255b5",
+      "question_chars": 220,
+      "history_chars": 27585,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "MilitaryHistory_Expert",
+        "Verification_Expert",
+        "Whitney_Collection_Expert"
+      ],
+      "sha256": "84708abfcf1fb098b1ce5c4bf26c8ca30bdf7164ce5f5972ce780252353f1a7c",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_065",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/65.json",
+      "source_file": "65.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "05407167-39ec-4d3a-a234-73a9120c325d",
+      "question_chars": 121,
+      "history_chars": 3926,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "VSCode_Expert",
+        "VideoContentAnalysis_Expert"
+      ],
+      "sha256": "7a362826dadffebb34d5fcc75f8755c4aa28eec5bddee2aa8b2830984bb634f9",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_066",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/66.json",
+      "source_file": "66.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "87c610df-bef7-4932-b950-1d83ef4e282b",
+      "question_chars": 139,
+      "history_chars": 3689,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "BiblicalScholar_Expert",
+        "MiddleEasternHistory_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "51869e6d8d433175939c50b0643452751f3faa1a8910e425241def94416a87d3",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_067",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/67.json",
+      "source_file": "67.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "8b3379c0-0981-4f5b-8407-6444610cb212",
+      "question_chars": 185,
+      "history_chars": 8742,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "MarineLifeData_Expert",
+        "Verification_Expert",
+        "VideoContentAnalysis_Expert"
+      ],
+      "sha256": "ab709ff7e844cf7d5bdabf47677384f3aa48e09de61adc6d93b9c65009e499c1",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_068",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/68.json",
+      "source_file": "68.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "c365c1c7-a3db-4d5e-a9a1-66f56eae7865",
+      "question_chars": 249,
+      "history_chars": 6413,
+      "steps": 7,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Verification_Expert",
+        "WebServing_Expert"
+      ],
+      "sha256": "2f06f8ba15e31d50870fde32af42472276732b13c86b272fd4b9d651a78648b5",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_069",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/69.json",
+      "source_file": "69.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "9d191bce-651d-4746-be2d-7ef8ecadb9c2",
+      "question_chars": 133,
+      "history_chars": 5853,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "VideoContentAnalysis_Expert"
+      ],
+      "sha256": "0cce09155dcec17e15517e72231424f60ad44f2f59c5ba8e63a62f87d795fb8b",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_007",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/7.json",
+      "source_file": "7.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "5d0080cb-90d7-4712-bc33-848150e917d3",
+      "question_chars": 160,
+      "history_chars": 7858,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "NumericalAnalysis_Expert",
+        "ScientificPaperAnalysis_Expert"
+      ],
+      "sha256": "bc71249fe858296bd5d70e7c768649d84477965eeca3ebb618c78448eda35075",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_070",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/70.json",
+      "source_file": "70.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "14569e28-c88c-43e4-8c32-097d35b9a67d",
+      "question_chars": 332,
+      "history_chars": 4598,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "PythonDebugging_Expert",
+        "Validation_Expert"
+      ],
+      "sha256": "f45034ff75b89b55c3d63d2bd09a173a7c2ca098853f58d45d5612d2ba5228fb",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_071",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/71.json",
+      "source_file": "71.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "ecbc4f94-95a3-4cc7-b255-6741a458a625",
+      "question_chars": 76,
+      "history_chars": 6499,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "DataExtraction_Expert",
+        "DataVerification_Expert"
+      ],
+      "sha256": "bcf034ff61dad67d2166a0244f4953ede93e1b12c4e0a78bdbf639aa0f260b2c",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_072",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/72.json",
+      "source_file": "72.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "7619a514-5fa8-43ef-9143-83b66a43d7a4",
+      "question_chars": 133,
+      "history_chars": 7621,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "API_Expert",
+        "Computer_terminal"
+      ],
+      "sha256": "2bf52ed87565cc13c26ef07ef230ee470e2f406366e4ffefeafd2a7eaa4a052a",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_073",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/73.json",
+      "source_file": "73.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "4b6bb5f7-f634-410e-815d-e673ab7f8632",
+      "question_chars": 226,
+      "history_chars": 3573,
+      "steps": 7,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DoctorWhoScript_Expert",
+        "Validation_Expert",
+        "VideoAnalysis_Expert"
+      ],
+      "sha256": "8528dcb02812759a6bd79676beda81e487bcdc89113d29e76f275eda2aa136a5",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_074",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/74.json",
+      "source_file": "74.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "5188369a-3bbe-43d8-8b94-11558f909a08",
+      "question_chars": 84,
+      "history_chars": 4687,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "MerriamWebsterWordOfTheDay_Historian_Expert",
+        "Quotation_Specialist",
+        "Verification_Expert"
+      ],
+      "sha256": "1f9844f6710bcc1b2ecba4afb811540c29c2c4eb73dc005014b53ec04031d695",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_075",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/75.json",
+      "source_file": "75.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "0b260a57-3f3a-4405-9f29-6d7a1012dbfb",
+      "question_chars": 195,
+      "history_chars": 6727,
+      "steps": 7,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "Data_Collection_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "c6659779b88c2eeb6ca5de6cac1c16bfa6c9d289206a8fe2ef15fcd1ee013914",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_076",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/76.json",
+      "source_file": "76.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "a0c07678-e491-4bbc-8f0b-07405144218f",
+      "question_chars": 199,
+      "history_chars": 8307,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Baseball_Expert",
+        "Computer_terminal",
+        "SportsHistorian_Expert",
+        "Validation_Expert"
+      ],
+      "sha256": "46ec5a45051ed0fb931dad67347c08d0806e5dafd3b676502216a2768dcac785",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_077",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/77.json",
+      "source_file": "77.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "a1e91b78-d3d8-4675-bb8d-62741b4b68a6",
+      "question_chars": 132,
+      "history_chars": 8815,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "ResultVerification_Expert",
+        "VideoProcessing_Expert",
+        "YouTubeDownload_Expert"
+      ],
+      "sha256": "f03556b2099ae6c9aaaa0f066756438c9f6f462f9e6e08a1e63660d95919ef77",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_078",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/78.json",
+      "source_file": "78.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "65638e28-7f37-4fa7-b7b9-8c19bb609879",
+      "question_chars": 206,
+      "history_chars": 8912,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Literature_Expert",
+        "Neurology_Expert"
+      ],
+      "sha256": "add5e71e8163616b5d031fb88cc31549c5375ab64768ae1535ad0ebd0a9b141c",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_079",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/79.json",
+      "source_file": "79.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "e8cb5b03-41e0-4086-99e5-f6806cd97211",
+      "question_chars": 421,
+      "history_chars": 12874,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "MenuAnalysis_Expert",
+        "Verification_Expert",
+        "WaybackMachine_Expert"
+      ],
+      "sha256": "1b4b99da9193a81acf4a2ee1ec0e7af661a323c1365b95c73305b7f9e073a874",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_008",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/8.json",
+      "source_file": "8.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "65afbc8a-89ca-4ad5-8d62-355bb401f61d",
+      "question_chars": 419,
+      "history_chars": 14762,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "AlgorithmDesign_Expert",
+        "Computer_terminal",
+        "Excel_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "338fcb38860b57d4570a4a6baa20fffc4a2bd4cb2b03c888b0bbeb03434f9bea",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_080",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/80.json",
+      "source_file": "80.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "0bdb7c40-671d-4ad1-9ce3-986b159c0ddc",
+      "question_chars": 513,
+      "history_chars": 112210,
+      "steps": 8,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Environment_Expert",
+        "PythonDebugging_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "b10dc7612070219fbf438ea4092527df37f1a665379b5387fc3b9b93dea0ae59",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_081",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/81.json",
+      "source_file": "81.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "a56f1527-3abf-41d6-91f8-7296d6336c3f",
+      "question_chars": 191,
+      "history_chars": 3924,
+      "steps": 9,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataVerification_Expert",
+        "Fashion_Vogue_Expert",
+        "Geography_Expert"
+      ],
+      "sha256": "4c48ea31f10aa0c774c4a18dfb251d9af5f358ecbfbc5ae7a8c497ea9d2e500c",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_082",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/82.json",
+      "source_file": "82.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "e1fc63a2-da7a-432f-be78-7c4a95598703",
+      "question_chars": 395,
+      "history_chars": 6453,
+      "steps": 7,
+      "agent_key": "name",
+      "agents": [
+        "CelestialPhysics_Expert",
+        "Computer_terminal",
+        "Marathon_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "4c211cca84d8d349c622eb329b18861c0690d58bbfde455d9b7b5d6aea576f48",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_083",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/83.json",
+      "source_file": "83.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "48eb8242-1099-4c26-95d4-ef22b002457a",
+      "question_chars": 163,
+      "history_chars": 8638,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "DataVerification_Expert",
+        "StatisticalAnalysis_Expert"
+      ],
+      "sha256": "ace8b5e91381796754b23f26c73153d68fed5f3f6634bb853ba2b3da53fb7afc",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_084",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/84.json",
+      "source_file": "84.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+      "question_chars": 184,
+      "history_chars": 6520,
+      "steps": 9,
+      "agent_key": "name",
+      "agents": [
+        "ChessRules_Expert",
+        "Chess_Expert",
+        "Computer_terminal"
+      ],
+      "sha256": "fe7b56e4e241b51d6d4599b0562464f718cd6745974453de934fc58532755c0a",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_085",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/85.json",
+      "source_file": "85.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "624cbf11-6a41-4692-af9c-36b3e5ca3130",
+      "question_chars": 212,
+      "history_chars": 20959,
+      "steps": 9,
+      "agent_key": "name",
+      "agents": [
+        "BenAndJerrysFlavors_Expert",
+        "Computer_terminal",
+        "DataVerification_Expert",
+        "WebServing_Expert"
+      ],
+      "sha256": "9f371df83bf7fcdcdb38724bae0cc8e79f8ab72065dbfc9fda5e5ae82ad493d2",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_086",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/86.json",
+      "source_file": "86.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "72e110e7-464c-453c-a309-90a95aed6538",
+      "question_chars": 152,
+      "history_chars": 13476,
+      "steps": 7,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Library_Database_Expert",
+        "NaturalLanguageProcessing_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "8500ff8defb17a0a19197b402514c080a9fa49a9c6117c4dafe13961fd612d01",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_087",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/87.json",
+      "source_file": "87.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "f46b4380-207e-4434-820b-f32ce04ae2a4",
+      "question_chars": 302,
+      "history_chars": 7235,
+      "steps": 9,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataVerification_Expert",
+        "MusicHistorian_Expert",
+        "Music_Critic_Expert"
+      ],
+      "sha256": "4717b7e7f17865421011052e946e32485a2f6c25010abc16ae3c8bdfe0e99ec8",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_088",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/88.json",
+      "source_file": "88.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "08cae58d-4084-4616-b6dd-dd6534e4825b",
+      "question_chars": 120,
+      "history_chars": 9092,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "DataValidation_Expert",
+        "FinancialData_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "0f99b865eb8b2e485aa05becc01bc1470ff9680d673df3c895cd67d145765dd8",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_089",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/89.json",
+      "source_file": "89.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "3f57289b-8c60-48be-bd80-01f8099ca449",
+      "question_chars": 101,
+      "history_chars": 10020,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Baseball_Historian_Expert",
+        "Computer_terminal",
+        "DataAnalysis_Expert",
+        "Validation_Expert"
+      ],
+      "sha256": "51c74ef77a55008c39fc6576840a3f2d4d213a71694e516dac6dc33920d5d5a5",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_009",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/9.json",
+      "source_file": "9.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "e142056d-56ab-4352-b091-b56054bd1359",
+      "question_chars": 1005,
+      "history_chars": 7317,
+      "steps": 5,
+      "agent_key": "name",
+      "agents": [
+        "AlgorithmDesign_Expert",
+        "Computer_terminal",
+        "GameTheory_Expert",
+        "VerificationExpert"
+      ],
+      "sha256": "b708dd5ae2b49b6ae5c786e50a2984d85c9c1f188e8d3cbea3a559c961d27d81",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_090",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/90.json",
+      "source_file": "90.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "c8b7e059-c60d-472e-ad64-3b04ae1166dc",
+      "question_chars": 319,
+      "history_chars": 11481,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Art_Expert",
+        "Computer_terminal",
+        "Federico_Lauria_Expert"
+      ],
+      "sha256": "de93b7c835153f8653a47a87d254cfdaea93da72ae9cfe678a6c75b68bcd50ea",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_091",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/91.json",
+      "source_file": "91.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "32102e3e-d12a-4209-9163-7b3a104efe5d",
+      "question_chars": 221,
+      "history_chars": 9675,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Blu-Ray_Expert",
+        "Computer_terminal",
+        "Data_Analysis_Expert"
+      ],
+      "sha256": "24e8fb0d6b17dbba9fad464ae8e356fba736446aad55cadf702fefbf48ec065c",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_092",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/92.json",
+      "source_file": "92.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "27d5d136-8563-469e-92bf-fd103c28b57c",
+      "question_chars": 226,
+      "history_chars": 6354,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "PythonDebugging_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "7a8b37e735e9ab7a83595a31c026b585cd1ef4f0d59141b78ac46a9f1e50b116",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_093",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/93.json",
+      "source_file": "93.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "08c0b6e9-1b43-4c2e-ae55-4e3fce2c2715",
+      "question_chars": 226,
+      "history_chars": 2959,
+      "steps": 6,
+      "agent_key": "name",
+      "agents": [
+        "FilmCritic_Expert",
+        "JamesBondFilms_Expert",
+        "MovieProp_Expert"
+      ],
+      "sha256": "ae423382bf9684839ada0244b3633f8110af83bc7f87ad33c012b7451c1fa10e",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_094",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/94.json",
+      "source_file": "94.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "0383a3ee-47a7-41a4-b493-519bdefe0488",
+      "question_chars": 102,
+      "history_chars": 9120,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "AnimalBehavior_Expert",
+        "BirdSpeciesIdentification_Expert",
+        "Computer_terminal",
+        "Ornithology_Expert"
+      ],
+      "sha256": "2e0f50030a3a465e84240111a68fa989bfec79e3bb6310b089ff29bf3aa27fbe",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_095",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/95.json",
+      "source_file": "95.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb",
+      "question_chars": 200,
+      "history_chars": 19436,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "AcademicPublication_Expert",
+        "Computer_terminal",
+        "PublicationAnalysis_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "e8a06bd11739f5a0d2ff5eedd6e734b63db171523e901850631bbda17e05e2a0",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_096",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/96.json",
+      "source_file": "96.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "a26649c6-1cb2-470a-871e-6910c64c3e53",
+      "question_chars": 335,
+      "history_chars": 8064,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Data_Retrieval_Expert",
+        "PopulationData_Expert"
+      ],
+      "sha256": "a7e79953bd1c648741bb780018f04d7cc3e49efca357b2ddf1170f8059a0f416",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "algorithm_097",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/97.json",
+      "source_file": "97.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "4fc2f1ae-8625-45b5-ab34-ad4433bc21f8",
+      "question_chars": 113,
+      "history_chars": 6325,
+      "steps": 10,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "WikipediaHistory_Expert",
+        "Wikipedia_Editor_Expert"
+      ],
+      "sha256": "0347ab1de147a4c6efba395dcc00b0de6ec52306a7628827a37e87a44f754d5e",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "algorithm_098",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/98.json",
+      "source_file": "98.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "ec09fa32-d03f-4bf8-84b0-1f16922c3ae4",
+      "question_chars": 2062,
+      "history_chars": 10637,
+      "steps": 7,
+      "agent_key": "name",
+      "agents": [
+        "Computer_terminal",
+        "Probability_Expert",
+        "TheoreticalChemistry_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "9da310439b4cba8028b443443224b06961047599d427eb926f7f4fc1e295f66c",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "algorithm_099",
+      "source_path": "data/upstream/Who&When/Algorithm-Generated/99.json",
+      "source_file": "99.json",
+      "stratum": "Algorithm-Generated",
+      "question_id": "99da66d8af02491f98b98c56b26c709e773b5a2ad945fb280375951ba600de09",
+      "question_chars": 211,
+      "history_chars": 7695,
+      "steps": 7,
+      "agent_key": "name",
+      "agents": [
+        "AnalyticalReasoning_Expert",
+        "Computer_terminal",
+        "Ticket_Pricing_Expert",
+        "Verification_Expert"
+      ],
+      "sha256": "b44459a5a6f00a3224b62601d58f77bf718ead5fea796af13d5b8d10ebac9208",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_001",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/1.json",
+      "source_file": "1.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "6e3be83d1949fa52cba03fb1ce4b5b3bf7e37a83fd7d67694b10b2e439d90cf8",
+      "question_chars": 117,
+      "history_chars": 29219,
+      "steps": 29,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "d60c09368991cb7b978a26a4862664389bc937070bd6e0f6c3f7055ed6aac9e4",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_010",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/10.json",
+      "source_file": "10.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "8ad84bd6fe38481ba49e7ad1f6fbd43219a999074e5c6fc940003281f55ec65b",
+      "question_chars": 100,
+      "history_chars": 55037,
+      "steps": 44,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "825097c60bd79d3f03c1b199e673fb955cf1c0a21d09243b44932226635f48ce",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_011",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/11.json",
+      "source_file": "11.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "624cbf11-6a41-4692-af9c-36b3e5ca3130",
+      "question_chars": 212,
+      "history_chars": 107319,
+      "steps": 130,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "06e7bd2e4d01fd13e0104dc29a6868b8c9416bd24ccf185f8bc88d5895c2afe3",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_012",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/12.json",
+      "source_file": "12.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "2dfc4c37-fec1-4518-84a7-10095d30ad75",
+      "question_chars": 225,
+      "history_chars": 18887,
+      "steps": 20,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "7f0d07c119a130dbf2205511c3a9d8dd21ce5bf116d3141c0fb114adb46e587e",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_013",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/13.json",
+      "source_file": "13.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "9baaa267c95f9d8b75741ee9169c50563d297cfa592c20deaffd30dbc5984c74",
+      "question_chars": 188,
+      "history_chars": 51926,
+      "steps": 53,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "4e037e79ff876b0437618e4f352d802c940613d3ef4776a7971bbfa49f3fb4be",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_014",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/14.json",
+      "source_file": "14.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "8d46b8d6-b38a-47ff-ac74-cda14cf2d19b",
+      "question_chars": 266,
+      "history_chars": 60959,
+      "steps": 32,
+      "agent_key": "role",
+      "agents": [
+        "ComputerTerminal",
+        "FileSurfer",
+        "Orchestrator (-> ComputerTerminal)",
+        "Orchestrator (-> FileSurfer)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "00ed54755bc14caacfbe95ce268952fd64890defd77cf423c1c3bb64a589240d",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_015",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/15.json",
+      "source_file": "15.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "efc0f3a47e9ed2ecdbcc037c2093865fe6e39f4d413a5d1ccdc7357160a4606b",
+      "question_chars": 154,
+      "history_chars": 143658,
+      "steps": 129,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "a26e1e77b3315335ed37e6ad63d5313ddabb35424d40c7aab2517c668ee16f4c",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_016",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/16.json",
+      "source_file": "16.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "52f7224e9c79431e7926afe317782711a0028750693e7456cde22ef6f4bd8bd5",
+      "question_chars": 171,
+      "history_chars": 30720,
+      "steps": 21,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "97974208fbd774ad3ad20ddba7c9aa1932ec32e8649022f8695c59ecb9b662b6",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_017",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/17.json",
+      "source_file": "17.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "ccec2229ced20a4b0cb4897e3a99120a3017ea030903e01c9bda6b13d40b0b14",
+      "question_chars": 100,
+      "history_chars": 46987,
+      "steps": 37,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "639f2790cf86f095d28ae42d4c39c4961befcb97169ef6ff7e546438dba14fc4",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_018",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/18.json",
+      "source_file": "18.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "57d9dc6935e8a40b02e7f8ec81768fe70e68a0c05f6866927c9fda38db38a486",
+      "question_chars": 194,
+      "history_chars": 38975,
+      "steps": 31,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "460d53aeb0596e73d1ba37fe6ac25761a95a60ce6c15a9b8457ffbab3331026e",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_019",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/19.json",
+      "source_file": "19.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "6f224e7730ed027cbac73aebb1aea7f954053082041b02b19f4ff126a0a8a208",
+      "question_chars": 100,
+      "history_chars": 87223,
+      "steps": 69,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "2a785cd7663421773713f8604eb624addc39a8df373978c5eec129c54aae7931",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_002",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/2.json",
+      "source_file": "2.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "55f4258484c5b398956133128a50462a767da211f8f72aa5ac5bbffb9bcbba1a",
+      "question_chars": 161,
+      "history_chars": 90281,
+      "steps": 86,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "d883c9f5e437b2881e8658c4411a2cec220a456c09c74b8b3630ec4172b7f043",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_020",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/20.json",
+      "source_file": "20.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "5f982798-16b9-4051-ab57-cfc7ebdb2a91",
+      "question_chars": 440,
+      "history_chars": 124490,
+      "steps": 67,
+      "agent_key": "role",
+      "agents": [
+        "FileSurfer",
+        "Orchestrator (-> FileSurfer)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "94f2c1a061959280d67abdce4b9d7020a41a1faacee671059295ae0cc42bcb59",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_021",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/21.json",
+      "source_file": "21.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "840bfca7-4f7b-481a-8794-c560c340185d",
+      "question_chars": 301,
+      "history_chars": 31296,
+      "steps": 25,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "0215ea92ce246cd4cbb214ada17a460b75f50ad62aaae4cb0248f4298f831b4a",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_022",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/22.json",
+      "source_file": "22.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "b816bfce-3d80-4913-a07d-69b752ce6377",
+      "question_chars": 207,
+      "history_chars": 26447,
+      "steps": 24,
+      "agent_key": "role",
+      "agents": [
+        "FileSurfer",
+        "Orchestrator (-> FileSurfer)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "e1b38ddebe8bac863d6800ba6215a9c38e60ef0d65ba8c3f2ec87e95edefe645",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_023",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/23.json",
+      "source_file": "23.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "9bdca8677af1e25cb7b0c7992dc62670c3e58e4afcd5ae60bcaa2483556bba00",
+      "question_chars": 185,
+      "history_chars": 76967,
+      "steps": 74,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "d0dce64eae80ae4ec7d9203782e4337ec25fdafda1b698312a8438c46ef3d298",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_024",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/24.json",
+      "source_file": "24.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "42576abe-0deb-4869-8c63-225c2d75a95a",
+      "question_chars": 214,
+      "history_chars": 6221,
+      "steps": 5,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "human"
+      ],
+      "sha256": "8494adff457a618aa8b8c3476beddf03b655d93d9a45952e0d9a284a70a8018d",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_025",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/25.json",
+      "source_file": "25.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "42d4198c-5895-4f0a-b0c0-424a66465d83",
+      "question_chars": 335,
+      "history_chars": 25821,
+      "steps": 20,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "6552252eb5b7eb38a25cf01f7a4501d3f961b7ae64a6ce084b278c0453ba2309",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_026",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/26.json",
+      "source_file": "26.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "114d5fd0-e2ae-4b6d-a65a-870da2d19c08",
+      "question_chars": 199,
+      "history_chars": 27407,
+      "steps": 33,
+      "agent_key": "role",
+      "agents": [
+        "FileSurfer",
+        "Orchestrator (-> FileSurfer)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "aad3b1ad33d7b668b80820676e164ca6b7bef2f0bf87061b342a529d1c9905ec",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_027",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/27.json",
+      "source_file": "27.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "5d0080cb-90d7-4712-bc33-848150e917d3",
+      "question_chars": 160,
+      "history_chars": 59210,
+      "steps": 51,
+      "agent_key": "role",
+      "agents": [
+        "FileSurfer",
+        "Orchestrator (-> FileSurfer)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "a61e58ee9d23006157d74df7cea7b1ed4b8d0a79d81bbfae5521e4c620873054",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_028",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/28.json",
+      "source_file": "28.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "557e78eceec08ca8b0da5f9fdaca6e1c7ec6140a8ce600983ee716327dab005e",
+      "question_chars": 85,
+      "history_chars": 34996,
+      "steps": 32,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "128fb336ae1f34c82b1074f485a69a2da81d4b382145877509e43c72f9d240b1",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_029",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/29.json",
+      "source_file": "29.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "73c1b9fe-ee1d-4cf4-96ca-35c08f97b054",
+      "question_chars": 111,
+      "history_chars": 20420,
+      "steps": 13,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "9ffab9392ae1f74d69f24a7d51b89a44a90a7be956c074ee85b5881773279255",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_003",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/3.json",
+      "source_file": "3.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "0a65cb96-cb6e-4a6a-8aae-c1084f613456",
+      "question_chars": 361,
+      "history_chars": 106257,
+      "steps": 93,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "570037205ae58858f8a547743cb0241351ea6cfb1e0f0fb64a09bb4ff04478be",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_030",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/30.json",
+      "source_file": "30.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "2ddae3b7a208e3c25f14d82d7a1faaaa1832fbf950b4dac345e755c4c361f294",
+      "question_chars": 85,
+      "history_chars": 305187,
+      "steps": 121,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "FileSurfer",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> FileSurfer)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "aba1b33b9ef04f63865898de7355219a10e0a7bb58c444ba76b3949e6862b770",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_031",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/31.json",
+      "source_file": "31.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "0ec4371851b96837b0a81b3dd3df401415061bb532fbafeb4609f3337c358508",
+      "question_chars": 113,
+      "history_chars": 29580,
+      "steps": 32,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "0141a9984487dd1e4f06d5a55161011355b3582e3a7c82c4d7e224be9ca06894",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_032",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/32.json",
+      "source_file": "32.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "929b45f34805280d77c61d1e093e3d4e551d77ddb6ecd73552b12b1af286388d",
+      "question_chars": 148,
+      "history_chars": 13937,
+      "steps": 12,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "a9153a356ef18a6bec30c25d233bd25c57c32c4f4cb3602b7dc6399ee8afc88c",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_033",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/33.json",
+      "source_file": "33.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "72e110e7-464c-453c-a309-90a95aed6538",
+      "question_chars": 152,
+      "history_chars": 15029,
+      "steps": 9,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "27519a4febb06c0fd7969da7ea4255f45edcac524d0627bafc1fb03ed085baf3",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_034",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/34.json",
+      "source_file": "34.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "56137764-b4e0-45b8-9c52-1866420c3df5",
+      "question_chars": 204,
+      "history_chars": 13215,
+      "steps": 5,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "34a2c21deefb96fa19f8ef53993796c97a016bb2b1e79e3a948bb9069875a408",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_035",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/35.json",
+      "source_file": "35.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "4dbedc5e1a0205e14b7ff3ba89bce3060dab15d0ada3b7e1351a6f2aa8287aec",
+      "question_chars": 215,
+      "history_chars": 47865,
+      "steps": 44,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "64df52e6485203f96e7d871ba8a1339ddd6aef201cf91668a6297de86f87a7ea",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_036",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/36.json",
+      "source_file": "36.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "c7afe00869f98cf363fd83677ac41757ed5e57f03eacc3d1304feb0a92084bd1",
+      "question_chars": 128,
+      "history_chars": 122244,
+      "steps": 91,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "880ec8d9307665e519117a1425ff6c7561ee5e7a44c002856008053d982de3a4",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_037",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/37.json",
+      "source_file": "37.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "8b3379c0-0981-4f5b-8407-6444610cb212",
+      "question_chars": 185,
+      "history_chars": 61074,
+      "steps": 59,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "5f0c3f6a2bedb77a9ebc19094840fa642f3d09ba4ef9c89d686b6ccbb3de10a3",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_038",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/38.json",
+      "source_file": "38.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "a9074997e698f912b9e751779ea19c1e92fa148404e90e0ae997acea3f9559b0",
+      "question_chars": 187,
+      "history_chars": 96048,
+      "steps": 52,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "6f5fad7d2d851e3e1035cc27974fddc213e8f6c944872f8c2a36cbd1bb490908",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_039",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/39.json",
+      "source_file": "39.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "291b53e665b4dd4365cde995042db4a6f6fecef3fe3a6f4482f23d61bd673918",
+      "question_chars": 95,
+      "history_chars": 54752,
+      "steps": 49,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "8c2dff2775197f38a7f03c7db49240ba89ae7acf61bc2f5c90544cadfed3981e",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_004",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/4.json",
+      "source_file": "4.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "f88066d274e265edd6cd9d61cd80a41accb3a14baf2297652fdd05cdf716d455",
+      "question_chars": 251,
+      "history_chars": 22184,
+      "steps": 17,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "034fbe1e3c3834734698ea0adcab148dacaadb0582e2cda47acb33ad119d6e61",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_040",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/40.json",
+      "source_file": "40.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "6b06d186921b8b390c65aebd0d16f09f60a47d2f1288ebe36953f734e84c0a3c",
+      "question_chars": 183,
+      "history_chars": 28022,
+      "steps": 17,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "b79692d54dc692611d74981d1f54983c983869394d2bb64a0abdc0ff0a184037",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_041",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/41.json",
+      "source_file": "41.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "ebbc1f13-d24d-40df-9068-adcf735b4240",
+      "question_chars": 270,
+      "history_chars": 96152,
+      "steps": 83,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "deacd483b7d1cacf9ac923968ccd1d4fe0fbaafb92dbb06b0cf1d74fbaecd814",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_042",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/42.json",
+      "source_file": "42.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "7673d772-ef80-4f0f-a602-1bf4485c9b43",
+      "question_chars": 246,
+      "history_chars": 42436,
+      "steps": 32,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "936f28a098174632414f9f5c058292943da6091119fb7223b02b50a31cbc5db1",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_043",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/43.json",
+      "source_file": "43.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "db4fd70a-2d37-40ea-873f-9433dc5e301f",
+      "question_chars": 124,
+      "history_chars": 15618,
+      "steps": 16,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "d887b9ef622a3e4e23aa0647cdd837808b91d367ee505f9e25240c82af922f0e",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_044",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/44.json",
+      "source_file": "44.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "748899d9d70c09beb3bd48ac8a3658bdcfd2f9114fe6dc4c4b8d2f9541ef4607",
+      "question_chars": 222,
+      "history_chars": 117057,
+      "steps": 124,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "994bd5895498d4b7828eb3fa1e72f767ae9f883a7013748b324865fe976805f1",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_045",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/45.json",
+      "source_file": "45.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "a3fbeb63-0e8c-4a11-bff6-0e3b484c3e9c",
+      "question_chars": 68,
+      "history_chars": 23022,
+      "steps": 21,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "387f925ec0636a7f6cc34f00529eb583b060d32491af683302a27c328d76b9a1",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_046",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/46.json",
+      "source_file": "46.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "16d825ff-1623-4176-a5b5-42e0f5c2b0ac",
+      "question_chars": 240,
+      "history_chars": 153622,
+      "steps": 130,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "bc25e21a35b6dac589058a86dd37a357e91cd4a058af697a91c967766d6b743f",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_047",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/47.json",
+      "source_file": "47.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "0a3cd321-3e76-4622-911b-0fda2e5d6b1a",
+      "question_chars": 263,
+      "history_chars": 43480,
+      "steps": 67,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "ComputerTerminal",
+        "FileSurfer",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> ComputerTerminal)",
+        "Orchestrator (-> FileSurfer)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "30876df7b41fd99a08b391ccb51f862900e5f850bbf04de342c317725fc6a642",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_048",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/48.json",
+      "source_file": "48.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "2aa5dd83fbcd0dce9a3dd4592106e5b5edf738008d932e357d477bba80e59ccf",
+      "question_chars": 197,
+      "history_chars": 11977,
+      "steps": 5,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "65332c6b4028c12802876ffd8293dfdc16d1d2545461810bb8de77ef9de8ba82",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_049",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/49.json",
+      "source_file": "49.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "14569e28-c88c-43e4-8c32-097d35b9a67d",
+      "question_chars": 292,
+      "history_chars": 41692,
+      "steps": 16,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "8878e9e858768f165b7826f689386acc618b7ba408155988d1237c622b99536a",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_005",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/5.json",
+      "source_file": "5.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "ed58682d-bc52-4baa-9eb0-4eb81e1edacc",
+      "question_chars": 109,
+      "history_chars": 18189,
+      "steps": 20,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "afbf3e01b97d3e896ba77eef7de2b6304aabb257e516eb97880e15d4686ae809",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_050",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/50.json",
+      "source_file": "50.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "797f7a5b65ca28b7e7156e7db1e9f117bd4a021de0cd512bfdbb0be897d89eab",
+      "question_chars": 111,
+      "history_chars": 124621,
+      "steps": 113,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "e7c89181a522039458217e67598de413e1d197ea166170756ee52ac85d79e993",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_051",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/51.json",
+      "source_file": "51.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "1f975693-876d-457b-a649-393859e79bf3",
+      "question_chars": 284,
+      "history_chars": 161754,
+      "steps": 123,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "FileSurfer",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> FileSurfer)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "4f4e5bab479205794992fb1d8f0db9e82535deb6ba496d91d07659f77aca8e39",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_052",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/52.json",
+      "source_file": "52.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "b36ef2d8f2643b80e74a44ce3403f674ecb2aed7fd36afeaa289061a59feef92",
+      "question_chars": 77,
+      "history_chars": 24379,
+      "steps": 21,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "d514e4a0f086a25f836e28145300da3cc6849d456cf40c9f04a1527b9ecc89a9",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_053",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/53.json",
+      "source_file": "53.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "72c06643-a2fa-4186-aa5c-9ec33ae9b445",
+      "question_chars": 269,
+      "history_chars": 27520,
+      "steps": 28,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "a5aaa884aec4818ee1ceaf0ea4bb68361bf86712fef873fc36a8ffbd6e9a077b",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_054",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/54.json",
+      "source_file": "54.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "a0c07678-e491-4bbc-8f0b-07405144218f",
+      "question_chars": 199,
+      "history_chars": 16526,
+      "steps": 19,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "f017c2cc262813ab73c55aaac8fb563e878e4cc94d8e1a7c7531b2247afaa285",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_055",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/55.json",
+      "source_file": "55.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "cca4776df3c73e7f9430a2e624aafad056b14322a0b7ca6c0c22b7e7f3f0890a",
+      "question_chars": 120,
+      "history_chars": 41115,
+      "steps": 40,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "53ae007241a3b14249d5cfff27544bc65f5e6ffcef376e06e84f7680532265d1",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_056",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/56.json",
+      "source_file": "56.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "08cae58d-4084-4616-b6dd-dd6534e4825b",
+      "question_chars": 120,
+      "history_chars": 168851,
+      "steps": 129,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "4049172b51110740daafedf27bda50b536115ad419e5431cd59a3c4b6e58e33b",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_057",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/57.json",
+      "source_file": "57.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "3af8028c2a59e28ca88baff0e6d91f2a9f170c5ef91003f1c8406755a2760ad4",
+      "question_chars": 259,
+      "history_chars": 18868,
+      "steps": 17,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "e192ded3dc999a79dbd2378728216abd928068697c1aa953cc1cfcc8af428f50",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_058",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/58.json",
+      "source_file": "58.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "7619a514-5fa8-43ef-9143-83b66a43d7a4",
+      "question_chars": 133,
+      "history_chars": 136522,
+      "steps": 106,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "ComputerTerminal",
+        "FileSurfer",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> ComputerTerminal)",
+        "Orchestrator (-> FileSurfer)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "dc58c657acf137c365c9979fa64d3a3acfbde1140b6757591453a684aced2399",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_006",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/6.json",
+      "source_file": "6.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "e6bc98089608217e45b6956a46518fe3cce64a799b3ac43c6974c449ae14c408",
+      "question_chars": 99,
+      "history_chars": 9192,
+      "steps": 8,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "327bd6287d08a61ac20f499c742d2e783d2703ba116f1028e72f499bbbd5edf0",
+      "length_tertile": "short"
+    },
+    {
+      "case_id": "handcrafted_007",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/7.json",
+      "source_file": "7.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "a1e91b78-d3d8-4675-bb8d-62741b4b68a6",
+      "question_chars": 132,
+      "history_chars": 34985,
+      "steps": 25,
+      "agent_key": "role",
+      "agents": [
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "3ad2e731a8c8ed54629766a24b2449d7b830ca89c89caa3064000edb480b1984",
+      "length_tertile": "medium"
+    },
+    {
+      "case_id": "handcrafted_008",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/8.json",
+      "source_file": "8.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "9e31099fffa6a3891c94934fd4fc2f3f522d51c1904ff3561f3a10e4bf245821",
+      "question_chars": 103,
+      "history_chars": 165292,
+      "steps": 129,
+      "agent_key": "role",
+      "agents": [
+        "FileSurfer",
+        "Orchestrator (-> FileSurfer)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "1e48986de7b15cb6b648c0a99e17aeabb0e0cc17bc02f2a1543dd7b1987dcc61",
+      "length_tertile": "long"
+    },
+    {
+      "case_id": "handcrafted_009",
+      "source_path": "data/upstream/Who&When/Hand-Crafted/9.json",
+      "source_file": "9.json",
+      "stratum": "Hand-Crafted",
+      "question_id": "e2d69698-bc99-4e85-9880-67eaccd66e6c",
+      "question_chars": 103,
+      "history_chars": 109458,
+      "steps": 95,
+      "agent_key": "role",
+      "agents": [
+        "Assistant",
+        "Orchestrator (-> Assistant)",
+        "Orchestrator (-> WebSurfer)",
+        "Orchestrator (termination condition)",
+        "Orchestrator (thought)",
+        "WebSurfer",
+        "human"
+      ],
+      "sha256": "81905595b412e1e12b869c3cf45c3f65b9b92372dff7655a4c751f39025ff352",
+      "length_tertile": "long"
+    }
+  ]
+}
