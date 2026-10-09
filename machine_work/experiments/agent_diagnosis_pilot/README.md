@@ -4,10 +4,10 @@
 
 ## 运行
 
-在本目录执行，使用 Python 3 标准库，无需安装上游仓库依赖。真实模型调用使用本机已有 Codex 登录，不需要新增 API key。
+从仓库根目录进入本实验目录后执行，使用 Python 3 标准库，无需安装上游仓库依赖。真实模型调用使用本机已有 Codex 登录，不需要新增 API key。
 
 ```bash
-cd experiments/agent_diagnosis_pilot
+cd machine_work/experiments/agent_diagnosis_pilot
 python3 -m unittest discover -s tests -v
 python3 run_pilot.py
 python3 run_pilot.py --run --workers 3 --timeout 600
@@ -72,3 +72,7 @@ python3 score_results.py
 私有上下文调试快照与三次玩具探针目录未发布；`results/runtime_audit.json` 保留探针用量和审计摘要。正式运行的事件流与 stderr 保留，其中每次的两条提示分别是实验功能提醒和代码工具关闭提醒；无实际工具调用或未预期错误。
 
 跨目录同步清单及原文件校验值见 `PUBLICATION_MANIFEST.json`。
+
+## 人工与机器复核的区分
+
+本实验归档位于机器工作目录。`results/case_audit.md` 由 Codex 生成，其中“人工审查”的旧表述不能作为真人已审的依据；本项目的真人审计记录应另存于仓库根目录 `human_audit/`。目录迁移未改动冻结代码、数据、计划、原始预测及指标。

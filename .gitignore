@@ -12,7 +12,7 @@ auth.json
 .codex/
 .agents/
 .aws/
-experiments/**/results/context_audit/
-experiments/**/results/runtime_probe/
-experiments/**/results/runtime_probe_v2/
-experiments/**/results/runtime_probe_final/
+machine_work/experiments/**/results/context_audit/
+machine_work/experiments/**/results/runtime_probe/
+machine_work/experiments/**/results/runtime_probe_v2/
+machine_work/experiments/**/results/runtime_probe_final/
