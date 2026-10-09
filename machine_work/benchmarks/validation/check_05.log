@@ -1,0 +1,42 @@
+Products loaded.
+Keys cleaned.
+Attributes loaded.
+0 skipped
+Loaded 13 goals.
+Products loaded.
+Keys cleaned.
+Attributes loaded.
+0 skipped
+Loaded 13 goals.
+Products loaded.
+Keys cleaned.
+Attributes loaded.
+0 skipped
+Loaded 13 goals.
+Products loaded.
+Keys cleaned.
+Attributes loaded.
+0 skipped
+Loaded 13 goals.
+webshop ACCEPTANCE PASS tasks 2 successes 1 mean reward 0.8333333333333333
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/lib/python3.11/site-packages/spacy/cli/_util.py:23: DeprecationWarning: Importing 'parser.split_arg_string' is deprecated, it will only be available in 'shell_completion' in Click 9.0.
+  from click.parser import split_arg_string
+
+  0%|          | 0/1000 [00:00<?, ?it/s]
+100%|██████████| 1000/1000 [00:00<00:00, 210663.18it/s]
+/Users/will/project/agent_observability_self_evolving/.benchmark_cache/webshop/web_agent_site/envs/web_agent_text_env.py:212: DeprecationWarning: Call to deprecated method findAll. (Replaced by find_all) -- Deprecated since version 4.0.0.
+  texts = self._parse_html(html).findAll(text=True)
+/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/lib/python3.11/site-packages/bs4/_deprecation.py:61: DeprecationWarning: The 'text' argument to find()-type methods is deprecated. Use 'string' instead.
+  return getattr(self, new_name)(*args, **kwargs)
+
+  0%|          | 0/1000 [00:00<?, ?it/s]
+100%|██████████| 1000/1000 [00:00<00:00, 381682.05it/s]
+
+  0%|          | 0/1000 [00:00<?, ?it/s]
+100%|██████████| 1000/1000 [00:00<00:00, 411690.62it/s]
+
+  0%|          | 0/1000 [00:00<?, ?it/s]
+100%|██████████| 1000/1000 [00:00<00:00, 421199.44it/s]

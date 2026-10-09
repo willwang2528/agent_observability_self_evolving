@@ -1,0 +1,37 @@
+{
+  "source": "official WebShop get_reward(verbose=True), derived by offline replay only",
+  "purchased_asin": "B003I567W4",
+  "purchased_options": {
+    "flavor name": "pecan",
+    "size": "4.25 ounce (pack of 12)"
+  },
+  "goal": {
+    "asin": "B003I567W4",
+    "category": "grocery",
+    "query": "pantry staples",
+    "name": "Blue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12)",
+    "product_category": "Grocery & Gourmet Food › Snacks & Sweets › Snack Foods › Crackers › Flatbread",
+    "instruction_text": "place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars",
+    "attributes": [
+      "gluten free"
+    ],
+    "price_upper": 70.0,
+    "goal_options": [
+      "pecan"
+    ],
+    "weight": 1
+  },
+  "official_breakdown": {
+    "r_type": 1.0,
+    "r_att": 1.0,
+    "w_att": 0.3333333333333333,
+    "query_match": true,
+    "category_match": true,
+    "title_score": 1.0,
+    "r_option": 1.0,
+    "w_option": 0.3333333333333333,
+    "r_price": true,
+    "w_price": 0.3333333333333333
+  },
+  "reward": 1.0
+}

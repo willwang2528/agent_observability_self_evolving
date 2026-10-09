@@ -20,6 +20,10 @@ Codex 生成的文档、自动测试和机器语义复核存放于 [machine_work
 
 ## 当前优先审计对象
 
-1. [完整 pilot 报告](../machine_work/experiments/agent_diagnosis_pilot/REPORT.md)：核验实验设置及结论边界。
-2. [机器个案复核](../machine_work/experiments/agent_diagnosis_pilot/results/case_audit.md)：优先检查 `handcrafted_012`、`handcrafted_031`、`algorithm_106` 和 `handcrafted_021`。
-3. [逐次评分](../machine_work/experiments/agent_diagnosis_pilot/results/raw_rows.csv) 与 [原始标签](../machine_work/experiments/agent_diagnosis_pilot/data/gold.json)：逐条核对需要关注的样本。
+1. [完整 pilot 报告](../machine_work/benchmarks/who_when/pilot_20261009/REPORT.md)：核验实验设置及结论边界。
+2. [机器个案复核](../machine_work/benchmarks/who_when/pilot_20261009/results/case_audit.md)：优先检查 `handcrafted_012`、`handcrafted_031`、`algorithm_106` 和 `handcrafted_021`。
+3. [逐次评分](../machine_work/benchmarks/who_when/pilot_20261009/results/raw_rows.csv) 与 [原始标签](../machine_work/benchmarks/who_when/pilot_20261009/data/gold.json)：逐条核对需要关注的样本。
+
+## 按 benchmark 审计
+
+每套 benchmark 有独立入口，均为待真人填写状态：[Who&When](benchmarks/who_when/README.md)、[ALFWorld](benchmarks/alfworld/README.md)、[WebShop](benchmarks/webshop/README.md)、[τ-bench](benchmarks/tau_bench/README.md)。机器验收记录与原始输出见各入口所链接的 `machine_work/benchmarks/`。

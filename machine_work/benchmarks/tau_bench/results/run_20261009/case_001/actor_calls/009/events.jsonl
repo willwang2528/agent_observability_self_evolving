@@ -1,0 +1,6 @@
+{"type":"thread.started","thread_id":"01a12075-2908-7d31-9835-b14a886e740e"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"agent_message","text":"{\"action\":\"respond\",\"arguments\":\"{\\\"content\\\":\\\"The product details list Google Assistant compatibility but do not explicitly confirm Google Home support, so I can’t verify that from the available information. No exchange has been submitted.\\\"}\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":11983,"cached_input_tokens":3456,"cache_write_input_tokens":0,"output_tokens":601,"reasoning_output_tokens":544}}

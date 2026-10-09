@@ -1,6 +1,10 @@
 # Preserve the frozen experiment bytes on every checkout platform.
-machine_work/experiments/agent_diagnosis_pilot/** -text
+machine_work/benchmarks/who_when/pilot_20261009/** -text
 # Upstream records and model inputs retain their original whitespace.
-machine_work/experiments/agent_diagnosis_pilot/data/upstream/** whitespace=-blank-at-eol,-blank-at-eof
-machine_work/experiments/agent_diagnosis_pilot/results/runs/**/prompt.txt whitespace=-blank-at-eol,-blank-at-eof
-machine_work/experiments/agent_diagnosis_pilot/results/raw_rows.csv whitespace=cr-at-eol
+machine_work/benchmarks/who_when/pilot_20261009/data/upstream/** whitespace=-blank-at-eol,-blank-at-eof
+machine_work/benchmarks/who_when/pilot_20261009/results/runs/**/prompt.txt whitespace=-blank-at-eol,-blank-at-eof
+machine_work/benchmarks/who_when/pilot_20261009/results/raw_rows.csv whitespace=cr-at-eol
+
+# Preserve native execution evidence verbatim.
+machine_work/benchmarks/**/results/** -text
+machine_work/benchmarks/**/*.log -text whitespace=-blank-at-eol,-blank-at-eof

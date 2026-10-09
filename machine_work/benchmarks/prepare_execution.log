@@ -1,0 +1,18 @@
+Using Python 3.11.15 environment at: .benchmark_cache/venv
+Resolved 145 packages in 1.95s
+Checked 145 packages in 2ms
+Using Python 3.11.15 environment at: .benchmark_cache/venv
+Resolved 1 package in 253ms
+   Building alfworld @ file:///Users/will/project/agent_observability_self_evolving/.benchmark_cache/alfworld
+      Built alfworld @ file:///Users/will/project/agent_observability_self_evolving/.benchmark_cache/alfworld
+Prepared 1 package in 107ms
+Uninstalled 1 package in 1ms
+Installed 1 package in 2ms
+ ~ alfworld==0.5.0 (from file:///Users/will/project/agent_observability_self_evolving/.benchmark_cache/alfworld)
+Products loaded.
+Keys cleaned.
+Attributes loaded.
+  0%|          | 0/1000 [00:00<?, ?it/s]100%|██████████| 1000/1000 [00:00<00:00, 270199.32it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s]100%|██████████| 1000/1000 [00:00<00:00, 14946.77it/s]
+WebShop Lucene docs: 1000
+Pinned environments prepared. This command makes no model calls.

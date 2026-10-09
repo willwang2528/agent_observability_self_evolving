@@ -1,68 +1,60 @@
 # Agent Observability & Self-Evolving Agents
 
-研究方向：处理 Agent 执行轨迹与可观测数据，诊断失败原因，再通过诊断驱动持久改进，并在未见任务上验证收益。
+研究链路：**执行轨迹与可观测数据处理 → 失败诊断 → 诊断驱动改进 → 在未见任务上验证收益**。
 
-当前已完成一轮公开数据集上的诊断 pilot。实验链路已跑通，下一步重点是有限预算内的诊断证据链保留；自进化效果尚未验证。
+当前完成四套 benchmark 的小样本链路验收：新增 ALFWorld、WebShop、历史原版 τ-bench，保留 Who&When 诊断 pilot。**这不是全量 benchmark 成绩，也尚未证明自进化有效。** [最终验收记录](machine_work/benchmarks/ACCEPTANCE.json) · [选择依据与一手论文](machine_work/benchmarks/SELECTION.md) · [运行报告](machine_work/benchmarks/REPORT.md)
+
+| Benchmark | 本轮范围 | 实际结果 | 验收 |
+|---|---|---|---|
+| [Who&When](machine_work/benchmarks/who_when/README.md) | 12 独立任务、2 条件、24 次既有诊断调用 | 联合命中：完整 4/12，首尾预算 3/12 | 原始事件、406 个冻结文件和全部评分复核通过 |
+| [ALFWorld](machine_work/benchmarks/alfworld/README.md) | valid_unseen 固定抽 2 个游戏 | 官方成功 2/2，17 个模型动作 | 官方环境逐步重放、评分器正负对照通过 |
+| [WebShop](machine_work/benchmarks/webshop/README.md) | 1,000 商品预览中 13 个人工 goal 的固定索引 0、1 | 完全成功 1/2；奖励 2/3、1；13 个模型动作 | Lucene 搜索、官方重放和评分器对照通过 |
+| [τ-bench](machine_work/benchmarks/tau_bench/README.md) | 历史原版 retail，固定 test 索引 0、1 | 成功 0/2；24 个模型动作、12 次用户模拟 | 真实对话、工具调用、DB 哈希与官方重放通过 |
+
+统一使用 `gpt-6-astra / xhigh`；新增有效运行共 66 次真实模型调用。低奖励和失败保留，不用参考动作冒充模型成绩。WebShop 另有一次适配器错误的无效 setup 运行，已保留并单列用量。54 项测试通过，最终验收不调用模型。
 
 ## 两个工作目录
 
-| 目录 | 维护者与用途 | 主要内容 |
-|---|---|---|
-| [human_audit/](human_audit/README.md) | 由你或真实人工审计者记录判断 | 来源核验、标签与证据复核、研究取舍、异议和裁决 |
-| [machine_work/](machine_work/README.md) | 由 Codex 执行和整理工作 | 实验代码、公开数据、冻结协议、实际输入输出、机器自检和候选分析 |
-
 ```text
 human_audit/
-├── README.md                      # 人工审计范围、方法与当前状态
-└── REVIEW_TEMPLATE.md             # 人工审计记录模板
+├── README.md
+├── REVIEW_TEMPLATE.md
+└── benchmarks/
+    ├── who_when/                 # 真人审计入口，尚未真人审计
+    ├── alfworld/
+    ├── webshop/
+    └── tau_bench/
 machine_work/
-├── README.md                      # 机器工作的约定和实验入口
-└── experiments/
-    └── agent_diagnosis_pilot/      # 已完成的 Who&When pilot
-        ├── protocol.json          # 冻结设计
-        ├── data/                  # 固定版本数据、来源与原始标签
-        ├── results/               # 原始预测、评分、用量和机器复核
-        ├── tests/                 # 评分与输入隔离等测试
-        └── REPORT.md              # 本轮实验报告
+├── README.md
+└── benchmarks/
+    ├── SELECTION.md              # 选择标准、后续论文实际使用证据
+    ├── REPORT.md                 # 实际结果、限制、可定位证据
+    ├── ACCEPTANCE.json           # 全部验收门禁及日志
+    ├── _shared/                  # 固定版本准备、运行和独立验收代码
+    ├── who_when/pilot_20261009/   # 原冻结 pilot，迁移后原始证据不变
+    ├── alfworld/                 # 协议、来源、真实输出、评分、重放验收
+    ├── webshop/                  # 独立修复版 runner、失败 setup 与正式结果
+    └── tau_bench/
 ```
 
-**本项目的真人审计尚未完成。** 现有 `results/case_audit.md` 由 Codex 生成，原文中的“人工审查”是旧表述，应理解为机器证据复核，不能计作真人已审。上游作者提供的人工 gold 标签，也不等于本项目已经完成人工复核。
+**真人审计尚未完成。** Codex 生成的验收和解释均属于机器工作；旧 `case_audit.md` 中的“人工审查”表述不准确，不能作为真人已审记录。人工请在对应 benchmark 目录使用[模板](human_audit/REVIEW_TEMPLATE.md)另存审计人、日期、证据及异议，不覆盖 gold 或冻结结果。
 
-## 协作流程
+## 本地准备与重新验收
 
-1. Codex 在 `machine_work/` 准备实验、执行调用、保存原始证据，并写明结果和限制。
-2. 人工以 [审计模板](human_audit/REVIEW_TEMPLATE.md) 为起点，在 `human_audit/` 保存带审计人、日期及证据路径的记录。
-3. Codex 根据具体意见补充证据或开设新实验；人工记录和原始标签分别保留，异议另存。
-4. 新实验使用独立目录，记录样本、模型、预算、协议和版本，再与已有结果比较。冻结结果不被后续调参覆盖。
-
-机器生成的诊断、解释或修复建议都是待验证材料。程序测试、哈希一致、指标命中、人工证据判断及真实干预收益分别记录。
-
-## 已完成的诊断 pilot
-
-[完整报告](machine_work/experiments/agent_diagnosis_pilot/REPORT.md) · [逐次预测与评分](machine_work/experiments/agent_diagnosis_pilot/results/raw_rows.csv) · [复现方法](machine_work/experiments/agent_diagnosis_pilot/README.md)
-
-2026-10-09：Who&When 的 12 个独立任务，固定 `gpt-6-astra / xhigh`，比较完整轨迹与 12,000 字符的首尾轨迹基线，共 24 次真实调用。
-
-| 指标 | 完整轨迹 | 首尾截取 |
-|---|---:|---:|
-| Agent 与步骤联合精确命中 | 4/12 | 3/12 |
-| 主动弃权（准确率计零） | 3/12 | 6/12 |
-| 总输入 tokens | 197,790 | 96,472 |
-
-总输入 tokens 减少 51.2%。一个机器复核案例保留了标注错误步骤，却丢失判断该错误所需的来源表，诊断由正确定位变为弃权。它支持提出证据链保留的研究问题，尚不足以证明新方法有效。
-
-本轮未提供任务标准答案，属于无答案辅助的诊断改编实验，不能直接与官方论文分数比较。每任务每条件仅运行一次，样本量不足以给出可靠效果结论；没有执行持久改进或验证自进化。
-
-## 本地重新评分
-
-从仓库根目录执行。以下操作只运行测试与评分，不调用模型：
+从仓库根目录执行；需要 `uv`、Java 21。环境准备入口已在本机实际复用验证，尚未在其他干净机器验证。
 
 ```bash
-cd machine_work/experiments/agent_diagnosis_pilot
-python3 -m unittest discover -s tests -v
-python3 score_results.py
+python3 machine_work/benchmarks/_shared/prepare.py
+.benchmark_cache/venv/bin/python machine_work/benchmarks/_shared/accept_all.py
 ```
 
-真实模型调用、结果复用、运行环境及重试规则见 [pilot README](machine_work/experiments/agent_diagnosis_pilot/README.md)。
+准备会下载固定版本的公开源码与数据、安装隔离 Python 3.11 环境并建立真实商品索引。验收只读已有模型响应，逐步重放并重新评分，不请求模型。真实运行入口见各 benchmark README；现有结果拒绝覆盖，新实验另建版本。
 
-本轮保留固定源版本、MIT 数据许可证、来源清单、文件哈希、冻结协议及实际输入输出。目录迁移不改变冻结代码、数据、计划或预测；历史命令中的本机绝对路径保留为执行证据。
+## 研究与结果边界
+
+- Who&When 有诊断 gold；ALFWorld / WebShop / τ-bench 是生成轨迹和执行改进的交互环境，本身不提供人工根因标签，任务成功率不能替代诊断准确率。
+- WebShop 官方 Drive 无法匿名下载，本轮使用两个逐文件哈希一致的镜像；未直接核对官方原件。使用 1,000 商品与 13 个可用人工 goal，不能与全量设置混报。
+- τ-bench 官方原版已警告任务过时；本轮对齐历史研究设置，完整论文实验需另建修订版协议。两个任务相似，不能推断泛化或总体性能。
+- 本轮未执行持久记忆更新、训练或诊断后的干预；没有自进化效果结论。程序跑通、任务成功、诊断正确、解释可信和干预有效分别记录。
+
+源版本、数据 SHA-256、实际 prompt、原始事件、模型响应与官方评分均保留；缓存、虚拟环境和凭证不发布。只有最终验收门禁通过后才同步 GitHub。

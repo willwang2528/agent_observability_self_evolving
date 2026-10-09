@@ -1,0 +1,38 @@
+{
+  "frozen_at_utc": "2026-10-09T11:35:54.416512+00:00",
+  "purpose": "Native end-to-end feasibility pilot, not full-suite or method reproduction",
+  "benchmark": "webshop",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "tasks": [
+    0,
+    1
+  ],
+  "max_steps": 20,
+  "selection": "First two official shuffled human goal indices in 1000-product preview",
+  "actor_inputs": "Only rules/tool schema and observed history/current observation/admissible actions. No gold, expert plan, reference actions, task object or hidden DB.",
+  "retry_policy": "No retry for low reward/invalid action; transport error fails run and remains evidence.",
+  "self_evolution": "Not executed; this establishes native rollout, trace capture and evaluation for later controlled interventions.",
+  "acceptance": [
+    "real raw model events match saved prediction and executed action",
+    "replay all official transitions and reward without LLM calls",
+    "positive and negative official scorer controls",
+    "code/data/protocol hashes stable",
+    "all selected tasks retained including failures"
+  ],
+  "upstream": {
+    "official_repo": "https://github.com/princeton-nlp/WebShop",
+    "commit": "64fa2a5c15c7daa698b9ac93f5bb5437b634c9bd",
+    "source_tracked_diff": ""
+  },
+  "runner_sha256": {
+    "webshop/runner/run.py": "91a01a8be04206d29dcde930303574134c3fbbf3690fa161fb04577bf87cac3f",
+    "webshop/runner/runtime.py": "1025903efd8c2a63f76cd0aa2b6ce46c3f60172b0c64635918e64a42aa3d54df",
+    "webshop/runner/model.py": "0eb3224ca9c0dbd7528feb812f18e87e25a27cc512f324c6dc20503e2d1675fb",
+    "webshop/runner/contracts.py": "5d2433562985438b1cd9c93e46f64f7899d686dd89c49ee34f8360f644752a2c",
+    "webshop/runner/verify.py": "383e4899da1b2264e0f6396e1042ac3bb294498b502a910df3c3b88cf795e2aa",
+    "webshop/runner/adapters.py": "787a89a7045fe065306c37f1703f4fe572d24773d250d1495c2e75f88364833e"
+  },
+  "runner_revision": "webshop/runner: fix serialization of JSON search/click arguments",
+  "setup_failure": "results/setup_failed_action_encoding retained; not a valid performance run; task indices and budget unchanged"
+}

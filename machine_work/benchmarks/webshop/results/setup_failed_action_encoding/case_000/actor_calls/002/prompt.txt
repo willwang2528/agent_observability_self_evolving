@@ -1,0 +1,6 @@
+Purchase a product matching the instruction. Actions: search[keywords] or click[exact available clickable]. Inspect features/description and choose required options before click[buy now]. Buy Now is a simulated purchase in this benchmark. You have no access to hidden goal metadata.
+
+Observed interaction so far:
+[{"observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search", "action": "search"}, {"observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search", "action": "search"}]
+Current observation and available actions:
+{"observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search", "available_actions": {"has_search_bar": true, "clickables": ["search"]}}

@@ -1,0 +1,57 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "architecture": "arm64",
+  "python": {
+    "returncode": 0,
+    "stdout": "Python 3.11.15",
+    "stderr": ""
+  },
+  "codex": {
+    "returncode": 0,
+    "stdout": "codex-cli 0.162.0-alpha.17.2",
+    "stderr": ""
+  },
+  "java": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "openjdk version \"21.0.11\" 2026-04-21 LTS\nOpenJDK Runtime Environment Zulu21.50+19-CA (build 21.0.11+10-LTS)\nOpenJDK 64-Bit Server VM Zulu21.50+19-CA (build 21.0.11+10-LTS, mixed mode, sharing)"
+  },
+  "setup_entrypoint_actual_execution": "PASS; .benchmark_cache/prepare_verified.log",
+  "text_environments_only": true,
+  "docker_used": false,
+  "API_credentials_created": false,
+  "webshop": {
+    "catalog_products": 1000,
+    "lucene_documents": 1000,
+    "human_goals_in_preview": 13,
+    "actual_indices": [
+      0,
+      1
+    ],
+    "search_library": "pyserini 0.17.0 (official version)"
+  },
+  "alfworld": {
+    "valid_unseen_games": 134,
+    "actual_games": 2,
+    "backend": "official TextWorld PddlEnv with AlfredDemangler/AlfredInfos; no THOR"
+  },
+  "tau_bench": {
+    "domain": "retail",
+    "test_tasks": 115,
+    "actual_indices": [
+      0,
+      1
+    ],
+    "user_simulator": "official LLMUserSimulationEnv prompt and protocol, model transport replaced by isolated Codex",
+    "agent_model": "gpt-6-astra/xhigh",
+    "user_model": "gpt-6-astra/xhigh",
+    "comparison_to_original_models": "not configuration matched"
+  },
+  "known_setup_findings": [
+    "WebShop official Drive files unavailable anonymously; two mirrors have identical hashes, official original bytes unverified",
+    "WebShop 0.44.0 search import initialized unrelated OpenAI client; returned to official pyserini 0.17.0",
+    "WebShop initial command adapter discarded search arguments; invalid setup run preserved, same tasks rerun with versioned correction",
+    "ALFWorld handcoded expert did not finish selected two-object control; official stored walkthrough used for scorer positive controls; no model rerun"
+  ],
+  "token_accounting": "Codex runtime overhead included in usage; cached_input_tokens is a subset of input_tokens; subscription dollar cost unknown"
+}

@@ -1,27 +1,11 @@
 # 机器工作目录
 
-本目录供 Codex 存放实验实现、执行记录、机器自检及候选分析。目前已有 [Who&When 诊断 pilot](experiments/agent_diagnosis_pilot/REPORT.md)。
+本目录由 Codex 存放候选筛选、版本化代码、真实运行与机器验收。每套 benchmark 在 [benchmarks/](benchmarks/) 下独立保存协议、数据来源、实际输入输出、官方评分与验收；[选择依据](benchmarks/SELECTION.md)与[总报告](benchmarks/REPORT.md)连接全部证据。
 
-## 内容与约定
+[Who&When](benchmarks/who_when/README.md) · [ALFWorld](benchmarks/alfworld/README.md) · [WebShop](benchmarks/webshop/README.md) · [τ-bench](benchmarks/tau_bench/README.md) · [最终验收](benchmarks/ACCEPTANCE.json)
 
-| 内容 | 存放位置与要求 |
-|---|---|
-| 实验实现 | `experiments/<实验名>/`，包含说明、协议和必要测试 |
-| 数据与标签 | 实验内 `data/`，记录官方来源、固定版本和哈希；原始标签独立保存 |
-| 实际执行 | 实验内 `results/`，保存输入、原始响应、状态、用量及评分 |
-| 机器复核 | 随实验记录证据阅读、候选错误分析和不确定性，明确由 Codex 生成 |
-| 待人工判断事项 | 在实验报告中列出具体问题和证据路径，交由 `human_audit/` 记录人工判断 |
+先冻结来源版本、样本、模型、预算与指标，再执行真实调用；全部预选任务保留在分母内。原始响应与官方环境重放、评分器正负对照分别验证，验收失败不推送。模型表现差不作为更换任务或重试的理由；适配器缺陷须保存无效 setup 证据，修复后另冻结版本。
 
-每轮正式运行先固定样本、条件、指标、模型和预算。完成后保留全部计划任务的分母，区分格式失败、主动弃权和诊断错误。新条件、新模型或调参结果放入独立实验目录，保留旧记录。
+新实验另建目录，不覆盖旧预测、标签或协议。环境缓存位于仓库忽略的 `.benchmark_cache/`；本机依赖快照和准备入口随代码发布。
 
-## 当前 pilot
-
-- [实验报告](experiments/agent_diagnosis_pilot/REPORT.md)
-- [复现入口](experiments/agent_diagnosis_pilot/README.md)
-- [冻结协议](experiments/agent_diagnosis_pilot/protocol.json)
-- [逐次结果](experiments/agent_diagnosis_pilot/results/raw_rows.csv)
-- [机器个案复核](experiments/agent_diagnosis_pilot/results/case_audit.md)
-
-**来源说明：** `case_audit.md` 是 Codex 生成的机器分析。原文中的“独立事后人工审查”旧称不准确，不能据此声称真人已审。为保留本轮档案原文，该说明在此及仓库根 README 中纠正；实际真人审计另存于 [human_audit/](../human_audit/README.md)。
-
-当前只验证诊断实验可运行，`repair_hint` 仅为修复建议，没有执行修复或验证持久自进化。
+**所有 Codex 生成的复核与解释都是机器结果。** 原 `case_audit.md` 中“人工审查”的旧称不能计为真人审计；实际真人记录由 [human_audit/](../human_audit/README.md) 维护。当前没有持久自进化实验或效果证明。

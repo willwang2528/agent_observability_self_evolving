@@ -1,0 +1,87 @@
+{
+  "benchmark": "webshop",
+  "acceptance": "PASS",
+  "verifier_sha256": "a840bc958717e500f9e3d2736abee882289591f52daf2a4085064e7e7a532742",
+  "scope": "Two-task native smoke pilot only; not full benchmark score or self-evolution validation",
+  "real_model_tasks": 2,
+  "successes": 1,
+  "mean_reward": 0.8333333333333333,
+  "cases": [
+    {
+      "task": 0,
+      "steps": 6,
+      "score": {
+        "reward": 0.6666666666666666,
+        "won": false,
+        "done": true
+      },
+      "actor": {
+        "calls": 6,
+        "usage": {
+          "input_tokens": 34753,
+          "cached_input_tokens": 6912,
+          "output_tokens": 399
+        },
+        "configuration_warnings": [
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+        ]
+      },
+      "user": {
+        "calls": 0,
+        "usage": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 0
+        },
+        "configuration_warnings": []
+      },
+      "official_replay": "PASS"
+    },
+    {
+      "task": 1,
+      "steps": 7,
+      "score": {
+        "reward": 1.0,
+        "won": true,
+        "done": true
+      },
+      "actor": {
+        "calls": 7,
+        "usage": {
+          "input_tokens": 42094,
+          "cached_input_tokens": 13824,
+          "output_tokens": 373
+        },
+        "configuration_warnings": [
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+        ]
+      },
+      "user": {
+        "calls": 0,
+        "usage": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 0
+        },
+        "configuration_warnings": []
+      },
+      "official_replay": "PASS"
+    }
+  ],
+  "scorer_controls": [
+    {
+      "task": 0,
+      "positive_reward": 1.0,
+      "negative_reward": 0.0,
+      "control_only": true
+    },
+    {
+      "task": 1,
+      "positive_reward": 1.0,
+      "negative_reward": 0.0,
+      "control_only": true
+    }
+  ]
+}

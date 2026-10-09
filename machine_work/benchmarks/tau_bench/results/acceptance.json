@@ -1,0 +1,191 @@
+{
+  "benchmark": "tau_bench",
+  "acceptance": "PASS",
+  "verifier_sha256": "a840bc958717e500f9e3d2736abee882289591f52daf2a4085064e7e7a532742",
+  "scope": "Two-task native smoke pilot only; not full benchmark score or self-evolution validation",
+  "real_model_tasks": 2,
+  "successes": 0,
+  "mean_reward": 0.0,
+  "cases": [
+    {
+      "task": 0,
+      "steps": 12,
+      "score": {
+        "reward": 0.0,
+        "won": false,
+        "done": true,
+        "official": {
+          "reward": 0.0,
+          "info": {
+            "r_actions": 0.0,
+            "gt_data_hash": "5ed21c65cf9e8d0c20ad0210721146bb6abad19bedce7c2e08472311dabbeec8"
+          },
+          "actions": [
+            {
+              "name": "find_user_id_by_name_zip",
+              "kwargs": {
+                "first_name": "Yusuf",
+                "last_name": "Rossi",
+                "zip": "19122"
+              }
+            },
+            {
+              "name": "get_order_details",
+              "kwargs": {
+                "order_id": "#W2378156"
+              }
+            },
+            {
+              "name": "get_product_details",
+              "kwargs": {
+                "product_id": "1656367028"
+              }
+            },
+            {
+              "name": "get_product_details",
+              "kwargs": {
+                "product_id": "4896585277"
+              }
+            },
+            {
+              "name": "exchange_delivered_order_items",
+              "kwargs": {
+                "order_id": "#W2378156",
+                "item_ids": [
+                  "1151293680",
+                  "4983901480"
+                ],
+                "new_item_ids": [
+                  "7706410293",
+                  "7747408585"
+                ],
+                "payment_method_id": "credit_card_9513926"
+              }
+            }
+          ]
+        }
+      },
+      "actor": {
+        "calls": 12,
+        "usage": {
+          "input_tokens": 131773,
+          "cached_input_tokens": 17280,
+          "output_tokens": 5217
+        },
+        "configuration_warnings": [
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+        ]
+      },
+      "user": {
+        "calls": 6,
+        "usage": {
+          "input_tokens": 32104,
+          "cached_input_tokens": 10368,
+          "output_tokens": 1465
+        },
+        "configuration_warnings": [
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+        ]
+      },
+      "official_replay": "PASS"
+    },
+    {
+      "task": 1,
+      "steps": 12,
+      "score": {
+        "reward": 0.0,
+        "won": false,
+        "done": true,
+        "official": {
+          "reward": 0.0,
+          "info": {
+            "r_actions": 0.0,
+            "gt_data_hash": "4adebec00ba70d55dd0c5a53c768d8853f475d0cec8f2b1264887c3602fb86a3"
+          },
+          "actions": [
+            {
+              "name": "find_user_id_by_name_zip",
+              "kwargs": {
+                "first_name": "Yusuf",
+                "last_name": "Rossi",
+                "zip": "19122"
+              }
+            },
+            {
+              "name": "get_order_details",
+              "kwargs": {
+                "order_id": "#W2378156"
+              }
+            },
+            {
+              "name": "get_product_details",
+              "kwargs": {
+                "product_id": "1656367028"
+              }
+            },
+            {
+              "name": "get_product_details",
+              "kwargs": {
+                "product_id": "4896585277"
+              }
+            },
+            {
+              "name": "exchange_delivered_order_items",
+              "kwargs": {
+                "order_id": "#W2378156",
+                "item_ids": [
+                  "4983901480"
+                ],
+                "new_item_ids": [
+                  "7747408585"
+                ],
+                "payment_method_id": "credit_card_9513926"
+              }
+            }
+          ]
+        }
+      },
+      "actor": {
+        "calls": 12,
+        "usage": {
+          "input_tokens": 131126,
+          "cached_input_tokens": 27648,
+          "output_tokens": 5683
+        },
+        "configuration_warnings": [
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+        ]
+      },
+      "user": {
+        "calls": 6,
+        "usage": {
+          "input_tokens": 31837,
+          "cached_input_tokens": 13824,
+          "output_tokens": 1455
+        },
+        "configuration_warnings": [
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+        ]
+      },
+      "official_replay": "PASS"
+    }
+  ],
+  "scorer_controls": [
+    {
+      "task": 0,
+      "positive_reward": 1.0,
+      "negative_reward": 0.0,
+      "control_only": true
+    },
+    {
+      "task": 1,
+      "positive_reward": 1.0,
+      "negative_reward": 0.0,
+      "control_only": true
+    }
+  ]
+}

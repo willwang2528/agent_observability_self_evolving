@@ -1,0 +1,36 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/lib/python3.11/site-packages/spacy/cli/_util.py:23: DeprecationWarning: Importing 'parser.split_arg_string' is deprecated, it will only be available in 'shell_completion' in Click 9.0.
+  from click.parser import split_arg_string
+Products loaded.
+Keys cleaned.
+Attributes loaded.
+  0%|          | 0/1000 [00:00<?, ?it/s]100%|██████████| 1000/1000 [00:00<00:00, 206270.48it/s]
+0 skipped
+Loaded 13 goals.
+/Users/will/project/agent_observability_self_evolving/.benchmark_cache/webshop/web_agent_site/envs/web_agent_text_env.py:212: DeprecationWarning: Call to deprecated method findAll. (Replaced by find_all) -- Deprecated since version 4.0.0.
+  texts = self._parse_html(html).findAll(text=True)
+/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/lib/python3.11/site-packages/bs4/_deprecation.py:61: DeprecationWarning: The 'text' argument to find()-type methods is deprecated. Use 'string' instead.
+  return getattr(self, new_name)(*args, **kwargs)
+webshop 0 0 search[blue toothbrush] reward 0.0 done False
+webshop 0 1 click[b09jt3z6jv] reward 0.0 done False
+webshop 0 2 click[features] reward 0.0 done False
+webshop 0 3 click[< prev] reward 0.0 done False
+webshop 0 4 click[blue-dinosaur] reward 0.0 done False
+webshop 0 5 click[buy now] reward 0.6666666666666666 done True
+RESULT webshop 0 0.6666666666666666
+Products loaded.
+Keys cleaned.
+Attributes loaded.
+  0%|          | 0/1000 [00:00<?, ?it/s]100%|██████████| 1000/1000 [00:00<00:00, 385789.55it/s]
+0 skipped
+Loaded 13 goals.
+webshop 1 0 search[blue diamond almonds pecan 12 pack] reward 0.0 done False
+webshop 1 1 click[b003i567w4] reward 0.0 done False
+webshop 1 2 click[features] reward 0.0 done False
+webshop 1 3 click[< prev] reward 0.0 done False
+webshop 1 4 click[pecan] reward 0.0 done False
+webshop 1 5 click[4.25 ounce (pack of 12)] reward 0.0 done False
+webshop 1 6 click[buy now] reward 1.0 done True
+RESULT webshop 1 1.0

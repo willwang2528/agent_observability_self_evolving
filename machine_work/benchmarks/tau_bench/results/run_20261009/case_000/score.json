@@ -1,0 +1,55 @@
+{
+  "reward": 0.0,
+  "won": false,
+  "done": true,
+  "official": {
+    "reward": 0.0,
+    "info": {
+      "r_actions": 0.0,
+      "gt_data_hash": "5ed21c65cf9e8d0c20ad0210721146bb6abad19bedce7c2e08472311dabbeec8"
+    },
+    "actions": [
+      {
+        "name": "find_user_id_by_name_zip",
+        "kwargs": {
+          "first_name": "Yusuf",
+          "last_name": "Rossi",
+          "zip": "19122"
+        }
+      },
+      {
+        "name": "get_order_details",
+        "kwargs": {
+          "order_id": "#W2378156"
+        }
+      },
+      {
+        "name": "get_product_details",
+        "kwargs": {
+          "product_id": "1656367028"
+        }
+      },
+      {
+        "name": "get_product_details",
+        "kwargs": {
+          "product_id": "4896585277"
+        }
+      },
+      {
+        "name": "exchange_delivered_order_items",
+        "kwargs": {
+          "order_id": "#W2378156",
+          "item_ids": [
+            "1151293680",
+            "4983901480"
+          ],
+          "new_item_ids": [
+            "7706410293",
+            "7747408585"
+          ],
+          "payment_method_id": "credit_card_9513926"
+        }
+      }
+    ]
+  }
+}

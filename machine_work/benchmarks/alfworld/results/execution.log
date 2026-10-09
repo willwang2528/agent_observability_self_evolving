@@ -1,0 +1,19 @@
+alfworld 0 0 go to fridge 1 reward 0.0 done False
+alfworld 0 1 open fridge 1 reward 0.0 done False
+alfworld 0 2 take egg 1 from fridge 1 reward 0.0 done False
+alfworld 0 3 go to sinkbasin 1 reward 0.0 done False
+alfworld 0 4 clean egg 1 with sinkbasin 1 reward 0.0 done False
+alfworld 0 5 go to microwave 1 reward 0.0 done False
+alfworld 0 6 open microwave 1 reward 0.0 done False
+alfworld 0 7 move egg 1 to microwave 1 reward 1.0 done True
+RESULT alfworld 0 1.0
+alfworld 1 0 go to desk 1 reward 0.0 done False
+alfworld 1 1 take cd 1 from desk 1 reward 0.0 done False
+alfworld 1 2 go to safe 1 reward 0.0 done False
+alfworld 1 3 open safe 1 reward 0.0 done False
+alfworld 1 4 move cd 1 to safe 1 reward 0.0 done False
+alfworld 1 5 go to desk 2 reward 0.0 done False
+alfworld 1 6 take cd 2 from desk 2 reward 0.0 done False
+alfworld 1 7 go to safe 1 reward 0.0 done False
+alfworld 1 8 move cd 2 to safe 1 reward 1.0 done True
+RESULT alfworld 1 1.0

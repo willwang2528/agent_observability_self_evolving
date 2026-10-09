@@ -1,0 +1,74 @@
+{
+  "native_pilots": [
+    {
+      "benchmark": "alfworld",
+      "tasks": 2,
+      "successful_tasks": 2,
+      "mean_reward": 1.0,
+      "calls": {
+        "actor": 17,
+        "user": 0
+      },
+      "usage": {
+        "input_tokens": 89903,
+        "cached_input_tokens": 3456,
+        "output_tokens": 616
+      },
+      "steps": [
+        8,
+        9
+      ]
+    },
+    {
+      "benchmark": "webshop",
+      "tasks": 2,
+      "successful_tasks": 1,
+      "mean_reward": 0.8333333333333333,
+      "calls": {
+        "actor": 13,
+        "user": 0
+      },
+      "usage": {
+        "input_tokens": 76847,
+        "cached_input_tokens": 20736,
+        "output_tokens": 772
+      },
+      "steps": [
+        6,
+        7
+      ]
+    },
+    {
+      "benchmark": "tau_bench",
+      "tasks": 2,
+      "successful_tasks": 0,
+      "mean_reward": 0.0,
+      "calls": {
+        "actor": 24,
+        "user": 12
+      },
+      "usage": {
+        "input_tokens": 326840,
+        "cached_input_tokens": 69120,
+        "output_tokens": 13820
+      },
+      "steps": [
+        12,
+        12
+      ]
+    }
+  ],
+  "invalid_setup": {
+    "status": "invalid setup; excluded from valid task success metrics",
+    "completed_model_calls": 8,
+    "interrupted_or_missing_result_calls": 0,
+    "observed_usage": {
+      "input_tokens": 35058,
+      "cached_input_tokens": 17280,
+      "output_tokens": 691
+    },
+    "interrupted_usage": "unknown; not recorded as zero"
+  },
+  "archived_who_when_calls": 24,
+  "all_valid_real_model_calls": 90
+}

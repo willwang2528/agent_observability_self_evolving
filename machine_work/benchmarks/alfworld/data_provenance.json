@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://github.com/alfworld/alfworld/releases/download/0.2.2/json_2.1.1_json.zip",
+    "sha256": "25171f16e20ad7b048c47275c45b0babf3aa1cbab29cec97387922350a9844bc",
+    "bytes": 72018818,
+    "extracted_members": 477
+  },
+  {
+    "url": "https://github.com/alfworld/alfworld/releases/download/0.4.2/json_2.1.3_tw-pddl.zip",
+    "sha256": "5df77ea759f2211a4106082839ddbbb790f1ba4e7d097ed732cf453f72aa36cf",
+    "bytes": 36507267,
+    "extracted_members": 134
+  }
+]

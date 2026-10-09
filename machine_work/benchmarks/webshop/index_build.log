@@ -1,0 +1,36 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2026-10-09 19:31:03,720 INFO  [main] index.IndexCollection (IndexCollection.java:645) - Setting log level to INFO
+2026-10-09 19:31:03,721 INFO  [main] index.IndexCollection (IndexCollection.java:648) - Starting indexer...
+2026-10-09 19:31:03,721 INFO  [main] index.IndexCollection (IndexCollection.java:649) - ============ Loading Parameters ============
+2026-10-09 19:31:03,721 INFO  [main] index.IndexCollection (IndexCollection.java:650) - DocumentCollection path: .benchmark_cache/webshop/search_engine/resources_1k
+2026-10-09 19:31:03,721 INFO  [main] index.IndexCollection (IndexCollection.java:651) - CollectionClass: JsonCollection
+2026-10-09 19:31:03,721 INFO  [main] index.IndexCollection (IndexCollection.java:652) - Generator: DefaultLuceneDocumentGenerator
+2026-10-09 19:31:03,721 INFO  [main] index.IndexCollection (IndexCollection.java:653) - Threads: 1
+2026-10-09 19:31:03,721 INFO  [main] index.IndexCollection (IndexCollection.java:654) - Language: en
+2026-10-09 19:31:03,721 INFO  [main] index.IndexCollection (IndexCollection.java:655) - Stemmer: porter
+2026-10-09 19:31:03,721 INFO  [main] index.IndexCollection (IndexCollection.java:656) - Keep stopwords? false
+2026-10-09 19:31:03,721 INFO  [main] index.IndexCollection (IndexCollection.java:657) - Stopwords: null
+2026-10-09 19:31:03,722 INFO  [main] index.IndexCollection (IndexCollection.java:658) - Store positions? true
+2026-10-09 19:31:03,722 INFO  [main] index.IndexCollection (IndexCollection.java:659) - Store docvectors? true
+2026-10-09 19:31:03,722 INFO  [main] index.IndexCollection (IndexCollection.java:660) - Store document "contents" field? false
+2026-10-09 19:31:03,722 INFO  [main] index.IndexCollection (IndexCollection.java:661) - Store document "raw" field? true
+2026-10-09 19:31:03,722 INFO  [main] index.IndexCollection (IndexCollection.java:662) - Additional fields to index: []
+2026-10-09 19:31:03,722 INFO  [main] index.IndexCollection (IndexCollection.java:663) - Optimize (merge segments)? false
+2026-10-09 19:31:03,722 INFO  [main] index.IndexCollection (IndexCollection.java:664) - Whitelist: null
+2026-10-09 19:31:03,722 INFO  [main] index.IndexCollection (IndexCollection.java:665) - Pretokenized?: false
+2026-10-09 19:31:03,722 INFO  [main] index.IndexCollection (IndexCollection.java:685) - Directly building Lucene indexes...
+2026-10-09 19:31:03,722 INFO  [main] index.IndexCollection (IndexCollection.java:686) - Index path: .benchmark_cache/webshop/search_engine/indexes_1k
+2026-10-09 19:31:03,723 INFO  [main] index.IndexCollection (IndexCollection.java:741) - ============ Indexing Collection ============
+2026-10-09 19:31:03,767 INFO  [main] index.IndexCollection (IndexCollection.java:845) - Thread pool with 1 threads initialized.
+2026-10-09 19:31:03,767 INFO  [main] index.IndexCollection (IndexCollection.java:847) - Initializing collection in .benchmark_cache/webshop/search_engine/resources_1k
+2026-10-09 19:31:03,768 INFO  [main] index.IndexCollection (IndexCollection.java:856) - 1 file found
+2026-10-09 19:31:03,768 INFO  [main] index.IndexCollection (IndexCollection.java:857) - Starting to index...
+2026-10-09 19:31:04,041 DEBUG [pool-2-thread-1] index.IndexCollection$LocalIndexerThread (IndexCollection.java:250) - resources_1k/documents.jsonl: 1000 docs added.
+2026-10-09 19:31:04,111 INFO  [main] index.IndexCollection (IndexCollection.java:941) - Indexing Complete! 1,000 documents indexed
+2026-10-09 19:31:04,111 INFO  [main] index.IndexCollection (IndexCollection.java:942) - ============ Final Counter Values ============
+2026-10-09 19:31:04,111 INFO  [main] index.IndexCollection (IndexCollection.java:943) - indexed:            1,000
+2026-10-09 19:31:04,111 INFO  [main] index.IndexCollection (IndexCollection.java:944) - unindexable:            0
+2026-10-09 19:31:04,111 INFO  [main] index.IndexCollection (IndexCollection.java:945) - empty:                  0
+2026-10-09 19:31:04,111 INFO  [main] index.IndexCollection (IndexCollection.java:946) - skipped:                0
+2026-10-09 19:31:04,111 INFO  [main] index.IndexCollection (IndexCollection.java:947) - errors:                 0
+2026-10-09 19:31:04,113 INFO  [main] index.IndexCollection (IndexCollection.java:950) - Total 1,000 documents indexed in 00:00:00

@@ -1,0 +1,140 @@
+{
+  "task": 0,
+  "initial": {
+    "observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search",
+    "available_actions": {
+      "has_search_bar": true,
+      "clickables": [
+        "search"
+      ]
+    }
+  },
+  "steps": [
+    {
+      "turn": 0,
+      "before": {
+        "observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search",
+        "available_actions": {
+          "has_search_bar": true,
+          "clickables": [
+            "search"
+          ]
+        }
+      },
+      "action": "search",
+      "after": {
+        "observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search",
+        "reward": 0.0,
+        "done": false
+      }
+    },
+    {
+      "turn": 1,
+      "before": {
+        "observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search",
+        "available_actions": {
+          "has_search_bar": true,
+          "clickables": [
+            "search"
+          ]
+        }
+      },
+      "action": "search",
+      "after": {
+        "observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search",
+        "reward": 0.0,
+        "done": false
+      }
+    },
+    {
+      "turn": 2,
+      "before": {
+        "observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search",
+        "available_actions": {
+          "has_search_bar": true,
+          "clickables": [
+            "search"
+          ]
+        }
+      },
+      "action": "search",
+      "after": {
+        "observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search",
+        "reward": 0.0,
+        "done": false
+      }
+    },
+    {
+      "turn": 3,
+      "before": {
+        "observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search",
+        "available_actions": {
+          "has_search_bar": true,
+          "clickables": [
+            "search"
+          ]
+        }
+      },
+      "action": "search",
+      "after": {
+        "observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search",
+        "reward": 0.0,
+        "done": false
+      }
+    },
+    {
+      "turn": 4,
+      "before": {
+        "observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search",
+        "available_actions": {
+          "has_search_bar": true,
+          "clickables": [
+            "search"
+          ]
+        }
+      },
+      "action": "search",
+      "after": {
+        "observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search",
+        "reward": 0.0,
+        "done": false
+      }
+    },
+    {
+      "turn": 5,
+      "before": {
+        "observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search",
+        "available_actions": {
+          "has_search_bar": true,
+          "clickables": [
+            "search"
+          ]
+        }
+      },
+      "action": "search",
+      "after": {
+        "observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search",
+        "reward": 0.0,
+        "done": false
+      }
+    },
+    {
+      "turn": 6,
+      "before": {
+        "observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search",
+        "available_actions": {
+          "has_search_bar": true,
+          "clickables": [
+            "search"
+          ]
+        }
+      },
+      "action": "search",
+      "after": {
+        "observation": "WebShop [SEP] Instruction: [SEP] i am looking for blue color toothbrushes that helps to maintain my oral hygiene, and price lower than 60.00 dollars [SEP] Search",
+        "reward": 0.0,
+        "done": false
+      }
+    }
+  ]
+}

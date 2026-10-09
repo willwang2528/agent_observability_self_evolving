@@ -1,0 +1,117 @@
+{
+  "acceptance": "PASS",
+  "verified_at_utc": "2026-10-09T11:45:41.028749+00:00",
+  "scope": "All selected native feasibility pilots verified; not a full benchmark suite or self-evolution claim",
+  "benchmarks": {
+    "who_when": {
+      "acceptance": "PASS",
+      "report": "machine_work/benchmarks/who_when/acceptance.json",
+      "sha256": "bc2a396a8e4791fe30132a884c44dc3ec0dd90a089fbb19be53d57cc62896882"
+    },
+    "alfworld": {
+      "acceptance": "PASS",
+      "report": "machine_work/benchmarks/alfworld/results/acceptance.json",
+      "sha256": "9875f992b0361faaafb8f84ea24009d844eb91bb129722838d4a7feec2aeefb5"
+    },
+    "webshop": {
+      "acceptance": "PASS",
+      "report": "machine_work/benchmarks/webshop/results/acceptance.json",
+      "sha256": "92c9eebc65b09d4c69458fa1eb3f27321178434f11d1649d08c43ef7135e0a01"
+    },
+    "tau_bench": {
+      "acceptance": "PASS",
+      "report": "machine_work/benchmarks/tau_bench/results/acceptance.json",
+      "sha256": "070615c3beff16707f7e1329922719a93f0b3e491853d7ce0750375def8dcd34"
+    }
+  },
+  "checks": [
+    {
+      "command": [
+        "/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/_shared",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "log": "machine_work/benchmarks/validation/check_00.log",
+      "sha256": "ce29f3cef632f4235aaa87b5666abd8095e4591bf1b1d1134f8deec28cc5608e"
+    },
+    {
+      "command": [
+        "/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/webshop/runner",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "log": "machine_work/benchmarks/validation/check_01.log",
+      "sha256": "c3f29ad3265075b5013dfb0e612a4bfcae0ca70c2e01c82ae23c394e861a5c10"
+    },
+    {
+      "command": [
+        "/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/who_when/pilot_20261009/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "log": "machine_work/benchmarks/validation/check_02.log",
+      "sha256": "649e2c35f7cdeebf611d16c5930ef5185c31343c322c1c452441967d98ac73de"
+    },
+    {
+      "command": [
+        "/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/bin/python",
+        "/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/_shared/verify_who_when.py"
+      ],
+      "returncode": 0,
+      "log": "machine_work/benchmarks/validation/check_03.log",
+      "sha256": "bc2a396a8e4791fe30132a884c44dc3ec0dd90a089fbb19be53d57cc62896882"
+    },
+    {
+      "command": [
+        "/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/bin/python",
+        "/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/_shared/verify.py",
+        "alfworld"
+      ],
+      "returncode": 0,
+      "log": "machine_work/benchmarks/validation/check_04.log",
+      "sha256": "33e3cd6548a6f801dc9704e01d18b74e88a1f4202fbc47b4e899b268a4d120b8"
+    },
+    {
+      "command": [
+        "/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/bin/python",
+        "/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/webshop/verify.py"
+      ],
+      "returncode": 0,
+      "log": "machine_work/benchmarks/validation/check_05.log",
+      "sha256": "edc855b8c03584406fa5f2f745de6a4411cb38c551faccfa6202061416da4378"
+    },
+    {
+      "command": [
+        "/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/bin/python",
+        "/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/_shared/verify.py",
+        "tau_bench"
+      ],
+      "returncode": 0,
+      "log": "machine_work/benchmarks/validation/check_06.log",
+      "sha256": "7a054d59e20da7735455f5c5df825983afa653b6c214883de66a8da49dda6bdb"
+    }
+  ],
+  "unit_tests": 54,
+  "human_audit": "pending",
+  "model_calls_in_this_acceptance": 0,
+  "publication_allowed": true
+}

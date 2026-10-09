@@ -1,0 +1,50 @@
+[
+  {
+    "file": "items_shuffle_1000.json",
+    "mirrors": [
+      {
+        "url": "https://huggingface.co/datasets/HongbangYuan/webshop/resolve/0129d4a81dbdb827e76afd20a1e2c38b61098613/items_shuffle_1000.json",
+        "sha256": "30a4765c3a327af72d9a9a95a6b2486d516f0fa1d3ecd83681901ce82a21b269",
+        "bytes": 4467013
+      },
+      {
+        "url": "https://huggingface.co/datasets/YWZBrandon/webshop-data/resolve/main/items_shuffle_1000.json",
+        "sha256": "30a4765c3a327af72d9a9a95a6b2486d516f0fa1d3ecd83681901ce82a21b269",
+        "bytes": 4467013
+      }
+    ],
+    "original_verified": false
+  },
+  {
+    "file": "items_ins_v2_1000.json",
+    "mirrors": [
+      {
+        "url": "https://huggingface.co/datasets/HongbangYuan/webshop/resolve/0129d4a81dbdb827e76afd20a1e2c38b61098613/items_ins_v2_1000.json",
+        "sha256": "f88a36314a397b53b3d9c3fa5878e5f7b26d35019a51ec83fbedeca61a948f6f",
+        "bytes": 147099
+      },
+      {
+        "url": "https://huggingface.co/datasets/YWZBrandon/webshop-data/resolve/main/items_ins_v2_1000.json",
+        "sha256": "f88a36314a397b53b3d9c3fa5878e5f7b26d35019a51ec83fbedeca61a948f6f",
+        "bytes": 147099
+      }
+    ],
+    "original_verified": false
+  },
+  {
+    "file": "items_human_ins.json",
+    "mirrors": [
+      {
+        "url": "https://huggingface.co/datasets/HongbangYuan/webshop/resolve/0129d4a81dbdb827e76afd20a1e2c38b61098613/items_human_ins.json",
+        "sha256": "cf78667548a71786e1d9049c24b802e48e1084ad4bb021cae56ce1f6d96954a3",
+        "bytes": 5137548
+      },
+      {
+        "url": "https://huggingface.co/datasets/YWZBrandon/webshop-data/resolve/main/items_human_ins.json",
+        "sha256": "cf78667548a71786e1d9049c24b802e48e1084ad4bb021cae56ce1f6d96954a3",
+        "bytes": 5137548
+      }
+    ],
+    "original_verified": false
+  }
+]

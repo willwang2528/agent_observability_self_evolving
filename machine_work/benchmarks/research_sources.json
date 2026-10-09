@@ -1,0 +1,44 @@
+[
+  {
+    "paper": "react",
+    "url": "https://arxiv.org/html/2210.03629v3",
+    "sha256": "196e152afc40784aac059e66a7ceb06d5e1dcef21fe15ae33d9be5a85474d391",
+    "bytes": 546946
+  },
+  {
+    "paper": "reflexion",
+    "url": "https://arxiv.org/html/2303.11366v4",
+    "sha256": "c96741a6170d6a8a1ec17f3780d561f813078190404f47792178080c4118f002",
+    "bytes": 208124
+  },
+  {
+    "paper": "expel",
+    "url": "https://arxiv.org/html/2308.10144v3",
+    "sha256": "894b36d6f8779e3e68824b41a968946d259ea171c925822873cd058b5fc5380a",
+    "bytes": 288737
+  },
+  {
+    "paper": "lats",
+    "url": "https://arxiv.org/html/2310.04406v3",
+    "sha256": "62e166943de5220f7e2f7c7fc434b9942648aa8c57de521920a2edfff4839147",
+    "bytes": 366264
+  },
+  {
+    "paper": "samule",
+    "url": "https://arxiv.org/html/2509.20562v1",
+    "sha256": "42db1778eaacbc8dfa9b390fca9595af6d6a65f2f7908c602ce4fe3f095be15b",
+    "bytes": 217752
+  },
+  {
+    "paper": "agentrx",
+    "url": "https://arxiv.org/html/2602.02475v1",
+    "sha256": "0af76c9cb51da5ad16fdb4b0da68bd4227d8a667591221105fff68c70c0b6b4d",
+    "bytes": 712462
+  },
+  {
+    "paper": "agentscaler",
+    "url": "https://arxiv.org/html/2509.13311v1",
+    "sha256": "220456e3edd38f80dc4ad99b07abf9baf8d2e15c4dd3b939dd520bcf3e9c5d7d",
+    "bytes": 159751
+  }
+]

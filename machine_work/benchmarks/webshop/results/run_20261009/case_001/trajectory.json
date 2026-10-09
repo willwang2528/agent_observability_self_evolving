@@ -1,0 +1,236 @@
+{
+  "task": 1,
+  "initial": {
+    "observation": "WebShop [SEP] Instruction: [SEP] place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars [SEP] Search",
+    "available_actions": {
+      "has_search_bar": true,
+      "clickables": [
+        "search"
+      ]
+    }
+  },
+  "steps": [
+    {
+      "turn": 0,
+      "before": {
+        "observation": "WebShop [SEP] Instruction: [SEP] place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars [SEP] Search",
+        "available_actions": {
+          "has_search_bar": true,
+          "clickables": [
+            "search"
+          ]
+        }
+      },
+      "action": "search[blue diamond almonds pecan 12 pack]",
+      "after": {
+        "observation": "Instruction: [SEP] place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 50) [SEP] Next > [SEP] B003I567W4 [SEP] Blue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12) [SEP] $34.44 [SEP] B09DBYG4XD [SEP] Italian Herb Nuts - Vegan, Kosher, Gluten-free, GMO-free - 12oz (PACK OF 3 BAGS), Satisfaction Guarantee [SEP] $17.95 [SEP] B07L6PR5WS [SEP] Movie Night Gift Box with Snacks and Redbox Movie Rental Code [SEP] $36.95 [SEP] B09K4S16YT [SEP] Sconza Candy Coated Milk Chocolate Almonds | Chocolate Covered Almonds with Shades of Blue & Silver Candy Shell | Pack of 1 (5 lbs. Bulk) [SEP] $41.99 [SEP] B07XP6DGJH [SEP] Savannah's Candy Kitchen | Gourmet Handmade Candy Gift Box - Pralines, Chocolate Turtle Gophers, Handmade Divinity (24) [SEP] $79.95 [SEP] B09RLQR5NP [SEP] M&M's Peanut Butter Chocolate Fun Size Packs American Candy In A Variety Of Fun Colors Bulk Party Mix Packaged In Resealable Wholesale Pantry Bag 2 Lbs. (32 Oz) [SEP] $29.99 [SEP] B072MR7PPJ [SEP] Amazon Brand - Happy Belly Amazon Brand Sliced Almonds, 12 Ounce [SEP] $5.46 [SEP] B0017WNF34 [SEP] DeMet's Turtles Milk Chocolate Caramel Nut Cluster Bar (1.76 Ounce, 3-Piece Bar, 24 Count), Perfect Grab-N-Go Snack or Sit & Savor [SEP] $100.0 [SEP] B09CPZH548 [SEP] Baseus Magnetic Power Bank, 10,000mAh MagSafe Wireless Portable Charger, PD 20W USB-C Battery Pack, Designed for iPhone iPhone 13/13 Pro Max/13 Mini/12/12 Pro/12 Pro Max/12 Mini [SEP] $39.99 [SEP] B07HYF111T [SEP] KETO BARS : The Original High Fat, Low Carb, Ketogenic Bar. Gluten Free, Vegan, Homemade with simple ingredients. [Chocolate Peanut Butter, 10 Pack] [SEP] $29.95",
+        "reward": 0.0,
+        "done": false
+      }
+    },
+    {
+      "turn": 1,
+      "before": {
+        "observation": "Instruction: [SEP] place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars [SEP] Back to Search [SEP] Page 1 (Total results: 50) [SEP] Next > [SEP] B003I567W4 [SEP] Blue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12) [SEP] $34.44 [SEP] B09DBYG4XD [SEP] Italian Herb Nuts - Vegan, Kosher, Gluten-free, GMO-free - 12oz (PACK OF 3 BAGS), Satisfaction Guarantee [SEP] $17.95 [SEP] B07L6PR5WS [SEP] Movie Night Gift Box with Snacks and Redbox Movie Rental Code [SEP] $36.95 [SEP] B09K4S16YT [SEP] Sconza Candy Coated Milk Chocolate Almonds | Chocolate Covered Almonds with Shades of Blue & Silver Candy Shell | Pack of 1 (5 lbs. Bulk) [SEP] $41.99 [SEP] B07XP6DGJH [SEP] Savannah's Candy Kitchen | Gourmet Handmade Candy Gift Box - Pralines, Chocolate Turtle Gophers, Handmade Divinity (24) [SEP] $79.95 [SEP] B09RLQR5NP [SEP] M&M's Peanut Butter Chocolate Fun Size Packs American Candy In A Variety Of Fun Colors Bulk Party Mix Packaged In Resealable Wholesale Pantry Bag 2 Lbs. (32 Oz) [SEP] $29.99 [SEP] B072MR7PPJ [SEP] Amazon Brand - Happy Belly Amazon Brand Sliced Almonds, 12 Ounce [SEP] $5.46 [SEP] B0017WNF34 [SEP] DeMet's Turtles Milk Chocolate Caramel Nut Cluster Bar (1.76 Ounce, 3-Piece Bar, 24 Count), Perfect Grab-N-Go Snack or Sit & Savor [SEP] $100.0 [SEP] B09CPZH548 [SEP] Baseus Magnetic Power Bank, 10,000mAh MagSafe Wireless Portable Charger, PD 20W USB-C Battery Pack, Designed for iPhone iPhone 13/13 Pro Max/13 Mini/12/12 Pro/12 Pro Max/12 Mini [SEP] $39.99 [SEP] B07HYF111T [SEP] KETO BARS : The Original High Fat, Low Carb, Ketogenic Bar. Gluten Free, Vegan, Homemade with simple ingredients. [Chocolate Peanut Butter, 10 Pack] [SEP] $29.95",
+        "available_actions": {
+          "has_search_bar": false,
+          "clickables": [
+            "back to search",
+            "next >",
+            "b003i567w4",
+            "b09dbyg4xd",
+            "b07l6pr5ws",
+            "b09k4s16yt",
+            "b07xp6dgjh",
+            "b09rlqr5np",
+            "b072mr7ppj",
+            "b0017wnf34",
+            "b09cpzh548",
+            "b07hyf111t"
+          ]
+        }
+      },
+      "action": "click[b003i567w4]",
+      "after": {
+        "observation": "Instruction: [SEP] place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars [SEP] Back to Search [SEP] < Prev [SEP] flavor name [SEP] country ranch [SEP] multi-seeds [SEP] original almond [SEP] pepper jack [SEP] sea salt [SEP] sesame seeds [SEP] smokehouse [SEP] cheddar [SEP] pecan [SEP] flax seeds [SEP] honey cinnamon [SEP] size [SEP] 4.25 ounce (pack of 1) [SEP] 4.25 ounce (pack of 2) [SEP] 4.25 ounce (pack of 6) [SEP] 4.25 ounce (pack of 12) [SEP] 7.7 ounce (pack of 1) [SEP] Blue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12) [SEP] Price: $34.44 [SEP] Rating: N.A. [SEP] Description [SEP] Features [SEP] Reviews [SEP] Buy Now",
+        "reward": 0.0,
+        "done": false
+      }
+    },
+    {
+      "turn": 2,
+      "before": {
+        "observation": "Instruction: [SEP] place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars [SEP] Back to Search [SEP] < Prev [SEP] flavor name [SEP] country ranch [SEP] multi-seeds [SEP] original almond [SEP] pepper jack [SEP] sea salt [SEP] sesame seeds [SEP] smokehouse [SEP] cheddar [SEP] pecan [SEP] flax seeds [SEP] honey cinnamon [SEP] size [SEP] 4.25 ounce (pack of 1) [SEP] 4.25 ounce (pack of 2) [SEP] 4.25 ounce (pack of 6) [SEP] 4.25 ounce (pack of 12) [SEP] 7.7 ounce (pack of 1) [SEP] Blue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12) [SEP] Price: $34.44 [SEP] Rating: N.A. [SEP] Description [SEP] Features [SEP] Reviews [SEP] Buy Now",
+        "available_actions": {
+          "has_search_bar": false,
+          "clickables": [
+            "back to search",
+            "< prev",
+            "description",
+            "features",
+            "reviews",
+            "buy now",
+            "country ranch",
+            "multi-seeds",
+            "original almond",
+            "pepper jack",
+            "sea salt",
+            "sesame seeds",
+            "smokehouse",
+            "cheddar",
+            "pecan",
+            "flax seeds",
+            "honey cinnamon",
+            "4.25 ounce (pack of 1)",
+            "4.25 ounce (pack of 2)",
+            "4.25 ounce (pack of 6)",
+            "4.25 ounce (pack of 12)",
+            "7.7 ounce (pack of 1)"
+          ]
+        }
+      },
+      "action": "click[features]",
+      "after": {
+        "observation": "Instruction: [SEP] place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars [SEP] Back to Search [SEP] < Prev [SEP] Contains twelve 4.25-ounce boxes of Blue Diamond Almonds Nut Thins [SEP] A crunchy gluten free cracker made with Almonds and a hint of sea salt for taste, certified Kosher [SEP] A tasty and healthy snack with 3 grams of protein per serving [SEP] Perfect with your favorite snack dips, cheeses, and spreads. Serve them at your next party and your guests won't leave until they're gone. [SEP] Free of cholesterol and saturated fat - great for adults in the office or kids at school",
+        "reward": 0.0,
+        "done": false
+      }
+    },
+    {
+      "turn": 3,
+      "before": {
+        "observation": "Instruction: [SEP] place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars [SEP] Back to Search [SEP] < Prev [SEP] Contains twelve 4.25-ounce boxes of Blue Diamond Almonds Nut Thins [SEP] A crunchy gluten free cracker made with Almonds and a hint of sea salt for taste, certified Kosher [SEP] A tasty and healthy snack with 3 grams of protein per serving [SEP] Perfect with your favorite snack dips, cheeses, and spreads. Serve them at your next party and your guests won't leave until they're gone. [SEP] Free of cholesterol and saturated fat - great for adults in the office or kids at school",
+        "available_actions": {
+          "has_search_bar": false,
+          "clickables": [
+            "back to search",
+            "< prev"
+          ]
+        }
+      },
+      "action": "click[< prev]",
+      "after": {
+        "observation": "Instruction: [SEP] place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars [SEP] Back to Search [SEP] < Prev [SEP] flavor name [SEP] country ranch [SEP] multi-seeds [SEP] original almond [SEP] pepper jack [SEP] sea salt [SEP] sesame seeds [SEP] smokehouse [SEP] cheddar [SEP] pecan [SEP] flax seeds [SEP] honey cinnamon [SEP] size [SEP] 4.25 ounce (pack of 1) [SEP] 4.25 ounce (pack of 2) [SEP] 4.25 ounce (pack of 6) [SEP] 4.25 ounce (pack of 12) [SEP] 7.7 ounce (pack of 1) [SEP] Blue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12) [SEP] Price: $34.44 [SEP] Rating: N.A. [SEP] Description [SEP] Features [SEP] Reviews [SEP] Buy Now",
+        "reward": 0.0,
+        "done": false
+      }
+    },
+    {
+      "turn": 4,
+      "before": {
+        "observation": "Instruction: [SEP] place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars [SEP] Back to Search [SEP] < Prev [SEP] flavor name [SEP] country ranch [SEP] multi-seeds [SEP] original almond [SEP] pepper jack [SEP] sea salt [SEP] sesame seeds [SEP] smokehouse [SEP] cheddar [SEP] pecan [SEP] flax seeds [SEP] honey cinnamon [SEP] size [SEP] 4.25 ounce (pack of 1) [SEP] 4.25 ounce (pack of 2) [SEP] 4.25 ounce (pack of 6) [SEP] 4.25 ounce (pack of 12) [SEP] 7.7 ounce (pack of 1) [SEP] Blue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12) [SEP] Price: $34.44 [SEP] Rating: N.A. [SEP] Description [SEP] Features [SEP] Reviews [SEP] Buy Now",
+        "available_actions": {
+          "has_search_bar": false,
+          "clickables": [
+            "back to search",
+            "< prev",
+            "description",
+            "features",
+            "reviews",
+            "buy now",
+            "country ranch",
+            "multi-seeds",
+            "original almond",
+            "pepper jack",
+            "sea salt",
+            "sesame seeds",
+            "smokehouse",
+            "cheddar",
+            "pecan",
+            "flax seeds",
+            "honey cinnamon",
+            "4.25 ounce (pack of 1)",
+            "4.25 ounce (pack of 2)",
+            "4.25 ounce (pack of 6)",
+            "4.25 ounce (pack of 12)",
+            "7.7 ounce (pack of 1)"
+          ]
+        }
+      },
+      "action": "click[pecan]",
+      "after": {
+        "observation": "Instruction: [SEP] place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars [SEP] Back to Search [SEP] < Prev [SEP] flavor name [SEP] country ranch [SEP] multi-seeds [SEP] original almond [SEP] pepper jack [SEP] sea salt [SEP] sesame seeds [SEP] smokehouse [SEP] cheddar [SEP] pecan [SEP] flax seeds [SEP] honey cinnamon [SEP] size [SEP] 4.25 ounce (pack of 1) [SEP] 4.25 ounce (pack of 2) [SEP] 4.25 ounce (pack of 6) [SEP] 4.25 ounce (pack of 12) [SEP] 7.7 ounce (pack of 1) [SEP] Blue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12) [SEP] Price: $34.44 [SEP] Rating: N.A. [SEP] Description [SEP] Features [SEP] Reviews [SEP] Buy Now",
+        "reward": 0.0,
+        "done": false
+      }
+    },
+    {
+      "turn": 5,
+      "before": {
+        "observation": "Instruction: [SEP] place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars [SEP] Back to Search [SEP] < Prev [SEP] flavor name [SEP] country ranch [SEP] multi-seeds [SEP] original almond [SEP] pepper jack [SEP] sea salt [SEP] sesame seeds [SEP] smokehouse [SEP] cheddar [SEP] pecan [SEP] flax seeds [SEP] honey cinnamon [SEP] size [SEP] 4.25 ounce (pack of 1) [SEP] 4.25 ounce (pack of 2) [SEP] 4.25 ounce (pack of 6) [SEP] 4.25 ounce (pack of 12) [SEP] 7.7 ounce (pack of 1) [SEP] Blue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12) [SEP] Price: $34.44 [SEP] Rating: N.A. [SEP] Description [SEP] Features [SEP] Reviews [SEP] Buy Now",
+        "available_actions": {
+          "has_search_bar": false,
+          "clickables": [
+            "back to search",
+            "< prev",
+            "description",
+            "features",
+            "reviews",
+            "buy now",
+            "country ranch",
+            "multi-seeds",
+            "original almond",
+            "pepper jack",
+            "sea salt",
+            "sesame seeds",
+            "smokehouse",
+            "cheddar",
+            "pecan",
+            "flax seeds",
+            "honey cinnamon",
+            "4.25 ounce (pack of 1)",
+            "4.25 ounce (pack of 2)",
+            "4.25 ounce (pack of 6)",
+            "4.25 ounce (pack of 12)",
+            "7.7 ounce (pack of 1)"
+          ]
+        }
+      },
+      "action": "click[4.25 ounce (pack of 12)]",
+      "after": {
+        "observation": "Instruction: [SEP] place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars [SEP] Back to Search [SEP] < Prev [SEP] flavor name [SEP] country ranch [SEP] multi-seeds [SEP] original almond [SEP] pepper jack [SEP] sea salt [SEP] sesame seeds [SEP] smokehouse [SEP] cheddar [SEP] pecan [SEP] flax seeds [SEP] honey cinnamon [SEP] size [SEP] 4.25 ounce (pack of 1) [SEP] 4.25 ounce (pack of 2) [SEP] 4.25 ounce (pack of 6) [SEP] 4.25 ounce (pack of 12) [SEP] 7.7 ounce (pack of 1) [SEP] Blue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12) [SEP] Price: $34.44 [SEP] Rating: N.A. [SEP] Description [SEP] Features [SEP] Reviews [SEP] Buy Now",
+        "reward": 0.0,
+        "done": false
+      }
+    },
+    {
+      "turn": 6,
+      "before": {
+        "observation": "Instruction: [SEP] place order for a pack of 12 blue diamond almonds that is gluten free and has the pecan flavor, and price lower than 70.00 dollars [SEP] Back to Search [SEP] < Prev [SEP] flavor name [SEP] country ranch [SEP] multi-seeds [SEP] original almond [SEP] pepper jack [SEP] sea salt [SEP] sesame seeds [SEP] smokehouse [SEP] cheddar [SEP] pecan [SEP] flax seeds [SEP] honey cinnamon [SEP] size [SEP] 4.25 ounce (pack of 1) [SEP] 4.25 ounce (pack of 2) [SEP] 4.25 ounce (pack of 6) [SEP] 4.25 ounce (pack of 12) [SEP] 7.7 ounce (pack of 1) [SEP] Blue Diamond Almonds Nut Thins Gluten Free Cracker Crisps, Hint of Sea Salt, 4.25 Oz Boxes (Pack of 12) [SEP] Price: $34.44 [SEP] Rating: N.A. [SEP] Description [SEP] Features [SEP] Reviews [SEP] Buy Now",
+        "available_actions": {
+          "has_search_bar": false,
+          "clickables": [
+            "back to search",
+            "< prev",
+            "description",
+            "features",
+            "reviews",
+            "buy now",
+            "country ranch",
+            "multi-seeds",
+            "original almond",
+            "pepper jack",
+            "sea salt",
+            "sesame seeds",
+            "smokehouse",
+            "cheddar",
+            "pecan",
+            "flax seeds",
+            "honey cinnamon",
+            "4.25 ounce (pack of 1)",
+            "4.25 ounce (pack of 2)",
+            "4.25 ounce (pack of 6)",
+            "4.25 ounce (pack of 12)",
+            "7.7 ounce (pack of 1)"
+          ]
+        }
+      },
+      "action": "click[buy now]",
+      "after": {
+        "observation": "Thank you for shopping with us! [SEP] Your code: [SEP] None [SEP] (Paste it in your MTurk interface.) [SEP] Purchased [SEP] asin [SEP] B003I567W4 [SEP] options [SEP] {\"flavor name\": \"pecan\", \"size\": \"4.25 ounce (pack of 12)\"} [SEP] attrs [SEP] None [SEP] category [SEP] None [SEP] query [SEP] None [SEP] product category [SEP] None [SEP] Target [SEP] asin [SEP] options [SEP] attrs [SEP] price upper [SEP] instuction text [SEP] category [SEP] product category [SEP] query [SEP] Goal [SEP] None [SEP] Reward [SEP] Your score (min 0.0, max 1.0) [SEP] 1.0 [SEP] Reward Details [SEP] None",
+        "reward": 1.0,
+        "done": true
+      }
+    }
+  ]
+}

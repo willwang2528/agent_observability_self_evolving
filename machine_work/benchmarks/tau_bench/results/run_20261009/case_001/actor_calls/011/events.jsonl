@@ -1,0 +1,6 @@
+{"type":"thread.started","thread_id":"01a12076-8c80-7190-bb36-b140206bc32d"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"agent_message","text":"{\"action\":\"transfer_to_human_agents\",\"arguments\":\"{\\\"summary\\\":\\\"Authenticated user Yusuf Rossi (yusuf_rossi_9620) requests help verifying Google Home compatibility before exchanging the thermostat in delivered order #W2378156. Available product details list Google Assistant compatibility but do not confirm Google Home support. The user requests that both the thermostat and keyboard remain unchanged for now. No exchange has been submitted.\\\"}\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":12166,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":193,"reasoning_output_tokens":97}}

@@ -1,0 +1,16 @@
+test_forged_prediction_is_rejected (test_acceptance.AcceptanceTest.test_forged_prediction_is_rejected) ... ok
+test_missing_completion_is_rejected (test_acceptance.AcceptanceTest.test_missing_completion_is_rejected) ... ok
+test_real_saved_call_is_accepted (test_acceptance.AcceptanceTest.test_real_saved_call_is_accepted) ... ok
+test_unexpected_error_item_is_rejected (test_acceptance.AcceptanceTest.test_unexpected_error_item_is_rejected) ... ok
+test_zero_usage_is_rejected (test_acceptance.AcceptanceTest.test_zero_usage_is_rejected) ... ok
+test_actor_gets_only_allowlisted_fields (test_contracts.ContractsTest.test_actor_gets_only_allowlisted_fields) ... ok
+test_no_shell_or_nested_actions (test_contracts.ContractsTest.test_no_shell_or_nested_actions) ... ok
+test_reject_no_call_and_fabricated_prediction (test_contracts.ContractsTest.test_reject_no_call_and_fabricated_prediction) ... ok
+test_reject_tool_contamination (test_contracts.ContractsTest.test_reject_tool_contamination) ... ok
+test_tool_arguments_are_json_object (test_contracts.ContractsTest.test_tool_arguments_are_json_object) ... ok
+test_valid_raw_model_call (test_contracts.ContractsTest.test_valid_raw_model_call) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.009s
+
+OK

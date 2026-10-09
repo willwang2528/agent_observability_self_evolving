@@ -1,0 +1,18 @@
+[
+  {
+    "file": "tau_bench/envs/retail/data/orders.json",
+    "sha256": "2598a12586d28f2d6bd16bc86f4c800029b6af18e0abb5c475ef5c869c11ced1"
+  },
+  {
+    "file": "tau_bench/envs/retail/data/products.json",
+    "sha256": "a9eabcc1a9742c5f5288c2779acce52b9308423383ed24706bbaf0889f762a0f"
+  },
+  {
+    "file": "tau_bench/envs/retail/data/users.json",
+    "sha256": "6f4fd104cc5e80b92166c4035315c31532c6cea52a90dcdf18425ee7f87c2b82"
+  },
+  {
+    "file": "tau_bench/envs/retail/tasks_test.py",
+    "sha256": "6f09468923c6cfb6162e94fe659264d6aee70816c18d51278fb4a581db7765a4"
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "benchmark": "alfworld",
+  "acceptance": "PASS",
+  "verifier_sha256": "a840bc958717e500f9e3d2736abee882289591f52daf2a4085064e7e7a532742",
+  "scope": "Two-task native smoke pilot only; not full benchmark score or self-evolution validation",
+  "real_model_tasks": 2,
+  "successes": 2,
+  "mean_reward": 1.0,
+  "cases": [
+    {
+      "task": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120712_273910/game.tw-pddl",
+      "steps": 8,
+      "score": {
+        "reward": 1.0,
+        "won": true
+      },
+      "actor": {
+        "calls": 8,
+        "usage": {
+          "input_tokens": 42672,
+          "cached_input_tokens": 3456,
+          "output_tokens": 290
+        },
+        "configuration_warnings": [
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+        ]
+      },
+      "user": {
+        "calls": 0,
+        "usage": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 0
+        },
+        "configuration_warnings": []
+      },
+      "official_replay": "PASS"
+    },
+    {
+      "task": "json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_051013_060265/game.tw-pddl",
+      "steps": 9,
+      "score": {
+        "reward": 1.0,
+        "won": true
+      },
+      "actor": {
+        "calls": 9,
+        "usage": {
+          "input_tokens": 47231,
+          "cached_input_tokens": 0,
+          "output_tokens": 326
+        },
+        "configuration_warnings": [
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+        ]
+      },
+      "user": {
+        "calls": 0,
+        "usage": {
+          "input_tokens": 0,
+          "cached_input_tokens": 0,
+          "output_tokens": 0
+        },
+        "configuration_warnings": []
+      },
+      "official_replay": "PASS"
+    }
+  ],
+  "scorer_controls": [
+    {
+      "task": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Egg-None-Microwave-10/trial_T20190909_120712_273910/game.tw-pddl",
+      "positive_reward": 1.0,
+      "negative_reward": 0,
+      "positive_actions": [
+        "go to garbagecan 1",
+        "take egg 3 from garbagecan 1",
+        "go to sinkbasin 1",
+        "clean egg 3 with sinkbasin 1",
+        "go to microwave 1",
+        "open microwave 1",
+        "move egg 3 to microwave 1"
+      ],
+      "control_source": "walkthrough stored in official game.tw-pddl; never actor input",
+      "control_only": true
+    },
+    {
+      "task": "json_2.1.1/valid_unseen/pick_two_obj_and_place-CD-None-Safe-308/trial_T20190907_051013_060265/game.tw-pddl",
+      "positive_reward": 1.0,
+      "negative_reward": 0,
+      "positive_actions": [
+        "go to desk 2",
+        "take cd 2 from desk 2",
+        "go to safe 1",
+        "open safe 1",
+        "move cd 2 to safe 1",
+        "go to desk 1",
+        "take cd 1 from desk 1",
+        "go to safe 1",
+        "move cd 1 to safe 1"
+      ],
+      "control_source": "walkthrough stored in official game.tw-pddl; never actor input",
+      "control_only": true
+    }
+  ]
+}

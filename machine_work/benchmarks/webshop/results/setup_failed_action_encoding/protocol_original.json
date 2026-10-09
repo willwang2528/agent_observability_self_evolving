@@ -1,0 +1,35 @@
+{
+  "frozen_at_utc": "2026-10-09T11:26:19.874928+00:00",
+  "purpose": "Native end-to-end feasibility pilot, not full-suite or method reproduction",
+  "benchmark": "webshop",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "tasks": [
+    0,
+    1
+  ],
+  "max_steps": 20,
+  "selection": "First two official shuffled human goal indices in 1000-product preview",
+  "actor_inputs": "Only rules/tool schema and observed history/current observation/admissible actions. No gold, expert plan, reference actions, task object or hidden DB.",
+  "retry_policy": "No retry for low reward/invalid action; transport error fails run and remains evidence.",
+  "self_evolution": "Not executed; this establishes native rollout, trace capture and evaluation for later controlled interventions.",
+  "acceptance": [
+    "real raw model events match saved prediction and executed action",
+    "replay all official transitions and reward without LLM calls",
+    "positive and negative official scorer controls",
+    "code/data/protocol hashes stable",
+    "all selected tasks retained including failures"
+  ],
+  "upstream": {
+    "official_repo": "https://github.com/princeton-nlp/WebShop",
+    "commit": "64fa2a5c15c7daa698b9ac93f5bb5437b634c9bd",
+    "source_tracked_diff": ""
+  },
+  "runner_sha256": {
+    "_shared/run.py": "91a01a8be04206d29dcde930303574134c3fbbf3690fa161fb04577bf87cac3f",
+    "_shared/runtime.py": "1025903efd8c2a63f76cd0aa2b6ce46c3f60172b0c64635918e64a42aa3d54df",
+    "_shared/model.py": "0eb3224ca9c0dbd7528feb812f18e87e25a27cc512f324c6dc20503e2d1675fb",
+    "_shared/contracts.py": "53ba36a79908a7406106d15ac6de630aa6715bdb38a69f52dc70cdef8c9f4c2e",
+    "_shared/adapters.py": "1c3d235b274ec351c2e0b269c1fd13d940cda0eec4386b0931d3e96560bbf375"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "benchmark": "who_when",
+  "acceptance": "PASS",
+  "scope": "Archived 12-task, 24-call no-answer-assisted diagnosis adaptation; newly verified without model rerun",
+  "source_file_hashes_verified_excluding_readme": 406,
+  "real_model_calls": 24,
+  "planned_cases": 12,
+  "conditions": {
+    "full": {
+      "n": 12,
+      "joint_correct": 4,
+      "abstained": 3
+    },
+    "head_tail_12000_chars": {
+      "n": 12,
+      "joint_correct": 3,
+      "abstained": 6
+    }
+  },
+  "raw_event_recount": "PASS",
+  "frozen_metrics_recalculation": "PASS",
+  "original_gold_unchanged": true,
+  "human_review": "pending"
+}
