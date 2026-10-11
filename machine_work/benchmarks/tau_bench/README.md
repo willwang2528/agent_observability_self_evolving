@@ -1,5 +1,7 @@
 # τ-bench（历史原版 retail）：真实环境 pilot
 
+**2026-10-11 修复结果：同一完整 attempt 内，原固定任务 0、1 均正式成功，官方奖励 1、1；独立重放验收通过。** 见 [修复协议与运行](recovery_20261011/README.md)、[严格验收](recovery_20261011/acceptance.json)。这是已观察失败后的开发修复集，旧 0/2 证据完整保留；不代表全量 benchmark 或独立泛化准确率。
+
 官方 115 个 retail test 任务的固定索引 0、1。任务高度相似，仅偏好条件不同，不能据此评价跨领域泛化。官方原版已过时；本轮只验收历史设置的可执行性。
 
 原始来源、commit、模型、任务与预算在 [protocol.json](protocol.json)；数据来源与 SHA-256 在 [data_provenance.json](data_provenance.json)。[选择依据](../SELECTION.md)核对了后续论文的实际使用。

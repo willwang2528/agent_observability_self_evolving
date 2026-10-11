@@ -1,0 +1,29 @@
+{
+  "created_at_utc": "2026-10-11T07:30:28.425901+00:00",
+  "benchmark": "webshop",
+  "purpose": "Development repair of the same two previously observed pilot tasks; not an independent held-out evaluation",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "tasks": [
+    0,
+    1
+  ],
+  "max_steps": 40,
+  "seed": 20261009,
+  "environment": "official 1000-product text preview and original human goals",
+  "selection": "Unchanged from run_20261009; no task replacement",
+  "changes": [
+    "General evidence-first actor instruction: every function/feature, variant and price must be grounded in visible product evidence before purchase",
+    "Budget 20 -> 40 steps to allow candidate comparison; no changes to environment, catalog, goals, transitions or rewards"
+  ],
+  "actor_inputs": "Fixed general policy plus exact visible observations/action availability and observed history. No goal metadata, scorer breakdown, target IDs or reference solution. Separate empty-cwd no-tools model calls.",
+  "retry_policy": "Append-only numbered attempts; all low-reward and runtime failures retained. Development set retries are explicit. Success gate requires a complete single attempt with both original tasks reward=1 and done=true.",
+  "upstream": {
+    "official_repo": "https://github.com/princeton-nlp/WebShop",
+    "commit": "64fa2a5c15c7daa698b9ac93f5bb5437b634c9bd",
+    "source_tracked_diff": ""
+  },
+  "original_results_manifest": "original_run_sha256.json",
+  "data_provenance": "../data_provenance.json",
+  "self_evolution": "Human/Codex engineered actor-policy repair; not autonomous self-evolution or a generalization claim"
+}

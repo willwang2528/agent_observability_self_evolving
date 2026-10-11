@@ -1,0 +1,6 @@
+{"type":"thread.started","thread_id":"01a129e1-20a2-7692-aa8d-3adf0c8ef866"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"agent_message","text":"{\"action\":\"Yes, those are my only exchanges. I’d like a full-size keyboard with clicky switches and RGB backlighting, or no backlight if RGB isn’t available. For the thermostat, I need Google Home compatibility instead of Apple HomeKit, preferably keeping the current color. Please keep the other features as similar as possible.\",\"arguments\":\"{}\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":5271,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":227,"reasoning_output_tokens":143}}

@@ -1,64 +1,68 @@
 {
-  "native_pilots": [
-    {
-      "benchmark": "alfworld",
-      "tasks": 2,
-      "successful_tasks": 2,
-      "mean_reward": 1.0,
-      "calls": {
-        "actor": 17,
-        "user": 0
-      },
-      "usage": {
-        "input_tokens": 89903,
-        "cached_input_tokens": 3456,
-        "output_tokens": 616
-      },
-      "steps": [
-        8,
-        9
-      ]
-    },
+  "current_recovery_date": "2026-10-11",
+  "scope": "Development recovery on the same four previously observed tasks; not held-out pass@1",
+  "historical_run_summary": "RUN_SUMMARY_20261009.json",
+  "recovery_runs": [
     {
       "benchmark": "webshop",
-      "tasks": 2,
-      "successful_tasks": 1,
-      "mean_reward": 0.8333333333333333,
+      "tasks": [
+        0,
+        1
+      ],
+      "successful_tasks": 2,
+      "rewards": [
+        1.0,
+        1.0
+      ],
+      "selected_attempt": "attempt_001",
+      "retained_attempts": 1,
+      "steps": [
+        15,
+        7
+      ],
       "calls": {
-        "actor": 13,
+        "actor": 22,
         "user": 0
       },
       "usage": {
-        "input_tokens": 76847,
-        "cached_input_tokens": 20736,
-        "output_tokens": 772
+        "input_tokens": 148590,
+        "cached_input_tokens": 24192,
+        "output_tokens": 2607
       },
-      "steps": [
-        6,
-        7
-      ]
+      "acceptance": "machine_work/benchmarks/webshop/recovery_20261011/acceptance.json"
     },
     {
       "benchmark": "tau_bench",
-      "tasks": 2,
-      "successful_tasks": 0,
-      "mean_reward": 0.0,
+      "tasks": [
+        0,
+        1
+      ],
+      "successful_tasks": 2,
+      "rewards": [
+        1.0,
+        1.0
+      ],
+      "selected_attempt": "attempt_01",
+      "retained_attempts": 1,
+      "steps": [
+        9,
+        10
+      ],
       "calls": {
-        "actor": 24,
-        "user": 12
+        "actor": 19,
+        "user": 11
       },
       "usage": {
-        "input_tokens": 326840,
-        "cached_input_tokens": 69120,
-        "output_tokens": 13820
+        "input_tokens": 265872,
+        "cached_input_tokens": 38016,
+        "output_tokens": 8748
       },
-      "steps": [
-        12,
-        12
-      ]
+      "acceptance": "machine_work/benchmarks/tau_bench/recovery_20261011/acceptance.json"
     }
   ],
-  "invalid_setup": {
+  "recovery_actual_model_calls": 52,
+  "all_valid_real_model_calls_including_history": 142,
+  "historical_invalid_setup": {
     "status": "invalid setup; excluded from valid task success metrics",
     "completed_model_calls": 8,
     "interrupted_or_missing_result_calls": 0,
@@ -69,6 +73,7 @@
     },
     "interrupted_usage": "unknown; not recorded as zero"
   },
-  "archived_who_when_calls": 24,
-  "all_valid_real_model_calls": 90
+  "who_when_and_alfworld": "Unchanged; historical summary and original evidence retained",
+  "human_audit": "pending",
+  "success_acceptance": "SUCCESS_ACCEPTANCE.json"
 }

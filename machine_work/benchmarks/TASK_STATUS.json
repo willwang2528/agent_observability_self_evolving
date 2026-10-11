@@ -1,0 +1,25 @@
+{
+  "task": "Repair and validate full success on original WebShop and tau-bench pilot task pairs",
+  "status": "COMPLETED",
+  "completed_at_utc": "2026-10-11T07:45:00.446664+00:00",
+  "requirements": {
+    "fixed_original_tasks": {
+      "webshop": [
+        0,
+        1
+      ],
+      "tau_bench": [
+        0,
+        1
+      ]
+    },
+    "all_rewards_one": true,
+    "official_replay": "PASS",
+    "raw_model_evidence": "PASS",
+    "original_failures_retained": true
+  },
+  "acceptance": "SUCCESS_ACCEPTANCE.json",
+  "publication_allowed": true,
+  "human_audit": "pending",
+  "scope": "Four pilot tasks only; not full benchmark completion or self-evolution validation"
+}

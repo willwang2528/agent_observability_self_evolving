@@ -1,0 +1,141 @@
+{
+  "acceptance": "PASS",
+  "publication_allowed": true,
+  "scope": "WebShop and historical tau-bench fixed development tasks [0,1], all four full successes required",
+  "human_audit": "pending",
+  "model_calls_in_this_acceptance": 0,
+  "started_at_utc": "2026-10-11T07:44:18.730834+00:00",
+  "benchmarks": {
+    "webshop": {
+      "acceptance": "PASS",
+      "report": "machine_work/benchmarks/webshop/recovery_20261011/acceptance.json",
+      "sha256": "c7ea72455cacd2f2011d3dce3f9e1e2768af4a48737b08d4847cadcdffc55cb3",
+      "tasks": [
+        0,
+        1
+      ],
+      "successes": 2,
+      "selected_attempt": "attempt_001",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    },
+    "tau_bench": {
+      "acceptance": "PASS",
+      "report": "machine_work/benchmarks/tau_bench/recovery_20261011/acceptance.json",
+      "sha256": "489d782a6dcac5c71f89cba5d3720d5b4c2d1aaef2e7a29d4b1fd95fd8609fbc",
+      "tasks": [
+        0,
+        1
+      ],
+      "successes": 2,
+      "selected_attempt": "attempt_01",
+      "rewards": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "checks": [
+    {
+      "command": [
+        "/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/_shared",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "log": "machine_work/benchmarks/validation/recovery_20261011/check_00.log",
+      "sha256": "a4d7a2559b3494a5557d4356dfeee039182fc5c599cab67678db389d0cc512b3"
+    },
+    {
+      "command": [
+        "/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/webshop/runner",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "log": "machine_work/benchmarks/validation/recovery_20261011/check_01.log",
+      "sha256": "c3f29ad3265075b5013dfb0e612a4bfcae0ca70c2e01c82ae23c394e861a5c10"
+    },
+    {
+      "command": [
+        "/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/who_when/pilot_20261009/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "log": "machine_work/benchmarks/validation/recovery_20261011/check_02.log",
+      "sha256": "c5bb0913dd9380d04e2dbd41552fc2e146f5a462a70b74a3237dbead062d5b88"
+    },
+    {
+      "command": [
+        "/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/webshop/recovery_20261011",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "log": "machine_work/benchmarks/validation/recovery_20261011/check_03.log",
+      "sha256": "2451dfe4db4344689812c7397b08880de399a605d21cc38994f9658b8803c7c1"
+    },
+    {
+      "command": [
+        "/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/bin/python",
+        "/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/webshop/recovery_20261011/verify.py"
+      ],
+      "returncode": 0,
+      "log": "machine_work/benchmarks/validation/recovery_20261011/check_04.log",
+      "sha256": "9ba10e02e4d172a77adf5b9aab864446e4fd4fdc7564afe5c0e0529869360df8"
+    },
+    {
+      "command": [
+        "/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/tau_bench/recovery_20261011",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "log": "machine_work/benchmarks/validation/recovery_20261011/check_05.log",
+      "sha256": "7957a7c01fa2b24fe4fb30d52592c587e31adde01eb7695ff715fc285b08f13d"
+    },
+    {
+      "command": [
+        "/Users/will/project/agent_observability_self_evolving/.benchmark_cache/venv/bin/python",
+        "/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/tau_bench/recovery_20261011/verify.py"
+      ],
+      "returncode": 0,
+      "log": "machine_work/benchmarks/validation/recovery_20261011/check_06.log",
+      "sha256": "f53c8a0052aba16176fd0c0e4f9a89f64ac55977bd164d9bc2e8461c7e06698e"
+    }
+  ],
+  "unit_tests": 86,
+  "verified_at_utc": "2026-10-11T07:44:29.403561+00:00",
+  "verifier_sha256": "6458958adca2598bc514cb45d8a9f1bfafa3e9b57d7f1b7140d50e9d8fc322a5"
+}

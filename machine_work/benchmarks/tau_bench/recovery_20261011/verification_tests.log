@@ -1,0 +1,18 @@
+test_actor_or_user_prompt_tamper_rejected (__main__.EvidenceGateTest.test_actor_or_user_prompt_tamper_rejected) ... ok
+test_conditional_or_negated_proceed_is_not_current_authorization (__main__.EvidenceGateTest.test_conditional_or_negated_proceed_is_not_current_authorization) ... ok
+test_explicit_proceed_authorization_without_literal_yes_is_valid (__main__.EvidenceGateTest.test_explicit_proceed_authorization_without_literal_yes_is_valid) ... ok
+test_forcing_exchange_after_real_user_refusal_rejected (__main__.EvidenceGateTest.test_forcing_exchange_after_real_user_refusal_rejected) ... ok
+test_instruction_tamper_rejected (__main__.EvidenceGateTest.test_instruction_tamper_rejected) ... ok
+test_missing_execution_rejected (__main__.EvidenceGateTest.test_missing_execution_rejected) ... ok
+test_model_override_rejected (__main__.EvidenceGateTest.test_model_override_rejected) ... ok
+test_negated_proceed_is_not_authorization (__main__.EvidenceGateTest.test_negated_proceed_is_not_authorization) ... ok
+test_no_user_confirmation_rejected (__main__.EvidenceGateTest.test_no_user_confirmation_rejected) ... ok
+test_original_user_refusal_produces_no_exchange (__main__.EvidenceGateTest.test_original_user_refusal_produces_no_exchange) ... ok
+test_prediction_differs_from_raw_model_rejected (__main__.EvidenceGateTest.test_prediction_differs_from_raw_model_rejected) ... ok
+test_real_saved_call_passes (__main__.EvidenceGateTest.test_real_saved_call_passes) ... ok
+test_repo_cwd_rejected_even_with_consistent_command (__main__.EvidenceGateTest.test_repo_cwd_rejected_even_with_consistent_command) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.022s
+
+OK

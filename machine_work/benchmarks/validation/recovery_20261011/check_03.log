@@ -1,0 +1,14 @@
+test_missing_real_call_fails (test_verify.SuccessGateTests.test_missing_real_call_fails) ... ok
+test_model_prompt_has_only_observed_allowlist (test_verify.SuccessGateTests.test_model_prompt_has_only_observed_allowlist) ... ok
+test_nonterminal_reward_fails (test_verify.SuccessGateTests.test_nonterminal_reward_fails) ... ok
+test_partial_reward_fails_even_if_flags_claim_success (test_verify.SuccessGateTests.test_partial_reward_fails_even_if_flags_claim_success) ... ok
+test_replacement_task_fails (test_verify.SuccessGateTests.test_replacement_task_fails) ... ok
+test_replay_failure_fails (test_verify.SuccessGateTests.test_replay_failure_fails) ... ok
+test_two_complete_verified_successes_pass (test_verify.SuccessGateTests.test_two_complete_verified_successes_pass) ... ok
+test_unverified_success_flag_fails (test_verify.SuccessGateTests.test_unverified_success_flag_fails) ... ok
+test_zero_reward_fails (test_verify.SuccessGateTests.test_zero_reward_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.000s
+
+OK

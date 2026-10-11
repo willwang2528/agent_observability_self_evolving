@@ -1,0 +1,143 @@
+{
+  "benchmark": "webshop",
+  "acceptance": "PASS",
+  "verified_at_unix": 1791704662.727672,
+  "verifier_sha256": "ed620e9bd8cc203a6de914b65bd0a45a8c71260eae31f917bfa37b8ce659e08f",
+  "protocol_sha256": "2142760ae029b36c842cc01539deff6f277350ababef986ab555d26a7a13c932",
+  "scope": "Development recovery on the same two previously observed tasks, not held-out performance or full-suite reproduction",
+  "selected_attempt": "attempt_001",
+  "all_attempts": [
+    {
+      "attempt": "attempt_001",
+      "integrity": "PASS",
+      "all_success": true,
+      "successes": 2,
+      "cases": [
+        {
+          "task": 0,
+          "steps": 15,
+          "score": {
+            "reward": 1.0,
+            "won": true,
+            "done": true
+          },
+          "official_replay": "PASS",
+          "actor": {
+            "calls": 15,
+            "usage": {
+              "input_tokens": 104831,
+              "cached_input_tokens": 10368,
+              "output_tokens": 2129
+            },
+            "configuration_warnings": [
+              "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+              "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+            ],
+            "raw_actions_and_settings": "PASS",
+            "observation_only_prompt": "PASS",
+            "empty_cwd_no_tools": "PASS"
+          }
+        },
+        {
+          "task": 1,
+          "steps": 7,
+          "score": {
+            "reward": 1.0,
+            "won": true,
+            "done": true
+          },
+          "official_replay": "PASS",
+          "actor": {
+            "calls": 7,
+            "usage": {
+              "input_tokens": 43759,
+              "cached_input_tokens": 13824,
+              "output_tokens": 478
+            },
+            "configuration_warnings": [
+              "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+              "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+            ],
+            "raw_actions_and_settings": "PASS",
+            "observation_only_prompt": "PASS",
+            "empty_cwd_no_tools": "PASS"
+          }
+        }
+      ]
+    }
+  ],
+  "real_model_tasks": 2,
+  "successes": 2,
+  "mean_reward": 1.0,
+  "cases": [
+    {
+      "task": 0,
+      "steps": 15,
+      "score": {
+        "reward": 1.0,
+        "won": true,
+        "done": true
+      },
+      "official_replay": "PASS",
+      "actor": {
+        "calls": 15,
+        "usage": {
+          "input_tokens": 104831,
+          "cached_input_tokens": 10368,
+          "output_tokens": 2129
+        },
+        "configuration_warnings": [
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+        ],
+        "raw_actions_and_settings": "PASS",
+        "observation_only_prompt": "PASS",
+        "empty_cwd_no_tools": "PASS"
+      }
+    },
+    {
+      "task": 1,
+      "steps": 7,
+      "score": {
+        "reward": 1.0,
+        "won": true,
+        "done": true
+      },
+      "official_replay": "PASS",
+      "actor": {
+        "calls": 7,
+        "usage": {
+          "input_tokens": 43759,
+          "cached_input_tokens": 13824,
+          "output_tokens": 478
+        },
+        "configuration_warnings": [
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+        ],
+        "raw_actions_and_settings": "PASS",
+        "observation_only_prompt": "PASS",
+        "empty_cwd_no_tools": "PASS"
+      }
+    }
+  ],
+  "all_attempt_actor_calls": 22,
+  "scorer_controls": [
+    {
+      "task": 0,
+      "positive_reward": 1.0,
+      "negative_reward": 0.0,
+      "control_only": true,
+      "actor_never_receives_control_inputs": true
+    },
+    {
+      "task": 1,
+      "positive_reward": 1.0,
+      "negative_reward": 0.0,
+      "control_only": true,
+      "actor_never_receives_control_inputs": true
+    }
+  ],
+  "original_run_unchanged": true,
+  "official_source_and_data": "PASS"
+}

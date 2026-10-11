@@ -1,0 +1,414 @@
+{
+  "benchmark": "tau_bench",
+  "acceptance": "PASS",
+  "real_model_tasks": 2,
+  "successes": 2,
+  "mean_reward": 1.0,
+  "scope": "Observed failure repair/development set. Same two original test indices; adaptive attempts are not independent benchmark accuracy or self-evolution evidence.",
+  "selected_attempt": "attempt_01",
+  "all_attempts": [
+    {
+      "attempt": "attempt_01",
+      "complete": true,
+      "successes": 2,
+      "cases": [
+        {
+          "task": 0,
+          "steps": 9,
+          "score": {
+            "reward": 1.0,
+            "won": true,
+            "done": true,
+            "official": {
+              "reward": 1.0,
+              "info": {
+                "r_actions": 1.0,
+                "gt_data_hash": "5ed21c65cf9e8d0c20ad0210721146bb6abad19bedce7c2e08472311dabbeec8"
+              },
+              "actions": [
+                {
+                  "name": "find_user_id_by_name_zip",
+                  "kwargs": {
+                    "first_name": "Yusuf",
+                    "last_name": "Rossi",
+                    "zip": "19122"
+                  }
+                },
+                {
+                  "name": "get_order_details",
+                  "kwargs": {
+                    "order_id": "#W2378156"
+                  }
+                },
+                {
+                  "name": "get_product_details",
+                  "kwargs": {
+                    "product_id": "1656367028"
+                  }
+                },
+                {
+                  "name": "get_product_details",
+                  "kwargs": {
+                    "product_id": "4896585277"
+                  }
+                },
+                {
+                  "name": "exchange_delivered_order_items",
+                  "kwargs": {
+                    "order_id": "#W2378156",
+                    "item_ids": [
+                      "1151293680",
+                      "4983901480"
+                    ],
+                    "new_item_ids": [
+                      "7706410293",
+                      "7747408585"
+                    ],
+                    "payment_method_id": "credit_card_9513926"
+                  }
+                }
+              ]
+            }
+          },
+          "actor": {
+            "calls": 9,
+            "usage": {
+              "input_tokens": 97816,
+              "cached_input_tokens": 10368,
+              "output_tokens": 3662
+            },
+            "configuration_warnings": [
+              "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+              "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+            ]
+          },
+          "user": {
+            "calls": 5,
+            "usage": {
+              "input_tokens": 26484,
+              "cached_input_tokens": 0,
+              "output_tokens": 759
+            },
+            "configuration_warnings": [
+              "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+              "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+            ]
+          },
+          "confirmation_evidence": [
+            {
+              "exchange_turn": 7,
+              "confirmation_turn": 6,
+              "user_reply": "Yes, Google Assistant is what I mean by Google Home. Please proceed with both exchanges together: the full-size clicky keyboard with no backlight and the black Google Assistant thermostat. Refund the $16.63 difference to my original credit card.",
+              "proposal": "The full-size clicky/RGB keyboard is unavailable, but your fallback—full size, clicky switches, no backlight—is available for $269.16.\n\nThe black thermostat costs $249.01 and lists compatibility as “Google Assistant.” Is “Google Assistant” the catalog option you intend by “Google Home”?\n\nIf you select these two replacements, would you like the $16.63 total refund sent to your original credit card?"
+            }
+          ],
+          "official_replay": "PASS",
+          "final_actual_db_hash": "5ed21c65cf9e8d0c20ad0210721146bb6abad19bedce7c2e08472311dabbeec8",
+          "user_prompt_reconstruction": "PASS",
+          "actor_prompt_and_runtime_reconstruction": "PASS"
+        },
+        {
+          "task": 1,
+          "steps": 10,
+          "score": {
+            "reward": 1.0,
+            "won": true,
+            "done": true,
+            "official": {
+              "reward": 1.0,
+              "info": {
+                "r_actions": 1.0,
+                "gt_data_hash": "4adebec00ba70d55dd0c5a53c768d8853f475d0cec8f2b1264887c3602fb86a3"
+              },
+              "actions": [
+                {
+                  "name": "find_user_id_by_name_zip",
+                  "kwargs": {
+                    "first_name": "Yusuf",
+                    "last_name": "Rossi",
+                    "zip": "19122"
+                  }
+                },
+                {
+                  "name": "get_order_details",
+                  "kwargs": {
+                    "order_id": "#W2378156"
+                  }
+                },
+                {
+                  "name": "get_product_details",
+                  "kwargs": {
+                    "product_id": "1656367028"
+                  }
+                },
+                {
+                  "name": "get_product_details",
+                  "kwargs": {
+                    "product_id": "4896585277"
+                  }
+                },
+                {
+                  "name": "exchange_delivered_order_items",
+                  "kwargs": {
+                    "order_id": "#W2378156",
+                    "item_ids": [
+                      "4983901480"
+                    ],
+                    "new_item_ids": [
+                      "7747408585"
+                    ],
+                    "payment_method_id": "credit_card_9513926"
+                  }
+                }
+              ]
+            }
+          },
+          "actor": {
+            "calls": 10,
+            "usage": {
+              "input_tokens": 109740,
+              "cached_input_tokens": 10368,
+              "output_tokens": 3457
+            },
+            "configuration_warnings": [
+              "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+              "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+            ]
+          },
+          "user": {
+            "calls": 6,
+            "usage": {
+              "input_tokens": 31832,
+              "cached_input_tokens": 17280,
+              "output_tokens": 870
+            },
+            "configuration_warnings": [
+              "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+              "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+            ]
+          },
+          "confirmation_evidence": [
+            {
+              "exchange_turn": 8,
+              "confirmation_turn": 7,
+              "user_reply": "Please refund the $13.46 to the original credit card and proceed with the thermostat-only exchange, leaving the keyboard unchanged.",
+              "proposal": "The black Google Assistant thermostat costs $249.01, giving you a $13.46 refund. The keyboard will remain unchanged. Would you like the refund sent to the original credit card used for this order, or another payment method on your account?"
+            }
+          ],
+          "official_replay": "PASS",
+          "final_actual_db_hash": "4adebec00ba70d55dd0c5a53c768d8853f475d0cec8f2b1264887c3602fb86a3",
+          "user_prompt_reconstruction": "PASS",
+          "actor_prompt_and_runtime_reconstruction": "PASS"
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "task": 0,
+      "steps": 9,
+      "score": {
+        "reward": 1.0,
+        "won": true,
+        "done": true,
+        "official": {
+          "reward": 1.0,
+          "info": {
+            "r_actions": 1.0,
+            "gt_data_hash": "5ed21c65cf9e8d0c20ad0210721146bb6abad19bedce7c2e08472311dabbeec8"
+          },
+          "actions": [
+            {
+              "name": "find_user_id_by_name_zip",
+              "kwargs": {
+                "first_name": "Yusuf",
+                "last_name": "Rossi",
+                "zip": "19122"
+              }
+            },
+            {
+              "name": "get_order_details",
+              "kwargs": {
+                "order_id": "#W2378156"
+              }
+            },
+            {
+              "name": "get_product_details",
+              "kwargs": {
+                "product_id": "1656367028"
+              }
+            },
+            {
+              "name": "get_product_details",
+              "kwargs": {
+                "product_id": "4896585277"
+              }
+            },
+            {
+              "name": "exchange_delivered_order_items",
+              "kwargs": {
+                "order_id": "#W2378156",
+                "item_ids": [
+                  "1151293680",
+                  "4983901480"
+                ],
+                "new_item_ids": [
+                  "7706410293",
+                  "7747408585"
+                ],
+                "payment_method_id": "credit_card_9513926"
+              }
+            }
+          ]
+        }
+      },
+      "actor": {
+        "calls": 9,
+        "usage": {
+          "input_tokens": 97816,
+          "cached_input_tokens": 10368,
+          "output_tokens": 3662
+        },
+        "configuration_warnings": [
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+        ]
+      },
+      "user": {
+        "calls": 5,
+        "usage": {
+          "input_tokens": 26484,
+          "cached_input_tokens": 0,
+          "output_tokens": 759
+        },
+        "configuration_warnings": [
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+        ]
+      },
+      "confirmation_evidence": [
+        {
+          "exchange_turn": 7,
+          "confirmation_turn": 6,
+          "user_reply": "Yes, Google Assistant is what I mean by Google Home. Please proceed with both exchanges together: the full-size clicky keyboard with no backlight and the black Google Assistant thermostat. Refund the $16.63 difference to my original credit card.",
+          "proposal": "The full-size clicky/RGB keyboard is unavailable, but your fallback—full size, clicky switches, no backlight—is available for $269.16.\n\nThe black thermostat costs $249.01 and lists compatibility as “Google Assistant.” Is “Google Assistant” the catalog option you intend by “Google Home”?\n\nIf you select these two replacements, would you like the $16.63 total refund sent to your original credit card?"
+        }
+      ],
+      "official_replay": "PASS",
+      "final_actual_db_hash": "5ed21c65cf9e8d0c20ad0210721146bb6abad19bedce7c2e08472311dabbeec8",
+      "user_prompt_reconstruction": "PASS",
+      "actor_prompt_and_runtime_reconstruction": "PASS"
+    },
+    {
+      "task": 1,
+      "steps": 10,
+      "score": {
+        "reward": 1.0,
+        "won": true,
+        "done": true,
+        "official": {
+          "reward": 1.0,
+          "info": {
+            "r_actions": 1.0,
+            "gt_data_hash": "4adebec00ba70d55dd0c5a53c768d8853f475d0cec8f2b1264887c3602fb86a3"
+          },
+          "actions": [
+            {
+              "name": "find_user_id_by_name_zip",
+              "kwargs": {
+                "first_name": "Yusuf",
+                "last_name": "Rossi",
+                "zip": "19122"
+              }
+            },
+            {
+              "name": "get_order_details",
+              "kwargs": {
+                "order_id": "#W2378156"
+              }
+            },
+            {
+              "name": "get_product_details",
+              "kwargs": {
+                "product_id": "1656367028"
+              }
+            },
+            {
+              "name": "get_product_details",
+              "kwargs": {
+                "product_id": "4896585277"
+              }
+            },
+            {
+              "name": "exchange_delivered_order_items",
+              "kwargs": {
+                "order_id": "#W2378156",
+                "item_ids": [
+                  "4983901480"
+                ],
+                "new_item_ids": [
+                  "7747408585"
+                ],
+                "payment_method_id": "credit_card_9513926"
+              }
+            }
+          ]
+        }
+      },
+      "actor": {
+        "calls": 10,
+        "usage": {
+          "input_tokens": 109740,
+          "cached_input_tokens": 10368,
+          "output_tokens": 3457
+        },
+        "configuration_warnings": [
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+        ]
+      },
+      "user": {
+        "calls": 6,
+        "usage": {
+          "input_tokens": 31832,
+          "cached_input_tokens": 17280,
+          "output_tokens": 870
+        },
+        "configuration_warnings": [
+          "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+          "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+        ]
+      },
+      "confirmation_evidence": [
+        {
+          "exchange_turn": 8,
+          "confirmation_turn": 7,
+          "user_reply": "Please refund the $13.46 to the original credit card and proceed with the thermostat-only exchange, leaving the keyboard unchanged.",
+          "proposal": "The black Google Assistant thermostat costs $249.01, giving you a $13.46 refund. The keyboard will remain unchanged. Would you like the refund sent to the original credit card used for this order, or another payment method on your account?"
+        }
+      ],
+      "official_replay": "PASS",
+      "final_actual_db_hash": "4adebec00ba70d55dd0c5a53c768d8853f475d0cec8f2b1264887c3602fb86a3",
+      "user_prompt_reconstruction": "PASS",
+      "actor_prompt_and_runtime_reconstruction": "PASS"
+    }
+  ],
+  "scorer_controls": [
+    {
+      "task": 0,
+      "positive_reward": 1.0,
+      "negative_reward": 0.0,
+      "control_only": true
+    },
+    {
+      "task": 1,
+      "positive_reward": 1.0,
+      "negative_reward": 0.0,
+      "control_only": true
+    }
+  ],
+  "original_run_preserved": "PASS",
+  "official_source_and_data_unchanged": "PASS",
+  "verifier_sha256": "3f36cb9f8548d3527d798a65e22e7e84da7d87cc24ed521b869a45eeaa7d4292",
+  "protocol_sha256": "af56e3adf1e22fdfdf04641eff7dd2554cca60aa502dc67c50645dcb897b863e"
+}

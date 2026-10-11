@@ -1,7 +1,10 @@
 {
-  "created_at_utc": "2026-10-09T11:47:55.761228+00:00",
+  "created_at_utc": "2026-10-11T07:46:11.843511+00:00",
   "repository": "https://github.com/willwang2528/agent_observability_self_evolving",
-  "acceptance_sha256": "a7131f974432067b91856b2fcc6b141ab48ccc8b4edb6eee87ef20760dda8f0d",
+  "acceptance_path": "machine_work/benchmarks/SUCCESS_ACCEPTANCE.json",
+  "acceptance_sha256": "1832c7b1a12782c3994bcefa6416cae4702a4f4ff1432cd117b4902b0e9fc760",
+  "task_status_path": "machine_work/benchmarks/TASK_STATUS.json",
+  "task_status_sha256": "f742fe3db5e970ea200f30bcb7064700cf207e11c31de49737684c5fd9d78573",
   "credential_pattern_scan_file_hits": 0,
   "private_runtime_files_tracked": 0,
   "manifest_excludes_self": true,
@@ -18,13 +21,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 4726,
-      "sha256": "1bf2262acf15fce9e09a1c3b4751f1e0ca3d0832f14a0f8dbceff2b72d4cdfec"
+      "bytes": 4845,
+      "sha256": "a6f75960284f64ae62e571a0f03ca9f8cf7bf09fe00ccb814caeec885a277478"
     },
     {
       "path": "human_audit/README.md",
-      "bytes": 2490,
-      "sha256": "7170beee5a5653c43d9677bd62abec31fb6888860629a1959820375ebe06a636"
+      "bytes": 2855,
+      "sha256": "c4d53cc8abc7c22c6e2798d34db96e93cb8eff126a433de750320c5d89dc8bf5"
     },
     {
       "path": "human_audit/REVIEW_TEMPLATE.md",
@@ -38,13 +41,13 @@
     },
     {
       "path": "human_audit/benchmarks/tau_bench/README.md",
-      "bytes": 940,
-      "sha256": "c51a334d4035940aaaa8448182c6ac77e67341152df6deaf4df7347846d5b799"
+      "bytes": 1564,
+      "sha256": "d35b1c4745a9112b7d918f955930a873259fa8336497b8e0bdc0d450bb829b2f"
     },
     {
       "path": "human_audit/benchmarks/webshop/README.md",
-      "bytes": 936,
-      "sha256": "de16c1cf84dcaa4853e132256e728adbdd48c47d761e32335e5b6dd74f52d3b5"
+      "bytes": 2108,
+      "sha256": "53b90e05e3561a040adedf3b1ef7fef212d4d6dc05225e3d4b8e9b9cba65bd05"
     },
     {
       "path": "human_audit/benchmarks/who_when/README.md",
@@ -53,8 +56,8 @@
     },
     {
       "path": "machine_work/README.md",
-      "bytes": 1350,
-      "sha256": "593d32f0028dfa521f60d4a1ce40750152e92e06c0f8d01cb3538d80717fc535"
+      "bytes": 1526,
+      "sha256": "fd63bf2a0c892e512aaffdcd6618c5c6d4a7805961f5241d5f7a7c6532a8911e"
     },
     {
       "path": "machine_work/benchmarks/ACCEPTANCE.json",
@@ -67,12 +70,32 @@
       "sha256": "9aa03c041f44c9d720b0ba41b586cb33749e31cbec267bba775d8d470532fa94"
     },
     {
+      "path": "machine_work/benchmarks/PUBLICATION_MANIFEST_20261009.json",
+      "bytes": 246640,
+      "sha256": "247a5c5235a1b339946976d4f6756bc9e82a9cf145f17cffe6c583b75a798c19"
+    },
+    {
+      "path": "machine_work/benchmarks/RECOVERY_SEMANTIC_AUDIT.md",
+      "bytes": 5019,
+      "sha256": "1ea4e944da23a365328481608f9f0a32504939f3cd331138aec0ec01bd2f0314"
+    },
+    {
       "path": "machine_work/benchmarks/REPORT.md",
+      "bytes": 4319,
+      "sha256": "257ce043d05ec194e8bf437cd79d485480ba4bbc2d968d27dbe2c73f54e7e2d9"
+    },
+    {
+      "path": "machine_work/benchmarks/REPORT_20261009.md",
       "bytes": 6674,
       "sha256": "588cb0430379f7633375bf22291a8e10a67fec1803cd653653283dd333442e7d"
     },
     {
       "path": "machine_work/benchmarks/RUN_SUMMARY.json",
+      "bytes": 1999,
+      "sha256": "8935423bb57737cb046f52288317008944a341ba4e68dcf9a6e7b4986096b81f"
+    },
+    {
+      "path": "machine_work/benchmarks/RUN_SUMMARY_20261009.json",
       "bytes": 1530,
       "sha256": "8ce89068027d3d61b0b17a7c38de4e7c4ae95fc65c7a8f1b93f60f2b56fbe4bb"
     },
@@ -82,9 +105,24 @@
       "sha256": "59ac9f52c231a5e7e3d2ab1545ef0dc580f670b45d243b941419189514ebe9eb"
     },
     {
+      "path": "machine_work/benchmarks/SUCCESS_ACCEPTANCE.json",
+      "bytes": 4903,
+      "sha256": "1832c7b1a12782c3994bcefa6416cae4702a4f4ff1432cd117b4902b0e9fc760"
+    },
+    {
+      "path": "machine_work/benchmarks/TASK_STATUS.json",
+      "bytes": 675,
+      "sha256": "f742fe3db5e970ea200f30bcb7064700cf207e11c31de49737684c5fd9d78573"
+    },
+    {
       "path": "machine_work/benchmarks/_shared/accept_all.py",
       "bytes": 2777,
       "sha256": "e1d92900da85974f34be5ca65ee5bea13b0308e5ad8c3777bcb424aa729108d5"
+    },
+    {
+      "path": "machine_work/benchmarks/_shared/accept_success.py",
+      "bytes": 5531,
+      "sha256": "6458958adca2598bc514cb45d8a9f1bfafa3e9b57d7f1b7140d50e9d8fc322a5"
     },
     {
       "path": "machine_work/benchmarks/_shared/adapters.py",
@@ -125,6 +163,11 @@
       "path": "machine_work/benchmarks/_shared/test_contracts.py",
       "bytes": 2253,
       "sha256": "219a81ef8d761a203619c79a6e1be5a6d7b760f0312e1c56eac1cf19213d589a"
+    },
+    {
+      "path": "machine_work/benchmarks/_shared/test_success_gate.py",
+      "bytes": 3118,
+      "sha256": "fe799ed78aeb3f55afd647e3e1341672285be0387701ec50ebf64228a6aa1152"
     },
     {
       "path": "machine_work/benchmarks/_shared/verify.py",
@@ -888,8 +931,8 @@
     },
     {
       "path": "machine_work/benchmarks/tau_bench/README.md",
-      "bytes": 3673,
-      "sha256": "339a89923bbc4d9efbb885c7cb3a8dc4218ba2014c40c8d37ae40378200ac4fd"
+      "bytes": 4059,
+      "sha256": "bc42caba87200fa438930af1802f0efbe7e8eeddfd6ef1a2e407705c136058f5"
     },
     {
       "path": "machine_work/benchmarks/tau_bench/UPSTREAM_LICENSE.txt",
@@ -905,6 +948,1291 @@
       "path": "machine_work/benchmarks/tau_bench/protocol.json",
       "bytes": 1769,
       "sha256": "f4113f37cbe2d7d3e7483354438996356085b6eb8cd493c76f5cd332d4a769b7"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/README.md",
+      "bytes": 4285,
+      "sha256": "1e2e857409f253fa21ce628f41a8afabba584160c4c15c04a6ac21c7512cd22c"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/acceptance.json",
+      "bytes": 16742,
+      "sha256": "489d782a6dcac5c71f89cba5d3720d5b4c2d1aaef2e7a29d4b1fd95fd8609fbc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/actor_strategy.txt",
+      "bytes": 1371,
+      "sha256": "ee55bef7b2ae09776cfd20c113a2b06636db01e0514b69282ba9c2cc9e7838e6"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/attempt_01.log",
+      "bytes": 4810,
+      "sha256": "d6c09bcd892a6bf60d056744a859b58b4f03bbca9744ab876b0421ccaa891c5f"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/protocol.json",
+      "bytes": 41862,
+      "sha256": "af56e3adf1e22fdfdf04641eff7dd2554cca60aa502dc67c50645dcb897b863e"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/000/command.json",
+      "bytes": 2159,
+      "sha256": "137725a7d7485b62a6ed336dcbc15cdea3e0bc47218cff987ee5def11c6390fb"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/000/events.jsonl",
+      "bytes": 1081,
+      "sha256": "2b6cd9988e34b801ef5cb630a0612d53a4fa28060fb08c3884d3f58eed65078a"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/000/execution.json",
+      "bytes": 657,
+      "sha256": "05ade2da2ed4cd4edcbba61918b062d4157c4b7bf4255e72b4262c5640d6f1c6"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/000/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/000/prediction.json",
+      "bytes": 169,
+      "sha256": "383640acec0b0435b5ca49362b93cc05c2920e2eb7a1475610e3a9cb9ef7ffb9"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/000/prompt.txt",
+      "bytes": 20001,
+      "sha256": "1e0e6cdd31fd246a22d977f0a28e8a6ce99ab1c14aca068e7ae54b91badcef63"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/000/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/000/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/001/command.json",
+      "bytes": 2159,
+      "sha256": "a89c4a02d186339393d4252614c6955af8439898100f6cc9ad9e9edf38371f91"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/001/events.jsonl",
+      "bytes": 1047,
+      "sha256": "e5c9a9c4e9a750bab341209cb8a3a34c05d4ffae46f9b79a4cc607043a42b534"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/001/execution.json",
+      "bytes": 658,
+      "sha256": "91d1438fd958a7e30bf91120e328fe56f9b885ed5da5d13cecea21ef63ec3d95"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/001/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/001/prediction.json",
+      "bytes": 120,
+      "sha256": "a46fe708741fa218f52c25d0dd4b015f8dd0f6df0b331be52df8cd4ea5d1fcff"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/001/prompt.txt",
+      "bytes": 20267,
+      "sha256": "8351c244dd93a0aba9603b496892ba14766b800ea6b662624836117ba2c0ff48"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/001/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/001/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/002/command.json",
+      "bytes": 2159,
+      "sha256": "67426df49d27c3dee665b7113f65e7563077cbeae89125f8ff836eba414722cf"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/002/events.jsonl",
+      "bytes": 983,
+      "sha256": "43200fe4ecf5e977b79bc2ce8dc5bc6181abd72a6f06a8c6f97f9b1731202551"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/002/execution.json",
+      "bytes": 656,
+      "sha256": "cc6bbc6408f5e13a2f607642493b9edefa83fcc6623d871d2fb8f86c55b13019"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/002/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/002/prediction.json",
+      "bytes": 73,
+      "sha256": "ad3c0cd904b586a99f013ceeff1c68096fe64178f747f7bc6b54ac7a40ab5eab"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/002/prompt.txt",
+      "bytes": 20425,
+      "sha256": "0bb7601729eca23dcb3c7641bf51bf72539fc931d49c3ca6c99206f1fecb242b"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/002/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/002/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/003/command.json",
+      "bytes": 2159,
+      "sha256": "5a6839298f1fbd5dabdfb6abfb851f9325ceb1a72b2192765b025f68b6b775b9"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/003/events.jsonl",
+      "bytes": 994,
+      "sha256": "795b2555f25f512d20eca2c61a2e2e85b1e587d0c521dec91a9b5f7ea2160073"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/003/execution.json",
+      "bytes": 662,
+      "sha256": "55197d1a32d1307a124126e29f264ff00472b23eb896dee49ad3a0a330b43cfc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/003/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/003/prediction.json",
+      "bytes": 78,
+      "sha256": "825183e5f2011a4fc89dd7a90aa77c5f35461ec8c4ac0928ef04856784dcfa06"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/003/prompt.txt",
+      "bytes": 22085,
+      "sha256": "07f214c8b0a8bd23ca1c129f390275af28230c1dca51230f3112347867606203"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/003/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/003/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/004/command.json",
+      "bytes": 2159,
+      "sha256": "67eef663086423eb0984ebda52d629312c5c62e688db05fb75d176fb8935d89f"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/004/events.jsonl",
+      "bytes": 991,
+      "sha256": "10c19342b9738b804998c3e89f924a95351209380ffef9ff65eaa8ea6c5fe7f4"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/004/execution.json",
+      "bytes": 658,
+      "sha256": "0543629be9b0e1d9750241ad16ea9b7906fec4aa0c9c7d3b2ca1541bca413b89"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/004/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/004/prediction.json",
+      "bytes": 78,
+      "sha256": "86ded9f47ecb129fd4896b59f4a6d0a9bd697438004fa5d95b86fc1ed9845114"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/004/prompt.txt",
+      "bytes": 25830,
+      "sha256": "f060b9a74ed7e0dbf5d9c89bdfa4dfdf2377034961c6838d3a2f178f360a03fb"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/004/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/004/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/005/command.json",
+      "bytes": 2159,
+      "sha256": "de988000fe9d096041849cd40ce2fd14e6a3b825a62be44d7d9c3874d240ddb8"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/005/events.jsonl",
+      "bytes": 1451,
+      "sha256": "ec605d07453ebbee0c92f2981698d7be89869d9d74365fd62a1d195510750db8"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/005/execution.json",
+      "bytes": 656,
+      "sha256": "b4194275e06552aafa70f8ad1c41f88501f510ee44214f6b1c559d88afd810dd"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/005/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/005/prediction.json",
+      "bytes": 528,
+      "sha256": "bc25f174d5c80450eb61f57d1e52e9815d52628d737560c60ab44ebd4e76aee2"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/005/prompt.txt",
+      "bytes": 27509,
+      "sha256": "787fbb497ef65bae8bd8d52345cfc9f506dc6e8891ad636961c859f6d2906ba2"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/005/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/005/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/006/command.json",
+      "bytes": 2159,
+      "sha256": "38b8b671ddf5f6a48a3466123e6f170af6476d6a4245237c87313bc3ef5e3cd7"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/006/events.jsonl",
+      "bytes": 1402,
+      "sha256": "de1afabd519c2031b66389cf48abaab062115045503303341719b6e1c4f785de"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/006/execution.json",
+      "bytes": 662,
+      "sha256": "c98656c18cfa39822be87afcc28e9fc95999e166fbda2cb6f62559084e72194e"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/006/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/006/prediction.json",
+      "bytes": 477,
+      "sha256": "f5a2339cdd3f5d21ae327c985c48e2d279b10bec95b83576612a214ec164cc3e"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/006/prompt.txt",
+      "bytes": 28380,
+      "sha256": "8a2fcb4d5514a73edecbea2b4576736dda0b99de7048c749a141a09636060d0e"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/006/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/006/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/007/command.json",
+      "bytes": 2159,
+      "sha256": "4af3b8efb44b1f033655c563991a5e1dabcaa7d240a5a7b645f4e7bffdcbe393"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/007/events.jsonl",
+      "bytes": 1174,
+      "sha256": "eaf7c934258d553adb26a21fbff808f53e7356a6f09ffaeb35bc0c2ca46ec31c"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/007/execution.json",
+      "bytes": 662,
+      "sha256": "e6c3b1d204a2e755a58a58faef16d7f2a97986d275f05aaf1817c40dc7e7e7a0"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/007/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/007/prediction.json",
+      "bytes": 226,
+      "sha256": "c75a532708f2575e274e364ed46525775b3d9ba9a7e75a5316844245c3f7143f"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/007/prompt.txt",
+      "bytes": 29124,
+      "sha256": "62a814959edb7e5884a910ffbc8877882e5ba5937c671582f99368fa82af47ac"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/007/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/007/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/008/command.json",
+      "bytes": 2159,
+      "sha256": "680273ebe07685e812d1bf3b00aa4bb59c4d4a91ffad17ff7e90c3e79faea805"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/008/events.jsonl",
+      "bytes": 1280,
+      "sha256": "1a2716cb3cca9d23313780bdd67308022dfbc73016d5dc1dd44d6ce0b0e39330"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/008/execution.json",
+      "bytes": 659,
+      "sha256": "f7d1fd5c5abbd2a1d8862e7c3201385755aa4cea9bf2d5ea4a2b132c2ec6c9b0"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/008/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/008/prediction.json",
+      "bytes": 359,
+      "sha256": "e0a46f7bd672d6cf9b5db538b69acd2bb149eeb56ed17950447e9a736ce93bf2"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/008/prompt.txt",
+      "bytes": 31146,
+      "sha256": "2acd866534793c7b8b033a777b5ac04c8d2b6301256fdedba78d109d424a1e5f"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/008/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/actor_calls/008/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/score.json",
+      "bytes": 1157,
+      "sha256": "697f86f144bd45167c5d39f8657de6c47663dc20c6cc3ac5855827a5d67d5b5b"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/trajectory.json",
+      "bytes": 30370,
+      "sha256": "991e89940a730225e0130e7d3d38fb86c26b5affb287b78cf516d09579a523dd"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/000/command.json",
+      "bytes": 2156,
+      "sha256": "2c90d7513dd35cbd4115bf69cc3a663e0ef4f7d320a78e71296e9c32357f920a"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/000/events.jsonl",
+      "bytes": 1081,
+      "sha256": "74d9b95ddeb8002c82f5920326d3791743f7669082c7251c87457b65e09ecea4"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/000/execution.json",
+      "bytes": 657,
+      "sha256": "b2f8aa3c388b6affea02342d7a749ce3e240914535ab73d42f3c2cfce2cd7106"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/000/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/000/prediction.json",
+      "bytes": 177,
+      "sha256": "03d0aaed433a7249b201efabc42d203c53f9abd2737922042f164b570edf6e55"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/000/prompt.txt",
+      "bytes": 1435,
+      "sha256": "d0bf3e81db0474c90c67915d0b3121030a1b46c6a769c5df32040196f21d60b6"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/000/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/000/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/001/command.json",
+      "bytes": 2156,
+      "sha256": "31900f6ace87cca290da5b99a42f0c7529df3c0a78efa407f845a556b9c76706"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/001/events.jsonl",
+      "bytes": 1006,
+      "sha256": "5f005663ddd559bf1d1e276ec894c2319ec8185fe44203f115f15b278813b578"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/001/execution.json",
+      "bytes": 658,
+      "sha256": "31c941cc22dc642cf985723816810332bb0759674f3f5d3babb27867a3730025"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/001/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/001/prediction.json",
+      "bytes": 103,
+      "sha256": "b17b8e7bc2dcef2b06460f1a13277bcd016b7b54b125f8ce9aad98c9454c3d67"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/001/prompt.txt",
+      "bytes": 1769,
+      "sha256": "f1a0aa975b48c6776e3bc5c7a8420a7b61d2f5bce1e7a776e37ed610e3ec4cac"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/001/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/001/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/002/command.json",
+      "bytes": 2156,
+      "sha256": "f02dd96745d34372beb83f4126466b13bd8ac4c49942a638846d7b8970dd688d"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/002/events.jsonl",
+      "bytes": 1256,
+      "sha256": "7992f98dd31898d791a3680f2673a893885a468d0f2785649a9b78bef33ee656"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/002/execution.json",
+      "bytes": 658,
+      "sha256": "2928bebc697857cb6267492792090f545d03ce78b944b6dfafbecc997d30014b"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/002/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/002/prediction.json",
+      "bytes": 352,
+      "sha256": "652ebcc9ede40579757ffececd86d07095681d92686213d86a82019653f85670"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/002/prompt.txt",
+      "bytes": 2383,
+      "sha256": "df7ce314485b979e60dbfe7ec3dce5e2f254c062573ae982a26c320f97511db3"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/002/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/002/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/003/command.json",
+      "bytes": 2156,
+      "sha256": "7649cec7102dbddc7879a1c0da949f12a651513fb69f6a1a4860040af349e89d"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/003/events.jsonl",
+      "bytes": 1179,
+      "sha256": "967c51588ab2eb2cbfe1335a7e148ec5ec2e3f1eafb676128955139679ab8b9c"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/003/execution.json",
+      "bytes": 658,
+      "sha256": "c1bebf93f12668bfc04721a5ebc62279ee8665e6939c15ae4f6d6324fc789ac5"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/003/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/003/prediction.json",
+      "bytes": 275,
+      "sha256": "24896e30d8a91508c7788597f50c35666c4cdcd845d7153e92fa87506df5590f"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/003/prompt.txt",
+      "bytes": 3196,
+      "sha256": "148e1adf2ce71d29486ea956bc33dfaa5f2ed6c0330a5fb23cd3ec4d9d41eea8"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/003/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/003/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/004/command.json",
+      "bytes": 2156,
+      "sha256": "da288bcd45c5154b98f04a73bdcb54b564aa5814de2b74fbcfccf9d6093c67ee"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/004/events.jsonl",
+      "bytes": 942,
+      "sha256": "25cc5ad06417bb0a34b47d553e7a544b37d16553610889776f9dbc32cdc5960b"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/004/execution.json",
+      "bytes": 657,
+      "sha256": "2c57bf1edfd5817a26cfce669bd9c47f457572329e8f3eeb9c29fa3269899d03"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/004/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/004/prediction.json",
+      "bytes": 40,
+      "sha256": "d5ffc04acec6b39bf09692e8a7edec67debabd2ee51a32f522f6e17d6043ea7a"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/004/prompt.txt",
+      "bytes": 3814,
+      "sha256": "1af3418d51b110b867ecbadc4437212de0b5b56f55109d629fbaf54d0fbfba50"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/004/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_000/user_calls/004/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/000/command.json",
+      "bytes": 2159,
+      "sha256": "42ab5461dd16561e54ead7a12581b0b1c7d08892126bf09217543c03d60112e5"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/000/events.jsonl",
+      "bytes": 1095,
+      "sha256": "25f35a6de325ddfbade5939ccd0255b8ba23dee88ca85f1fb1375af050658e5e"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/000/execution.json",
+      "bytes": 658,
+      "sha256": "0ce0e9c891cd3ac4ed8109ac81589f9948b80935cd65bbe1d65ffb16d6264c80"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/000/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/000/prediction.json",
+      "bytes": 183,
+      "sha256": "72e337c80197eeb6e0ed8e19713bf383156bfd15e54b9fc3dd3e8a7b9281c0da"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/000/prompt.txt",
+      "bytes": 19992,
+      "sha256": "b0a7cb9292aa49d8b3e992f6577c86e7b80daccfdf80beff0243dde9b56d7450"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/000/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/000/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/001/command.json",
+      "bytes": 2159,
+      "sha256": "f90d4632c4989ddb5cc9675b4f0ebf60028a3d3580548bb733d3f1c5803d78fb"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/001/events.jsonl",
+      "bytes": 1047,
+      "sha256": "a3c98cc826e0aa1b2a4fe5494ca54d96acc7b7f41a359460d84492153b515216"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/001/execution.json",
+      "bytes": 658,
+      "sha256": "fadc28b407e135cc700eb7b8b3d48154c7db480d9732fd2ae835b20585e2ab9d"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/001/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/001/prediction.json",
+      "bytes": 120,
+      "sha256": "a46fe708741fa218f52c25d0dd4b015f8dd0f6df0b331be52df8cd4ea5d1fcff"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/001/prompt.txt",
+      "bytes": 20312,
+      "sha256": "d88c150e82595f78c5958191c02786028d62011008429004ba99c15bff6c1237"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/001/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/001/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/002/command.json",
+      "bytes": 2159,
+      "sha256": "bb4e5349d036caa2b6714538fb44997c2a04cfe730f1c37c17221c1490d79a49"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/002/events.jsonl",
+      "bytes": 986,
+      "sha256": "c8accf515b7229ef16530e8af9a1aa4af2cd7b1db20a3f057b3dc16b96779117"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/002/execution.json",
+      "bytes": 660,
+      "sha256": "db2e7c6e13dbde87a0b59761483cdd6a90826aaa709d41112a5a222d985d3dc7"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/002/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/002/prediction.json",
+      "bytes": 73,
+      "sha256": "ad3c0cd904b586a99f013ceeff1c68096fe64178f747f7bc6b54ac7a40ab5eab"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/002/prompt.txt",
+      "bytes": 20470,
+      "sha256": "e65911d13f4f02370fcbb608999d70045f86e823f0ca2dba6ab93feb696160ca"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/002/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/002/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/003/command.json",
+      "bytes": 2159,
+      "sha256": "e21d215abe6dd079c59c743d97f4387e1d30952b017808cb58050823d4bcc8aa"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/003/events.jsonl",
+      "bytes": 991,
+      "sha256": "cfb501ce86007563a6747ffec325170ec9036a608d1c62f3994189d3896d2d3b"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/003/execution.json",
+      "bytes": 659,
+      "sha256": "21dd8ba238449b906eb505fa73f8f63ed087bb501b322719a7c23bf54bd99535"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/003/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/003/prediction.json",
+      "bytes": 78,
+      "sha256": "825183e5f2011a4fc89dd7a90aa77c5f35461ec8c4ac0928ef04856784dcfa06"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/003/prompt.txt",
+      "bytes": 22130,
+      "sha256": "456280e3445f7f56bd50ab48f198f6a9dd328ecf923c7a148027ed49a57e32b6"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/003/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/003/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/004/command.json",
+      "bytes": 2159,
+      "sha256": "e069f97644b2bdbacb7d54b43d55c624a1c734724c4e943b6dbcace2f53a23e7"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/004/events.jsonl",
+      "bytes": 990,
+      "sha256": "20e17c3ef77be5b0a8144562871f647d5bac7d2bf7707ba9d75c7c01eda31ba1"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/004/execution.json",
+      "bytes": 659,
+      "sha256": "c0d89eb2e3056ce03d25a860a2ca0f4cedb990634d773da39ecf00644149321e"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/004/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/004/prediction.json",
+      "bytes": 78,
+      "sha256": "86ded9f47ecb129fd4896b59f4a6d0a9bd697438004fa5d95b86fc1ed9845114"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/004/prompt.txt",
+      "bytes": 25875,
+      "sha256": "8a4504dc402c77ba96eb07e2d0b899487c0147707be089c2e1b47a47c52673cb"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/004/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/004/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/005/command.json",
+      "bytes": 2159,
+      "sha256": "4115742510874698a6ef35bc3be7b892dd7ba83a9d4b71d66d6a1166ee0335b8"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/005/events.jsonl",
+      "bytes": 1267,
+      "sha256": "98243ea60c24c37caecf4a12283aed6324db937f6e2432ac1b13eb78900913ea"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/005/execution.json",
+      "bytes": 658,
+      "sha256": "e4cea7d7b0bbd5bfb58f299fc10a80e0f7141b40d008b112e9f4643ee3de6946"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/005/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/005/prediction.json",
+      "bytes": 346,
+      "sha256": "f895df5d228723a10b9fd86a463896a63a0047090c3c20ba22770fb5e0a2ec84"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/005/prompt.txt",
+      "bytes": 27554,
+      "sha256": "a784af0e1e38444c160aeacc8c0ae65c5191136bcea2c9c38521432e9cd859fe"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/005/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/005/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/006/command.json",
+      "bytes": 2159,
+      "sha256": "08e996803a27d5f1f3977661e2046fa290445b8c9f72d1564b0cf34e32b9e115"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/006/events.jsonl",
+      "bytes": 1340,
+      "sha256": "2a93efb13535ca795ef2c0c35bc5dacf3cf1e32ed3d5b4127357bd4c445e0ac8"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/006/execution.json",
+      "bytes": 657,
+      "sha256": "fb315aa374996ffa4cc29d2c8fe8a7886597965ce49e3f5e2ccd244ad2eb29a7"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/006/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/006/prediction.json",
+      "bytes": 423,
+      "sha256": "1e3b7450b28d5e2d05d7ee2179f953253bb3a0bf9492bfe89a5d9ab1297ce266"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/006/prompt.txt",
+      "bytes": 28224,
+      "sha256": "b3598f359cca568d996f2f408e1a1e48641ec02d2d4f2fb9024bd9be4171c1f4"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/006/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/006/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/007/command.json",
+      "bytes": 2159,
+      "sha256": "e89ede2adfc786534a91920b47a0d914b0164511b854db19d7dc8ae486942fc5"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/007/events.jsonl",
+      "bytes": 1208,
+      "sha256": "59c5f4c14b15b1cb56136748c8d0ac60a2945a71120da69e9326108cb86a043d"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/007/execution.json",
+      "bytes": 662,
+      "sha256": "ef6e7f466d914b2e8824504582e24ca163b4c8c2dc08f6fbd907a8876dee6e10"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/007/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/007/prediction.json",
+      "bytes": 292,
+      "sha256": "0a030fd1ac65c39aa921e37c7e94384f473d328ae16ca6fc9c27cfe916e63202"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/007/prompt.txt",
+      "bytes": 28817,
+      "sha256": "c2b7c5be2e4a77ee847d27d38797958767a9fa3dbb92c065f6aba558522029bb"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/007/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/007/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/008/command.json",
+      "bytes": 2159,
+      "sha256": "bb583adf82071da636a33ff2ce892fa1fabd23a6abb1415fa1d4b86d9e4d40df"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/008/events.jsonl",
+      "bytes": 1136,
+      "sha256": "bca54c5de17506774aa1ccdbe529adda362338fb8da4e5b270c22e555a9506e1"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/008/execution.json",
+      "bytes": 662,
+      "sha256": "8dc200a092af795e21e6d1bb110c81b9e262713f311ba10e606fb3695afc301f"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/008/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/008/prediction.json",
+      "bytes": 196,
+      "sha256": "1b1cdac30cd0a0a1cc0fa58e6b31b1834be66497adb0f6924377e31c75acf039"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/008/prompt.txt",
+      "bytes": 29266,
+      "sha256": "5087c91e00b2ef45bbfb2fa9b33fa5f31ff18460c52b541971dc94fb25541167"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/008/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/008/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/009/command.json",
+      "bytes": 2159,
+      "sha256": "d14052d7c8db460ab253355658df08d3a5282c245ff88214b658e38ba3f535bf"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/009/events.jsonl",
+      "bytes": 1232,
+      "sha256": "22738153957482ae15cb836986cb16130cfce3369ae70bafdc71a496b7c9e520"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/009/execution.json",
+      "bytes": 659,
+      "sha256": "7299de1c7a8cc4943bd258bcc6c992c72e7d4dd455e8f2d29e2057f7ed707629"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/009/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/009/prediction.json",
+      "bytes": 319,
+      "sha256": "e31b1ab66c955edf5c6b34142486701fb140132558a21602cd1d1f339e0918d5"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/009/prompt.txt",
+      "bytes": 31228,
+      "sha256": "fe3b8ccfff70bf4da54454da603626c270330f04ddc5a952740b1b359b73041f"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/009/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/actor_calls/009/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/score.json",
+      "bytes": 1105,
+      "sha256": "dc543e0f7e2281bcc20f10446e847eb9f0d31d0bf2a34337af439aac2b4f6e0c"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/trajectory.json",
+      "bytes": 31347,
+      "sha256": "f503dc2042984ecdcbd11ef0e700ea0ee3423308080fb7825ac7de1a8f7a6edb"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/000/command.json",
+      "bytes": 2156,
+      "sha256": "2cb050fcc87adc690007b3cb80f75801a6d4e68d02abe8e7f810bc75e22579b8"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/000/events.jsonl",
+      "bytes": 1075,
+      "sha256": "e8a7382460fcfa97ae511368d1d568fbaa65e57ab66078a11420572fc4939436"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/000/execution.json",
+      "bytes": 661,
+      "sha256": "23728213d4b9e9ebb1794b7074dfe20b64914b65db95485fd6528ec054df7d8d"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/000/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/000/prediction.json",
+      "bytes": 168,
+      "sha256": "ee1e263e505433f890416cf11e11c0accbbc2aa24114e0c366bb598af3b2700c"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/000/prompt.txt",
+      "bytes": 1451,
+      "sha256": "cbf4586c36bd4966b120ca8e55ef0c6a55b8842f47d3e667eccada3d739febdf"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/000/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/000/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/001/command.json",
+      "bytes": 2156,
+      "sha256": "863dcbf2222cb2c5c0e3e5c4a3436b671067e9fe597e9b9b4a0076ed9fb880f9"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/001/events.jsonl",
+      "bytes": 1049,
+      "sha256": "9143b8c890b5df6bd20d6df909c604debc8db6860e5c4b090f39e86d1a00ff66"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/001/execution.json",
+      "bytes": 661,
+      "sha256": "00c7f3678ada618f0760cc54655e5b6a8d85f0b13d14ab096995c20a90e80639"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/001/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/001/prediction.json",
+      "bytes": 143,
+      "sha256": "a07632ff3d97e36e71e34b6aa24e772d2f01ba2ec8d368e4a048d6202f3cedd2"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/001/prompt.txt",
+      "bytes": 1790,
+      "sha256": "85cf33eeec9a816c440e84e2263ca1946f13122188b8a0198a8933aef6fae77a"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/001/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/001/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/002/command.json",
+      "bytes": 2156,
+      "sha256": "6a7186d9c21e7c90c536ff10768ba7f7288ab32f95d4ccff06862ca817105ec9"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/002/events.jsonl",
+      "bytes": 1239,
+      "sha256": "54ad5d39714f354e94772a35416bf214603655a14711c7b192241e4332f03d8e"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/002/execution.json",
+      "bytes": 660,
+      "sha256": "1760b8b1ad827c33d6801bafd53f644b2ba6c8c5913ee044ed508b58221fa0c3"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/002/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/002/prediction.json",
+      "bytes": 332,
+      "sha256": "46144deea091652fb60d6ff249c7ddbcaf2d3942f0a59dcbda295a12d7282c52"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/002/prompt.txt",
+      "bytes": 2263,
+      "sha256": "f4321f02d5f1ed58fda7107e9ca9a0dbd0426a6413df6617c16952303240b96d"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/002/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/002/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/003/command.json",
+      "bytes": 2156,
+      "sha256": "99718a67afe85987e82ec391e60676f2ee6cd0000e75d7bb1f9cd47e085db211"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/003/events.jsonl",
+      "bytes": 1083,
+      "sha256": "a925b98aeab7a532dd23304c8b8f405a63878b3e205f2c8ee5fffe106ddd2a12"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/003/execution.json",
+      "bytes": 661,
+      "sha256": "8d28d05f87c2c662b2b43131e8a908dee37a3d7495c3e587b19fe809bc7a1d52"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/003/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/003/prediction.json",
+      "bytes": 176,
+      "sha256": "07be20857014c8b9cade763b3a0c0d4c05313dbd93673f13af4175105fd3ec1f"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/003/prompt.txt",
+      "bytes": 3004,
+      "sha256": "23f264d9c0dd8cec83d5089dca4b3be7f4a3b7f98ec2973e0813d0d1c5b5f090"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/003/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/003/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/004/command.json",
+      "bytes": 2156,
+      "sha256": "cd3e75660a63de636c124e22543574577ef1e2f18db68bff94a9e668c297be61"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/004/events.jsonl",
+      "bytes": 1064,
+      "sha256": "be0f5df5d734629f2b3414b0c2de0af92960f5f75fc4f4d48ef5e596f94f5cd4"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/004/execution.json",
+      "bytes": 658,
+      "sha256": "261504196270419d3dcc107d61eefed7b9f27b1fa57395faf6d4b879e58431f0"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/004/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/004/prediction.json",
+      "bytes": 161,
+      "sha256": "4d7155abd35603e09dde681854d281618706f925221dcde802eb7922b76997dc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/004/prompt.txt",
+      "bytes": 3460,
+      "sha256": "ed8cf92023c4bf726899e8cc4ae795c99993a6a13abff574b2a4cabe8d4020f3"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/004/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/004/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/005/command.json",
+      "bytes": 2156,
+      "sha256": "1be6c1ed821dd5fce0a5fedc9ee8639cd80e830956d7ea8fba8339124402268c"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/005/events.jsonl",
+      "bytes": 945,
+      "sha256": "d0f01ca05621b10710d89da7b821e7cc58c93ea51d92adfcaaf7184625871842"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/005/execution.json",
+      "bytes": 659,
+      "sha256": "8b760b1fbe23ae454a75326ca31703309e505ef10d10e180df7c5cd6322da420"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/005/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/005/prediction.json",
+      "bytes": 40,
+      "sha256": "d5ffc04acec6b39bf09692e8a7edec67debabd2ee51a32f522f6e17d6043ea7a"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/005/prompt.txt",
+      "bytes": 3928,
+      "sha256": "3c0a3bdbce00dff5cc033f14cbdc6e3786e1631478492d7b818772d379a1af78"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/005/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/case_001/user_calls/005/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/complete.json",
+      "bytes": 130,
+      "sha256": "a999f1ac0dbfd4e778f8c575f4b071b6e1ba4654447e45bff0f18bd8dbcd2849"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/results/attempt_01/started.json",
+      "bytes": 128,
+      "sha256": "e5ad6136884ecf6c4660600daaecb635c4e774aa9a3f189dce502aaaeb288eed"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/run.py",
+      "bytes": 4282,
+      "sha256": "318350ae57b82b7d7ec4d4b6638961c376a2afce8e0ea2f8c6c80724dd7d27f5"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/semantic_audit.md",
+      "bytes": 2752,
+      "sha256": "5a3cf5fdf9601cd58f31147455f451f692fa5f8d0b644a19f3fe280a95169b99"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/test_verification.py",
+      "bytes": 5011,
+      "sha256": "395340f02f118bfbc57b7b806f31f55e83ba9e294708db76e315369821d8ac36"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/verification_history/001_literal_yes_false_rejection.json",
+      "bytes": 1821,
+      "sha256": "0ef65640242782f93f184e61aafc7a5d80c20e4ec40d9563036f3e69748335a1"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/verification_tests.log",
+      "bytes": 1702,
+      "sha256": "a99f52178423eea20fcb048f6f4f98423037d8573ee363af7d34dea2099f779f"
+    },
+    {
+      "path": "machine_work/benchmarks/tau_bench/recovery_20261011/verify.py",
+      "bytes": 10660,
+      "sha256": "3f36cb9f8548d3527d798a65e22e7e84da7d87cc24ed521b869a45eeaa7d4292"
     },
     {
       "path": "machine_work/benchmarks/tau_bench/results/acceptance.json",
@@ -2417,9 +3745,44 @@
       "sha256": "7a054d59e20da7735455f5c5df825983afa653b6c214883de66a8da49dda6bdb"
     },
     {
+      "path": "machine_work/benchmarks/validation/recovery_20261011/check_00.log",
+      "bytes": 2613,
+      "sha256": "a4d7a2559b3494a5557d4356dfeee039182fc5c599cab67678db389d0cc512b3"
+    },
+    {
+      "path": "machine_work/benchmarks/validation/recovery_20261011/check_01.log",
+      "bytes": 914,
+      "sha256": "c3f29ad3265075b5013dfb0e612a4bfcae0ca70c2e01c82ae23c394e861a5c10"
+    },
+    {
+      "path": "machine_work/benchmarks/validation/recovery_20261011/check_02.log",
+      "bytes": 5882,
+      "sha256": "c5bb0913dd9380d04e2dbd41552fc2e146f5a462a70b74a3237dbead062d5b88"
+    },
+    {
+      "path": "machine_work/benchmarks/validation/recovery_20261011/check_03.log",
+      "bytes": 1066,
+      "sha256": "2451dfe4db4344689812c7397b08880de399a605d21cc38994f9658b8803c7c1"
+    },
+    {
+      "path": "machine_work/benchmarks/validation/recovery_20261011/check_04.log",
+      "bytes": 2113,
+      "sha256": "9ba10e02e4d172a77adf5b9aab864446e4fd4fdc7564afe5c0e0529869360df8"
+    },
+    {
+      "path": "machine_work/benchmarks/validation/recovery_20261011/check_05.log",
+      "bytes": 1819,
+      "sha256": "7957a7c01fa2b24fe4fb30d52592c587e31adde01eb7695ff715fc285b08f13d"
+    },
+    {
+      "path": "machine_work/benchmarks/validation/recovery_20261011/check_06.log",
+      "bytes": 95,
+      "sha256": "f53c8a0052aba16176fd0c0e4f9a89f64ac55977bd164d9bc2e8461c7e06698e"
+    },
+    {
       "path": "machine_work/benchmarks/webshop/README.md",
-      "bytes": 3565,
-      "sha256": "686f04ab6eed56cdd8ad8448664b8ddc1a4e45d8a9c82c9e7098d79d79476d20"
+      "bytes": 3807,
+      "sha256": "0b46e02fc37011d28783d528dff9de1e08599fe3b93fdbaab2f2c82e57a5dd36"
     },
     {
       "path": "machine_work/benchmarks/webshop/UPSTREAM_LICENSE.txt",
@@ -2440,6 +3803,1091 @@
       "path": "machine_work/benchmarks/webshop/protocol.json",
       "bytes": 2119,
       "sha256": "bb12fe5c5b68512f3120f41fdcd141a4d94fdb053088b73295ef1c188ca9c6d1"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/README.md",
+      "bytes": 4243,
+      "sha256": "46cbf300fb7ef57b73927f5c2cdcd77f715b05ff10bfe3c94816e886bb4b7f95"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/acceptance.json",
+      "bytes": 5162,
+      "sha256": "c7ea72455cacd2f2011d3dce3f9e1e2768af4a48737b08d4847cadcdffc55cb3"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/original_run_sha256.json",
+      "bytes": 14606,
+      "sha256": "28dcae0f457fea50e3607a5bb48e06611549107e2792aa0ab75c62263f72ae91"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/protocol.json",
+      "bytes": 1643,
+      "sha256": "2142760ae029b36c842cc01539deff6f277350ababef986ab555d26a7a13c932"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/000/command.json",
+      "bytes": 2156,
+      "sha256": "c222d865d5617d2c77a349482ffc7f58b168cf3867a8f1dbe23b74cbcd988d84"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/000/events.jsonl",
+      "bytes": 968,
+      "sha256": "c476987c3c1752ecb73b865038158deaae584c033ed4f69f90b1f2090435bd10"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/000/execution.json",
+      "bytes": 656,
+      "sha256": "d54ea348aa3f3458d0d9ad5c7ba1fbef9bd30b99cb7ecf7d1c8f499bc3919f62"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/000/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/000/isolation.json",
+      "bytes": 144,
+      "sha256": "3be1a214611bfd491ef75f60424ed9f068bcb4f5a9ebdf1342746122bea5e884"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/000/prediction.json",
+      "bytes": 66,
+      "sha256": "c56bbd8cdc667c753c49e0d0ab48f9ddc9448e7f010a10edab21afebc32d5d71"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/000/prompt.txt",
+      "bytes": 2249,
+      "sha256": "8b931f07db1c331e4cd10f1c6cb4e80f34bfa184f20e1b0741e5c76146bc3910"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/000/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/000/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/001/command.json",
+      "bytes": 2156,
+      "sha256": "7e28d187528057c78855987b00ca1297645706bcb2de372df857d12978c06161"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/001/events.jsonl",
+      "bytes": 950,
+      "sha256": "2c973e45f587d3b252fca82b7bdd079bf79443a999dfdeed5d552d6c6040bc88"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/001/execution.json",
+      "bytes": 658,
+      "sha256": "70849c0f83101c163df49b273b603d20ad95f1ed3c687e9ea1c17da7efe40b8c"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/001/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/001/isolation.json",
+      "bytes": 144,
+      "sha256": "8cc9bb49bb35126292cd8a29be90413a04e1b146155bc05fb8e022104c38aa1f"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/001/prediction.json",
+      "bytes": 47,
+      "sha256": "f79c659a5ce0ca4e9cc819ebd5c99f14ed581657bf2dd4afa64f5cda3fc6ff5b"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/001/prompt.txt",
+      "bytes": 4534,
+      "sha256": "56d5e16dc33d266e7e997658d2d2f17ab98823fe66446c711ad8bf4b24d824aa"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/001/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/001/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/002/command.json",
+      "bytes": 2156,
+      "sha256": "6972c4aa856a7e563ed7493654c71e603fdd99eb96d9600cc6af70c80637a3d8"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/002/events.jsonl",
+      "bytes": 947,
+      "sha256": "0c4c63a0a4578a65f14afa5e6786db74f73b6f9336eaea5c273bf331df68eea1"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/002/execution.json",
+      "bytes": 656,
+      "sha256": "551ad418e326903c08518dd764bdd03e1333e13c5e414c7c9cfc52ba3fdf6dde"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/002/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/002/isolation.json",
+      "bytes": 144,
+      "sha256": "23699abcbe557d5afe13191b8d5d256c3edb836d285edd63eb3085846cb6d65c"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/002/prediction.json",
+      "bytes": 45,
+      "sha256": "405d9963c193c02224700caff025bf1305c3ebd4307cf3b8e468060ca726bae2"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/002/prompt.txt",
+      "bytes": 5151,
+      "sha256": "3b24a08c6e0854d1debf45807d6aa9ba49a13e0da7a941845ec2a3c97b8b2b72"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/002/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/002/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/003/command.json",
+      "bytes": 2156,
+      "sha256": "2cc59b7c092dce0fc4fb40b71e6bc275122d9d1535c304a9694b90c850ad0bec"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/003/events.jsonl",
+      "bytes": 947,
+      "sha256": "b27b16d7bda26b9376eb5f05b3defd3b116b4a373c417f0e49a01352ba83bd52"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/003/execution.json",
+      "bytes": 658,
+      "sha256": "ef9a6fc1bc7dd4d981a6346bee07135571459cb01cc14626fee5c6800ffac68a"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/003/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/003/isolation.json",
+      "bytes": 144,
+      "sha256": "e5855603d5faf41026772a8ed1465997eef14f1a7283f2862bd5af0c1e99040d"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/003/prediction.json",
+      "bytes": 43,
+      "sha256": "150d5ba44248aaac4c3dd70b97e25b14eaec6ef4eced973852ffe93339b15430"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/003/prompt.txt",
+      "bytes": 6472,
+      "sha256": "e403e79c322f96727f13a52777b33c4ecf13f814bfabbbd15d65376f83c2e0d2"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/003/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/003/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/004/command.json",
+      "bytes": 2156,
+      "sha256": "24e1652febfad311d5b66379c789f94f6c4640ad81c0f2d399e8876fa9e21c4d"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/004/events.jsonl",
+      "bytes": 954,
+      "sha256": "9b0ac2c5cd980c8440c699c249d11be81b15d888577f3cabd53c12d256edcbc5"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/004/execution.json",
+      "bytes": 658,
+      "sha256": "5f86bdd2d7238418921af198706fda5533a347624c9e8d1aefaabd273da4682e"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/004/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/004/isolation.json",
+      "bytes": 144,
+      "sha256": "3f155b5b294abd07d961e12a98187a7ef2d5ec05da9b5400c9d8ca2e63c68f4b"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/004/prediction.json",
+      "bytes": 50,
+      "sha256": "d11554e046355bfc4f5bef8885922002e579f6d6d89452210d20b52dfbbe4db4"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/004/prompt.txt",
+      "bytes": 7225,
+      "sha256": "d2f5e722aaed3eb56ab98b75b329d122d729fbe1208ff491a822a964c5e34f30"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/004/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/004/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/005/command.json",
+      "bytes": 2156,
+      "sha256": "4a05656115acf5de72d9780e65c5cb7120a8415044134916e9ee00a0686dc110"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/005/events.jsonl",
+      "bytes": 952,
+      "sha256": "26b7098db6f381628cef9f55d8bedd66ac8a6df5f28fe7023d899a76f5ce43e6"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/005/execution.json",
+      "bytes": 658,
+      "sha256": "8856906413a848187070cb8c1dd6acd5d544d23871b9d5d60e7d282bcc0c6098"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/005/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/005/isolation.json",
+      "bytes": 144,
+      "sha256": "6380baac80169282b8f7721877dfb13a4595dd752ebdf082d555af2b38a6fdab"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/005/prediction.json",
+      "bytes": 48,
+      "sha256": "6014f888faf67c99dbbe1568057bea80618c1e22c90208212af82abefa2dfd32"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/005/prompt.txt",
+      "bytes": 7856,
+      "sha256": "a7050e107fdfb602e3109d9302aa25869e0dd638d529804973c578118a4b26ce"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/005/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/005/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/006/command.json",
+      "bytes": 2156,
+      "sha256": "4ee0c5160ec211cb0b3dee278eeede5f741f238f642a3b36997a7300853e76b1"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/006/events.jsonl",
+      "bytes": 958,
+      "sha256": "103ab961abfba07737cf40681021b7d02072e96dcf469923611bbbd0b3498ffc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/006/execution.json",
+      "bytes": 661,
+      "sha256": "89280715741f1fa3ea837ad5b97882c95def1b787373c5bdc2f74498df0b0ebd"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/006/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/006/isolation.json",
+      "bytes": 144,
+      "sha256": "9eefa809d412d734c84ef11feaf687838dec0146c1a3659dd59cd1a03f331461"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/006/prediction.json",
+      "bytes": 51,
+      "sha256": "13648c1837f5151c777d9ab90c684d68c3027841199478806e2c43ba84721d63"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/006/prompt.txt",
+      "bytes": 8339,
+      "sha256": "160d251206a80c4bd36adc556bfbf66a639e3321c8dc64097eaa1d45566775d9"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/006/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/006/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/007/command.json",
+      "bytes": 2156,
+      "sha256": "81ccd38d23025680e9d9cc6d0413f3cf308745fcd871749f6f1f07709f7bc247"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/007/events.jsonl",
+      "bytes": 980,
+      "sha256": "beb5505531e71f94842b395d71e3da2306aafc3ae056f1fe3c9787c639106e6c"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/007/execution.json",
+      "bytes": 661,
+      "sha256": "1363870e8d8de6ff9d2f8150281e26b5f51da9a5ca69dbb3ff90c9ea9fa0e44e"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/007/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/007/isolation.json",
+      "bytes": 144,
+      "sha256": "0d029ba6ab13f87c2df8724a062ce4754bb599ee1e9c0d8ae0877b8af7f128d3"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/007/prediction.json",
+      "bytes": 73,
+      "sha256": "26a7cb8806d3be1ef7ee1338df39db01594697bf9c1352f9136c0f69f2613fd5"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/007/prompt.txt",
+      "bytes": 8537,
+      "sha256": "2136d329d0369cfcd61105b777dd68e5bd005d7d160392808ff6336708ae242a"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/007/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/007/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/008/command.json",
+      "bytes": 2156,
+      "sha256": "f3110708f883b6b33c4c43c5615d53f73d5079da3cea3e4bcb99a6555da06771"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/008/events.jsonl",
+      "bytes": 951,
+      "sha256": "640fba25e23505cd6fd9089382c90176ffa030a86b5436d02e729818ab7abf4f"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/008/execution.json",
+      "bytes": 658,
+      "sha256": "3db26ff1442674cea49d3c40a1817ec25b1f450bbdd198c1abd16fad0be36c71"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/008/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/008/isolation.json",
+      "bytes": 144,
+      "sha256": "61194f682880223f64fcabb65296fd2b5acbe5ae28f98755ad18dddd011e8dfe"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/008/prediction.json",
+      "bytes": 47,
+      "sha256": "7d388a22accaa7f982e90087a77fd72653b7daa8122475b9665dfb3d77af7ada"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/008/prompt.txt",
+      "bytes": 10831,
+      "sha256": "309d8febc0ef5245491375949990b0a0179f1905b7b65f13df56ac22c0972c7c"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/008/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/008/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/009/command.json",
+      "bytes": 2156,
+      "sha256": "c006cf6279c6e71612c5b3ee00168bff7ed6c6f62038cfb96f53cd477881d5b1"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/009/events.jsonl",
+      "bytes": 947,
+      "sha256": "cadd7da8cbaebae283418ec4c4e809718bef38e8948bc2f5663067a7b182f46b"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/009/execution.json",
+      "bytes": 657,
+      "sha256": "194581b4ed168895050a2cbad95c026401773b4dbb9b43d63a600a127f4aa6ac"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/009/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/009/isolation.json",
+      "bytes": 144,
+      "sha256": "fa597720dc7d8be8e11fa6243ecb5ecbce49de2eb35b886a73d7b4f5b1ebb093"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/009/prediction.json",
+      "bytes": 45,
+      "sha256": "405d9963c193c02224700caff025bf1305c3ebd4307cf3b8e468060ca726bae2"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/009/prompt.txt",
+      "bytes": 11326,
+      "sha256": "0b6aaa2ad94aee1f14517342406fea5f8afd038d0e426524b538260ea9eac3b1"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/009/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/009/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/010/command.json",
+      "bytes": 2156,
+      "sha256": "be369b0c5ac39c074c7dedb714e78698387fe344a8c656d1a1c0bdf634d98d42"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/010/events.jsonl",
+      "bytes": 945,
+      "sha256": "5882e823c1676a0bbb3e9578b25b07b98edf5b02f881f8d9439b2eb08a8ec1a9"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/010/execution.json",
+      "bytes": 657,
+      "sha256": "e686e0e0b740e40e12640d226a34830efb9e1f2598551606fce19b35e5992dd3"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/010/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/010/isolation.json",
+      "bytes": 144,
+      "sha256": "10246f384c6449006fcf129642e97c43837f7c1372f87b285c879aa960ec21bd"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/010/prediction.json",
+      "bytes": 43,
+      "sha256": "150d5ba44248aaac4c3dd70b97e25b14eaec6ef4eced973852ffe93339b15430"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/010/prompt.txt",
+      "bytes": 11836,
+      "sha256": "197990314407c2dcc087ec1522d25148e90787a0c75bbc0224ad623b35e79e8a"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/010/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/010/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/011/command.json",
+      "bytes": 2156,
+      "sha256": "84b023411945a74a0a6b350a6b37b421fa48537571db46b20113d152edcf9be9"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/011/events.jsonl",
+      "bytes": 944,
+      "sha256": "5e541154c03133545e978c452f401a99c17f12bb273879bef4b17c708672cb59"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/011/execution.json",
+      "bytes": 657,
+      "sha256": "5e7af18ccf7d7e1754ad2b969aa5c39529d1689037431ef9a2a16dde031a1001"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/011/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/011/isolation.json",
+      "bytes": 144,
+      "sha256": "988b9f827c75d724b8fa5b05a1eb6ad7a2f66de63ec05dc440eaa7d5059e50ca"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/011/prediction.json",
+      "bytes": 41,
+      "sha256": "8c418c9e7c7973481267ee0db1d7f8af59ad0d0a00ca8a6a4aabfc062d2d3599"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/011/prompt.txt",
+      "bytes": 12467,
+      "sha256": "7a41edcac745c29a7e00b2aade730f94e92c76dabbb71c848c607c1c10b8896d"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/011/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/011/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/012/command.json",
+      "bytes": 2156,
+      "sha256": "22652b41b15c1240bf128780caf28f83f12bd63b8ea2e2beec2d4bbf610a6861"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/012/events.jsonl",
+      "bytes": 952,
+      "sha256": "6eb12c50b18e8a43ce9b51a2c70fcd3921a7ea531da672d6113e5911cf2bf66f"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/012/execution.json",
+      "bytes": 658,
+      "sha256": "dfccff55ea7dd58d47ae01c97dad55035684abeacc88e156540bea2a3a9a59be"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/012/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/012/isolation.json",
+      "bytes": 144,
+      "sha256": "d39d04403375a2db3a0fa526bf84451899bf813ac6328b18deb875aad7aedf3a"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/012/prediction.json",
+      "bytes": 48,
+      "sha256": "6014f888faf67c99dbbe1568057bea80618c1e22c90208212af82abefa2dfd32"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/012/prompt.txt",
+      "bytes": 13012,
+      "sha256": "51fdcec527a22e62bb8620fa11a5acd7df8d91870cc74bbbb6629206da48286f"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/012/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/012/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/013/command.json",
+      "bytes": 2156,
+      "sha256": "1950ad31554efe9e8c3b0e5b9360bb5733fd111a6ea25c277668b2723ac06d56"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/013/events.jsonl",
+      "bytes": 948,
+      "sha256": "11ba56fca74a0407ce1922d80145f0b8743eebd2fb83fdfe0429579c1837aacc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/013/execution.json",
+      "bytes": 660,
+      "sha256": "b3aa33c6fc746616f9a2c0d02a6f5e7f12181ac82be6ed79ab0f66005263068d"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/013/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/013/isolation.json",
+      "bytes": 144,
+      "sha256": "17338fb56e439b2c31743758783cee74c40ac644bee2f4a84261c94d1b9018ea"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/013/prediction.json",
+      "bytes": 43,
+      "sha256": "150d5ba44248aaac4c3dd70b97e25b14eaec6ef4eced973852ffe93339b15430"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/013/prompt.txt",
+      "bytes": 13239,
+      "sha256": "85b5ee77eb44562465f5069b724ce4229395482678da5a831717f94eacb74164"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/013/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/013/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/014/command.json",
+      "bytes": 2156,
+      "sha256": "5b74982d39b131e2d93267463bee53474c9e4da29fa6c273d39bbfeffabd7e50"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/014/events.jsonl",
+      "bytes": 947,
+      "sha256": "58e4fe12193847cd09d131426ac41dcfdd3b85dbe327783078f07a2e2dc10c1e"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/014/execution.json",
+      "bytes": 658,
+      "sha256": "eca3e1afe9fbe3ed7cb2fdc3cd610598f94fa17e2f5194da496e7b5d4947fa4d"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/014/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/014/isolation.json",
+      "bytes": 144,
+      "sha256": "b21e67201d835efe1b229922fe678aa7d67e6d9e6cdc227d6bfb300cda51db87"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/014/prediction.json",
+      "bytes": 44,
+      "sha256": "841fc90e1287d5987e38117063964fa299adc9870a878cddf339a5fbe36271ea"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/014/prompt.txt",
+      "bytes": 13870,
+      "sha256": "1e2e8ccada8978ced6692ab87acaac0ec4309172e096300929e8c6e30d12eb4d"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/014/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/actor_calls/014/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/reward_breakdown.json",
+      "bytes": 524,
+      "sha256": "2cc77553bcf4fb40f02a8cb1e5e871e1f15f8748f2873c394cb6c74376ca695b"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/score.json",
+      "bytes": 50,
+      "sha256": "07ed417fdddf2e81409bfa2db8c603aa403f7a9732f5aa536c455643730d3e3a"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_000/trajectory.json",
+      "bytes": 30240,
+      "sha256": "1316c6515a049e7d5e2e472409fe98b1b7b20c15df2f7fa3659728c8c8fb9cae"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/000/command.json",
+      "bytes": 2156,
+      "sha256": "9328d48da5cdb3a80f876bee1b02cebec143ec352e5e979f52a1a83b55f0bbdb"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/000/events.jsonl",
+      "bytes": 992,
+      "sha256": "8f2a64587daa56da7bdbb4d801fe5c09a76ffd08208f125b0d4d0886503dd0b0"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/000/execution.json",
+      "bytes": 660,
+      "sha256": "adce5108b9a923e9c5465e9b171a2909a57cd74c903e4512390530466ab0b063"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/000/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/000/isolation.json",
+      "bytes": 144,
+      "sha256": "ae95d615d8fc221095fbca4aca85b4c19d138f5523fad80ad75f99a686896bcf"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/000/prediction.json",
+      "bytes": 87,
+      "sha256": "978e993bff3f958bd8a2cc62faeee08600751d4f21f1ce412e171d0e240029ed"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/000/prompt.txt",
+      "bytes": 2264,
+      "sha256": "2536f5dfeab85c5c716193d73c61f2a55959cff2448caf107457e17e97a3fe1f"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/000/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/000/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/001/command.json",
+      "bytes": 2156,
+      "sha256": "9f2c983e275a54423ea04349b9c3162cbfc65894411e88c831135f6f7b6f699d"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/001/events.jsonl",
+      "bytes": 949,
+      "sha256": "6ebe4dc9fbe5a1d458257ac9812f316dd918fef090b674fd4294916dcc5ee0f5"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/001/execution.json",
+      "bytes": 657,
+      "sha256": "74fdb9e58f996d3c23b7de1c26ccccd7ba688b398b5c0847dfb59bf5e493b106"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/001/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/001/isolation.json",
+      "bytes": 144,
+      "sha256": "e8b23ee26acd77d2b4acaec7c0bc305514fefa38f2840214e2a42dbd8159a96e"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/001/prediction.json",
+      "bytes": 47,
+      "sha256": "1f8fc17fda3698fa839d145f80a44ca605edde0aae981332754e99acd6a0eac4"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/001/prompt.txt",
+      "bytes": 4353,
+      "sha256": "dafd05817380876e551319804cbebad5e43b237e664ad597cc762f6db29c1700"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/001/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/001/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/002/command.json",
+      "bytes": 2156,
+      "sha256": "7103c7bdf7db52802c583782a32a2f400af7b06fbaf70b44617d8d4197bef368"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/002/events.jsonl",
+      "bytes": 948,
+      "sha256": "18e433bbc4dd18f2a977fd846debbed8a4bf958e0dbb9aec987628b09f21d315"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/002/execution.json",
+      "bytes": 658,
+      "sha256": "5d21f5777578973bf0c172f423b213d9411e0be843eaebdeeaa96e5ded7355b7"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/002/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/002/isolation.json",
+      "bytes": 144,
+      "sha256": "08e56a58b741221da073f202bc29cb22f423404e3baaaac004a3edb6aa1a7e25"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/002/prediction.json",
+      "bytes": 45,
+      "sha256": "405d9963c193c02224700caff025bf1305c3ebd4307cf3b8e468060ca726bae2"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/002/prompt.txt",
+      "bytes": 5364,
+      "sha256": "51a4e30c96bf04848701c672cd0c384954f1785d8a10567fb150cf3050d5dc95"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/002/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/002/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/003/command.json",
+      "bytes": 2156,
+      "sha256": "24f4001b5f736ee43e36b779cb831fc427b228bc93d8d9a2eaaa133251873924"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/003/events.jsonl",
+      "bytes": 945,
+      "sha256": "51a6a511964647ce7e758ece18cbf89aac2eaea7dcd49004b8374d7f483f0ee2"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/003/execution.json",
+      "bytes": 657,
+      "sha256": "08adeb8f6630b3580ac0e87b1117a0ce3a6cf99b6b698ef0c4ed9a3596366334"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/003/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/003/isolation.json",
+      "bytes": 144,
+      "sha256": "bbbd498862272b88324c9173594f33b30ee91cd020346650844a6d224c1d0651"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/003/prediction.json",
+      "bytes": 43,
+      "sha256": "150d5ba44248aaac4c3dd70b97e25b14eaec6ef4eced973852ffe93339b15430"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/003/prompt.txt",
+      "bytes": 5744,
+      "sha256": "b46a164eb06b2b81afaade64d0729dc2493db7c499a74aeb6a4d326ea2bbe804"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/003/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/003/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/004/command.json",
+      "bytes": 2156,
+      "sha256": "be163d083c82fecef020096b73eb98093f5c5709d976df34d69fe34fee400505"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/004/events.jsonl",
+      "bytes": 947,
+      "sha256": "f310270dc8d812d23849ce32beac1be32bae4dd9c69afa855aa4b762a269099f"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/004/execution.json",
+      "bytes": 660,
+      "sha256": "e0e89d564c9d775886b229e9cc40a56cc7bd24d1cbcdaf470e5501a270ee16e2"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/004/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/004/isolation.json",
+      "bytes": 144,
+      "sha256": "2f81ccccc4ccb910fe624122fb299025dd9a194e3263bdf861115c1fdd15402a"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/004/prediction.json",
+      "bytes": 42,
+      "sha256": "1682797189ac79b02385465ca40e0580e4a6a6a938df1b90626af7ab2f04b951"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/004/prompt.txt",
+      "bytes": 6891,
+      "sha256": "ebf1ae4fce37c6ad69e1a6d2dabda9dff5c47182bb2bc32ff6c5bdfcd226f41f"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/004/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/004/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/005/command.json",
+      "bytes": 2156,
+      "sha256": "ea7308bddba385553c16fe483cb109f63a77e91c6fb1d2cc28186b09fb00dd07"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/005/events.jsonl",
+      "bytes": 965,
+      "sha256": "6f36658f2880b6430d06c021398dda8918d5f22d4ebb2ff81a8993d0b075e837"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/005/execution.json",
+      "bytes": 660,
+      "sha256": "1dcc35ebdd18bf27c0560dc70f266630b2a68bc51cd3634b79f52ea758cf1508"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/005/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/005/isolation.json",
+      "bytes": 144,
+      "sha256": "79d0c273d4d9c46b026d00c659a70db918e6c7c48d597bcc30069c1e10bf9bb9"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/005/prediction.json",
+      "bytes": 60,
+      "sha256": "42c0de4a872b9786471c9ec9b176603a1d2a5225ad0fe089f5f2349819422318"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/005/prompt.txt",
+      "bytes": 7698,
+      "sha256": "b7d07619837293f7295fe7a6a9b2065e5ddebe340e8f34b84a57ed10f6265597"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/005/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/005/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/006/command.json",
+      "bytes": 2156,
+      "sha256": "d2da779e25e082e6385ca242e00a300a3ca2d45d476db68596181e3a3ef448aa"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/006/events.jsonl",
+      "bytes": 949,
+      "sha256": "fee3c7d6af0a4417c9e212618cd6a99f9507e052a910f052bfe0ef029b0c3d49"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/006/execution.json",
+      "bytes": 660,
+      "sha256": "8f17feb957d3938248ebc6e12f41cfd54b3dc8ddcb3b71c8ea9d53519b364133"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/006/instructions.txt",
+      "bytes": 384,
+      "sha256": "25f8aa49cb52df5dcc3ffddd8cb119f295be55f24f44defb80db0dd0018bffcc"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/006/isolation.json",
+      "bytes": 144,
+      "sha256": "e29a94219d170c57d31f883ff6959b3a4360a8752bbe32c59ac882e5239678f6"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/006/prediction.json",
+      "bytes": 44,
+      "sha256": "841fc90e1287d5987e38117063964fa299adc9870a878cddf339a5fbe36271ea"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/006/prompt.txt",
+      "bytes": 8523,
+      "sha256": "38b306558273b39c009c187ad8161d973109b5e3012dfe2d638004ab4ef7894d"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/006/schema.json",
+      "bytes": 223,
+      "sha256": "7ebcd3ed0af2cfa0709ba1aa235f2d4d9e79e05e521610f81def17d2bfef5233"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/actor_calls/006/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/reward_breakdown.json",
+      "bytes": 555,
+      "sha256": "0f03bb71c4c533ba1725da342c3dc6593aa46fb07bc66c989ddbcdce0dbe9e3f"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/score.json",
+      "bytes": 50,
+      "sha256": "07ed417fdddf2e81409bfa2db8c603aa403f7a9732f5aa536c455643730d3e3a"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/case_001/trajectory.json",
+      "bytes": 17491,
+      "sha256": "9285dade2d9045bbfe14a9f131aac0d10c7b7542fd1979e0d8abf1ef6c97fbdf"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/complete.json",
+      "bytes": 349,
+      "sha256": "2dd7643c43229ea06fb6e6a54953aabb37ea165ae8601fbbdee322a787c046e7"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/results/attempt_001/start.json",
+      "bytes": 608,
+      "sha256": "74261318dd2b61a9d67a3a6c28ac01097d12ce933f49f561c9931d0be437655f"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/run.py",
+      "bytes": 2859,
+      "sha256": "7dc3d1367efd81b3e4653aaed6176cfe26a1358c52c6be4c2d2e7263b0b3dd5d"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/runner/adapters.py",
+      "bytes": 3228,
+      "sha256": "c62ee5bfe4b000f642800414bead80e27dad6a67682314beabb891eb5b381b49"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/runner/contracts.py",
+      "bytes": 2057,
+      "sha256": "5d2433562985438b1cd9c93e46f64f7899d686dd89c49ee34f8360f644752a2c"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/runner/model.py",
+      "bytes": 2426,
+      "sha256": "78ebac0560db94507e3c3bcbb39699d180e4a2f98c50fb82fce4c4c32b50146c"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/runner/runtime.py",
+      "bytes": 3073,
+      "sha256": "1025903efd8c2a63f76cd0aa2b6ce46c3f60172b0c64635918e64a42aa3d54df"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/test_verify.py",
+      "bytes": 2173,
+      "sha256": "72ccac956648316571a96bc3e3afa211c4a2c0c1c8941813fc757df93d05a77c"
+    },
+    {
+      "path": "machine_work/benchmarks/webshop/recovery_20261011/verify.py",
+      "bytes": 11011,
+      "sha256": "ed620e9bd8cc203a6de914b65bd0a45a8c71260eae31f917bfa37b8ce659e08f"
     },
     {
       "path": "machine_work/benchmarks/webshop/results/acceptance.json",

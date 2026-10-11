@@ -1,0 +1,19 @@
+{
+  "completed_at": 1791704135.643924,
+  "protocol_sha256": "2142760ae029b36c842cc01539deff6f277350ababef986ab555d26a7a13c932",
+  "outcomes": [
+    {
+      "task": 0,
+      "reward": 1.0,
+      "won": true,
+      "done": true
+    },
+    {
+      "task": 1,
+      "reward": 1.0,
+      "won": true,
+      "done": true
+    }
+  ],
+  "all_success": true
+}

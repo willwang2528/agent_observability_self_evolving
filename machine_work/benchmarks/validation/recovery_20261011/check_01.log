@@ -1,0 +1,12 @@
+test_actor_gets_only_allowlisted_fields (test_contracts.ContractsTest.test_actor_gets_only_allowlisted_fields) ... ok
+test_no_shell_or_nested_actions (test_contracts.ContractsTest.test_no_shell_or_nested_actions) ... ok
+test_reject_no_call_and_fabricated_prediction (test_contracts.ContractsTest.test_reject_no_call_and_fabricated_prediction) ... ok
+test_reject_tool_contamination (test_contracts.ContractsTest.test_reject_tool_contamination) ... ok
+test_tool_arguments_are_json_object (test_contracts.ContractsTest.test_tool_arguments_are_json_object) ... ok
+test_valid_raw_model_call (test_contracts.ContractsTest.test_valid_raw_model_call) ... ok
+test_webshop_tool_style_serializes_without_discarding_arguments (test_contracts.ContractsTest.test_webshop_tool_style_serializes_without_discarding_arguments) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK

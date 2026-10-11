@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string"
+    },
+    "arguments": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "action",
+    "arguments"
+  ],
+  "additionalProperties": false
+}

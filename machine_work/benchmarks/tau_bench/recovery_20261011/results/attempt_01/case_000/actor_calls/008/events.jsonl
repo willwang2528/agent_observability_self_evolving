@@ -1,0 +1,6 @@
+{"type":"thread.started","thread_id":"01a129e2-9491-7ae1-8151-3caa394d1180"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."}}
+{"type":"item.completed","item":{"id":"item_1","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_2","type":"agent_message","text":"{\"action\":\"respond\",\"arguments\":\"{\\\"content\\\":\\\"Both exchanges for order #W2378156 have been requested together:\\\\n• Full-size clicky keyboard with no backlight.\\\\n• Black Google Assistant thermostat.\\\\n\\\\nThe $16.63 difference will be refunded to your original credit card. You’ll receive an email with return instructions. No new order is needed.\\\"}\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":12677,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":364,"reasoning_output_tokens":272}}

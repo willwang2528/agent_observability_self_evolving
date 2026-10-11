@@ -27,3 +27,7 @@ Codex 生成的文档、自动测试和机器语义复核存放于 [machine_work
 ## 按 benchmark 审计
 
 每套 benchmark 有独立入口，均为待真人填写状态：[Who&When](benchmarks/who_when/README.md)、[ALFWorld](benchmarks/alfworld/README.md)、[WebShop](benchmarks/webshop/README.md)、[τ-bench](benchmarks/tau_bench/README.md)。机器验收记录与原始输出见各入口所链接的 `machine_work/benchmarks/`。
+
+## 2026-10-11 修复复跑审计
+
+WebShop 与 τ-bench 已由机器验收为各 2/2 成功，真人审计仍待完成。优先核对 [新报告](../machine_work/benchmarks/REPORT.md) 中用户确认、功能属性证据、原失败保留和开发集结果边界；[机器语义复核](../machine_work/benchmarks/RECOVERY_SEMANTIC_AUDIT.md)仅是待核验材料。

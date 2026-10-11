@@ -1,5 +1,7 @@
 # WebShop：真实环境 pilot
 
+**当前版本：** [2026-10-11 开发修复](recovery_20261011/README.md) 在原两个任务上均达到官方奖励 1，22 次真实模型调用，严格验收通过。以下保留 2026-10-09 初始 pilot 的复现说明与失败证据。
+
 官方 1,000 商品预览环境与 Lucene 搜索；该商品子集只有 13 个可用人工 goal，固定索引 0、1；不是全量 12,087 指令或 1.18M 商品实验。
 
 原始来源、commit、模型、任务与预算在 [protocol.json](protocol.json)；数据来源与 SHA-256 在 [data_provenance.json](data_provenance.json)。[选择依据](../SELECTION.md)核对了后续论文的实际使用。
