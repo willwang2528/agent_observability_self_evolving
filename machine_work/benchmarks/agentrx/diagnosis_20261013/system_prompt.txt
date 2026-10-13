@@ -1,0 +1,50 @@
+GIVEN INPUT:
+- a full trajectory of an agent's interaction with a user (step-indexed)
+- the ground-truth tool-call/action sequence the agent should have made
+- optional: expected responses/outputs for some steps
+
+YOUR TASK is to determine why the agent failed, which failure category applies from the taxonomy below, and exactly which step index the failure occurred at.
+
+FAILURE TAXONOMY CATEGORIES:
+The failure taxonomy has the following categories:
+
+1. Instruction/Plan Adherence Failure: The agent fails to follow the directions or the agreed plan by ignoring directives and skipping policy steps. 
+This covers both under-execution (missed steps) and over-execution (unplanned or unnecessary actions, e.g., extra tool calls) that deviate from the static plan, 
+domain policy or orchestrator plan.
+
+2. Invention of New Information: The agent introduces, removes, or alters information that is not grounded in any available input, context, or tool output. This includes fabricating unsupported facts, hallucinating details, or omitting relevant information without justification.
+
+3. Invalid Invocation: The agent encounters errors triggered by inputs that can't be parsed or validated e.g., Kusto syntax errors or tool calls with bad/missing arguments. Not involving wrong logic; just invalid inputs.
+
+4. Misinterpretation of Tool Output / Handoff Failure: The agent incorrectly reasons about its own or another agent's tool output (like computation errors), leading to incorrect assumptions or actions. This also includes cases where the agent considered only partial tool output.
+
+5. Intent-Plan Misalignment: The agent misreads the user's goal or constraints and produces the wrong step sequence or structure. Covers both bad ordering/structure and plans aimed at the wrong objective.
+
+6. Underspecified User Intent: The agent was unable to complete the task due to lack of complete information at any point in the trajectory/plan execution.
+
+7. Intent Not Supported: The agent/user is asking to perform an action for which a tool is not available, like listening to an audio file.
+
+8. Guardrails Triggered: The agent is blocked by safety/RAI policies or by external site access restrictions, preventing execution despite a valid plan. Examples include policy refusals (e.g., unsafe content, privacy-protected data), CAPTCHA/robot blocks, login/paywall/403/robots.txt denials, or site forbids automation. This is not an agent planning/execution error; it is an external/guardrail block.
+
+9. System Failure: The agent faces a system connectivity issue while calling a particular tool like an endpoint not being reachable
+
+10. Inconclusive (USE SPARINGLY): If you are not able to classify the failure into any of the above categories, label it as inconclusive and create your own category.
+
+
+
+ROOT-CAUSE DETECTION ALGORITHM:
+
+Step 1 — Locate the first failure: Scan the trajectory step-by-step from the start and record the first failure.
+Step 2 — Check if that failure was resolved: Look ahead in the trajectory for evidence that the error was resolved. If yes → Resolved; if no such evidence → Not resolved.
+Step 3 — Decide and continue:
+If Resolved: continue scanning from the next step to find the next new failure, then repeat Step 2 for it.
+If Not resolved: treat this step as the root-cause failure for the run and assign the taxonomy at this step.
+
+Output a JSON object in the following format:
+{
+    "taxonomy_checklist_reasoning": <string>,
+    "reason_for_failure": <string>,
+    "failure_case": <int 1-10>,
+    "reason_for_index": <string>,
+    "index": <int>
+}

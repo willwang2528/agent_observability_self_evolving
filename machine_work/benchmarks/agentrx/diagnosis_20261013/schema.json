@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "taxonomy_checklist_reasoning": {
+      "type": "string"
+    },
+    "reason_for_failure": {
+      "type": "string"
+    },
+    "reason_for_index": {
+      "type": "string"
+    },
+    "failure_case": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10
+    },
+    "index": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "taxonomy_checklist_reasoning",
+    "reason_for_failure",
+    "failure_case",
+    "reason_for_index",
+    "index"
+  ]
+}

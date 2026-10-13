@@ -1,0 +1,698 @@
+[
+  {
+    "task_id": "2",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 13874,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1170,
+      "reasoning_output_tokens": 1034
+    }
+  },
+  {
+    "task_id": "3",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 13927,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1422,
+      "reasoning_output_tokens": 1270
+    }
+  },
+  {
+    "task_id": "4",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 16388,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 420,
+      "reasoning_output_tokens": 274
+    }
+  },
+  {
+    "task_id": "12",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 10506,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 371,
+      "reasoning_output_tokens": 201
+    }
+  },
+  {
+    "task_id": "20",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 25556,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 830,
+      "reasoning_output_tokens": 627
+    }
+  },
+  {
+    "task_id": "21",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 15734,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 801,
+      "reasoning_output_tokens": 624
+    }
+  },
+  {
+    "task_id": "28",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 14939,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 738,
+      "reasoning_output_tokens": 580
+    }
+  },
+  {
+    "task_id": "31",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 13143,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 665,
+      "reasoning_output_tokens": 492
+    }
+  },
+  {
+    "task_id": "32",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 12948,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 354,
+      "reasoning_output_tokens": 162
+    }
+  },
+  {
+    "task_id": "34",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 12023,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1139,
+      "reasoning_output_tokens": 932
+    }
+  },
+  {
+    "task_id": "38",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 16536,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1216,
+      "reasoning_output_tokens": 1034
+    }
+  },
+  {
+    "task_id": "39",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 10829,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 407,
+      "reasoning_output_tokens": 230
+    }
+  },
+  {
+    "task_id": "41",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 12396,
+      "cached_input_tokens": 3456,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1152,
+      "reasoning_output_tokens": 976
+    }
+  },
+  {
+    "task_id": "47",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 9855,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1430,
+      "reasoning_output_tokens": 1274
+    }
+  },
+  {
+    "task_id": "55",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 15685,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 469,
+      "reasoning_output_tokens": 312
+    }
+  },
+  {
+    "task_id": "59",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 10236,
+      "cached_input_tokens": 3456,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 501,
+      "reasoning_output_tokens": 309
+    }
+  },
+  {
+    "task_id": "63",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 11685,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 3283,
+      "reasoning_output_tokens": 3106
+    }
+  },
+  {
+    "task_id": "71",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 13726,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 597,
+      "reasoning_output_tokens": 427
+    }
+  },
+  {
+    "task_id": "72",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 12588,
+      "cached_input_tokens": 3456,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 862,
+      "reasoning_output_tokens": 675
+    }
+  },
+  {
+    "task_id": "74",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 12064,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 2065,
+      "reasoning_output_tokens": 1898
+    }
+  },
+  {
+    "task_id": "79",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 12703,
+      "cached_input_tokens": 3456,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1511,
+      "reasoning_output_tokens": 1351
+    }
+  },
+  {
+    "task_id": "80",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 10838,
+      "cached_input_tokens": 3456,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1192,
+      "reasoning_output_tokens": 1034
+    }
+  },
+  {
+    "task_id": "82",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 12557,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 857,
+      "reasoning_output_tokens": 719
+    }
+  },
+  {
+    "task_id": "87",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 12968,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 700,
+      "reasoning_output_tokens": 516
+    }
+  },
+  {
+    "task_id": "91",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 15513,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 635,
+      "reasoning_output_tokens": 457
+    }
+  },
+  {
+    "task_id": "98",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 12623,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1157,
+      "reasoning_output_tokens": 962
+    }
+  },
+  {
+    "task_id": "99",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 18621,
+      "cached_input_tokens": 3456,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1206,
+      "reasoning_output_tokens": 1034
+    }
+  },
+  {
+    "task_id": "104",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 16744,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1684,
+      "reasoning_output_tokens": 1526
+    }
+  },
+  {
+    "task_id": "105",
+    "attempt": "attempt_1",
+    "usable": true,
+    "exit_code": 0,
+    "timed_out": false,
+    "completed_turns": 1,
+    "malformed_lines": [],
+    "errors": [],
+    "tool_item_types": [],
+    "known_warnings": [
+      "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+      "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+    ],
+    "schema_error": null,
+    "final_matches": true,
+    "usage": {
+      "input_tokens": 16560,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 682,
+      "reasoning_output_tokens": 516
+    }
+  }
+]

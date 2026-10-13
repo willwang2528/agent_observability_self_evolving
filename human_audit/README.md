@@ -11,7 +11,7 @@ Codex 生成的文档、自动测试和机器语义复核存放于 [machine_work
 重点检查：
 
 - 官方数据、论文和实现的版本是否对应；本地输入是否含答案或诊断标签。
-- 指标分母、零基步骤、责任 Agent 和步骤匹配是否正确；弃权及失败是否保留在分母内。
+- 指标分母、各数据集的0/1基步骤编号、责任 Agent 和步骤匹配是否正确；弃权及失败是否保留在分母内。
 - 个案解释是否能由可见原始步骤支持，是否遗漏来源、决策或传播环节。
 - 标注归因与实际执行者是否存在边界差异；同意标签、标签存疑与证据不足分别记录。
 - 报告是否区分可运行、诊断正确、解释可信、干预有效与持久自进化；比较设置是否公平。
@@ -26,7 +26,7 @@ Codex 生成的文档、自动测试和机器语义复核存放于 [machine_work
 
 ## 按 benchmark 审计
 
-每套 benchmark 有独立入口，均为待真人填写状态：[Who&When](benchmarks/who_when/README.md)、[ALFWorld](benchmarks/alfworld/README.md)、[WebShop](benchmarks/webshop/README.md)、[τ-bench](benchmarks/tau_bench/README.md)。机器验收记录与原始输出见各入口所链接的 `machine_work/benchmarks/`。
+每套 benchmark 有独立入口，均为待真人填写状态：[AgentRx轨迹诊断](benchmarks/agentrx/README.md)、[Who&When](benchmarks/who_when/README.md)、[ALFWorld](benchmarks/alfworld/README.md)、[WebShop](benchmarks/webshop/README.md)、[τ-bench](benchmarks/tau_bench/README.md)。机器验收记录与原始输出见各入口所链接的 `machine_work/benchmarks/`。
 
 ## 2026-10-11 修复复跑审计
 

@@ -1,0 +1,1333 @@
+{
+    "summary": {
+        "model_name": "gpt-6-astra",
+        "api_version": "codex-exec",
+        "Correct cases": 9,
+        "Incorrect cases": 20,
+        "Average distance for correct cases": 1.5555555555555556,
+        "Average distance for incorrect cases": 8.45,
+        "Overall average distance": 6.310344827586207,
+        "Normalized average distance for correct cases": 0.04623878536922015,
+        "Normalized average distance for incorrect cases": 0.2293904951924462,
+        "Normalized overall average distance": 0.1725503093852381,
+        "Correct step number predictions": 9,
+        "Incorrect step number predictions": 20,
+        "Step number accuracy": 0.3103448275862069,
+        "Step accuracy within +-1": 0.3448275862068966,
+        "Step accuracy within +-2": 0.3793103448275862,
+        "Step accuracy within +-3": 0.4827586206896552,
+        "Step accuracy within +-4": 0.5862068965517241,
+        "Step accuracy within +-5": 0.6206896551724138,
+        "total_prompt_tokens": 0,
+        "total_output_tokens": 0,
+        "total_tokens": 0,
+        "total_execution_time_sec": 0.0
+    },
+    "detailed_results": [
+        {
+            "task_id": "2",
+            "failures": [
+                {
+                    "task_id": "2",
+                    "failure_case": 1,
+                    "description": "The policy required authentication at the beginning of the conversation. Authentication at steps 11\u201312 did not remedy the earlier violation of this authentication-first requirement.",
+                    "step_number": 3,
+                    "checklist_reasoning": "Category 1 applies because the agent bypassed mandatory authentication before proceeding. The incorrect T-shirt count at step 7 is a separate, later tool-output interpretation error."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 32,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "1": 1
+            },
+            "most_common_failure": "1",
+            "modes": [
+                "1"
+            ],
+            "mean": 1,
+            "median": 1,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 1,
+            "max": 1,
+            "proportions": {
+                "1": 1.0
+            },
+            "step_mean": 3,
+            "step_median": 3,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 3,
+            "step_max": 3,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 4,
+            "step_error_distribution": {
+                "4": 1
+            },
+            "gt_failure_case": "4",
+            "gt_step_number": 7,
+            "gt_failure_description": "The assistant finally did authenticate before providing user specific information. The incorrect count does not correspond with ground truth output."
+        },
+        {
+            "task_id": "3",
+            "failures": [
+                {
+                    "task_id": "3",
+                    "failure_case": 4,
+                    "description": "The tool returned 12 T-shirt variants, including two unavailable variants. The assistant incorrectly reported 11 available options instead of 10.",
+                    "step_number": 7,
+                    "checklist_reasoning": "The initial authentication omission is remedied at steps 11\u201312. The next failure, an incorrect count derived from tool output, is never corrected. This fits category 4 (computation/tool-output interpretation), rather than fabrication or invalid invocation."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 34,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "4": 1
+            },
+            "most_common_failure": "4",
+            "modes": [
+                "4"
+            ],
+            "mean": 4,
+            "median": 4,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 4,
+            "max": 4,
+            "proportions": {
+                "4": 1.0
+            },
+            "step_mean": 7,
+            "step_median": 7,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 7,
+            "step_max": 7,
+            "failure_case_accuracy": 1.0,
+            "step_mae": 0,
+            "step_error_distribution": {
+                "0": 1
+            },
+            "gt_failure_case": "4",
+            "gt_step_number": 7,
+            "gt_failure_description": "The assistant finally did authenticate before providing user specific information. The incorrect count does not correspond with ground truth output."
+        },
+        {
+            "task_id": "4",
+            "failures": [
+                {
+                    "task_id": "4",
+                    "failure_case": 4,
+                    "description": "The tool returned 12 T-shirt variants, with 2 unavailable, leaving 10 available. The agent reported 11 available options.",
+                    "step_number": 15,
+                    "checklist_reasoning": "Category 4 applies: the agent incorrectly counted availability flags in the product tool output. This is a computation/tool-output interpretation error, not fabricated source data or a tool failure. The incorrect count is never corrected."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 48,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "4": 1
+            },
+            "most_common_failure": "4",
+            "modes": [
+                "4"
+            ],
+            "mean": 4,
+            "median": 4,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 4,
+            "max": 4,
+            "proportions": {
+                "4": 1.0
+            },
+            "step_mean": 15,
+            "step_median": 15,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 15,
+            "step_max": 15,
+            "failure_case_accuracy": 1.0,
+            "step_mae": 0,
+            "step_error_distribution": {
+                "0": 1
+            },
+            "gt_failure_case": "4",
+            "gt_step_number": 15,
+            "gt_failure_description": "The incorrect count does not correspond with ground truth output."
+        },
+        {
+            "task_id": "12",
+            "failures": [
+                {
+                    "task_id": "12",
+                    "failure_case": 1,
+                    "description": "The agent submitted the return using the original Visa without first presenting the complete return details and obtaining confirmation of the refund method. The user subsequently rejected Visa, and the later human transfer did not resolve the unauthorized selection.",
+                    "step_number": 19,
+                    "checklist_reasoning": "Category 1 applies: the agent skipped mandatory confirmation before a database-changing return. The tool invocation succeeded; this was not an invalid invocation, tool-output misunderstanding, or system failure."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 26,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "1": 1
+            },
+            "most_common_failure": "1",
+            "modes": [
+                "1"
+            ],
+            "mean": 1,
+            "median": 1,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 1,
+            "max": 1,
+            "proportions": {
+                "1": 1.0
+            },
+            "step_mean": 19,
+            "step_median": 19,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 19,
+            "step_max": 19,
+            "failure_case_accuracy": 1.0,
+            "step_mae": 0,
+            "step_error_distribution": {
+                "0": 1
+            },
+            "gt_failure_case": "1",
+            "gt_step_number": 19,
+            "gt_failure_description": "The agent did not recover from this error."
+        },
+        {
+            "task_id": "20",
+            "failures": [
+                {
+                    "task_id": "20",
+                    "failure_case": 4,
+                    "description": "The agent treated two processed orders as delivered and therefore exchangeable. It later corrected this assumption only for #W4967593; the same mistake persisted for #W5733668, causing the rejected exchange at steps 61\u201362.",
+                    "step_number": 21,
+                    "checklist_reasoning": "Category 4 applies because the agent misinterpreted explicit order-status tool output. The earlier authentication omission was resolved at steps 7\u20138. Subsequent exchange rejections arose from incorrect eligibility reasoning, not malformed inputs, missing information, unavailable tools, guardrails, or system failures."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 62,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "4": 1
+            },
+            "most_common_failure": "4",
+            "modes": [
+                "4"
+            ],
+            "mean": 4,
+            "median": 4,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 4,
+            "max": 4,
+            "proportions": {
+                "4": 1.0
+            },
+            "step_mean": 21,
+            "step_median": 21,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 21,
+            "step_max": 21,
+            "failure_case_accuracy": 1.0,
+            "step_mae": 0,
+            "step_error_distribution": {
+                "0": 1
+            },
+            "gt_failure_case": "4",
+            "gt_step_number": 21,
+            "gt_failure_description": "The assistant did not recover from misinterpretation error, which led to subsequent failures in the trajectory."
+        },
+        {
+            "task_id": "21",
+            "failures": [
+                {
+                    "task_id": "21",
+                    "failure_case": 1,
+                    "description": "The policy explicitly prohibits responding to the user and calling a tool in the same turn. The assistant nevertheless provides explanatory text while invoking think, and this violation is never corrected.",
+                    "step_number": 19,
+                    "checklist_reasoning": "Authentication and order lookups comply with policy. The first unresolved violation is at step 19: the assistant combines a user-facing response with a tool call. This is instruction nonadherence, not an invalid invocation, tool-output misunderstanding, or external block. The later unauthorized PayPal charge is an additional failure."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 48,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "1": 1
+            },
+            "most_common_failure": "1",
+            "modes": [
+                "1"
+            ],
+            "mean": 1,
+            "median": 1,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 1,
+            "max": 1,
+            "proportions": {
+                "1": 1.0
+            },
+            "step_mean": 19,
+            "step_median": 19,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 19,
+            "step_max": 19,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 9,
+            "step_error_distribution": {
+                "9": 1
+            },
+            "gt_failure_case": "6",
+            "gt_step_number": 28,
+            "gt_failure_description": "The item should have been modified and not exchanged and exchange was not possible because of the order status. The agent did not recover from this error."
+        },
+        {
+            "task_id": "28",
+            "failures": [
+                {
+                    "task_id": "28",
+                    "failure_case": 1,
+                    "description": "The policy forbids combining a user-facing response with a tool call. At step 11, the assistant announces that it will retrieve orders and calls get_order_details in the same response. Later compliant calls do not undo this violation.",
+                    "step_number": 11,
+                    "checklist_reasoning": "Category 1 applies: the assistant violates an explicit interaction policy. This is not an invalid invocation, unsupported fact, tool-output misinterpretation, or external/system block."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 42,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "1": 1
+            },
+            "most_common_failure": "1",
+            "modes": [
+                "1"
+            ],
+            "mean": 1,
+            "median": 1,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 1,
+            "max": 1,
+            "proportions": {
+                "1": 1.0
+            },
+            "step_mean": 11,
+            "step_median": 11,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 11,
+            "step_max": 11,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 22,
+            "step_error_distribution": {
+                "22": 1
+            },
+            "gt_failure_case": "5",
+            "gt_step_number": 33,
+            "gt_failure_description": "The assistant called cancel order on the entire order which led to an incorrect final outcome as compared to ground truth actions."
+        },
+        {
+            "task_id": "31",
+            "failures": [
+                {
+                    "task_id": "31",
+                    "failure_case": 1,
+                    "description": "The agent could not directly refund or reorder the lost tablet, but offered a return or exchange instead of transferring the user to a human as required. No later handoff or correction resolved this failure.",
+                    "step_number": 17,
+                    "checklist_reasoning": "Authentication and tracking retrieval were correct. The first unresolved failure is skipping the required human handoff for an out-of-scope request, making category 1 more appropriate than unsupported intent or a tool error."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 42,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "1": 1
+            },
+            "most_common_failure": "1",
+            "modes": [
+                "1"
+            ],
+            "mean": 1,
+            "median": 1,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 1,
+            "max": 1,
+            "proportions": {
+                "1": 1.0
+            },
+            "step_mean": 17,
+            "step_median": 17,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 17,
+            "step_max": 17,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 14,
+            "step_error_distribution": {
+                "14": 1
+            },
+            "gt_failure_case": "5",
+            "gt_step_number": 31,
+            "gt_failure_description": "The assistant called cancel order on the entire order which led to an incorrect final outcome as compared to ground truth actions."
+        },
+        {
+            "task_id": "32",
+            "failures": [
+                {
+                    "task_id": "32",
+                    "failure_case": 4,
+                    "description": "The agent reported tracking number 194496721133 for the tablet, although the retrieved order contained only an espresso machine and sneakers. The actual tablet tracking number, 746342064230, appeared at step 20, but the agent never corrected its answer.",
+                    "step_number": 11,
+                    "checklist_reasoning": "Category 4 applies: the agent misattributed a tracking number from valid tool output to the wrong product. The number itself was not invented, and no invalid invocation or external blocker occurred. Later policy errors do not supersede this first unresolved failure."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 42,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "4": 1
+            },
+            "most_common_failure": "4",
+            "modes": [
+                "4"
+            ],
+            "mean": 4,
+            "median": 4,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 4,
+            "max": 4,
+            "proportions": {
+                "4": 1.0
+            },
+            "step_mean": 11,
+            "step_median": 11,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 11,
+            "step_max": 11,
+            "failure_case_accuracy": 1.0,
+            "step_mae": 0,
+            "step_error_distribution": {
+                "0": 1
+            },
+            "gt_failure_case": "4",
+            "gt_step_number": 11,
+            "gt_failure_description": "The wrong tracking number mismatched with the actual ground truth tracking number."
+        },
+        {
+            "task_id": "34",
+            "failures": [
+                {
+                    "task_id": "34",
+                    "failure_case": 1,
+                    "description": "The policy permits changing item options, not deleting items from pending orders. The agent nevertheless proposes removing the office items instead of explaining the limitation and transferring the unsupported request to a human. It never corrects this claim, and both attempted modifications fail.",
+                    "step_number": 13,
+                    "checklist_reasoning": "Category 1 applies because the agent disregards explicit limits on pending-order modifications. Its unsupported removal promise also resembles category 2, but the primary failure is policy nonadherence. The later tool-validation errors are consequences, not the root cause. Authentication succeeds after the failed email lookup."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 30,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "1": 1
+            },
+            "most_common_failure": "1",
+            "modes": [
+                "1"
+            ],
+            "mean": 1,
+            "median": 1,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 1,
+            "max": 1,
+            "proportions": {
+                "1": 1.0
+            },
+            "step_mean": 13,
+            "step_median": 13,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 13,
+            "step_max": 13,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 4,
+            "step_error_distribution": {
+                "4": 1
+            },
+            "gt_failure_case": "3",
+            "gt_step_number": 17,
+            "gt_failure_description": "The assistant called the modify order tool with invalid arguments, leading to an illegal tool call, and the agent did not recover from this error."
+        },
+        {
+            "task_id": "38",
+            "failures": [
+                {
+                    "task_id": "38",
+                    "failure_case": 4,
+                    "description": "The agent included the $285.66 Patio Umbrella variant despite its availability being false. The cheapest available umbrella costs $288.82, making the correct minimum total $1130.85, not $1127.69. This error was never corrected.",
+                    "step_number": 37,
+                    "checklist_reasoning": "Earlier authentication difficulties and single-item cancellation misinformation were subsequently corrected. The first unresolved error is misinterpreting product availability in tool output (category 4), not invalid syntax, missing information, or a system failure."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 46,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "4": 1
+            },
+            "most_common_failure": "4",
+            "modes": [
+                "4"
+            ],
+            "mean": 4,
+            "median": 4,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 4,
+            "max": 4,
+            "proportions": {
+                "4": 1.0
+            },
+            "step_mean": 37,
+            "step_median": 37,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 37,
+            "step_max": 37,
+            "failure_case_accuracy": 1.0,
+            "step_mae": 0,
+            "step_error_distribution": {
+                "0": 1
+            },
+            "gt_failure_case": "4",
+            "gt_step_number": 37,
+            "gt_failure_description": "The assistant failed to recognize that the cheapest item was not available from the tool output, leading to an incorrect selection and hence, not matching with the ground truth."
+        },
+        {
+            "task_id": "39",
+            "failures": [
+                {
+                    "task_id": "39",
+                    "failure_case": 2,
+                    "description": "The agent falsely asserted that order details only reflect the current default address. This unsupported claim prevented checking the user's known order for the requested address, and it was never corrected.",
+                    "step_number": 17,
+                    "checklist_reasoning": "The failed email lookup was resolved through name-and-ZIP authentication. Requesting the missing street address was appropriate. At step 17, the agent invented a restriction about order addresses without retrieving any order details, making category 2 more specific than plan nonadherence or tool-output misinterpretation."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 26,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "2": 1
+            },
+            "most_common_failure": "2",
+            "modes": [
+                "2"
+            ],
+            "mean": 2,
+            "median": 2,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 2,
+            "max": 2,
+            "proportions": {
+                "2": 1.0
+            },
+            "step_mean": 17,
+            "step_median": 17,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 17,
+            "step_max": 17,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 0,
+            "step_error_distribution": {
+                "0": 1
+            },
+            "gt_failure_case": "5",
+            "gt_step_number": 17,
+            "gt_failure_description": "Since the assistant was not able to update the address, it led to incorrect final outcome as compared to ground truth actions."
+        },
+        {
+            "task_id": "41",
+            "failures": [
+                {
+                    "task_id": "41",
+                    "failure_case": 1,
+                    "description": "The agent modified the puzzle before correcting the address, despite the policy warning that item modification prevents further order changes. It also omitted the required all-items confirmation and selected PayPal without obtaining the user's payment-method choice. The subsequent human transfer does not establish that the address was corrected.",
+                    "step_number": 17,
+                    "checklist_reasoning": "Category 1 applies because the agent skipped explicit modification safeguards. The later tool rejection was a consequence of its actions, not malformed arguments, unavailable tools, or a system failure."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 24,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "1": 1
+            },
+            "most_common_failure": "1",
+            "modes": [
+                "1"
+            ],
+            "mean": 1,
+            "median": 1,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 1,
+            "max": 1,
+            "proportions": {
+                "1": 1.0
+            },
+            "step_mean": 17,
+            "step_median": 17,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 17,
+            "step_max": 17,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 0,
+            "step_error_distribution": {
+                "0": 1
+            },
+            "gt_failure_case": "5",
+            "gt_step_number": 17,
+            "gt_failure_description": "The error at step 17 led to incorrect final outcome as the agent was not able to update the shipping address after modifying the items in the pending order."
+        },
+        {
+            "task_id": "47",
+            "failures": [
+                {
+                    "task_id": "47",
+                    "failure_case": 2,
+                    "description": "The agent claimed PayPal return refunds take 5\u20137 business days. That timing was provided only for cancellations and payment-method changes, not delivered-order returns.",
+                    "step_number": 17,
+                    "checklist_reasoning": "Authentication and order lookup followed policy. The proposed canister vacuum was explicitly confirmed at step 16. The subsequent unsupported claim about return-refund timing fits category 2; no tool invocation error or external block occurred."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 20,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "2": 1
+            },
+            "most_common_failure": "2",
+            "modes": [
+                "2"
+            ],
+            "mean": 2,
+            "median": 2,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 2,
+            "max": 2,
+            "proportions": {
+                "2": 1.0
+            },
+            "step_mean": 17,
+            "step_median": 17,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 17,
+            "step_max": 17,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 2,
+            "step_error_distribution": {
+                "2": 1
+            },
+            "gt_failure_case": "7",
+            "gt_step_number": 19,
+            "gt_failure_description": "Premature transfer to the human agent which prevented the assistant to refund the order as included in the ground truth."
+        },
+        {
+            "task_id": "55",
+            "failures": [
+                {
+                    "task_id": "55",
+                    "failure_case": 1,
+                    "description": "The agent cancelled order #W4836353 using the reason 'no longer needed' without obtaining the user's confirmation of that reason. The user authorized cancellation but did not confirm all policy-required details. This omission was never remedied.",
+                    "step_number": 27,
+                    "checklist_reasoning": "Category 1 applies: the agent skipped mandatory confirmation of the cancellation reason. The initial unsuccessful email lookup was resolved at step 8. This was not an invalid invocation, tool-output misunderstanding, or external block."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 38,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "1": 1
+            },
+            "most_common_failure": "1",
+            "modes": [
+                "1"
+            ],
+            "mean": 1,
+            "median": 1,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 1,
+            "max": 1,
+            "proportions": {
+                "1": 1.0
+            },
+            "step_mean": 27,
+            "step_median": 27,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 27,
+            "step_max": 27,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 5,
+            "step_error_distribution": {
+                "5": 1
+            },
+            "gt_failure_case": "6",
+            "gt_step_number": 32,
+            "gt_failure_description": "Due to underspecification from the user agent, the assistant omitted one of the items to be returned leading to incorrect tool call arguments and hence, final outcome as compared to ground truth actions."
+        },
+        {
+            "task_id": "59",
+            "failures": [
+                {
+                    "task_id": "59",
+                    "failure_case": 2,
+                    "description": "The agent suggested item-sourcing delays, warehouse demand, and shipping prioritization without supporting user information or tool data. The policy prohibited inventing such explanations. Step 13 acknowledged limited visibility but did not retract these suggestions, so the failure remained unresolved.",
+                    "step_number": 11,
+                    "checklist_reasoning": "Authentication and order lookups were valid. The first failure was introducing unsupported explanations, making category 2 more specific than general instruction nonadherence. No parsing error, tool-output misinterpretation, or external block caused it. The unconfirmed address modification at step 23 is a later failure."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 26,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "2": 1
+            },
+            "most_common_failure": "2",
+            "modes": [
+                "2"
+            ],
+            "mean": 2,
+            "median": 2,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 2,
+            "max": 2,
+            "proportions": {
+                "2": 1.0
+            },
+            "step_mean": 11,
+            "step_median": 11,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 11,
+            "step_max": 11,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 3,
+            "step_error_distribution": {
+                "3": 1
+            },
+            "gt_failure_case": "6",
+            "gt_step_number": 14,
+            "gt_failure_description": "User agent made an assumption that was not supported by the information provided by the assistant which led to incorrect action being performed by the assistant as compared to ground truth action."
+        },
+        {
+            "task_id": "63",
+            "failures": [
+                {
+                    "task_id": "63",
+                    "failure_case": 1,
+                    "description": "Removing an individual item was outside the supported actions. Policy required transferring such requests to a human, but the assistant instead solicited cancellation confirmation and later offered whole-order cancellation without transferring.",
+                    "step_number": 19,
+                    "checklist_reasoning": "The initial authentication omission was resolved at steps 7\u20138. The unsupported cancellation promise at step 19 was corrected at step 23, but the required human escalation was never performed. This is instruction/policy nonadherence, rather than an invalid invocation or system failure."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 36,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "1": 1
+            },
+            "most_common_failure": "1",
+            "modes": [
+                "1"
+            ],
+            "mean": 1,
+            "median": 1,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 1,
+            "max": 1,
+            "proportions": {
+                "1": 1.0
+            },
+            "step_mean": 19,
+            "step_median": 19,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 19,
+            "step_max": 19,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 13,
+            "step_error_distribution": {
+                "13": 1
+            },
+            "gt_failure_case": "6",
+            "gt_step_number": 32,
+            "gt_failure_description": "Failure led to incorrect final outcome."
+        },
+        {
+            "task_id": "71",
+            "failures": [
+                {
+                    "task_id": "71",
+                    "failure_case": 1,
+                    "description": "The agent used the one-time item-modification action without reminding the user to confirm all items needing modification or obtaining their choice of payment method for the refund. This prematurely locked the order against the subsequently requested backpack change.",
+                    "step_number": 27,
+                    "checklist_reasoning": "Category 1 applies: the agent skipped mandatory item-modification safeguards. Authentication and the address update were properly authorized, and the tools executed successfully. Later unsupported suggestions are secondary to this earlier unresolved policy violation."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 36,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "1": 1
+            },
+            "most_common_failure": "1",
+            "modes": [
+                "1"
+            ],
+            "mean": 1,
+            "median": 1,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 1,
+            "max": 1,
+            "proportions": {
+                "1": 1.0
+            },
+            "step_mean": 27,
+            "step_median": 27,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 27,
+            "step_max": 27,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 3,
+            "step_error_distribution": {
+                "3": 1
+            },
+            "gt_failure_case": "6",
+            "gt_step_number": 24,
+            "gt_failure_description": "The task instruction did not specify the type of black lamp and since there are multiple black lamps available, it led to incorrect matching of the ground truth actions. Did not recover from the error."
+        },
+        {
+            "task_id": "72",
+            "failures": [
+                {
+                    "task_id": "72",
+                    "failure_case": 5,
+                    "description": "The agent planned to modify items before updating the shipping address, even though item modification prevents subsequent order changes. The address needed to be updated first. This ordering error was never corrected and left the shipping-address request unfulfilled.",
+                    "step_number": 13,
+                    "checklist_reasoning": "Category 5 fits the earliest failure: an incorrectly ordered plan prevents fulfilling both requested changes. Category 1 violations also occur at step 21 through missing confirmation and unauthorized payment selection, but these arise later. No tool, system, or external restriction caused the failure."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 28,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "5": 1
+            },
+            "most_common_failure": "5",
+            "modes": [
+                "5"
+            ],
+            "mean": 5,
+            "median": 5,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 5,
+            "max": 5,
+            "proportions": {
+                "5": 1.0
+            },
+            "step_mean": 13,
+            "step_median": 13,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 13,
+            "step_max": 13,
+            "failure_case_accuracy": 1.0,
+            "step_mae": 8,
+            "step_error_distribution": {
+                "8": 1
+            },
+            "gt_failure_case": "5",
+            "gt_step_number": 21,
+            "gt_failure_description": "The assistant came up with an incorrect plan with a wrong sequence of tool calls."
+        },
+        {
+            "task_id": "74",
+            "failures": [
+                {
+                    "task_id": "74",
+                    "failure_case": 4,
+                    "description": "The agent treated a pending order as eligible for a delivered-order exchange. Although it later acknowledged the mismatch, it only cancelled the pending order; it never completed the requested exchange.",
+                    "step_number": 15,
+                    "checklist_reasoning": "Category 4 applies: the agent used the order's item details but disregarded its explicit pending status. The subsequent exchange call had valid arguments but incorrect eligibility logic, so this was not an invalid invocation or external block."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 30,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "4": 1
+            },
+            "most_common_failure": "4",
+            "modes": [
+                "4"
+            ],
+            "mean": 4,
+            "median": 4,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 4,
+            "max": 4,
+            "proportions": {
+                "4": 1.0
+            },
+            "step_mean": 15,
+            "step_median": 15,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 15,
+            "step_max": 15,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 6,
+            "step_error_distribution": {
+                "6": 1
+            },
+            "gt_failure_case": "1",
+            "gt_step_number": 21,
+            "gt_failure_description": "The assistant after step 21, realised that it cannot exchange items in a pending order and tried to recover by asking the user to modify the items in the order instead which corresponds to the ground truth. However, the user agent then asked to cancel the order instead of modifying it which led to incorrect final outcome."
+        },
+        {
+            "task_id": "79",
+            "failures": [
+                {
+                    "task_id": "79",
+                    "failure_case": 1,
+                    "description": "The agent defaulted the $6.28 refund to the original Visa without obtaining the user's payment-method choice. The user confirmed the item change, but did not explicitly select the refund method.",
+                    "step_number": 23,
+                    "checklist_reasoning": "Category 1 applies: the agent skipped the required user-provided payment method. The tools succeeded, the item selection and refund calculation were correct, and no access or system failure occurred."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 26,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "1": 1
+            },
+            "most_common_failure": "1",
+            "modes": [
+                "1"
+            ],
+            "mean": 1,
+            "median": 1,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 1,
+            "max": 1,
+            "proportions": {
+                "1": 1.0
+            },
+            "step_mean": 23,
+            "step_median": 23,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 23,
+            "step_max": 23,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 3,
+            "step_error_distribution": {
+                "3": 1
+            },
+            "gt_failure_case": "6",
+            "gt_step_number": 20,
+            "gt_failure_description": "The assistant was not able to recover as it modified the wrong item in the order due to ambiguity in the task instruction."
+        },
+        {
+            "task_id": "80",
+            "failures": [
+                {
+                    "task_id": "80",
+                    "failure_case": 2,
+                    "description": "The agent claimed the email would include a possible shipping label and completion timeline, and that the replacement would be prepared and shipped after the return. Neither the policy nor tool outputs established these details. The unsupported claims were not corrected.",
+                    "step_number": 25,
+                    "checklist_reasoning": "Authentication, order lookup, variant selection, and refund calculations are supported. The substantive failure is inventing exchange procedures, not a tool error, miscalculation, or external restriction."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 26,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "2": 1
+            },
+            "most_common_failure": "2",
+            "modes": [
+                "2"
+            ],
+            "mean": 2,
+            "median": 2,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 2,
+            "max": 2,
+            "proportions": {
+                "2": 1.0
+            },
+            "step_mean": 25,
+            "step_median": 25,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 25,
+            "step_max": 25,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 1,
+            "step_error_distribution": {
+                "1": 1
+            },
+            "gt_failure_case": "9",
+            "gt_step_number": 26,
+            "gt_failure_description": "The assistant's execution was interrupted due to an unexpected system error."
+        },
+        {
+            "task_id": "82",
+            "failures": [
+                {
+                    "task_id": "82",
+                    "failure_case": 10,
+                    "description": "No failure is evident. Both tablets were correctly submitted for return with refunds to the user's existing gift card, as explicitly confirmed.",
+                    "step_number": -1,
+                    "checklist_reasoning": "Authentication, order verification, refund eligibility, explicit confirmation, and sequential return calls all comply with policy. Tool outputs confirm both requested returns. No unresolved error fits categories 1\u20139; category 10 denotes no observable failure."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 28,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "10": 1
+            },
+            "most_common_failure": "10",
+            "modes": [
+                "10"
+            ],
+            "mean": 10,
+            "median": 10,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 10,
+            "max": 10,
+            "proportions": {
+                "10": 1.0
+            },
+            "step_mean": -1,
+            "step_median": -1,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": -1,
+            "step_max": -1,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 21,
+            "step_error_distribution": {
+                "21": 1
+            },
+            "gt_failure_case": "6",
+            "gt_step_number": 20,
+            "gt_failure_description": "The user agent's request led to wrong tool call arguments and led to an incorrect final outcome as compared to ground truth actions."
+        },
+        {
+            "task_id": "87",
+            "failures": [
+                {
+                    "task_id": "87",
+                    "failure_case": 4,
+                    "description": "The agent concluded there were only two pending orders after checking only two of five listed orders. Step 24 subsequently revealed that #W6832752 was also pending, but the agent never included it in the updates, leaving the user's request incomplete.",
+                    "step_number": 15,
+                    "checklist_reasoning": "Category 4 applies: the agent treated a partial review of the user's orders as exhaustive. The incorrect Dallas-address assumption was later corrected, but the incomplete pending-order set was never corrected. The missing update followed from this tool-output interpretation error."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 38,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "4": 1
+            },
+            "most_common_failure": "4",
+            "modes": [
+                "4"
+            ],
+            "mean": 4,
+            "median": 4,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 4,
+            "max": 4,
+            "proportions": {
+                "4": 1.0
+            },
+            "step_mean": 15,
+            "step_median": 15,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 15,
+            "step_max": 15,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 22,
+            "step_error_distribution": {
+                "22": 1
+            },
+            "gt_failure_case": "5",
+            "gt_step_number": 37,
+            "gt_failure_description": "Since the assistant only modified the first two pending order addresses and claimed completion, it led to an incorrect final outcome as compared to ground truth actions."
+        },
+        {
+            "task_id": "91",
+            "failures": [
+                {
+                    "task_id": "91",
+                    "failure_case": 1,
+                    "description": "The agent offered to exchange the e-reader for the identical variant, although policy permits exchanges only for a different variant of the same product. It never corrected this policy violation.",
+                    "step_number": 21,
+                    "checklist_reasoning": "Category 1 applies: the agent disregarded the explicit requirement that exchanges involve different product options. It understood the user's request and correctly read availability, so this is not intent misalignment or tool-output misinterpretation. No invalid invocation, missing information, or external block caused the failure."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 40,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "1": 1
+            },
+            "most_common_failure": "1",
+            "modes": [
+                "1"
+            ],
+            "mean": 1,
+            "median": 1,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 1,
+            "max": 1,
+            "proportions": {
+                "1": 1.0
+            },
+            "step_mean": 21,
+            "step_median": 21,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 21,
+            "step_max": 21,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 13,
+            "step_error_distribution": {
+                "13": 1
+            },
+            "gt_failure_case": "6",
+            "gt_step_number": 34,
+            "gt_failure_description": "The user agent's request led to wrong tool call arguments and led to an incorrect final outcome as compared to ground truth actions."
+        },
+        {
+            "task_id": "98",
+            "failures": [
+                {
+                    "task_id": "98",
+                    "failure_case": 5,
+                    "description": "The agent modified the speaker before updating the requested shipping address. Item modification locks the order against further changes, so this ordering prevented completion of the address request. It should have confirmed and updated the address first, then modified the item.",
+                    "step_number": 21,
+                    "checklist_reasoning": "The mistaken exchange attempt at step 15 was corrected by recognizing the pending status and switching to item modification. The remaining failure is category 5: incorrect action sequencing. The tools accepted valid arguments and enforced their documented constraints; this was not a syntax, system, or external-access failure."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 38,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "5": 1
+            },
+            "most_common_failure": "5",
+            "modes": [
+                "5"
+            ],
+            "mean": 5,
+            "median": 5,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 5,
+            "max": 5,
+            "proportions": {
+                "5": 1.0
+            },
+            "step_mean": 21,
+            "step_median": 21,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 21,
+            "step_max": 21,
+            "failure_case_accuracy": 1.0,
+            "step_mae": 0,
+            "step_error_distribution": {
+                "0": 1
+            },
+            "gt_failure_case": "5",
+            "gt_step_number": 21,
+            "gt_failure_description": "Even thought the user agent clearly specified the request to modify the items and the address at the same time, the assistant first modified the items in the pending orders before modifying the addresses. This led to the order being locked and producing an incorrect final outcome as compared to ground truth actions."
+        },
+        {
+            "task_id": "99",
+            "failures": [
+                {
+                    "task_id": "99",
+                    "failure_case": 1,
+                    "description": "The agent executed the bicycle and puzzle exchanges without reminding the customer to confirm that all items to be exchanged had been provided. Ordinary approval of the listed exchanges did not satisfy this separate, mandatory completeness safeguard. The omission was never corrected.",
+                    "step_number": 29,
+                    "checklist_reasoning": "This is an Instruction/Plan Adherence Failure: the agent skipped an explicit pre-exchange policy requirement. Authentication, tool arguments, and tool execution succeeded; no external restriction or system failure caused the omission."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 46,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "1": 1
+            },
+            "most_common_failure": "1",
+            "modes": [
+                "1"
+            ],
+            "mean": 1,
+            "median": 1,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 1,
+            "max": 1,
+            "proportions": {
+                "1": 1.0
+            },
+            "step_mean": 29,
+            "step_median": 29,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 29,
+            "step_max": 29,
+            "failure_case_accuracy": 1.0,
+            "step_mae": 6,
+            "step_error_distribution": {
+                "6": 1
+            },
+            "gt_failure_case": "1",
+            "gt_step_number": 35,
+            "gt_failure_description": "Since the assistant used the incorrect credit card while exchanging the delivered order items, it led to an incorrect final outcome as compared to ground truth actions."
+        },
+        {
+            "task_id": "104",
+            "failures": [
+                {
+                    "task_id": "104",
+                    "failure_case": 1,
+                    "description": "The agent modified the pending order without reminding the customer to confirm that all items requiring modification had been provided, as required for this one-time action.",
+                    "step_number": 53,
+                    "checklist_reasoning": "Category 1 applies: the agent skipped an explicit pre-action policy requirement. The tool invocation was valid and succeeded; no missing information or external restriction prevented compliance. The incorrect tracking-number response at step 57 is a later, separate failure."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 58,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "1": 1
+            },
+            "most_common_failure": "1",
+            "modes": [
+                "1"
+            ],
+            "mean": 1,
+            "median": 1,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 1,
+            "max": 1,
+            "proportions": {
+                "1": 1.0
+            },
+            "step_mean": 53,
+            "step_median": 53,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 53,
+            "step_max": 53,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 4,
+            "step_error_distribution": {
+                "4": 1
+            },
+            "gt_failure_case": "4",
+            "gt_step_number": 57,
+            "gt_failure_description": "The assistant did not provide the tracking number of the cancelled order #W1154986 due to misinterpretation of tool output."
+        },
+        {
+            "task_id": "105",
+            "failures": [
+                {
+                    "task_id": "105",
+                    "failure_case": 1,
+                    "description": "The policy forbids responding to the user and making a tool call in the same turn. The assistant combined a user-facing acknowledgment with a get_order_details call. No subsequent action corrected this violation.",
+                    "step_number": 23,
+                    "checklist_reasoning": "Category 1 applies because the assistant violated an explicit interaction policy. The failure was not caused by invalid arguments, misunderstood tool output, missing information, or an external block."
+                }
+            ],
+            "num_judges": 1,
+            "trajectory_length": 48,
+            "llm_call_telemetry": null,
+            "frequency": {
+                "1": 1
+            },
+            "most_common_failure": "1",
+            "modes": [
+                "1"
+            ],
+            "mean": 1,
+            "median": 1,
+            "std_dev": 0.0,
+            "variance": 0.0,
+            "min": 1,
+            "max": 1,
+            "proportions": {
+                "1": 1.0
+            },
+            "step_mean": 23,
+            "step_median": 23,
+            "step_std_dev": 0.0,
+            "step_variance": 0.0,
+            "step_min": 23,
+            "step_max": 23,
+            "failure_case_accuracy": 0.0,
+            "step_mae": 20,
+            "step_error_distribution": {
+                "20": 1
+            },
+            "gt_failure_case": "7",
+            "gt_step_number": 43,
+            "gt_failure_description": "Since the assistant tried to modify the address after modifying the pending order items, which is not supported by the domain policy, it led to an incorrect final outcome as compared to ground truth actions."
+        }
+    ]
+}

@@ -1,0 +1,282 @@
+{
+  "created_at": "2026-10-13T04:03:57.340325+00:00",
+  "benchmark": "AgentRx",
+  "split": "tau-retail, entire public failed set",
+  "source_url": "https://github.com/microsoft/AgentRx",
+  "source_commit": "7a18c79708e7671be15124460f4f7296107c2a55",
+  "method": "official baseline prompt, full official IR steps, one diagnostic call per trajectory",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "cli_binary": "/Applications/ChatGPT.app/Contents/Resources/codex-cli/bin/codex",
+  "cli_version": "codex-cli 0.162.0-alpha.17.2",
+  "timeout_seconds": 600,
+  "max_attempts": 2,
+  "workers": 3,
+  "retry_rule": "Only failed transport/event/schema checks. Never inspect accuracy to retry.",
+  "diagnosis_gold": "Scoring only; not read by prepare or run; no diagnosis labels in model input.",
+  "input_adaptation": "Official system text via Codex model_instructions_file; official Conversation repr via stdin; structured output transport.",
+  "not_supplied": [
+    "task.instruction",
+    "task.actions",
+    "task.outputs",
+    "reward",
+    "reward_info",
+    "root_cause labels",
+    "few-shot examples",
+    "invariant violations"
+  ],
+  "cases": [
+    {
+      "task_id": "2",
+      "steps": 32,
+      "prompt_characters": 25476,
+      "prompt_sha256": "eb0ae9ee86ade7f26ef03b463c08baea69f2ab703fab931f0dee262ce8ce149b"
+    },
+    {
+      "task_id": "3",
+      "steps": 34,
+      "prompt_characters": 26054,
+      "prompt_sha256": "22fef1fc196c72cda0a4b6d2d0a0e8aeebda7735a63ef8196f6f0da6f6df86e7"
+    },
+    {
+      "task_id": "4",
+      "steps": 48,
+      "prompt_characters": 32775,
+      "prompt_sha256": "d76cb94db7bbc7f2248411f71c1ae5b04c84affd6485cf200c168b003235764e"
+    },
+    {
+      "task_id": "12",
+      "steps": 26,
+      "prompt_characters": 16692,
+      "prompt_sha256": "0b1cd9574e0f881b792b52331b579fff58536eee3625ae7aeaf9eab94c8e89b4"
+    },
+    {
+      "task_id": "20",
+      "steps": 62,
+      "prompt_characters": 59796,
+      "prompt_sha256": "306e42106c65de9ad606c6ea6349514a8f45281f192560e742fe6946237febe2"
+    },
+    {
+      "task_id": "21",
+      "steps": 48,
+      "prompt_characters": 32157,
+      "prompt_sha256": "ee6ada979e0e4c7fa9fb4702d650d01a6623598ab6347cc5c2948d04a8e2ae09"
+    },
+    {
+      "task_id": "28",
+      "steps": 42,
+      "prompt_characters": 29182,
+      "prompt_sha256": "13d299e1ee2beebd0918d54774703b6e9dae858ab00787e342e420463b6967f4"
+    },
+    {
+      "task_id": "31",
+      "steps": 42,
+      "prompt_characters": 23965,
+      "prompt_sha256": "dae88881d452d752dccb8496ba4fd30460e88e79e3b1dd1c3f7a1d486fa9c64d"
+    },
+    {
+      "task_id": "32",
+      "steps": 42,
+      "prompt_characters": 23655,
+      "prompt_sha256": "8b0e5a4faf72f9396ed6ba91efaa709a99881e24ce1cebd0afb57cea4e5cc812"
+    },
+    {
+      "task_id": "34",
+      "steps": 30,
+      "prompt_characters": 21910,
+      "prompt_sha256": "f33ad37f2af3d2f91a5429f7ae76f6eefbda582903a73a279658e1448db75a69"
+    },
+    {
+      "task_id": "38",
+      "steps": 46,
+      "prompt_characters": 34054,
+      "prompt_sha256": "81c698f25ea40cf3e8e65fea2d376e3c615ef4f8917c024cdd9ed377443ebd86"
+    },
+    {
+      "task_id": "39",
+      "steps": 26,
+      "prompt_characters": 18107,
+      "prompt_sha256": "b01c46482682cb95ac15eac01e1a26a9bcdfb02eb7ee4b4ff81cc80123b4b17c"
+    },
+    {
+      "task_id": "41",
+      "steps": 24,
+      "prompt_characters": 22137,
+      "prompt_sha256": "bffe25e82ba48d163ecfbe50fa3591772f59f121dd27b7ad5c9ae902801d63f9"
+    },
+    {
+      "task_id": "47",
+      "steps": 20,
+      "prompt_characters": 14722,
+      "prompt_sha256": "c36e5fc6c03cdc44dcd51bd18b25ef4301af81ca0a745b3b5a1ee4ce92d1fcd0"
+    },
+    {
+      "task_id": "55",
+      "steps": 38,
+      "prompt_characters": 31233,
+      "prompt_sha256": "15c1dfb658127e13de5600d237c4e2cd5c4d78abeac7d02397bf647790502d6f"
+    },
+    {
+      "task_id": "59",
+      "steps": 26,
+      "prompt_characters": 16700,
+      "prompt_sha256": "28955c9a34538210e92960e1d30317e1917d4049748d9042fa62044aabcf1d7a"
+    },
+    {
+      "task_id": "63",
+      "steps": 36,
+      "prompt_characters": 20888,
+      "prompt_sha256": "b63742dae3c4a88d0d1c871847697cb46296c3a8f53c3a9c77197fb7b532426e"
+    },
+    {
+      "task_id": "71",
+      "steps": 36,
+      "prompt_characters": 26607,
+      "prompt_sha256": "d3833e184e2d51c06a9de960b99ba2db445b3e09ce1cedcaf606c47a441c87e4"
+    },
+    {
+      "task_id": "72",
+      "steps": 28,
+      "prompt_characters": 23493,
+      "prompt_sha256": "6c2cf667fff274c15ba8879d767d1bd44864e5ba6eb6ba060a32bf60d9ec0e57"
+    },
+    {
+      "task_id": "74",
+      "steps": 30,
+      "prompt_characters": 21186,
+      "prompt_sha256": "2614b7cd2f2880b367c7847ff62fcd9366d3810b88125ee11fa7b5c9ce49e3e6"
+    },
+    {
+      "task_id": "79",
+      "steps": 26,
+      "prompt_characters": 23108,
+      "prompt_sha256": "dad075fd8f89e5c91a33dd2285daa65513bd02910479db3fe04ed2661349e2f2"
+    },
+    {
+      "task_id": "80",
+      "steps": 26,
+      "prompt_characters": 18308,
+      "prompt_sha256": "7b8a1c4caeecd7356e30abad7ef750d3cd9e5488991c8a79a399e3f796605057"
+    },
+    {
+      "task_id": "82",
+      "steps": 28,
+      "prompt_characters": 22079,
+      "prompt_sha256": "0852798069cd43dbb6f3d8dffb2f793b820c3df0134d6f177af189f51d467766"
+    },
+    {
+      "task_id": "87",
+      "steps": 38,
+      "prompt_characters": 23167,
+      "prompt_sha256": "e2dd93582aba110f41add1c17c2ab7d77916ee0985cb4aad74853112a2ac9647"
+    },
+    {
+      "task_id": "91",
+      "steps": 40,
+      "prompt_characters": 31859,
+      "prompt_sha256": "8f7882b1a8ae31ef3c356a3b1adf1ecca5f46878ebc120093090afb18472880e"
+    },
+    {
+      "task_id": "98",
+      "steps": 38,
+      "prompt_characters": 23474,
+      "prompt_sha256": "198ea50a205516cea32e5a61b9b149ab88dd5d81acab6333c09daced2ca2ea61"
+    },
+    {
+      "task_id": "99",
+      "steps": 46,
+      "prompt_characters": 40054,
+      "prompt_sha256": "c8b4b2d9249af63a85b3104dc12dc5a30c7da87e8dbb39e5dae883eaf667f7da"
+    },
+    {
+      "task_id": "104",
+      "steps": 58,
+      "prompt_characters": 34904,
+      "prompt_sha256": "9f5c993bf676fd6420e5ba4727f86872cd8f9aa5594724a75249db0bb634b463"
+    },
+    {
+      "task_id": "105",
+      "steps": 48,
+      "prompt_characters": 33902,
+      "prompt_sha256": "af733448f8d072cf909706689542bde317093d24d8f1c7eacda9a8667850a7e0"
+    }
+  ],
+  "frozen_files": {
+    "run.py": "f2c552767bbdf3d5d0e7126ef785038626f76990c08396212ce41d4e7c15d606",
+    "score.py": "45fb366c172682b8395d21e20b44e58b27e73f5b02a333de7398a7ba5f7fbed3",
+    "protocol.py": "a398298f1b4283947d8c13872485a738aeee074171ef132366609f7d761acc5d",
+    "runtime.py": "1025903efd8c2a63f76cd0aa2b6ce46c3f60172b0c64635918e64a42aa3d54df",
+    "test_events.py": "dbde154e2929e47a5362c017165383f9688180931df1c599468920989e41976c",
+    "test_protocol.py": "6dd75b5956f12e1eb70a587e7d80233c099f02f48ecab4ab6f07e73dbde09e73",
+    "system_prompt.txt": "8c05839a6c1e8120c4ddf6f130eb65016ddd502b4df9f385de23bd70ba59c108",
+    "schema.json": "69f278f02e111ea4f65728cada150d76fa64a86bbd324568b0d1e8146188fd56",
+    "upstream/LICENSE.txt": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+    "upstream/README.md": "6b40abda0aea64e9e937cb76e37bf1bb9c141a742c45fde2a10ea1c9a08fec1f",
+    "upstream/agentrx/ir/trajectory_ir.py": "99064b69825a8aeb5716298f48a053b1855b1ee9b0314324d85137462ef669a4",
+    "upstream/agentrx/judge/judge.py": "9629515bc49fa83c686a2aa03343b4a5ee9ddc23215f4756f7767ee6c9a59323",
+    "upstream/agentrx/reports/analyze_metrics.py": "06837e584ddfdb7b3b3d72d7ef999f7a50299665c602591a3bbd03b8c2f5b137",
+    "upstream/data/ground_truth/tau_ground_truth.json": "58067689b2ec42f9cbfec2a84ec08d39cea4d8270617b55d0185862753642d16",
+    "upstream/data/tau_retail/tau_dataset_failed.json": "17f8b3356d1124274cc7ed0215b5ff696970073dbed57394c60e775d5f85d717",
+    "inputs/104/prompt.txt": "9f5c993bf676fd6420e5ba4727f86872cd8f9aa5594724a75249db0bb634b463",
+    "inputs/104/steps.json": "469cf0b80dc15378396b8334e4c4126742bd2e6cadc8baa50cc8fa34cccd6de6",
+    "inputs/105/prompt.txt": "af733448f8d072cf909706689542bde317093d24d8f1c7eacda9a8667850a7e0",
+    "inputs/105/steps.json": "1ec1333ab4de38c18eb85c8265765de71299b2ef451a61bda1e6e92f948dcceb",
+    "inputs/12/prompt.txt": "0b1cd9574e0f881b792b52331b579fff58536eee3625ae7aeaf9eab94c8e89b4",
+    "inputs/12/steps.json": "9fedcd9b584b8d240da042d6cab51d0f94e7852acb60d6f8c8c5933e3ab4c0ec",
+    "inputs/2/prompt.txt": "eb0ae9ee86ade7f26ef03b463c08baea69f2ab703fab931f0dee262ce8ce149b",
+    "inputs/2/steps.json": "23e212f994dc6bfc81d15a7f3907807da53eb39d0bd94f2ddf7d341ee7975944",
+    "inputs/20/prompt.txt": "306e42106c65de9ad606c6ea6349514a8f45281f192560e742fe6946237febe2",
+    "inputs/20/steps.json": "30087bed713a92c39810fda89d75a6b120a39e378a5c476843486a1aadcf066b",
+    "inputs/21/prompt.txt": "ee6ada979e0e4c7fa9fb4702d650d01a6623598ab6347cc5c2948d04a8e2ae09",
+    "inputs/21/steps.json": "c7838229885b5685d31fd7be9087573c04d7f536540cee442ebb9e53ec243534",
+    "inputs/28/prompt.txt": "13d299e1ee2beebd0918d54774703b6e9dae858ab00787e342e420463b6967f4",
+    "inputs/28/steps.json": "48149ac6b1f7864294dc2bf87d98b7436766a39205bc4e87858888f46818cd22",
+    "inputs/3/prompt.txt": "22fef1fc196c72cda0a4b6d2d0a0e8aeebda7735a63ef8196f6f0da6f6df86e7",
+    "inputs/3/steps.json": "d9be9566d738aec647c1f331f9f73b2de6865e002175255f0676c8743ecfcf0d",
+    "inputs/31/prompt.txt": "dae88881d452d752dccb8496ba4fd30460e88e79e3b1dd1c3f7a1d486fa9c64d",
+    "inputs/31/steps.json": "f03f70fa86f7a565321c06218de98c9ddf3f84552bd23e60c6786ae168a8c206",
+    "inputs/32/prompt.txt": "8b0e5a4faf72f9396ed6ba91efaa709a99881e24ce1cebd0afb57cea4e5cc812",
+    "inputs/32/steps.json": "69d46084e7a2c4fa0970faced615465bbc25fe9ef89f152eabef05d025f09d4f",
+    "inputs/34/prompt.txt": "f33ad37f2af3d2f91a5429f7ae76f6eefbda582903a73a279658e1448db75a69",
+    "inputs/34/steps.json": "7317d2d7cfa88598d25caf0a119e1c525999a0367c3b337eb90fad7bf46f5a78",
+    "inputs/38/prompt.txt": "81c698f25ea40cf3e8e65fea2d376e3c615ef4f8917c024cdd9ed377443ebd86",
+    "inputs/38/steps.json": "da13d7d420ea166ed5dd17e59f0225290e748d472a22ac13ce87372d821b3e3c",
+    "inputs/39/prompt.txt": "b01c46482682cb95ac15eac01e1a26a9bcdfb02eb7ee4b4ff81cc80123b4b17c",
+    "inputs/39/steps.json": "0e97360a95c06d1e0eae2c8db64e7d06bbd908bb5274be3421f7186ad9fe260a",
+    "inputs/4/prompt.txt": "d76cb94db7bbc7f2248411f71c1ae5b04c84affd6485cf200c168b003235764e",
+    "inputs/4/steps.json": "04727c89e9b7724caa3feef44817fad0db034f61cec9ea01111ac09c98003a2b",
+    "inputs/41/prompt.txt": "bffe25e82ba48d163ecfbe50fa3591772f59f121dd27b7ad5c9ae902801d63f9",
+    "inputs/41/steps.json": "41b2f440b778e56fb9a5e97d01007191983d56cd046c30625d3aec1d4ede50df",
+    "inputs/47/prompt.txt": "c36e5fc6c03cdc44dcd51bd18b25ef4301af81ca0a745b3b5a1ee4ce92d1fcd0",
+    "inputs/47/steps.json": "542238e788d8c4d086b85cd2f3f15b70095cb66b26cdc45a635cfd349c7aa70e",
+    "inputs/55/prompt.txt": "15c1dfb658127e13de5600d237c4e2cd5c4d78abeac7d02397bf647790502d6f",
+    "inputs/55/steps.json": "0a1f1960d73f3b105f1b36de584ff8a284b0a4c661d7bae7447361d293b255f2",
+    "inputs/59/prompt.txt": "28955c9a34538210e92960e1d30317e1917d4049748d9042fa62044aabcf1d7a",
+    "inputs/59/steps.json": "04b7fd85ea50e0c4d69d1aae5345107059c8ee56c9965599d9b9795e9dec1c3a",
+    "inputs/63/prompt.txt": "b63742dae3c4a88d0d1c871847697cb46296c3a8f53c3a9c77197fb7b532426e",
+    "inputs/63/steps.json": "14d0cea053f41c71f329d33d1d40b39de5a7dac6ccb544d45fc9f012c632bd8f",
+    "inputs/71/prompt.txt": "d3833e184e2d51c06a9de960b99ba2db445b3e09ce1cedcaf606c47a441c87e4",
+    "inputs/71/steps.json": "fc9abb2a793aa9cd056a8ae4f1c451432b9cde2cb35494d1fddd38b2bdb42b19",
+    "inputs/72/prompt.txt": "6c2cf667fff274c15ba8879d767d1bd44864e5ba6eb6ba060a32bf60d9ec0e57",
+    "inputs/72/steps.json": "b0eebe030721e729140f3dec835f4f567d3b2cd7dab344c6b6dfefde80835c6a",
+    "inputs/74/prompt.txt": "2614b7cd2f2880b367c7847ff62fcd9366d3810b88125ee11fa7b5c9ce49e3e6",
+    "inputs/74/steps.json": "20de714a5e577aca518caa7296209b9f9ff1f8d3b985985c3cce682f7e8a2b2e",
+    "inputs/79/prompt.txt": "dad075fd8f89e5c91a33dd2285daa65513bd02910479db3fe04ed2661349e2f2",
+    "inputs/79/steps.json": "c35707558f9d71c5a8546fd879fcdbaf3586a3f40f6e4a885f49572eef92f6b3",
+    "inputs/80/prompt.txt": "7b8a1c4caeecd7356e30abad7ef750d3cd9e5488991c8a79a399e3f796605057",
+    "inputs/80/steps.json": "49f3484743d82652a7de31d07c1b7b136a6315375b5e4e48d56f4bff1cd421ec",
+    "inputs/82/prompt.txt": "0852798069cd43dbb6f3d8dffb2f793b820c3df0134d6f177af189f51d467766",
+    "inputs/82/steps.json": "70f698f30120a074a5ab245d122578a698a11cb78159eca5922377123e41b246",
+    "inputs/87/prompt.txt": "e2dd93582aba110f41add1c17c2ab7d77916ee0985cb4aad74853112a2ac9647",
+    "inputs/87/steps.json": "a34f427a74496a6a215bbe4bf93f5deca4757e8efd7d41dbf3d61e32a7daaefb",
+    "inputs/91/prompt.txt": "8f7882b1a8ae31ef3c356a3b1adf1ecca5f46878ebc120093090afb18472880e",
+    "inputs/91/steps.json": "a6c35c1bd6529475e2d3639b277c859f49ea25640221bed2510add4350efd98b",
+    "inputs/98/prompt.txt": "198ea50a205516cea32e5a61b9b149ab88dd5d81acab6333c09daced2ca2ea61",
+    "inputs/98/steps.json": "8d5b902843c0fd8215f4978d38e72cfbbd130b46f3e1db5d77531294d2386c9d",
+    "inputs/99/prompt.txt": "c8b4b2d9249af63a85b3104dc12dc5a30c7da87e8dbb39e5dae883eaf667f7da",
+    "inputs/99/steps.json": "998bb449a801b310a168feee575cb6d6467e1cac7e0860a9410272b483b27626"
+  },
+  "dependencies": {
+    "jsonschema": "4.26.0"
+  }
+}

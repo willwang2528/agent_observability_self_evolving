@@ -1,0 +1,143 @@
+Loaded 29 failures from /Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/data/ground_truth/tau_ground_truth.json
+  Task 2: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 7
+  Task 3: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 7
+  Task 4: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 15
+  Task 12: INSTRUCTION_OR_PLAN_ADHERENCE_FAILURE @ Step 19
+  Task 20: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 21
+  Task 21: UNDERSPECIFIED_USER_INTENT @ Step 28
+  Task 28: INTENT_PLAN_MISALIGNMENT @ Step 33
+  Task 31: INTENT_PLAN_MISALIGNMENT @ Step 31
+  Task 32: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 11
+  Task 34: INVALID_INVOCATION @ Step 17
+  Task 38: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 37
+  Task 39: INTENT_PLAN_MISALIGNMENT @ Step 17
+  Task 41: INTENT_PLAN_MISALIGNMENT @ Step 17
+  Task 47: INTENT_NOT_SUPPORTED @ Step 19
+  Task 55: UNDERSPECIFIED_USER_INTENT @ Step 32
+  Task 59: UNDERSPECIFIED_USER_INTENT @ Step 14
+  Task 63: UNDERSPECIFIED_USER_INTENT @ Step 32
+  Task 71: UNDERSPECIFIED_USER_INTENT @ Step 24
+  Task 72: INTENT_PLAN_MISALIGNMENT @ Step 21
+  Task 74: INSTRUCTION_OR_PLAN_ADHERENCE_FAILURE @ Step 21
+  Task 79: UNDERSPECIFIED_USER_INTENT @ Step 20
+  Task 80: SYSTEM_FAILURE @ Step 26
+  Task 82: UNDERSPECIFIED_USER_INTENT @ Step 20
+  Task 87: INTENT_PLAN_MISALIGNMENT @ Step 37
+  Task 91: UNDERSPECIFIED_USER_INTENT @ Step 34
+  Task 98: INTENT_PLAN_MISALIGNMENT @ Step 21
+  Task 99: INSTRUCTION_OR_PLAN_ADHERENCE_FAILURE @ Step 35
+  Task 104: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 57
+  Task 105: INTENT_NOT_SUPPORTED @ Step 43
+Loaded 29 failures from /Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/data/ground_truth/tau_ground_truth.json
+  Task 2: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 7
+  Task 3: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 7
+  Task 4: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 15
+  Task 12: INSTRUCTION_OR_PLAN_ADHERENCE_FAILURE @ Step 19
+  Task 20: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 21
+  Task 21: UNDERSPECIFIED_USER_INTENT @ Step 28
+  Task 28: INTENT_PLAN_MISALIGNMENT @ Step 33
+  Task 31: INTENT_PLAN_MISALIGNMENT @ Step 31
+  Task 32: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 11
+  Task 34: INVALID_INVOCATION @ Step 17
+  Task 38: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 37
+  Task 39: INTENT_PLAN_MISALIGNMENT @ Step 17
+  Task 41: INTENT_PLAN_MISALIGNMENT @ Step 17
+  Task 47: INTENT_NOT_SUPPORTED @ Step 19
+  Task 55: UNDERSPECIFIED_USER_INTENT @ Step 32
+  Task 59: UNDERSPECIFIED_USER_INTENT @ Step 14
+  Task 63: UNDERSPECIFIED_USER_INTENT @ Step 32
+  Task 71: UNDERSPECIFIED_USER_INTENT @ Step 24
+  Task 72: INTENT_PLAN_MISALIGNMENT @ Step 21
+  Task 74: INSTRUCTION_OR_PLAN_ADHERENCE_FAILURE @ Step 21
+  Task 79: UNDERSPECIFIED_USER_INTENT @ Step 20
+  Task 80: SYSTEM_FAILURE @ Step 26
+  Task 82: UNDERSPECIFIED_USER_INTENT @ Step 20
+  Task 87: INTENT_PLAN_MISALIGNMENT @ Step 37
+  Task 91: UNDERSPECIFIED_USER_INTENT @ Step 34
+  Task 98: INTENT_PLAN_MISALIGNMENT @ Step 21
+  Task 99: INSTRUCTION_OR_PLAN_ADHERENCE_FAILURE @ Step 35
+  Task 104: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 57
+  Task 105: INTENT_NOT_SUPPORTED @ Step 43
+Loaded 29 failures from /Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/data/ground_truth/tau_ground_truth.json
+  Task 2: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 7
+  Task 3: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 7
+  Task 4: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 15
+  Task 12: INSTRUCTION_OR_PLAN_ADHERENCE_FAILURE @ Step 19
+  Task 20: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 21
+  Task 21: UNDERSPECIFIED_USER_INTENT @ Step 28
+  Task 28: INTENT_PLAN_MISALIGNMENT @ Step 33
+  Task 31: INTENT_PLAN_MISALIGNMENT @ Step 31
+  Task 32: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 11
+  Task 34: INVALID_INVOCATION @ Step 17
+  Task 38: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 37
+  Task 39: INTENT_PLAN_MISALIGNMENT @ Step 17
+  Task 41: INTENT_PLAN_MISALIGNMENT @ Step 17
+  Task 47: INTENT_NOT_SUPPORTED @ Step 19
+  Task 55: UNDERSPECIFIED_USER_INTENT @ Step 32
+  Task 59: UNDERSPECIFIED_USER_INTENT @ Step 14
+  Task 63: UNDERSPECIFIED_USER_INTENT @ Step 32
+  Task 71: UNDERSPECIFIED_USER_INTENT @ Step 24
+  Task 72: INTENT_PLAN_MISALIGNMENT @ Step 21
+  Task 74: INSTRUCTION_OR_PLAN_ADHERENCE_FAILURE @ Step 21
+  Task 79: UNDERSPECIFIED_USER_INTENT @ Step 20
+  Task 80: SYSTEM_FAILURE @ Step 26
+  Task 82: UNDERSPECIFIED_USER_INTENT @ Step 20
+  Task 87: INTENT_PLAN_MISALIGNMENT @ Step 37
+  Task 91: UNDERSPECIFIED_USER_INTENT @ Step 34
+  Task 98: INTENT_PLAN_MISALIGNMENT @ Step 21
+  Task 99: INSTRUCTION_OR_PLAN_ADHERENCE_FAILURE @ Step 35
+  Task 104: MISINTERPRETATION_OF_TOOL_OUTPUT @ Step 57
+  Task 105: INTENT_NOT_SUPPORTED @ Step 43
+test_baseline_builder_uses_frozen_official_prompt_without_examples (test_protocol.ProtocolTests.test_baseline_builder_uses_frozen_official_prompt_without_examples) ... ok
+test_environment_cannot_override_frozen_upstream (test_protocol.ProtocolTests.test_environment_cannot_override_frozen_upstream) ... ok
+test_full_conversation_policy_and_tool_evidence_preserved_with_one_based_index (test_protocol.ProtocolTests.test_full_conversation_policy_and_tool_evidence_preserved_with_one_based_index) ... /Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/agentrx/ir/trajectory_ir.py:216: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/data/tau_retail/tau_dataset_failed.json' mode='r' encoding='utf-8-sig'>
+  raw = open(path, "r", encoding="utf-8-sig").read().strip()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_hidden_gold_and_task_instruction_mutations_cannot_change_input (test_protocol.ProtocolTests.test_hidden_gold_and_task_instruction_mutations_cannot_change_input) ... /Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/agentrx/ir/trajectory_ir.py:216: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/fz/2zs0q_rs2c56zb6r69pwhrlh0000gn/T/tmp010dvam9/a.json' mode='r' encoding='utf-8-sig'>
+  raw = open(path, "r", encoding="utf-8-sig").read().strip()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/agentrx/ir/trajectory_ir.py:216: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/fz/2zs0q_rs2c56zb6r69pwhrlh0000gn/T/tmp010dvam9/b.json' mode='r' encoding='utf-8-sig'>
+  raw = open(path, "r", encoding="utf-8-sig").read().strip()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/agentrx/ir/trajectory_ir.py:216: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/folders/fz/2zs0q_rs2c56zb6r69pwhrlh0000gn/T/tmp010dvam9/b.json' mode='r' encoding='utf-8-sig'>
+  raw = open(path, "r", encoding="utf-8-sig").read().strip()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_invalid_category_and_step_types_rejected_before_official_scoring (test_protocol.ProtocolTests.test_invalid_category_and_step_types_rejected_before_official_scoring) ... /Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/agentrx/ir/trajectory_ir.py:216: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/data/tau_retail/tau_dataset_failed.json' mode='r' encoding='utf-8-sig'>
+  raw = open(path, "r", encoding="utf-8-sig").read().strip()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/agentrx/ir/trajectory_ir.py:216: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/data/tau_retail/tau_dataset_failed.json' mode='r' encoding='utf-8-sig'>
+  raw = open(path, "r", encoding="utf-8-sig").read().strip()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/agentrx/ir/trajectory_ir.py:216: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/data/tau_retail/tau_dataset_failed.json' mode='r' encoding='utf-8-sig'>
+  raw = open(path, "r", encoding="utf-8-sig").read().strip()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/agentrx/ir/trajectory_ir.py:216: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/data/tau_retail/tau_dataset_failed.json' mode='r' encoding='utf-8-sig'>
+  raw = open(path, "r", encoding="utf-8-sig").read().strip()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_missing_predictions_cannot_shrink_denominator (test_protocol.ProtocolTests.test_missing_predictions_cannot_shrink_denominator) ... /Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/agentrx/ir/trajectory_ir.py:216: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/data/tau_retail/tau_dataset_failed.json' mode='r' encoding='utf-8-sig'>
+  raw = open(path, "r", encoding="utf-8-sig").read().strip()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_official_scorer_counts_all_29_cases_with_known_integer_errors (test_protocol.ProtocolTests.test_official_scorer_counts_all_29_cases_with_known_integer_errors) ... /Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/agentrx/ir/trajectory_ir.py:216: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/data/tau_retail/tau_dataset_failed.json' mode='r' encoding='utf-8-sig'>
+  raw = open(path, "r", encoding="utf-8-sig").read().strip()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_out_of_range_index_and_no_error_predictions_remain_scored (test_protocol.ProtocolTests.test_out_of_range_index_and_no_error_predictions_remain_scored) ... /Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/agentrx/ir/trajectory_ir.py:216: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013/upstream/data/tau_retail/tau_dataset_failed.json' mode='r' encoding='utf-8-sig'>
+  raw = open(path, "r", encoding="utf-8-sig").read().strip()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_failure_event_vetoes_completed (test_events.EventAuditTest.test_failure_event_vetoes_completed) ... ok
+test_malformed_event_rejected (test_events.EventAuditTest.test_malformed_event_rejected) ... ok
+test_no_usage_rejected (test_events.EventAuditTest.test_no_usage_rejected) ... ok
+test_tampered_response_rejected (test_events.EventAuditTest.test_tampered_response_rejected) ... ok
+test_tool_contamination_rejected (test_events.EventAuditTest.test_tool_contamination_rejected) ... ok
+test_unknown_warning_rejected (test_events.EventAuditTest.test_unknown_warning_rejected) ... ok
+test_valid_stream (test_events.EventAuditTest.test_valid_stream) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.398s
+
+OK

@@ -1,0 +1,1518 @@
+{
+  "checked_at": "2026-10-13T04:14:05.262714+00:00",
+  "status": "PASS_EXECUTION_AND_OFFICIAL_SCORING",
+  "run_root": "/Users/will/project/agent_observability_self_evolving/machine_work/benchmarks/agentrx/diagnosis_20261013",
+  "source_commit": "7a18c79708e7671be15124460f4f7296107c2a55",
+  "plan_sha256": "53b506ed1bb5eba6328a2521472d587c9e40a896466b330e69d881ca79bb796f",
+  "model_calls_in_this_audit": 0,
+  "scope": "All 29 tau traces in the pinned public GitHub snapshot; not the latest-paper 39 tau or entire 170-case collection.",
+  "method_scope": "Official baseline prompt and IR via Codex model transport; no invariant pipeline or self-evolution result.",
+  "human_audit": "pending",
+  "independent_of_project_scorer": true,
+  "runtime_identity_boundary": "CLI command proves requested model/effort; provider-internal model identity is not independently attested.",
+  "static": {
+    "status": "PASS",
+    "frozen_files_checked": 73,
+    "task_count": 29,
+    "total_steps": 1064,
+    "official_prompt_match": true,
+    "one_based_complete_steps": true,
+    "gold_and_wrapper_mutation_independent": true,
+    "adapter_did_not_open_gold_content": true,
+    "original_policy_retained": true,
+    "official_ast_sha256": {
+      "TAXONOMY_DATA": "f73f23d759ad64784db5642e4fc7cac25027512b8f8d99cd7ba5907bc69423aa",
+      "FailureCase": "91a5064ac0cc8aed9799a0c48bd96a591f4c1e234c71f94308db9da6ab11be84",
+      "Failure": "56b6aaac04ba52d4fd63fd9d3bb89e967b82f2af54ca6f61b5ecbc7617377b44",
+      "Report": "6efb8100061358f4cfe90ce3c70ff75ff902fedb1f5a0ad511848c96a9a4ad00",
+      "build_taxonomy_text": "b468893b979a72bd0aa4913aaf464408b49a6dbe3f40ce05a4a92332a9b6fff9",
+      "_TMPL_VIOLATIONS_BEFORE": "cb7f68394bce6489ee30b3bd5ea2406b9d2177a9424c6e98aa0ec012fefcaf0d",
+      "_TMPL_NO_CONTEXT": "57f1c752af0f775e886b8903f2b7a03adc2bbea91b48a38782ef9b3f1cfd8c7f",
+      "_TMPL_WITH_CONTEXT": "711e031f41b4d20e9e2dbae379f7ff6cd3290cbc146a3710dd35d73de432a388",
+      "_TMPL_FAILURE": "e0efe7825e215fd183f887247133a41830fc89c37fec771e7e61a1714f382c66",
+      "get_system_prompt": "a3932fbaa3bae96a9e658e0ae3f816e271f49f829b8d1f3ae7277bf5a36a3724",
+      "convert_to_failure_case": "08fe06751cea15ff27af7e1f140d9baffe5befdd5bccf746f1a640cd5280757a",
+      "load_failures_from_json": "6208dd2a57eccaf66a074ad9bd19dcbd2833c7b0595c4ca6d3b938f0db369d23",
+      "analysis": "cf5025591e0aeae4d45376d462ab1f925c43a206c505b1ce7b6eaa8f42c74057"
+    },
+    "clarification": "Preparation hashes gold bytes for provenance; diagnostic labels do not enter model input."
+  },
+  "synthetic_official_metric_controls": {
+    "exact": {
+      "category_correct": 1,
+      "step_correct": 1,
+      "absolute_distance": 0.0,
+      "synthetic_not_model_result": true
+    },
+    "step_plus_one": {
+      "category_correct": 1,
+      "step_correct": 0,
+      "absolute_distance": 1.0,
+      "synthetic_not_model_result": true
+    },
+    "wrong_category": {
+      "category_correct": 0,
+      "step_correct": 1,
+      "absolute_distance": 0.0,
+      "synthetic_not_model_result": true
+    },
+    "both_wrong": {
+      "category_correct": 0,
+      "step_correct": 0,
+      "absolute_distance": 1.0,
+      "synthetic_not_model_result": true
+    }
+  },
+  "legacy_tracked_benchmarks_unchanged_from_head": true,
+  "repository_head_at_audit": "de51a1aa77d6b6476ba8d36633d0d8ba29d235c2",
+  "attempts": [
+    {
+      "task_id": "2",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 13874,
+        "cached_input_tokens": 0,
+        "output_tokens": 1170
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 1 applies because the agent bypassed mandatory authentication before proceeding. The incorrect T-shirt count at step 7 is a separate, later tool-output interpretation error.",
+        "reason_for_failure": "The policy required authentication at the beginning of the conversation. Authentication at steps 11–12 did not remedy the earlier violation of this authentication-first requirement.",
+        "reason_for_index": "Step 3 is the first deviation: the agent called list_all_product_types instead of initiating identity authentication.",
+        "failure_case": 1,
+        "index": 3
+      },
+      "evidence_hashes": {
+        "events.jsonl": "bd2c1c2bf778e1db04079f21547d146f1c89a9c55dfa868b7b4a12060fbae926",
+        "metadata.json": "c63ae47fcae78c1b0963c1e41fbf56433b0736dd55a3ce67229b2733ece9be94",
+        "response.json": "e7f33c339f8c6152b53b4fe7002e7e848fe8fdafafbaa4597ea60af5966d0f98",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "3",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 13927,
+        "cached_input_tokens": 0,
+        "output_tokens": 1422
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "The initial authentication omission is remedied at steps 11–12. The next failure, an incorrect count derived from tool output, is never corrected. This fits category 4 (computation/tool-output interpretation), rather than fabrication or invalid invocation.",
+        "reason_for_failure": "The tool returned 12 T-shirt variants, including two unavailable variants. The assistant incorrectly reported 11 available options instead of 10.",
+        "reason_for_index": "Step 7 states the incorrect availability count based on step 6's tool output. No subsequent response corrects it.",
+        "failure_case": 4,
+        "index": 7
+      },
+      "evidence_hashes": {
+        "events.jsonl": "febd7c6189b5658ee2dd2562f8ab8f08f5da1a90c0fffe82968c0a39aa9ff10d",
+        "metadata.json": "acf529b086d2f597921181169f95451969403c7fab13ddc92fa84edfe3021d10",
+        "response.json": "bedc4edd1db7cbf18e1262f719f33341c24330da12df5e331467d87793817a52",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "4",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 16388,
+        "cached_input_tokens": 0,
+        "output_tokens": 420
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 4 applies: the agent incorrectly counted availability flags in the product tool output. This is a computation/tool-output interpretation error, not fabricated source data or a tool failure. The incorrect count is never corrected.",
+        "reason_for_failure": "The tool returned 12 T-shirt variants, with 2 unavailable, leaving 10 available. The agent reported 11 available options.",
+        "reason_for_index": "Step 15 is the first unresolved failure: it states the incorrect count despite the correct availability data provided at step 14.",
+        "failure_case": 4,
+        "index": 15
+      },
+      "evidence_hashes": {
+        "events.jsonl": "2705fdab9bd17c3f13ad99ad4c317c1d315287c5fe5659f96a220b6af1e205bc",
+        "metadata.json": "9baac5f758513c9bc04293b588f73f61ceb00621556af91713ebe0fe7dfee956",
+        "response.json": "ded48fa545ba84969f1b8f6d2fe75387d7d82555015db8abdaa5ce4588635c2b",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "12",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 10506,
+        "cached_input_tokens": 0,
+        "output_tokens": 371
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 1 applies: the agent skipped mandatory confirmation before a database-changing return. The tool invocation succeeded; this was not an invalid invocation, tool-output misunderstanding, or system failure.",
+        "reason_for_failure": "The agent submitted the return using the original Visa without first presenting the complete return details and obtaining confirmation of the refund method. The user subsequently rejected Visa, and the later human transfer did not resolve the unauthorized selection.",
+        "reason_for_index": "Step 19 is the first unresolved failure: return_delivered_order_items changes the order despite missing refund-method confirmation. Step 16 selected the listed items but did not confirm Visa as the refund destination.",
+        "failure_case": 1,
+        "index": 19
+      },
+      "evidence_hashes": {
+        "events.jsonl": "422de5694251c01a7866e5518cb3221d8809ed213d8c68039f33688511859ff6",
+        "metadata.json": "9cef2f93a29a93f87e14384a20f17f29b1614fc0634abb7bb1ed5d3ad966174f",
+        "response.json": "436effeb6e7f1e41e5be63fc52d641dc5d8c13002ea83f19afacf3cd81ff9c18",
+        "stderr.log": "585f6aac873b99fa95c7259eacfacbb732edf881383e0bbee48b9fd45cdc0c68"
+      }
+    },
+    {
+      "task_id": "20",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 25556,
+        "cached_input_tokens": 0,
+        "output_tokens": 830
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 4 applies because the agent misinterpreted explicit order-status tool output. The earlier authentication omission was resolved at steps 7–8. Subsequent exchange rejections arose from incorrect eligibility reasoning, not malformed inputs, missing information, unavailable tools, guardrails, or system failures.",
+        "reason_for_failure": "The agent treated two processed orders as delivered and therefore exchangeable. It later corrected this assumption only for #W4967593; the same mistake persisted for #W5733668, causing the rejected exchange at steps 61–62.",
+        "reason_for_index": "Step 21 first labels #W4967593 and #W5733668 as 'Delivered Orders' and proposes exchanges, contradicting their processed statuses returned at steps 14 and 18. This error was never fully resolved.",
+        "failure_case": 4,
+        "index": 21
+      },
+      "evidence_hashes": {
+        "events.jsonl": "f96e34ae2b9efbaad7bb2a99c6eb706eb7059f631dd9c47822f7259d3d86081f",
+        "metadata.json": "2b184e2902cb54e9543df46617ce516ec290de40e547b58c256e693e0e226d84",
+        "response.json": "1d01579a800371e6a46004187997124d626643b19b5d39038d30edeea4521752",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "21",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 15734,
+        "cached_input_tokens": 0,
+        "output_tokens": 801
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Authentication and order lookups comply with policy. The first unresolved violation is at step 19: the assistant combines a user-facing response with a tool call. This is instruction nonadherence, not an invalid invocation, tool-output misunderstanding, or external block. The later unauthorized PayPal charge is an additional failure.",
+        "reason_for_failure": "The policy explicitly prohibits responding to the user and calling a tool in the same turn. The assistant nevertheless provides explanatory text while invoking think, and this violation is never corrected.",
+        "reason_for_index": "Step 19 contains both the message promising to double-check fulfillment details and the think tool invocation. Earlier assistant steps keep responses and tool calls separate.",
+        "failure_case": 1,
+        "index": 19
+      },
+      "evidence_hashes": {
+        "events.jsonl": "a6ead3019fc5bcbf1a931d0a296b735d3baf355393a83c0d26621d8b7ff9d64a",
+        "metadata.json": "3f92d01ec4d8d1f73a1ad428351a36aab7e23398332a05adcf463fbf70368389",
+        "response.json": "d6ddb59c7c23620eaf42c1d76ad227f27484174fa4d55ed0c4c16077e5a0089d",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "28",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 14939,
+        "cached_input_tokens": 0,
+        "output_tokens": 738
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 1 applies: the assistant violates an explicit interaction policy. This is not an invalid invocation, unsupported fact, tool-output misinterpretation, or external/system block.",
+        "reason_for_failure": "The policy forbids combining a user-facing response with a tool call. At step 11, the assistant announces that it will retrieve orders and calls get_order_details in the same response. Later compliant calls do not undo this violation.",
+        "reason_for_index": "Authentication and preceding lookups comply with policy. Step 11 is the first unresolved violation, preceding the later erroneous whole-order cancellation.",
+        "failure_case": 1,
+        "index": 11
+      },
+      "evidence_hashes": {
+        "events.jsonl": "30b8ae2fa7c367243c06ac35917534def9c7658b9ef9966c8bb81533376d04c0",
+        "metadata.json": "d0850a651cd53341f22a4d921b885535d2e97de33ca7d9aa5132239263fc0fa7",
+        "response.json": "d20980968cf95a02e0c25f443c5052c2cd43765e643f3a800bc8a79fd46b4a1e",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "31",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 13143,
+        "cached_input_tokens": 0,
+        "output_tokens": 665
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Authentication and tracking retrieval were correct. The first unresolved failure is skipping the required human handoff for an out-of-scope request, making category 1 more appropriate than unsupported intent or a tool error.",
+        "reason_for_failure": "The agent could not directly refund or reorder the lost tablet, but offered a return or exchange instead of transferring the user to a human as required. No later handoff or correction resolved this failure.",
+        "reason_for_index": "Step 17 is the first response to the lost-tablet refund/reorder request and the point where the agent substituted an unsuitable workflow for the required escalation. The user's subsequent change of topic did not correct it.",
+        "failure_case": 1,
+        "index": 17
+      },
+      "evidence_hashes": {
+        "events.jsonl": "8e6535ddb88d98e21fa031d0251dd96aaae212d90627f2003548a2b1402e28ab",
+        "metadata.json": "c7c3be1b4d5e30b4c19a7b8cc0f5f45f3d7318a344d416617cae119dbbc515f4",
+        "response.json": "c9c302f3b836c5e2871f2ec30d15d90c47361ea7ae70bd438a5fe63e3b078ee2",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "32",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 12948,
+        "cached_input_tokens": 0,
+        "output_tokens": 354
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 4 applies: the agent misattributed a tracking number from valid tool output to the wrong product. The number itself was not invented, and no invalid invocation or external blocker occurred. Later policy errors do not supersede this first unresolved failure.",
+        "reason_for_failure": "The agent reported tracking number 194496721133 for the tablet, although the retrieved order contained only an espresso machine and sneakers. The actual tablet tracking number, 746342064230, appeared at step 20, but the agent never corrected its answer.",
+        "reason_for_index": "Step 11 is the first incorrect interpretation communicated to the user. The preceding order lookup was a legitimate search step; the failure occurred when its unrelated tracking number was presented as the tablet's.",
+        "failure_case": 4,
+        "index": 11
+      },
+      "evidence_hashes": {
+        "events.jsonl": "4c62fdc2f1d9878cca0944d25c88df5eb981df095cc77a0440a14079f69af878",
+        "metadata.json": "a47bac0f1036ff6d9706c5e0b250ee5bd548d23c654208d4a2d950f01b33a8c0",
+        "response.json": "c3917b25f81a0ee4090bb3040eab4c91106964f0f42760526ce93d84e6ab7cc3",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "34",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 12023,
+        "cached_input_tokens": 0,
+        "output_tokens": 1139
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 1 applies because the agent disregards explicit limits on pending-order modifications. Its unsupported removal promise also resembles category 2, but the primary failure is policy nonadherence. The later tool-validation errors are consequences, not the root cause. Authentication succeeds after the failed email lookup.",
+        "reason_for_failure": "The policy permits changing item options, not deleting items from pending orders. The agent nevertheless proposes removing the office items instead of explaining the limitation and transferring the unsupported request to a human. It never corrects this claim, and both attempted modifications fail.",
+        "reason_for_index": "Step 13 is the first unresolved deviation: the agent explicitly offers to remove items through order modification. The failed calls at steps 17 and 21 follow from this incorrect plan. The user's later change of request does not correct the earlier failure.",
+        "failure_case": 1,
+        "index": 13
+      },
+      "evidence_hashes": {
+        "events.jsonl": "a8fc9eb63a94fb842928ac3ce283a187bdf2fa3f1f42749e2eac57d5bd67070d",
+        "metadata.json": "33f9f87ed9c0f6cc23301601ec9f68b3b0810fa86bef278ab168f5594ee1b61c",
+        "response.json": "f9834c460ec2c5a916818b9c135aa54c3bbfc1edd0f09ba4ccf4d82ceaaf60fb",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "38",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 16536,
+        "cached_input_tokens": 0,
+        "output_tokens": 1216
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Earlier authentication difficulties and single-item cancellation misinformation were subsequently corrected. The first unresolved error is misinterpreting product availability in tool output (category 4), not invalid syntax, missing information, or a system failure.",
+        "reason_for_failure": "The agent included the $285.66 Patio Umbrella variant despite its availability being false. The cheapest available umbrella costs $288.82, making the correct minimum total $1130.85, not $1127.69. This error was never corrected.",
+        "reason_for_index": "Step 37 first concretely uses the unavailable variant's price in the calculation, contradicting the product details returned at step 28. Step 39 then reports the incorrect total.",
+        "failure_case": 4,
+        "index": 37
+      },
+      "evidence_hashes": {
+        "events.jsonl": "c5f24d6943269035a08194b10f9c02f38a36bea0a2771fd5752983a48f8c0951",
+        "metadata.json": "95e8b0a78e51bd16cb1929a19a972a5a901a79305243a1a80d764061b98525de",
+        "response.json": "e196e618faca3fd8aaa16901bd9568976bdae2e1150eec6875824e6f55afcb72",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "39",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 10829,
+        "cached_input_tokens": 0,
+        "output_tokens": 407
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "The failed email lookup was resolved through name-and-ZIP authentication. Requesting the missing street address was appropriate. At step 17, the agent invented a restriction about order addresses without retrieving any order details, making category 2 more specific than plan nonadherence or tool-output misinterpretation.",
+        "reason_for_failure": "The agent falsely asserted that order details only reflect the current default address. This unsupported claim prevented checking the user's known order for the requested address, and it was never corrected.",
+        "reason_for_index": "Step 17 is the first unresolved failure: the agent rejected the user's requested order lookup based on an unsupported assertion instead of inspecting order #W5285031.",
+        "failure_case": 2,
+        "index": 17
+      },
+      "evidence_hashes": {
+        "events.jsonl": "08f92584f6a6bcc3d3e2d4bd9cd0e1610d78e2f8fa012d1ae44aeb5d7c63aa5b",
+        "metadata.json": "66bb99349e000c13f036b36df4fb50fe7504392de27dd2be41691b22a2a71e48",
+        "response.json": "252959b1b2532170f7260ee65b373e92d48f2b01d35d0c8274b46d6b4b8b624d",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "41",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 12396,
+        "cached_input_tokens": 3456,
+        "output_tokens": 1152
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 1 applies because the agent skipped explicit modification safeguards. The later tool rejection was a consequence of its actions, not malformed arguments, unavailable tools, or a system failure.",
+        "reason_for_failure": "The agent modified the puzzle before correcting the address, despite the policy warning that item modification prevents further order changes. It also omitted the required all-items confirmation and selected PayPal without obtaining the user's payment-method choice. The subsequent human transfer does not establish that the address was corrected.",
+        "reason_for_index": "Step 17 is the first consequential action taken without the required safeguards and locks the order against the outstanding address correction. The rejection at step 20 is a downstream symptom.",
+        "failure_case": 1,
+        "index": 17
+      },
+      "evidence_hashes": {
+        "events.jsonl": "32f965e3f52c9a8b79233cc3d7e4219104790e0067ef53dca76bc9edc65a98e9",
+        "metadata.json": "d6b9fa021cadb42001e6a5c93350614de74b933416ed2f47dc5d73c5495b7522",
+        "response.json": "8f1852fafa8c29f6b7c0fa6e5c0ef69f854d26c75b3bf0c56b294670a0dfadaf",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "47",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 9855,
+        "cached_input_tokens": 0,
+        "output_tokens": 1430
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Authentication and order lookup followed policy. The proposed canister vacuum was explicitly confirmed at step 16. The subsequent unsupported claim about return-refund timing fits category 2; no tool invocation error or external block occurred.",
+        "reason_for_failure": "The agent claimed PayPal return refunds take 5–7 business days. That timing was provided only for cancellations and payment-method changes, not delivered-order returns.",
+        "reason_for_index": "Step 17 first introduces the unsupported return-refund timeline. It remains unresolved and is repeated as standard policy in the escalation at step 19.",
+        "failure_case": 2,
+        "index": 17
+      },
+      "evidence_hashes": {
+        "events.jsonl": "1eff1096631b6f25e5bbc79cd27bd36dfc6af518fa7c5a3afe8de0345ecbb060",
+        "metadata.json": "fe64c2ef8929f348faddb94b9585bf96f29d8072f743ae1d48ef5e32e203c012",
+        "response.json": "34e16aa23c87ecb65cec955626f50e216e82fcac5ac684c85fc68d73d056922a",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "55",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 15685,
+        "cached_input_tokens": 0,
+        "output_tokens": 469
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 1 applies: the agent skipped mandatory confirmation of the cancellation reason. The initial unsuccessful email lookup was resolved at step 8. This was not an invalid invocation, tool-output misunderstanding, or external block.",
+        "reason_for_failure": "The agent cancelled order #W4836353 using the reason 'no longer needed' without obtaining the user's confirmation of that reason. The user authorized cancellation but did not confirm all policy-required details. This omission was never remedied.",
+        "reason_for_index": "Step 27 is the first consequential action taken without the required cancellation-reason confirmation.",
+        "failure_case": 1,
+        "index": 27
+      },
+      "evidence_hashes": {
+        "events.jsonl": "fb456c90f4a6464d4b4b4607ee478fb93fb1b0188b3de4b2c10f895db1905ecd",
+        "metadata.json": "47ad7627240297287870ca8ea29f8928c2f3539550cae225412fdc0b2e6bb711",
+        "response.json": "9673b6630f4ceea66894c34ff922071548b855ee58eb6b4fa42ef3081d87d99f",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "59",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 10236,
+        "cached_input_tokens": 3456,
+        "output_tokens": 501
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Authentication and order lookups were valid. The first failure was introducing unsupported explanations, making category 2 more specific than general instruction nonadherence. No parsing error, tool-output misinterpretation, or external block caused it. The unconfirmed address modification at step 23 is a later failure.",
+        "reason_for_failure": "The agent suggested item-sourcing delays, warehouse demand, and shipping prioritization without supporting user information or tool data. The policy prohibited inventing such explanations. Step 13 acknowledged limited visibility but did not retract these suggestions, so the failure remained unresolved.",
+        "reason_for_index": "Step 11 first introduces the unsupported processing-delay explanations. The preceding tool outputs establish pending statuses and order details, but provide no delay reasons or processing timelines.",
+        "failure_case": 2,
+        "index": 11
+      },
+      "evidence_hashes": {
+        "events.jsonl": "0d9ce492115b13125dc519baf28e993daf75826242b67b51ad63158481c88212",
+        "metadata.json": "1ed5efa5289f88a54457107c7bf69910b150d0b2e82feb9868c9292ee710b8b7",
+        "response.json": "678806dd4532c549aa569c1b6c83b7d887bc85c93bdce927669a6526023ec642",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "63",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 11685,
+        "cached_input_tokens": 0,
+        "output_tokens": 3283
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "The initial authentication omission was resolved at steps 7–8. The unsupported cancellation promise at step 19 was corrected at step 23, but the required human escalation was never performed. This is instruction/policy nonadherence, rather than an invalid invocation or system failure.",
+        "reason_for_failure": "Removing an individual item was outside the supported actions. Policy required transferring such requests to a human, but the assistant instead solicited cancellation confirmation and later offered whole-order cancellation without transferring.",
+        "reason_for_index": "Step 19 is the first response to the unsupported single-item cancellation request where the assistant proceeds instead of escalating. The later capability correction does not resolve the missing handoff.",
+        "failure_case": 1,
+        "index": 19
+      },
+      "evidence_hashes": {
+        "events.jsonl": "f4361f9333d88c0b86499e799b7631580c886905352ae09a6e36e41ff1b36145",
+        "metadata.json": "5ab33fe4a140ac3f9660f3cf56031de68f6642c1f160831dba16bee2aa990e4b",
+        "response.json": "49a7042e80c565504290d5940354f15a4974f81013f26b8606c2813cba993fcf",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "71",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 13726,
+        "cached_input_tokens": 0,
+        "output_tokens": 597
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 1 applies: the agent skipped mandatory item-modification safeguards. Authentication and the address update were properly authorized, and the tools executed successfully. Later unsupported suggestions are secondary to this earlier unresolved policy violation.",
+        "reason_for_failure": "The agent used the one-time item-modification action without reminding the user to confirm all items needing modification or obtaining their choice of payment method for the refund. This prematurely locked the order against the subsequently requested backpack change.",
+        "reason_for_index": "Step 27 executes the irreversible item modification while these prerequisites remain unmet. Earlier variant selection did not establish that all desired changes had been collected. The failure was never resolved.",
+        "failure_case": 1,
+        "index": 27
+      },
+      "evidence_hashes": {
+        "events.jsonl": "5d2a530d3f3e94a909b11697c0a4695ddefaa1459ba879e19c2985742865d405",
+        "metadata.json": "985d3565b1346156f8fbbcdb5a365e06518610ae033d4beae41a86c95057c0ff",
+        "response.json": "46055a22f6c32a8cab8f8f37370e7afbe25304e34991b13f3d37b249fd6c0485",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "72",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 12588,
+        "cached_input_tokens": 3456,
+        "output_tokens": 862
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 5 fits the earliest failure: an incorrectly ordered plan prevents fulfilling both requested changes. Category 1 violations also occur at step 21 through missing confirmation and unauthorized payment selection, but these arise later. No tool, system, or external restriction caused the failure.",
+        "reason_for_failure": "The agent planned to modify items before updating the shipping address, even though item modification prevents subsequent order changes. The address needed to be updated first. This ordering error was never corrected and left the shipping-address request unfulfilled.",
+        "reason_for_index": "Step 13 explicitly introduces the incorrect sequence: item modifications first, address update second. Step 21 executes that sequence, and step 23 acknowledges that the address can no longer be changed.",
+        "failure_case": 5,
+        "index": 13
+      },
+      "evidence_hashes": {
+        "events.jsonl": "f37728fb03f3e5313bcf1db1e8e245195c549715282ddfaf088f9184e3d83055",
+        "metadata.json": "0102c1354738f22e82000fbf195c197cc592974d8f53a1b62dfec7e75b0f5900",
+        "response.json": "b01847d4d2510291ec186be3e21b84cec960b5476f5ac6a4dafc2b4c9bcd80ad",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "74",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 12064,
+        "cached_input_tokens": 0,
+        "output_tokens": 2065
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 4 applies: the agent used the order's item details but disregarded its explicit pending status. The subsequent exchange call had valid arguments but incorrect eligibility logic, so this was not an invalid invocation or external block.",
+        "reason_for_failure": "The agent treated a pending order as eligible for a delivered-order exchange. Although it later acknowledged the mismatch, it only cancelled the pending order; it never completed the requested exchange.",
+        "reason_for_index": "Step 15 first presents the pending order's laptop as the exchange target despite the status returned at step 12. The rejected exchange call at step 21 is a downstream consequence.",
+        "failure_case": 4,
+        "index": 15
+      },
+      "evidence_hashes": {
+        "events.jsonl": "99c63562fe2731ed69ce585a0e6568a687e4859a1d248741fae15045fd75fbc2",
+        "metadata.json": "88f098955bc82482ea531aba0ec5051b4cc2cfce1ad4e325c24b74b19be57534",
+        "response.json": "a4ff30620ea86bb38cbb59448e9fe5dfa65cba5d1fce7f6453ffe032dc3753e8",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "79",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 12703,
+        "cached_input_tokens": 3456,
+        "output_tokens": 1511
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 1 applies: the agent skipped the required user-provided payment method. The tools succeeded, the item selection and refund calculation were correct, and no access or system failure occurred.",
+        "reason_for_failure": "The agent defaulted the $6.28 refund to the original Visa without obtaining the user's payment-method choice. The user confirmed the item change, but did not explicitly select the refund method.",
+        "reason_for_index": "Step 23 executes the modification using the assistant-selected payment method. Before this consequential call, the missing choice could still have been clarified; it was never subsequently corrected.",
+        "failure_case": 1,
+        "index": 23
+      },
+      "evidence_hashes": {
+        "events.jsonl": "9998157fc9382271a381117261368a93dbdd5aa5fb5f7b87af4c8fc13e2b034c",
+        "metadata.json": "c648d1e4ddffc264fce7e55c1f056da9d9eed09f1d4368bab780282456b05dc2",
+        "response.json": "f711c15fd9487f4942f2a5b3e53a96134dec7ae3ce30803e7a0b76d9deb21b46",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "80",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 10838,
+        "cached_input_tokens": 3456,
+        "output_tokens": 1192
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Authentication, order lookup, variant selection, and refund calculations are supported. The substantive failure is inventing exchange procedures, not a tool error, miscalculation, or external restriction.",
+        "reason_for_failure": "The agent claimed the email would include a possible shipping label and completion timeline, and that the replacement would be prepared and shipped after the return. Neither the policy nor tool outputs established these details. The unsupported claims were not corrected.",
+        "reason_for_index": "Step 25 introduces these unsupported email contents and fulfillment procedures; the policy only promises an email explaining how to return the items.",
+        "failure_case": 2,
+        "index": 25
+      },
+      "evidence_hashes": {
+        "events.jsonl": "a5cc0a171fa9b0b7ed29d40c94c1889a9fec4149afd20eba0fff520a276c7a87",
+        "metadata.json": "cfde6dfaecf3d0ea541c60b2ebefb09d8b192f25003d21bd0f93749e99991628",
+        "response.json": "f294156665e6e939ad63e26c54257c6d0fdb2a3aad8977579840a1204080c3c1",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "82",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 12557,
+        "cached_input_tokens": 0,
+        "output_tokens": 857
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Authentication, order verification, refund eligibility, explicit confirmation, and sequential return calls all comply with policy. Tool outputs confirm both requested returns. No unresolved error fits categories 1–9; category 10 denotes no observable failure.",
+        "reason_for_failure": "No failure is evident. Both tablets were correctly submitted for return with refunds to the user's existing gift card, as explicitly confirmed.",
+        "reason_for_index": "No step contains an identifiable unresolved failure; -1 indicates no applicable failure index.",
+        "failure_case": 10,
+        "index": -1
+      },
+      "evidence_hashes": {
+        "events.jsonl": "cfbed5997d493d54bab17c96ba0f45426fa9c7c31d0dcb15b07a456f78e9733c",
+        "metadata.json": "2aca9ab020e8f4026411623694e02ef6ad315ccc3e3602504608bde82f0dcff6",
+        "response.json": "70a95e73a51dfecb56e0d277f9062b68fdd162b62770a618d255422f10311a99",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "87",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 12968,
+        "cached_input_tokens": 0,
+        "output_tokens": 700
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 4 applies: the agent treated a partial review of the user's orders as exhaustive. The incorrect Dallas-address assumption was later corrected, but the incomplete pending-order set was never corrected. The missing update followed from this tool-output interpretation error.",
+        "reason_for_failure": "The agent concluded there were only two pending orders after checking only two of five listed orders. Step 24 subsequently revealed that #W6832752 was also pending, but the agent never included it in the updates, leaving the user's request incomplete.",
+        "reason_for_index": "Step 15 first asserts 'You have two pending orders,' prematurely limiting the update scope. This error persists through the final completion claim despite later evidence of a third pending order.",
+        "failure_case": 4,
+        "index": 15
+      },
+      "evidence_hashes": {
+        "events.jsonl": "6bd92adc930941b07bf2dcd3492b58ac6a75f71a5c61542af70410f8fbe909f6",
+        "metadata.json": "c664b139a4e233a051bc30b5592a9000f869db183b6c6ae98132fe01f4f64a38",
+        "response.json": "dbfbd8fb91d70e09e5a78014bba42c9ea77389c178fd968090f20c5b1c9b07b6",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "91",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 15513,
+        "cached_input_tokens": 0,
+        "output_tokens": 635
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 1 applies: the agent disregarded the explicit requirement that exchanges involve different product options. It understood the user's request and correctly read availability, so this is not intent misalignment or tool-output misinterpretation. No invalid invocation, missing information, or external block caused the failure.",
+        "reason_for_failure": "The agent offered to exchange the e-reader for the identical variant, although policy permits exchanges only for a different variant of the same product. It never corrected this policy violation.",
+        "reason_for_index": "Step 21 first commits to initiating the prohibited same-variant exchange. The proposal remains in the plans at steps 29 and 39, establishing that the failure was unresolved.",
+        "failure_case": 1,
+        "index": 21
+      },
+      "evidence_hashes": {
+        "events.jsonl": "cce22d63a6b2b6fe1f17ff75a81a9f826ea61ee57b9127935626173b0a0185fe",
+        "metadata.json": "1d6f210ce4468c04b8c317893190dde63a8e561c28858af7bc34952f299d29e2",
+        "response.json": "b6ea0864d0945cf37bfe8e7219ba9c26872ee1ea3b5e9ab85de609273057bc01",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "98",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 12623,
+        "cached_input_tokens": 0,
+        "output_tokens": 1157
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "The mistaken exchange attempt at step 15 was corrected by recognizing the pending status and switching to item modification. The remaining failure is category 5: incorrect action sequencing. The tools accepted valid arguments and enforced their documented constraints; this was not a syntax, system, or external-access failure.",
+        "reason_for_failure": "The agent modified the speaker before updating the requested shipping address. Item modification locks the order against further changes, so this ordering prevented completion of the address request. It should have confirmed and updated the address first, then modified the item.",
+        "reason_for_index": "Step 21 commits the irreversible item modification while the address request remains outstanding. The subsequent address-update rejection is a consequence of this decision, and the later human transfer does not establish that it was resolved.",
+        "failure_case": 5,
+        "index": 21
+      },
+      "evidence_hashes": {
+        "events.jsonl": "76374e29142566d1c0716f558854681b1f39506e3b19a33b128b34135d1e7b4d",
+        "metadata.json": "088f070c45895e3e37339c12046a22945332c545b71f17bae3e562646fde20ac",
+        "response.json": "dc54c2cbe799cb536a354154b664e3d2109edaafdb227ca242a6b4ca00cef6c7",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "99",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 18621,
+        "cached_input_tokens": 3456,
+        "output_tokens": 1206
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "This is an Instruction/Plan Adherence Failure: the agent skipped an explicit pre-exchange policy requirement. Authentication, tool arguments, and tool execution succeeded; no external restriction or system failure caused the omission.",
+        "reason_for_failure": "The agent executed the bicycle and puzzle exchanges without reminding the customer to confirm that all items to be exchanged had been provided. Ordinary approval of the listed exchanges did not satisfy this separate, mandatory completeness safeguard. The omission was never corrected.",
+        "reason_for_index": "Step 29 is the first consequential exchange call, making the missing prerequisite an actual execution failure. Before this step, the agent could still have supplied the required reminder.",
+        "failure_case": 1,
+        "index": 29
+      },
+      "evidence_hashes": {
+        "events.jsonl": "fcefaf133fd601ff736c1f64d3f1b3a2639f17fab2bf6e2bde62bc570eec6917",
+        "metadata.json": "856ee0e53579163e46deed52332cfa60a77bacf31fb943cdcd7ac66018429f1a",
+        "response.json": "22aec9472f4896515c5646fb3aaadf3d4fbd84c79488f9655dd85d9c8dd7a5bc",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "104",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 16744,
+        "cached_input_tokens": 0,
+        "output_tokens": 1684
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 1 applies: the agent skipped an explicit pre-action policy requirement. The tool invocation was valid and succeeded; no missing information or external restriction prevented compliance. The incorrect tracking-number response at step 57 is a later, separate failure.",
+        "reason_for_failure": "The agent modified the pending order without reminding the customer to confirm that all items requiring modification had been provided, as required for this one-time action.",
+        "reason_for_index": "Step 53 executes the modification without the mandatory reminder. The confirmation at step 51 omitted it, and that omission was never corrected before execution.",
+        "failure_case": 1,
+        "index": 53
+      },
+      "evidence_hashes": {
+        "events.jsonl": "fb96741c7d1e34954ca0c6783510154783d2b9f339ee8a33b0b27a22fe3c101e",
+        "metadata.json": "a48e8f108f18be0cba2e98d53c85ce3099a46b29cc77f1283ef159766564b9ac",
+        "response.json": "76a3655bcedaa258a49ef0e0f9e34aa87a9a0a78b96ab55c1fb8c8e72100e17e",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "task_id": "105",
+      "attempt": "attempt_1",
+      "valid": true,
+      "unfinished": false,
+      "exit_code": 0,
+      "timed_out": false,
+      "completion_count": 1,
+      "parse_errors": [],
+      "errors": [],
+      "tool_items": [],
+      "known_warnings": [
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in /Users/will/.codex/config.toml."
+      ],
+      "prediction_error": null,
+      "usage": {
+        "input_tokens": 16560,
+        "cached_input_tokens": 0,
+        "output_tokens": 682
+      },
+      "prediction": {
+        "taxonomy_checklist_reasoning": "Category 1 applies because the assistant violated an explicit interaction policy. The failure was not caused by invalid arguments, misunderstood tool output, missing information, or an external block.",
+        "reason_for_failure": "The policy forbids responding to the user and making a tool call in the same turn. The assistant combined a user-facing acknowledgment with a get_order_details call. No subsequent action corrected this violation.",
+        "reason_for_index": "Step 23 is the first unresolved failure: it includes both “I can assist with that. Let me first check your orders…” and the tool call. Earlier authentication and confirmed returns followed the relevant requirements.",
+        "failure_case": 1,
+        "index": 23
+      },
+      "evidence_hashes": {
+        "events.jsonl": "1263e2a5aa662ff20ae1139b45fd1451747eb99ad2e6eb753d2ad76e8072aa8e",
+        "metadata.json": "6e7fe6816b74a65961c2b23f0aa48f5b8a004e57942e911811d3e4c5479b89f0",
+        "response.json": "e0d439d963d04395afcdbf43bbc8f47415010fd165b13aa2fac892e4eff73c61",
+        "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "planned_cases": 29,
+  "completed_valid_cases": 29,
+  "total_attempts": 29,
+  "missing_or_incomplete_cases": [],
+  "failed_attempts": [],
+  "usage": {
+    "input_tokens": 403765,
+    "cached_input_tokens": 20736,
+    "output_tokens": 29516
+  },
+  "diagnosis_metrics": {
+    "denominator": 29,
+    "category_correct": 9,
+    "category_accuracy": 0.3103448275862069,
+    "step_correct": 9,
+    "step_accuracy": 0.3103448275862069,
+    "joint_correct_supplemental": 7,
+    "joint_accuracy_supplemental": 0.2413793103448276,
+    "step_tolerance_counts": {
+      "1": 10,
+      "2": 11,
+      "3": 14,
+      "4": 17,
+      "5": 18
+    },
+    "mean_absolute_step_error": 6.310344827586207,
+    "normalized_mean_absolute_step_error": 0.17255030938523813,
+    "out_of_range_predictions": 1
+  },
+  "per_case": [
+    {
+      "task_id": "2",
+      "predicted_step": 3,
+      "gold_step": 7,
+      "predicted_category": 1,
+      "gold_category": 4,
+      "steps": 32,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 4,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "3",
+      "predicted_step": 7,
+      "gold_step": 7,
+      "predicted_category": 4,
+      "gold_category": 4,
+      "steps": 34,
+      "category_correct": true,
+      "step_correct": true,
+      "joint_correct": true,
+      "absolute_step_error": 0,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "4",
+      "predicted_step": 15,
+      "gold_step": 15,
+      "predicted_category": 4,
+      "gold_category": 4,
+      "steps": 48,
+      "category_correct": true,
+      "step_correct": true,
+      "joint_correct": true,
+      "absolute_step_error": 0,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "12",
+      "predicted_step": 19,
+      "gold_step": 19,
+      "predicted_category": 1,
+      "gold_category": 1,
+      "steps": 26,
+      "category_correct": true,
+      "step_correct": true,
+      "joint_correct": true,
+      "absolute_step_error": 0,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "20",
+      "predicted_step": 21,
+      "gold_step": 21,
+      "predicted_category": 4,
+      "gold_category": 4,
+      "steps": 62,
+      "category_correct": true,
+      "step_correct": true,
+      "joint_correct": true,
+      "absolute_step_error": 0,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "21",
+      "predicted_step": 19,
+      "gold_step": 28,
+      "predicted_category": 1,
+      "gold_category": 6,
+      "steps": 48,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 9,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "28",
+      "predicted_step": 11,
+      "gold_step": 33,
+      "predicted_category": 1,
+      "gold_category": 5,
+      "steps": 42,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 22,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "31",
+      "predicted_step": 17,
+      "gold_step": 31,
+      "predicted_category": 1,
+      "gold_category": 5,
+      "steps": 42,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 14,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "32",
+      "predicted_step": 11,
+      "gold_step": 11,
+      "predicted_category": 4,
+      "gold_category": 4,
+      "steps": 42,
+      "category_correct": true,
+      "step_correct": true,
+      "joint_correct": true,
+      "absolute_step_error": 0,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "34",
+      "predicted_step": 13,
+      "gold_step": 17,
+      "predicted_category": 1,
+      "gold_category": 3,
+      "steps": 30,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 4,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "38",
+      "predicted_step": 37,
+      "gold_step": 37,
+      "predicted_category": 4,
+      "gold_category": 4,
+      "steps": 46,
+      "category_correct": true,
+      "step_correct": true,
+      "joint_correct": true,
+      "absolute_step_error": 0,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "39",
+      "predicted_step": 17,
+      "gold_step": 17,
+      "predicted_category": 2,
+      "gold_category": 5,
+      "steps": 26,
+      "category_correct": false,
+      "step_correct": true,
+      "joint_correct": false,
+      "absolute_step_error": 0,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "41",
+      "predicted_step": 17,
+      "gold_step": 17,
+      "predicted_category": 1,
+      "gold_category": 5,
+      "steps": 24,
+      "category_correct": false,
+      "step_correct": true,
+      "joint_correct": false,
+      "absolute_step_error": 0,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "47",
+      "predicted_step": 17,
+      "gold_step": 19,
+      "predicted_category": 2,
+      "gold_category": 7,
+      "steps": 20,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 2,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "55",
+      "predicted_step": 27,
+      "gold_step": 32,
+      "predicted_category": 1,
+      "gold_category": 6,
+      "steps": 38,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 5,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "59",
+      "predicted_step": 11,
+      "gold_step": 14,
+      "predicted_category": 2,
+      "gold_category": 6,
+      "steps": 26,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 3,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "63",
+      "predicted_step": 19,
+      "gold_step": 32,
+      "predicted_category": 1,
+      "gold_category": 6,
+      "steps": 36,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 13,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "71",
+      "predicted_step": 27,
+      "gold_step": 24,
+      "predicted_category": 1,
+      "gold_category": 6,
+      "steps": 36,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 3,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "72",
+      "predicted_step": 13,
+      "gold_step": 21,
+      "predicted_category": 5,
+      "gold_category": 5,
+      "steps": 28,
+      "category_correct": true,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 8,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "74",
+      "predicted_step": 15,
+      "gold_step": 21,
+      "predicted_category": 4,
+      "gold_category": 1,
+      "steps": 30,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 6,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "79",
+      "predicted_step": 23,
+      "gold_step": 20,
+      "predicted_category": 1,
+      "gold_category": 6,
+      "steps": 26,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 3,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "80",
+      "predicted_step": 25,
+      "gold_step": 26,
+      "predicted_category": 2,
+      "gold_category": 9,
+      "steps": 26,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 1,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "82",
+      "predicted_step": -1,
+      "gold_step": 20,
+      "predicted_category": 10,
+      "gold_category": 6,
+      "steps": 28,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 21,
+      "predicted_step_in_range": false
+    },
+    {
+      "task_id": "87",
+      "predicted_step": 15,
+      "gold_step": 37,
+      "predicted_category": 4,
+      "gold_category": 5,
+      "steps": 38,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 22,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "91",
+      "predicted_step": 21,
+      "gold_step": 34,
+      "predicted_category": 1,
+      "gold_category": 6,
+      "steps": 40,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 13,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "98",
+      "predicted_step": 21,
+      "gold_step": 21,
+      "predicted_category": 5,
+      "gold_category": 5,
+      "steps": 38,
+      "category_correct": true,
+      "step_correct": true,
+      "joint_correct": true,
+      "absolute_step_error": 0,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "99",
+      "predicted_step": 29,
+      "gold_step": 35,
+      "predicted_category": 1,
+      "gold_category": 1,
+      "steps": 46,
+      "category_correct": true,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 6,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "104",
+      "predicted_step": 53,
+      "gold_step": 57,
+      "predicted_category": 1,
+      "gold_category": 4,
+      "steps": 58,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 4,
+      "predicted_step_in_range": true
+    },
+    {
+      "task_id": "105",
+      "predicted_step": 23,
+      "gold_step": 43,
+      "predicted_category": 1,
+      "gold_category": 7,
+      "steps": 48,
+      "category_correct": false,
+      "step_correct": false,
+      "joint_correct": false,
+      "absolute_step_error": 20,
+      "predicted_step_in_range": true
+    }
+  ],
+  "official_recomputed_summary": {
+    "model_name": "gpt-6-astra",
+    "api_version": "codex-exec",
+    "Correct cases": 9,
+    "Incorrect cases": 20,
+    "Average distance for correct cases": 1.5555555555555556,
+    "Average distance for incorrect cases": 8.45,
+    "Overall average distance": 6.310344827586207,
+    "Normalized average distance for correct cases": 0.04623878536922015,
+    "Normalized average distance for incorrect cases": 0.2293904951924462,
+    "Normalized overall average distance": 0.1725503093852381,
+    "Correct step number predictions": 9,
+    "Incorrect step number predictions": 20,
+    "Step number accuracy": 0.3103448275862069,
+    "Step accuracy within +-1": 0.3448275862068966,
+    "Step accuracy within +-2": 0.3793103448275862,
+    "Step accuracy within +-3": 0.4827586206896552,
+    "Step accuracy within +-4": 0.5862068965517241,
+    "Step accuracy within +-5": 0.6206896551724138,
+    "total_prompt_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tokens": 0,
+    "total_execution_time_sec": 0.0
+  },
+  "project_metric_comparison": "MATCH"
+}

@@ -1,0 +1,10 @@
+{
+  "gold_prediction": {
+    "step_exact": 29,
+    "category_exact": 29
+  },
+  "all_steps_shifted_by_one": {
+    "step_exact": 0,
+    "category_exact": 29
+  }
+}
